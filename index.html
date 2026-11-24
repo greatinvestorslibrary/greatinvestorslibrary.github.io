@@ -13,9 +13,6 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Great Investors Library", "url": "https://greatinvestorslibrary.github.io/", "description": "Learn investing from Warren Buffett, Charlie Munger and Peter Lynch, in plain words. Free. 387 ideas from their letters, talks and books, a century timeline, and a could-you-have-held-on test.", "inLanguage": "en", "isAccessibleForFree": true}</script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 /* Mobile-first. One column, vertical scrolling only. Bottom tab bar on phones, top tabs on wide screens.
    Soft colour coding: mint = progress, lemon = their exact words and treasures, sky = questions to you, peach = your own notes, grey = reference. */
@@ -951,17 +948,23 @@ details.acc.opening[open]>.accb{animation:accin .28s ease both}
 @keyframes accin{from{opacity:0;transform:translateY(-4px)}}
 
 
+/* system fonts only: nothing is loaded from other sites */
+:root{--display:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;--body:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+::placeholder{color:#6b7177;opacity:1}
+@media (prefers-color-scheme: dark){ ::placeholder{color:#a3aaa6} }
+.foot .flinks{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
+
 /* ================= TIMELINE · daytime astronomy (light lemon) =================
    In light mode the Timeline uses the same light ground as the rest of the site: a pale lemon sky with faint
    stars and soft nebula tints. In dark mode it keeps the night sky, so it always matches the other pages. */
 @media (prefers-color-scheme: light){
 html:root[data-pack="timeline"]{
   --paper:#fffbea; --card:rgba(255,255,255,.82); --ink:#22253a; --muted:#5e6378; --rule:rgba(70,80,140,.16); --line-soft:rgba(0,0,0,.06);
-  --accent:#a8740c; --on-accent:#ffffff; --accent-soft:rgba(200,150,30,.14); --due:#c0442f;
+  --accent:#8a5d00; --on-accent:#ffffff; --accent-soft:rgba(200,150,30,.14); --due:#c0442f;
   --mint:#e6f4eb; --mint-ink:#1d5a3a; --lemon:#fff6cf; --lemon-2:#fffbe6; --lemon-line:#ead48a; --lemon-ink:#6a5300; --quote:#3b3210;
   --grey:rgba(60,70,140,.05); --grey-2:rgba(60,70,140,.09); --sky:#eef1fd; --sky-line:#cfd6f5; --sky-ink:#2f3e8a;
   --peach:#fdf1e7; --peach-line:#f0cdb0; --peach-ink:#8a4a1c; --lilac:#f1edfa; --lilac-ink:#55408a;
-  --cM:#4c56c9; --cB:#2e8b57; --cL:#0b8a9c; --cW:#b07a0e;
+  --cM:#4c56c9; --cB:#23704a; --cL:#08707e; --cW:#8a5d00;
   color-scheme:light;
 }
 html:root[data-pack="timeline"] body{background:#fffbea}
@@ -1014,9 +1017,9 @@ html:root[data-pack="timeline"] .ycard .yn{color:#6b4a07}
 html:root[data-pack="timeline"] .thread,html:root[data-pack="timeline"] .spot{color:#5b4410;background:rgba(200,150,30,.10)}
 html:root[data-pack="timeline"] ul.tev li.big .tx{color:#1d2033}
 html:root[data-pack="timeline"] ul.tev .tm{background:rgba(200,150,30,.16)}
-html:root[data-pack="timeline"] .k-mkt{color:#2e8b57!important} html:root[data-pack="timeline"] .k-pol{color:#6a4fc9!important}
-html:root[data-pack="timeline"] .k-cul{color:#c0602a!important} html:root[data-pack="timeline"] .k-tech{color:#0b7f95!important} html:root[data-pack="timeline"] .k-world{color:#a8740c!important}
-html:root[data-pack="timeline"] .mk b.up,html:root[data-pack="timeline"] .pulse b.up,html:root[data-pack="timeline"] .ticard b.up{color:#2e8b57}
+html:root[data-pack="timeline"] .k-mkt{color:#23704a!important} html:root[data-pack="timeline"] .k-pol{color:#6a4fc9!important}
+html:root[data-pack="timeline"] .k-cul{color:#a24c1d!important} html:root[data-pack="timeline"] .k-tech{color:#0b7f95!important} html:root[data-pack="timeline"] .k-world{color:#8a5d00!important}
+html:root[data-pack="timeline"] .mk b.up,html:root[data-pack="timeline"] .pulse b.up,html:root[data-pack="timeline"] .ticard b.up{color:#23704a}
 html:root[data-pack="timeline"] .mk b.dn,html:root[data-pack="timeline"] .pulse b.dn,html:root[data-pack="timeline"] .ticard b.dn,html:root[data-pack="timeline"] .drop .dl b{color:#c0442f}
 html:root[data-pack="timeline"] .pbar,html:root[data-pack="timeline"] .drop .db{background:rgba(60,70,140,.09)}
 html:root[data-pack="timeline"] .pbar::after{background:rgba(0,0,0,.25)}
@@ -1955,7 +1958,7 @@ const stripHead = h => h.replace(/^\s*<span class="eyebrow">[^<]*<\/span><h2>[^<
 function renderSecs(secs){ return secs.map((s,i)=>`<section class="psec" id="s-${s.id}"><header class="psh"><span class="psn">${i+1}</span><div><h2>${esc(s.title)}</h2>${s.sub?`<p class="ssub">${esc(s.sub)}</p>`:""}</div></header><div class="sb" id="sb-${s.id}">${s.html()}</div></section>`).join(""); }
 function topbar(title){ return `<div class="topbar"><div class="topbar-in"><a class="tback" href="#" aria-label="Back to the library">‹ Library</a><span class="bt">${esc(title)}</span><button class="cbtn" id="cBtn" aria-expanded="false" aria-controls="cMenu">Contents</button></div>
   <nav class="cmenu" id="cMenu" hidden><ol>${V4.secs.map(s=>`<li><button data-go="${s.id}">${esc(s.title)}</button></li>`).join("")}</ol></nav></div>`; }
-function footNote(){ return `<footer class="foot"><p>Great Investors Library is a free, independent study guide, for education only. It is not investment advice. Not affiliated with Berkshire Hathaway or any person or publisher named. <a href="#about">About and full disclaimer</a></p></footer>`; }
+function footNote(){ return `<footer class="foot"><p>Great Investors Library is a free, independent study guide, for education only. It is not investment advice. Not affiliated with Berkshire Hathaway or any person or publisher named.</p><p class="flinks"><a href="#about">About and disclaimer</a><a href="#privacy">Privacy</a><a href="#terms">Terms of use</a></p></footer>`; }
 
 /* ---------- home ---------- */
 function searchIndex(){ if(searchIndex.v) return searchIndex.v; const out=[];
@@ -2116,13 +2119,40 @@ function aboutPage(){
     sec("words","Summaries and exact words","",()=>bl(["Every summary, idea and lesson is written in our own words.","Exact words appear only as short lines, with their source.","The originals are their authors' copyright, so longer passages are not reproduced. Each page links you to them."],"plain")),
     sec("disc","Disclaimer","",()=>`<div class="disc">${SITE_DISC.map(d=>`<p>${esc(d)}</p>`).join("")}</div>`),
   ];
-  return topbar("About")+`<div class="wrap"><div class="phero"><h1>About the library</h1><p class="hook">What it is, how it was made, and what it is not.</p></div>${renderSecs(V4.secs)}<nav class="nextp"><a href="#"><small>Back</small>The library ›</a></nav></div>`; }
+  return topbar("About")+`<div class="wrap"><div class="phero"><h1>About the library</h1><p class="hook">What it is, how it was made, and what it is not.</p></div>${renderSecs(V4.secs)}<nav class="nextp"><a href="#"><small>Back</small>The library ›</a></nav>${footNote()}</div>`; }
 const SITE_DISC=[
   "For educational and informational purposes only. This site is an independent study guide for general learning.",
   "Not advice. Nothing here is investment, financial, legal, tax or accounting advice, and nothing is a recommendation or solicitation to buy, sell or hold any security. It does not take account of any reader's objectives or circumstances. Investing involves risk, including loss of capital. Past results do not predict future results.",
   "No warranty. The content paraphrases and interprets public documents and may contain errors or omissions. It is provided as is, without warranty of any kind as to accuracy or completeness. Check everything against the originals.",
   "No liability. To the fullest extent permitted by law, no liability is accepted for any loss or damage arising from use of or reliance on this site.",
   "Independent. This site is not affiliated with, endorsed, sponsored or reviewed by Berkshire Hathaway, Warren Buffett, Charlie Munger's estate, Peter Lynch, Fidelity, any publisher, or any company named. All trademarks and copyrights belong to their owners."];
+
+
+/* ---------- privacy and terms ---------- */
+const PRIVACY=[
+ ["The short version","This site does not ask for your name or email, has no accounts, sets no tracking cookies, shows no ads and runs no analytics or tracking scripts. It does not sell or share any information about you."],
+ ["What your browser keeps","Nothing. The site saves nothing in your browser and sets no cookies. If you used notes or bookmarks in an earlier version of the site, those were kept only on your own device; you can clear them at any time in your browser settings."],
+ ["What the host sees","The site is hosted on GitHub Pages (and a copy on claude.ai). Like any web host, they may record technical information such as your IP address and browser type to keep the service running and secure. This is covered by their own privacy statements: GitHub's Privacy Statement and Anthropic's Privacy Policy."],
+ ["Fonts and outside requests","The site uses the fonts already on your device and loads nothing from other websites while you read. Links to original letters, talks and books take you to other sites, which have their own policies."],
+ ["Search engines","If you arrive from a search engine, that search engine's own policy applies to your search."],
+ ["Children","The site is general educational material and does not knowingly collect information from anyone."],
+ ["Changes","If this ever changes, for example if a visitor counter is added, this page will be updated first and will say exactly what is collected."],
+ ["Last updated","24 November 2026."]];
+const TERMS=[
+ ["Using this site","The Great Investors Library is free to read. By using it you agree to these terms. If you do not agree, please do not use the site."],
+ ["Education only, not advice","Everything here is for general education and information. It is not investment, financial, legal, tax or accounting advice, and it is not a recommendation to buy, sell or hold any security. It does not consider your objectives or circumstances. Speak to a qualified, registered adviser before making financial decisions. Investing involves risk, including the loss of capital, and past results do not predict future results."],
+ ["Accuracy","The summaries paraphrase and interpret public documents. They may contain errors or omissions and may be out of date. The site is provided as is, without warranties of any kind. Always check against the original sources, which are linked."],
+ ["No liability","To the fullest extent permitted by law, no liability is accepted for any loss or damage, direct or indirect, arising from use of or reliance on this site or anything linked from it."],
+ ["Independent","This site is not affiliated with, endorsed, sponsored or reviewed by Berkshire Hathaway, Warren Buffett, Charlie Munger's estate, Peter Lynch, Fidelity, any publisher, or any company or person named. All trademarks belong to their owners."],
+ ["Reusing the content","The text written for this site may be copied, translated and reused under the Creative Commons Attribution 4.0 licence (CC BY 4.0), with credit to “Great Investors Library”. Short quotations remain the copyright of their authors and are not covered by this licence. The site's code is under the MIT licence."],
+ ["Corrections","If you find an error, please report it on the site's public GitHub page so it can be fixed for everyone."],
+ ["Changes","These terms may be updated. The version on this page is the one that applies. Last updated 24 November 2026."]];
+function legalPage(kind){ const P=kind==="privacy"?PRIVACY:TERMS, t=kind==="privacy"?"Privacy":"Terms of use";
+  V4.secs=P.map(([h,x],i)=>sec("l"+i,h,"",()=>`<p>${esc(x)}</p>`));
+  return topbar(t)+`<div class="wrap"><div class="phero"><h1>${t}</h1><p class="hook">${kind==="privacy"?"What this site collects about you: almost nothing.":"The plain rules for using this free library."}</p></div>${renderSecs(V4.secs)}<nav class="nextp"><a href="#"><small>Back</small>The library ›</a></nav>${footNote()}</div>`; }
+/* give every chart and diagram a text label for screen readers */
+function labelSvgs(root){ (root||document).querySelectorAll("svg:not([role])").forEach(svg=>{ const fig=svg.closest("figure"), cap=fig&&fig.querySelector("figcaption"), sec_=svg.closest(".psec"), h=sec_&&sec_.querySelector("h2");
+  svg.setAttribute("role","img"); if(!svg.getAttribute("aria-label")) svg.setAttribute("aria-label", ((cap&&cap.textContent.trim())||(h&&("Diagram: "+h.textContent))||"Diagram").slice(0,160)); }); }
 
 /* ---------- routing ---------- */
 function mapInv(r,v){
@@ -2141,6 +2171,8 @@ function mapInv(r,v){
 function route(hash){ const h=decodeURIComponent((hash===undefined?location.hash:hash).replace(/^#/,"")); const r={page:"home", pack:null, sec:null, focus:null};
   if(!h||h==="library") return r;
   if(h==="about"){ r.page="about"; return r; }
+  if(h==="privacy"||h==="terms"){ r.page=h; return r; }
+  if(h.startsWith("search-")){ V4.q=h.slice(7).replace(/-/g," "); return r; }
   let m; const [a,b]=h.split("/");
   if(a==="timeline"||a.startsWith("timeline-")){ r.page="timeline"; let v=b!==undefined?b:a.slice(9);
     if(!v||v==="sky") return r;
@@ -2166,10 +2198,10 @@ function buildPage(r){ const app=document.getElementById("app");
   tlStop(); TLS.pop=null; tlPopShow(); if(LT.drillT){ clearInterval(LT.drillT); LT.drillT=null; }
   if(r.page==="timeline") document.documentElement.dataset.pack="timeline"; else document.documentElement.dataset.pack=r.pack||"home";
   V4.secs=[]; let html;
-  if(r.page==="inv") html=invPage(r.pack); else if(r.page==="timeline") html=tlPage(); else if(r.page==="journey") html=journeyPage(); else if(r.page==="about") html=aboutPage(); else html=homeHTML();
+  if(r.page==="inv") html=invPage(r.pack); else if(r.page==="timeline") html=tlPage(); else if(r.page==="journey") html=journeyPage(); else if(r.page==="about") html=aboutPage(); else if(r.page==="privacy"||r.page==="terms") html=legalPage(r.page); else html=homeHTML();
   app.innerHTML=html; V4.page=pageKey(r);
-  document.title = r.page==="home" ? "Great Investors Library" : (r.page==="inv" ? PACKS[r.pack].name : r.page==="timeline" ? "The Timeline" : r.page==="journey" ? "The builder's record" : "About") + " · Great Investors Library";
-  if(r.page==="timeline"){ tlSkyUpdate(); tlAgeUpdate(); } }
+  document.title = r.page==="home" ? "Great Investors Library" : (r.page==="inv" ? PACKS[r.pack].name : r.page==="timeline" ? "The Timeline" : r.page==="journey" ? "The builder's record" : r.page==="privacy" ? "Privacy" : r.page==="terms" ? "Terms of use" : "About") + " · Great Investors Library";
+  if(r.page==="timeline"){ tlSkyUpdate(); tlAgeUpdate(); } labelSvgs(app); }
 function openEl(id){ const d=document.getElementById(id); if(!d) return null; V4.open.add(id); if(d.tagName==="DETAILS" && !d.open){ fillLazy(d); d.open=true; }
   let p=d.parentElement; while(p){ if(p.tagName==="DETAILS" && !p.open){ V4.open.add(p.id); p.open=true; } p=p.parentElement; } return d; }
 function scrollToEl(el, smooth){ if(!el) return; el.scrollIntoView({block:"start", behavior:(smooth&&!REDUCED&&!window.V4_NOANIM)?"smooth":"auto"}); }
@@ -2194,11 +2226,11 @@ function navigate(r){ const changed = pageKey(r)!==V4.page;
   if(el) scrollToEl(el, true); else if(!r.sec) window.scrollTo({top:0, behavior:REDUCED?"auto":"smooth"}); }
 /* old views call render() after a click: refresh only the live sections, keeping the scroll */
 function render(){ if(!V4.page){ navigate(route()); return; }
-  V4.secs.filter(s=>s.live).forEach(s=>{ const el=document.getElementById("sb-"+s.id); if(el) el.innerHTML=s.html(); }); }
+  V4.secs.filter(s=>s.live).forEach(s=>{ const el=document.getElementById("sb-"+s.id); if(el){ el.innerHTML=s.html(); labelSvgs(el); } }); }
 /* heavy panels are filled the first time they open */
 function fillLazy(d){ const b=d.querySelector(":scope > .accb"); if(!b || b.childElementCount) return;
   let m; if((m=d.id.match(/^yr-(\d{4})$/))) b.innerHTML=tlYearBody(+m[1]);
-  else if(d.id==="lives-chart") b.innerHTML=`<figure class="tl-lives">${tlLivesSVG()}<figcaption><span class="lg"><i class="dM"></i>Munger</span><span class="lg"><i class="dB"></i>Buffett</span><span class="lg"><i class="dL"></i>Lynch</span><span class="lg">Shaded bands: presidents</span></figcaption></figure>`; }
+  else if(d.id==="lives-chart") b.innerHTML=`<figure class="tl-lives">${tlLivesSVG()}<figcaption><span class="lg"><i class="dM"></i>Munger</span><span class="lg"><i class="dB"></i>Buffett</span><span class="lg"><i class="dL"></i>Lynch</span><span class="lg">Shaded bands: presidents</span></figcaption></figure>`; labelSvgs(b); }
 
 /* ---------- events ---------- */
 document.addEventListener("toggle", e=>{ const d=e.target; if(!d || d.tagName!=="DETAILS" || !d.id) return; if(d.open){ V4.open.add(d.id); fillLazy(d); } else V4.open.delete(d.id); }, true);
