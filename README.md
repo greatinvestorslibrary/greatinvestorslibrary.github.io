@@ -1,6 +1,8 @@
 # Great Investors Library
 
-Learn investing from Warren Buffett, Charlie Munger and Peter Lynch, in plain words. Free.
+Learn investing from the world's great investors, in plain words. Free.
+
+It starts with the United States. Investors from more countries will follow.
 
 - **Warren Buffett:** his 30 letters to Berkshire Hathaway shareholders (1995 to 2024), as 14 big ideas and 127 lessons.
 - **Charlie Munger:** his talks and letters (1982 to 2014), as 14 big ideas, 134 lessons and his 25 mental traps.
