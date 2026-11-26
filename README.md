@@ -32,12 +32,18 @@ Three countries so far: the United States, the United Kingdom and China. More wi
 - **Qiu Guolu:** his two books, lectures and letters, as 10 big ideas and 45 lessons, with his three questions as a checklist.
 - **Zhang Lei:** his book Value, talks and tribute to David Swensen, as 10 big ideas and 44 lessons, with an honest note on a 2023 regulatory matter.
 
+**India**
+
+- **Chandrakant Sampat:** his rare interviews and the notes of those he taught, as 10 big ideas and 38 lessons, with his screen to try on a company.
+- **Parag Parikh:** his two books, talks and interviews, as 10 big ideas and 36 lessons, with a quiz on six everyday Indian investing mistakes.
+- **Radhakishan Damani:** his record and DMart's own filings, as 10 big ideas and 38 lessons, with the DMart flywheel and an honest note on a 2007 regulatory order.
+
 Open the site: https://greatinvestorslibrary.github.io
 
 ## What is in this folder
 
 - `index.html` is the interactive library (one file, works offline).
-- `buffett.html`, `munger.html`, `lynch.html`, `graham.html`, `fisher.html`, `templeton.html`, `bogle.html`, `marks.html`, `klarman.html`, `schloss.html`, `bolton.html`, `smith.html`, `keynes.html`, `lilu.html`, `duan.html`, `qiu.html`, `zhanglei.html`, `timeline.html`, `timeline-uk.html` and the `ideas/` folder are plain reading pages, one per investor and one per big idea.
+- `buffett.html`, `munger.html`, `lynch.html`, `graham.html`, `fisher.html`, `templeton.html`, `bogle.html`, `marks.html`, `klarman.html`, `schloss.html`, `bolton.html`, `smith.html`, `keynes.html`, `lilu.html`, `duan.html`, `qiu.html`, `zhanglei.html`, `sampat.html`, `parikh.html`, `damani.html`, `timeline.html`, `timeline-uk.html` and the `ideas/` folder are plain reading pages, one per investor and one per big idea.
 - `sitemap.xml` and `robots.txt` help search engines find every page.
 
 ## Licence
@@ -46,4 +52,4 @@ The text written for this site is shared under Creative Commons Attribution 4.0 
 
 ## Disclaimer
 
-For educational and informational purposes only. Not investment, financial, legal, tax or accounting advice, and not a recommendation to buy, sell or hold any security. The content paraphrases public documents and may contain errors; it is provided as is, without warranty. No liability is accepted for any loss arising from its use. Independent: not affiliated with, endorsed or reviewed by any investor or estate featured, or by Berkshire Hathaway, GEICO, Fisher & Co., Franklin Templeton, the John Templeton Foundation, Vanguard, Oaktree, Baupost, Fidelity, Fundsmith, King's College, Cambridge, Himalaya Capital, BBK, Gaoyi Asset Management, Hillhouse, any publisher or any company named. All trademarks and copyrights belong to their owners.
+For educational and informational purposes only. Not investment, financial, legal, tax or accounting advice, and not a recommendation to buy, sell or hold any security. Not registered with SEBI or any other regulator as an investment adviser or research analyst; companies and funds are named for history and education only. The content paraphrases public documents and may contain errors; it is provided as is, without warranty. No liability is accepted for any loss arising from its use. Independent: not affiliated with, endorsed or reviewed by any investor or estate featured, or by Berkshire Hathaway, GEICO, Fisher & Co., Franklin Templeton, the John Templeton Foundation, Vanguard, Oaktree, Baupost, Fidelity, Fundsmith, King's College, Cambridge, Himalaya Capital, BBK, Gaoyi Asset Management, Hillhouse, PPFAS Asset Management, PPFAS Mutual Fund, Avenue Supermarts (DMart), any publisher or any company named. All trademarks and copyrights belong to their owners.
