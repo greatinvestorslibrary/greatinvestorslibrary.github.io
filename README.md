@@ -38,12 +38,18 @@ Three countries so far: the United States, the United Kingdom and China. More wi
 - **Parag Parikh:** his two books, talks and interviews, as 10 big ideas and 36 lessons, with a quiz on six everyday Indian investing mistakes.
 - **Radhakishan Damani:** his record and DMart's own filings, as 10 big ideas and 38 lessons, with the DMart flywheel and an honest note on a 2007 regulatory order.
 
+**Japan**
+
+- **Seiroku Honda:** his 1950 book on money and his record as a saver, investor and giver, as 10 big ideas and 35 lessons, with a quarter-rule calculator.
+- **Wahei Takeda:** his interviews and the books about him, as 10 big ideas and 40 lessons, with his "danna" checklist.
+- **Atsuto Sawakami:** his interviews and talks on long-term investing, as 10 big ideas and 37 lessons, with an "investing or money-rolling?" quiz and an honest note on a 2006 regulatory order.
+
 Open the site: https://greatinvestorslibrary.github.io
 
 ## What is in this folder
 
 - `index.html` is the interactive library (one file, works offline).
-- `buffett.html`, `munger.html`, `lynch.html`, `graham.html`, `fisher.html`, `templeton.html`, `bogle.html`, `marks.html`, `klarman.html`, `schloss.html`, `bolton.html`, `smith.html`, `keynes.html`, `lilu.html`, `duan.html`, `qiu.html`, `zhanglei.html`, `sampat.html`, `parikh.html`, `damani.html`, `timeline.html`, `timeline-uk.html` and the `ideas/` folder are plain reading pages, one per investor and one per big idea.
+- `buffett.html`, `munger.html`, `lynch.html`, `graham.html`, `fisher.html`, `templeton.html`, `bogle.html`, `marks.html`, `klarman.html`, `schloss.html`, `bolton.html`, `smith.html`, `keynes.html`, `lilu.html`, `duan.html`, `qiu.html`, `zhanglei.html`, `sampat.html`, `parikh.html`, `damani.html`, `honda.html`, `takeda.html`, `sawakami.html`, `timeline.html`, `timeline-uk.html` and the `ideas/` folder are plain reading pages, one per investor and one per big idea.
 - `sitemap.xml` and `robots.txt` help search engines find every page.
 
 ## Licence
@@ -52,4 +58,4 @@ The text written for this site is shared under Creative Commons Attribution 4.0 
 
 ## Disclaimer
 
-For educational and informational purposes only. Not investment, financial, legal, tax or accounting advice, and not a recommendation to buy, sell or hold any security. Not registered with SEBI or any other regulator as an investment adviser or research analyst; companies and funds are named for history and education only. The content paraphrases public documents and may contain errors; it is provided as is, without warranty. No liability is accepted for any loss arising from its use. Independent: not affiliated with, endorsed or reviewed by any investor or estate featured, or by Berkshire Hathaway, GEICO, Fisher & Co., Franklin Templeton, the John Templeton Foundation, Vanguard, Oaktree, Baupost, Fidelity, Fundsmith, King's College, Cambridge, Himalaya Capital, BBK, Gaoyi Asset Management, Hillhouse, PPFAS Asset Management, PPFAS Mutual Fund, Avenue Supermarts (DMart), any publisher or any company named. All trademarks and copyrights belong to their owners.
+For educational and informational purposes only. Not investment, financial, legal, tax or accounting advice, and not a recommendation to buy, sell or hold any security. Not registered with SEBI, Japan's Financial Services Agency or any other regulator as an investment adviser or research analyst; companies and funds are named for history and education only. The content paraphrases public documents and may contain errors; it is provided as is, without warranty. No liability is accepted for any loss arising from its use. Independent: not affiliated with, endorsed or reviewed by any investor or estate featured, or by Berkshire Hathaway, GEICO, Fisher & Co., Franklin Templeton, the John Templeton Foundation, Vanguard, Oaktree, Baupost, Fidelity, Fundsmith, King's College, Cambridge, Himalaya Capital, BBK, Gaoyi Asset Management, Hillhouse, PPFAS Asset Management, PPFAS Mutual Fund, Avenue Supermarts (DMart), Sawakami Asset Management, Takeda Honsha, Saitama Prefecture, any publisher or any company named. All trademarks and copyrights belong to their owners.
