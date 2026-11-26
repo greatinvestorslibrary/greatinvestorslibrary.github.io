@@ -823,6 +823,11 @@ mark{background:rgba(255,213,79,.45);color:inherit;border-radius:2px}
 .pt span{display:block;font-size:.9rem;color:var(--muted);line-height:1.4}
 .pgo{font-size:1.6rem;color:var(--muted);line-height:1}
 .new{margin:22px 0 6px;font-size:.95rem}
+.sect{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:-4vh auto 26px}
+.sect>*{display:inline-flex;align-items:center;gap:7px;min-height:40px;padding:0 15px;border-radius:20px;border:1px solid var(--rule);font-size:.9rem;font-weight:650;text-decoration:none;color:var(--ink);background:var(--card)}
+.sect .on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.sect a{background:linear-gradient(135deg,#0b0d1f,#24123a);color:#fff;border-color:#24123a}
+.sect a i{font-style:normal;font-size:.7rem;font-weight:800;background:#ffb347;color:#1c0b02;border-radius:10px;padding:2px 7px}
 .hlinks{font-size:.85rem;color:var(--muted);display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
 .hlinks a{color:var(--muted)}
 
@@ -2488,6 +2493,7 @@ function homeHTML(){ const total=INV.reduce((s,pid)=>s+Object.keys(PACKS[pid].nu
   const C=COUNTRIES.find(c=>c.id===V4.country)||COUNTRIES[0];
   const pick=(h,ava,cls,t,sub)=>`<a class="pick" href="${h}"><span class="ava ${cls}">${ava}</span><span class="pt"><b>${t}</b><span>${sub}</span></span><span class="pgo" aria-hidden="true">›</span></a>`;
   return `<div class="home">
+  <nav class="sect" aria-label="Library sections"><span class="on" aria-current="page">Investors</span><a href="https://greatinvestorslibrary.github.io/space/" target="_top" aria-label="Space: from the Big Bang to you (new)">✦ Space <i>New</i></a></nav>
   <h1 class="logo">Great Investors Library</h1>
   <p class="tagline">Learn investing from the world's great investors, in plain words. Free.</p>
   <div class="search"><input id="q" type="search" autocomplete="off" placeholder="Search ${total} ideas, e.g. moat" aria-label="Search the library" value="${esc(V4.q)}"></div>
