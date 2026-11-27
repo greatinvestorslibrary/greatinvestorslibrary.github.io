@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://greatinvestorslibrary.github.io/sitemap.xml
+Sitemap: https://alienspacex.com/sitemap.xml
