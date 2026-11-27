@@ -2535,8 +2535,7 @@ function homeHTML(){ const total=INV.reduce((s,pid)=>s+Object.keys(PACKS[pid].nu
   <nav class="picks" aria-label="Investors from ${esc(C.name)}">
     ${C.picks.map(x=>pick(...x)).join("")}
   </nav>
-  <p class="new">${C.start}</p>
-  <p class="hlinks"><a href="#journey">The builder's own record</a><span>·</span><a href="#about">About and disclaimer</a></p>
+  <p class="hlinks"><a href="#journey">About me</a><span>·</span><a href="#about">About this site</a></p>
   </div>`; }
 
 /* ---------- investor page (same template for all three) ---------- */
@@ -2726,7 +2725,7 @@ function journeyPage(){ const h=J.hero;
     sec("rules","My rules today","Every rule here was paid for by a lesson above.",()=>`<ol class="test">${J.rulesNow.map(r=>`<li>${esc(r)}</li>`).join("")}</ol><p class="note">${esc(J.rulesNote)}</p>`),
     sec("method","How these were worked out","",()=>`${bl(J.method.map(esc),"plain")}<h3>Please read</h3><div class="disc">${J.disclaimer.map(d=>`<p>${esc(d)}</p>`).join("")}</div>`),
   ];
-  return topbar("The builder's record")+`<div class="wrap"><div class="phero"><span class="ava big a-journey">✎</span><h1>${esc(h.title)}</h1><p class="hook">${esc(h.sub)}</p>
+  return topbar("About me")+`<div class="wrap"><div class="phero"><span class="ava big a-journey">✎</span><h1>${esc(h.title)}</h1><p class="hook">${esc(h.sub)}</p>
     <div class="rec">${h.stats.map(([a,b])=>`<div><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join("")}</div><p class="small muted">As of ${esc(J.asOf)}. Percentages only.</p></div>
     ${renderSecs(V4.secs)}<nav class="nextp"><a href="#buffett"><small>Next</small>Warren Buffett ›</a><a class="ghost" href="#">‹ Back to the library</a></nav>${footNote()}</div>`; }
 
