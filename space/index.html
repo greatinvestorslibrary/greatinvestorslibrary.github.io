@@ -134,19 +134,13 @@ details p{font-size:15.5px;color:#e2e7f0;margin:0 0 8px!important}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (min-width:700px){#tv{font-size:32px}.ev{padding:26px 26px 16px}.ev h3{font-size:26px}}
 @media (prefers-reduced-motion:reduce){.js .ev{transition:none}.cue{animation:none}#hud{transition:none}}
-/*SECT*/.sect{--inv:#2e6b4f;--spa:#4f46c8;--evo:#c4622d;--eco:#9a6a00;display:flex;justify-content:center;gap:2px;width:max-content;max-width:100%;margin:-4vh auto 30px;padding:4px;border-radius:999px;background:var(--sect-track,#f1f2f4);border:1px solid var(--sect-edge,#e3e5e8)}
-.sect>*{position:relative;display:inline-flex;align-items:center;gap:5px;min-height:38px;padding:0 11px;border-radius:999px;font:650 .86rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;color:var(--c);background:transparent;border:0;white-space:nowrap}
-.sect>*::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--c)}
-.sect .s-inv{--c:var(--sect-inv,var(--inv))}.sect .s-spa{--c:var(--sect-spa,var(--spa))}.sect .s-evo{--c:var(--sect-evo,var(--evo))}.sect .s-eco{--c:var(--sect-eco,var(--eco))}
-.sect .on{background:var(--a);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.14)}
-.sect .on::before{background:#fff}
-.sect .on::after{content:"";position:absolute;left:50%;bottom:-11px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--a);border-bottom:0}
-.sect .s-inv.on{--a:var(--inv)}.sect .s-spa.on{--a:var(--spa)}.sect .s-evo.on{--a:var(--evo)}.sect .s-eco.on{--a:var(--eco)}
+/*SECT*/.sect{--g:#2e6b4f;--gd:#1f4d38;display:flex;justify-content:center;gap:4px;width:max-content;max-width:100%;margin:-4vh auto 30px;padding:4px;border-radius:999px;background:var(--sect-track,#f1f2f4);border:1px solid var(--sect-edge,#e3e5e8)}
+.sect>*{position:relative;display:inline-flex;align-items:center;min-height:38px;padding:0 13px;border-radius:999px;font:650 .86rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;color:#fff;background:var(--g);border:0;white-space:nowrap}
+.sect .on{background:var(--gd);box-shadow:inset 0 0 0 2px rgba(255,255,255,.75),0 2px 8px rgba(0,0,0,.18)}
+.sect .on::after{content:"";position:absolute;left:50%;bottom:-11px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--gd);border-bottom:0}
 .sect a:active{transform:scale(.97)}
-.sect i{font-style:normal;font-size:.64rem;font-weight:800;background:#ffcf8a;color:#5a2a06;border-radius:10px;padding:2px 6px}
-.sect .on i{background:#fff;color:var(--a)}
-@media (max-width:440px){.sect>*{padding:0 9px;font-size:.8rem;gap:0}.sect>*::before{display:none}.sect i{font-size:0;width:7px;height:7px;padding:0;border-radius:50%;background:#ff9f2e;margin:-12px 0 0 3px}.sect .on i{background:#fff}}
-@media (max-width:350px){.sect{gap:0;padding:3px}.sect>*{padding:0 6px;font-size:.74rem}}
+@media (max-width:440px){.sect{gap:3px}.sect>*{padding:0 10px;font-size:.8rem}}
+@media (max-width:350px){.sect{gap:2px;padding:3px}.sect>*{padding:0 7px;font-size:.74rem}}
 @view-transition{navigation:auto}
 ::view-transition-old(root),::view-transition-new(root){animation-duration:.45s}
 @media (prefers-reduced-motion:no-preference){body{animation:pgIn .5s ease-out backwards}html.pg-out body{opacity:0;transition:opacity .3s ease-in}}
@@ -167,7 +161,7 @@ details p{font-size:15.5px;color:#e2e7f0;margin:0 0 8px!important}
 </header>
 <main id="story">
  <section class="hero" id="top">
-  <nav class="sect" aria-label="Library sections"><a class="s-inv" href="https://alienspacex.com/" target="_top" data-bg="#ffffff" aria-label="Investors: learn from the great investors">Investors</a><span class="s-spa on" aria-current="page">Space</span><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" data-bg="#05060c" aria-label="Evolution: from the first cell to you">Evolution</a><a class="s-eco" href="https://alienspacex.com/economics/" target="_top" data-bg="#ffffff" aria-label="Economics: the lemonade stand (new)">Economics <i>New</i></a></nav>
+  <nav class="sect" aria-label="Library sections"><a class="s-inv" href="https://alienspacex.com/" target="_top" data-bg="#ffffff" aria-label="Investors: learn from the great investors">Investors</a><span class="s-spa on" aria-current="page">Space</span><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" data-bg="#05060c" aria-label="Evolution: from the first cell to you">Evolution</a><a class="s-eco" href="https://alienspacex.com/economics/" target="_top" data-bg="#ffffff" aria-label="Economics: the lemonade stand">Economics</a></nav>
   <div class="kick">A journey through time</div>
   <h1>From the Big Bang<br><span>to You</span></h1>
   <p>13.8 billion years in one scroll. Swipe down and watch the universe build itself: stars, planets, oceans, dinosaurs, and finally us.</p>
