@@ -823,18 +823,23 @@ mark{background:rgba(255,213,79,.45);color:inherit;border-radius:2px}
 .pt span{display:block;font-size:.9rem;color:var(--muted);line-height:1.4}
 .pgo{font-size:1.6rem;color:var(--muted);line-height:1}
 .new{margin:22px 0 6px;font-size:.95rem}
-.sect{--inv:#2e6b4f;--spa:#4f46c8;--evo:#c4622d;display:flex;justify-content:center;gap:4px;width:max-content;max-width:100%;margin:-4vh auto 30px;padding:4px;border-radius:999px;background:var(--sect-track,#f1f2f4);border:1px solid var(--sect-edge,#e3e5e8)}
-.sect>*{position:relative;display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 14px;border-radius:999px;font:650 .88rem/1 system-ui,-apple-system,sans-serif;text-decoration:none;color:var(--c);background:transparent;border:0;white-space:nowrap}
-.sect>*::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c)}
-.sect .s-inv{--c:var(--sect-inv,var(--inv))}.sect .s-spa{--c:var(--sect-spa,var(--spa))}.sect .s-evo{--c:var(--sect-evo,var(--evo))}
+/*SECT*/.sect{--inv:#2e6b4f;--spa:#4f46c8;--evo:#c4622d;--eco:#9a6a00;display:flex;justify-content:center;gap:2px;width:max-content;max-width:100%;margin:-4vh auto 30px;padding:4px;border-radius:999px;background:var(--sect-track,#f1f2f4);border:1px solid var(--sect-edge,#e3e5e8)}
+.sect>*{position:relative;display:inline-flex;align-items:center;gap:5px;min-height:38px;padding:0 11px;border-radius:999px;font:650 .86rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;color:var(--c);background:transparent;border:0;white-space:nowrap}
+.sect>*::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--c)}
+.sect .s-inv{--c:var(--sect-inv,var(--inv))}.sect .s-spa{--c:var(--sect-spa,var(--spa))}.sect .s-evo{--c:var(--sect-evo,var(--evo))}.sect .s-eco{--c:var(--sect-eco,var(--eco))}
 .sect .on{background:var(--a);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.14)}
 .sect .on::before{background:#fff}
 .sect .on::after{content:"";position:absolute;left:50%;bottom:-11px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--a);border-bottom:0}
-.sect .s-inv.on{--a:var(--inv)}.sect .s-spa.on{--a:var(--spa)}.sect .s-evo.on{--a:var(--evo)}
+.sect .s-inv.on{--a:var(--inv)}.sect .s-spa.on{--a:var(--spa)}.sect .s-evo.on{--a:var(--evo)}.sect .s-eco.on{--a:var(--eco)}
 .sect a:active{transform:scale(.97)}
-.sect i{font-style:normal;font-size:.66rem;font-weight:800;background:#ffcf8a;color:#5a2a06;border-radius:10px;padding:2px 6px}
+.sect i{font-style:normal;font-size:.64rem;font-weight:800;background:#ffcf8a;color:#5a2a06;border-radius:10px;padding:2px 6px}
 .sect .on i{background:#fff;color:var(--a)}
-@media (max-width:360px){.sect>*{padding:0 10px;font-size:.82rem}}
+@media (max-width:440px){.sect>*{padding:0 9px;font-size:.8rem;gap:0}.sect>*::before{display:none}.sect i{font-size:0;width:7px;height:7px;padding:0;border-radius:50%;background:#ff9f2e;margin:-12px 0 0 3px}.sect .on i{background:#fff}}
+@media (max-width:350px){.sect{gap:0;padding:3px}.sect>*{padding:0 6px;font-size:.74rem}}
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.45s}
+@media (prefers-reduced-motion:no-preference){body{animation:pgIn .5s ease-out backwards}html.pg-out body{opacity:0;transition:opacity .3s ease-in}}
+@keyframes pgIn{from{opacity:0}}/*/SECT*/
 .hlinks{font-size:.85rem;color:var(--muted);display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
 .hlinks a{color:var(--muted)}
 
@@ -2500,7 +2505,7 @@ function homeHTML(){ const total=INV.reduce((s,pid)=>s+Object.keys(PACKS[pid].nu
   const C=COUNTRIES.find(c=>c.id===V4.country)||COUNTRIES[0];
   const pick=(h,ava,cls,t,sub)=>`<a class="pick" href="${h}"><span class="ava ${cls}">${ava}</span><span class="pt"><b>${t}</b><span>${sub}</span></span><span class="pgo" aria-hidden="true">›</span></a>`;
   return `<div class="home">
-  <nav class="sect" aria-label="Library sections"><span class="s-inv on" aria-current="page">Investors</span><a class="s-spa" href="https://alienspacex.com/space/" target="_top" aria-label="Space: from the Big Bang to you">Space</a><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" aria-label="Evolution: from the first cell to you (new)">Evolution <i>New</i></a></nav>
+  <nav class="sect" aria-label="Library sections"><span class="s-inv on" aria-current="page">Investors</span><a class="s-spa" href="https://alienspacex.com/space/" target="_top" data-bg="#05060c" aria-label="Space: from the Big Bang to you">Space</a><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" data-bg="#05060c" aria-label="Evolution: from the first cell to you">Evolution</a><a class="s-eco" href="https://alienspacex.com/economics/" target="_top" data-bg="#ffffff" aria-label="Economics: the lemonade stand (new)">Economics <i>New</i></a></nav>
   <h1 class="logo">Great Investors Library</h1>
   <p class="tagline">Learn investing from the world's great investors, in plain words. Free.</p>
   <div class="search"><input id="q" type="search" autocomplete="off" placeholder="Search ${total} ideas, e.g. moat" aria-label="Search the library" value="${esc(V4.q)}"></div>
@@ -2887,6 +2892,10 @@ const topBtn=document.getElementById("toTop");
 window.addEventListener("scroll", ()=>{ if(topBtn) topBtn.classList.toggle("show", window.scrollY>900); }, {passive:true});
 if(topBtn) topBtn.addEventListener("click", ()=>window.scrollTo({top:0, behavior:"smooth"}));
 navigate(route());
+
+/*SECTJS*/(function(){var d=document.documentElement,R=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,T=false;try{T=window.top===window}catch(e){}
+addEventListener('pageshow',function(){d.classList.remove('pg-out');d.style.background=''});
+document.addEventListener('click',function(e){if(R||!T||e.defaultPrevented||e.button||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;var a=e.target.closest&&e.target.closest('a[data-bg]');if(!a)return;e.preventDefault();d.style.background=a.getAttribute('data-bg');d.classList.add('pg-out');setTimeout(function(){location.href=a.href},300)})})();/*/SECTJS*/
 
 </script>
 </body>

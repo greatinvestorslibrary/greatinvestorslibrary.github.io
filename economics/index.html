@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Lemonade Stand: money, profit, cash and the three reports, explained simply</title>
+<meta name="description" content="Learn how money works in a business with one lemonade stand: sales, costs, profit, cash, IOUs, leftover lemons, and the three reports every company makes (profit and loss, balance sheet, cash flow). Free, for kids and beginners.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://alienspacex.com/economics/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Lemonade Stand: money, explained simply">
+<meta property="og:description" content="Sales, profit, cash and the three reports every company makes, explained with one cute lemonade stand. Free.">
+<meta property="og:url" content="https://alienspacex.com/economics/">
+<meta property="og:image" content="https://alienspacex.com/economics/og-economics.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Lemonade Stand: money, explained simply">
+<meta name="twitter:description" content="Sales, profit, cash and the three reports every company makes, explained with one cute lemonade stand. Free.">
+<meta name="twitter:image" content="https://alienspacex.com/economics/og-economics.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23fff6cc'/%3E%3Cellipse cx='32' cy='34' rx='20' ry='15' fill='%23ffd84d' stroke='%23d9a400' stroke-width='3'/%3E%3Cpath d='M48 26l6-5' stroke='%235aa04a' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{--ink:#1f2328;--mut:#5f6368;--rule:#ececec;--soft:#f7f7f5;--lemon:#ffd84d;--lemon2:#e0b100;--tint:#fffbe6;--acc:#9a6a00;--grn:#22794a;--red:#c0392b;--blu:#1d6fb8;--r:16px}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;background:#fff}
+html,body{margin:0;background:#fff;color:var(--ink)}
+body{font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;-webkit-tap-highlight-color:transparent;overflow-x:hidden}
+@supports (overflow:clip){body{overflow-x:clip}}
+h1,h2,h3,.rd{font-family:ui-rounded,"SF Pro Rounded","Nunito","Segoe UI",system-ui,sans-serif}
+.w{max-width:640px;margin:0 auto;padding:0 18px}
+a{color:var(--blu)}
+.sr{position:absolute;left:-9999px}
+/* hero */
+.hero{text-align:center;padding:calc(18px + env(safe-area-inset-top)) 0 10px}
+.hero .sect{margin:0 auto 26px}
+.kick{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:750;color:var(--acc)}
+h1{font-size:clamp(2rem,9vw,3rem);line-height:1.05;margin:.25em 0 .3em;letter-spacing:-.01em}
+h1 span{color:var(--acc)}
+.hero p{color:var(--mut);margin:0 auto 18px;max-width:30em}
+.art{display:block;margin:0 auto;max-width:360px;width:100%;height:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:46px;padding:0 20px;border-radius:999px;border:1px solid var(--rule);background:#fff;color:var(--ink);font:650 1rem system-ui,sans-serif;text-decoration:none;cursor:pointer}
+.btn.pri{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:18px 0 6px}
+.cast{display:flex;justify-content:center;gap:14px;margin:16px 0 4px;flex-wrap:wrap}
+.cast figure{margin:0;width:76px;text-align:center;font-size:.78rem;color:var(--mut);line-height:1.25}
+.cast svg{width:58px;height:58px;display:block;margin:0 auto 4px}
+.cast b{display:block;color:var(--ink);font-size:.86rem}
+/* sections */
+section.blk{padding:34px 0 8px}section,.day{scroll-margin-top:72px}
+h2{font-size:1.6rem;line-height:1.15;margin:0 0 .45em}
+h3{font-size:1.15rem;margin:1.1em 0 .4em}
+.lead{color:var(--mut);margin-top:-.2em}
+.divider{display:block;width:120px;height:26px;margin:26px auto 0}
+.card{border:1px solid var(--rule);border-radius:var(--r);padding:16px;margin:14px 0;background:#fff}
+.card.tint{background:var(--tint);border-color:#f3e6a8}
+.card.soft{background:var(--soft)}
+.day{border:1px solid var(--rule);border-radius:20px;padding:16px 16px 12px;margin:20px 0;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+.dh{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.dh svg{width:46px;height:46px;flex:none}
+.dh small{display:block;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);font-weight:750}
+.dh h3{margin:0;font-size:1.2rem}
+.story{margin:.4em 0 .6em;padding-left:1.15em}
+.story li{margin:.25em 0}
+.glasses{display:flex;flex-wrap:wrap;gap:3px;margin:10px 0 4px}
+.glasses svg{width:20px;height:26px}
+.gleg{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.78rem;color:var(--mut);margin-bottom:10px}
+.gleg span{display:inline-flex;align-items:center;gap:4px}
+.gleg svg{width:13px;height:17px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mini{border-radius:14px;padding:10px 11px;font-size:.88rem;background:var(--soft)}
+.mini h4{margin:0 0 6px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.mini .r{display:flex;justify-content:space-between;gap:6px;padding:2px 0}.mini .r span:last-child{white-space:nowrap}
+.mini .r.t{border-top:1px solid #dcdcdc;margin-top:4px;padding-top:5px;font-weight:750}
+.mini.pl h4{color:var(--grn)}.mini.cj h4{color:var(--blu)}
+.pos{color:var(--grn)}.neg{color:var(--red)}
+.note{font-size:.92rem;background:var(--tint);border-radius:12px;padding:10px 12px;margin:10px 0 2px}
+.note b{color:var(--acc)}
+.tbl{width:100%;border-collapse:collapse;font-size:.95rem;margin:6px 0}
+.tbl td,.tbl th{padding:7px 4px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+.tbl td.n,.tbl th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl tr.sub td{color:var(--mut);font-size:.82rem;padding-top:12px;border-bottom:0;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.tbl tr.tot td{font-weight:800;border-bottom:2px solid var(--ink)}
+.tbl .gw{display:block;font-size:.76rem;color:var(--mut);font-weight:500}
+.rule3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.rule3 div{border-radius:14px;padding:12px 8px;text-align:center;font-size:.84rem;line-height:1.3;background:var(--soft)}
+.rule3 .e{font-size:1.6rem;display:block;margin-bottom:4px}
+.rule3 b{display:block;font-size:.95rem;margin-bottom:2px}
+.big{font-size:2rem;font-weight:800;font-variant-numeric:tabular-nums}
+/* dashboard */
+#dash{position:fixed;left:0;right:0;top:0;z-index:20;background:rgba(255,255,255,.96);border-bottom:1px solid var(--rule);padding:calc(6px + env(safe-area-inset-top)) 10px 6px;transform:translateY(-110%);transition:transform .35s ease;backdrop-filter:saturate(1.4) blur(6px);-webkit-backdrop-filter:saturate(1.4) blur(6px)}
+#dash.on{transform:none}
+#dash .in{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;text-align:center}
+#dash .c{font-size:.68rem;color:var(--mut);line-height:1.2;text-transform:uppercase;letter-spacing:.05em}
+#dash .v{display:block;font:800 1.05rem/1.25 system-ui,sans-serif;color:var(--ink);font-variant-numeric:tabular-nums;text-transform:none;letter-spacing:0}
+#dash .v.cash{color:var(--blu)}#dash .v.prof{color:var(--grn)}#dash .v.prof.l{color:var(--red)}
+#dash .lab{grid-column:1/-1;font-size:.7rem;color:var(--acc);font-weight:700;margin-top:1px}
+/* seesaw */
+.saw{display:block;width:100%;max-width:420px;height:auto;margin:6px auto}
+/* link diagram */
+#links{min-height:100svh;padding-top:58px;display:flex;flex-direction:column}
+#links h2{margin-bottom:.15em}
+#links .lead{font-size:.92rem;margin-bottom:4px}
+.dia{display:block;width:100%;height:auto;max-height:calc(100svh - 250px);margin:0 auto}
+.leg{display:grid;gap:3px;font-size:.82rem;line-height:1.3;margin:6px 0 0;padding:0;list-style:none}
+.leg li{display:flex;gap:7px;align-items:flex-start}
+.leg i{flex:none;width:18px;height:18px;border-radius:50%;color:#fff;font:800 .72rem/18px system-ui;text-align:center;font-style:normal}
+/* simulator */
+.sim .row{margin:12px 0}
+.sim label.h{display:block;font-size:.8rem;font-weight:750;color:var(--mut);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg button{flex:1;min-width:64px;min-height:42px;border-radius:12px;border:1px solid var(--rule);background:#fff;font:650 .95rem system-ui,sans-serif;color:var(--ink);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+input[type=range]{width:100%;accent-color:var(--acc);height:34px}
+.simout{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.simout div{background:var(--soft);border-radius:12px;padding:8px;text-align:center;font-size:.76rem;color:var(--mut)}
+.simout b{display:block;font-size:1.15rem;color:var(--ink);font-variant-numeric:tabular-nums}
+#simMsg{margin-top:10px}
+#simProfit{font-size:2.2rem;font-weight:800;text-align:center;margin:10px 0 0;font-variant-numeric:tabular-nums}
+/* puzzles */
+.pz{border:1px solid var(--rule);border-radius:16px;padding:14px;margin:14px 0}
+.pz .q{margin:0 0 10px}
+.pz .q b{color:var(--acc)}
+.pz .in{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.pz input{width:110px;min-height:44px;border:1.5px solid #cfcfcf;border-radius:12px;padding:0 12px;font:650 1.05rem system-ui,sans-serif}
+.pz input:focus{outline:2px solid var(--lemon2);border-color:var(--lemon2)}
+.pz .fl{font-size:.8rem;color:var(--mut);display:block;margin-bottom:3px}
+.pz .btn{min-height:44px;padding:0 16px;font-size:.95rem}
+.pz .fb{margin-top:10px;font-size:.93rem;border-radius:12px;padding:0;max-height:0;overflow:hidden;transition:max-height .3s}
+.pz .fb.ok,.pz .fb.no{padding:10px 12px;max-height:400px}
+.pz .fb.ok{background:#e9f7ef}.pz .fb.no{background:#fdf0ec}
+.pz .lnk{background:none;border:0;color:var(--blu);text-decoration:underline;font:inherit;font-size:.86rem;cursor:pointer;padding:6px 2px}
+#score{text-align:center;font-weight:750;margin:8px 0}
+/* glossary */
+.gl td:first-child{width:46%}
+.gl td:last-child{font-weight:650}
+details.panel{border:1px solid var(--rule);border-radius:14px;padding:4px 14px;margin:12px 0}
+details.panel summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}
+.disc p{font-size:.84rem;color:var(--mut)}
+.foot{font-size:.8rem;color:var(--mut);text-align:center;padding:20px 0 calc(30px + env(safe-area-inset-bottom))}
+.end{text-align:center}
+@media (prefers-reduced-motion:no-preference){.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}.reveal.seen{opacity:1;transform:none}}
+@media (max-width:380px){body{font-size:16px}.w{padding:0 14px}.two{gap:7px}.mini{padding:9px 8px;font-size:.84rem}}
+/*SECT*/.sect{--inv:#2e6b4f;--spa:#4f46c8;--evo:#c4622d;--eco:#9a6a00;display:flex;justify-content:center;gap:2px;width:max-content;max-width:100%;margin:-4vh auto 30px;padding:4px;border-radius:999px;background:var(--sect-track,#f1f2f4);border:1px solid var(--sect-edge,#e3e5e8)}
+.sect>*{position:relative;display:inline-flex;align-items:center;gap:5px;min-height:38px;padding:0 11px;border-radius:999px;font:650 .86rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;color:var(--c);background:transparent;border:0;white-space:nowrap}
+.sect>*::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--c)}
+.sect .s-inv{--c:var(--sect-inv,var(--inv))}.sect .s-spa{--c:var(--sect-spa,var(--spa))}.sect .s-evo{--c:var(--sect-evo,var(--evo))}.sect .s-eco{--c:var(--sect-eco,var(--eco))}
+.sect .on{background:var(--a);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.14)}
+.sect .on::before{background:#fff}
+.sect .on::after{content:"";position:absolute;left:50%;bottom:-11px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--a);border-bottom:0}
+.sect .s-inv.on{--a:var(--inv)}.sect .s-spa.on{--a:var(--spa)}.sect .s-evo.on{--a:var(--evo)}.sect .s-eco.on{--a:var(--eco)}
+.sect a:active{transform:scale(.97)}
+.sect i{font-style:normal;font-size:.64rem;font-weight:800;background:#ffcf8a;color:#5a2a06;border-radius:10px;padding:2px 6px}
+.sect .on i{background:#fff;color:var(--a)}
+@media (max-width:440px){.sect>*{padding:0 9px;font-size:.8rem;gap:0}.sect>*::before{display:none}.sect i{font-size:0;width:7px;height:7px;padding:0;border-radius:50%;background:#ff9f2e;margin:-12px 0 0 3px}.sect .on i{background:#fff}}
+@media (max-width:350px){.sect{gap:0;padding:3px}.sect>*{padding:0 6px;font-size:.74rem}}
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.45s}
+@media (prefers-reduced-motion:no-preference){body{animation:pgIn .5s ease-out backwards}html.pg-out body{opacity:0;transition:opacity .3s ease-in}}
+@keyframes pgIn{from{opacity:0}}/*/SECT*/
+</style>
+</head>
+<body>
+<div id="dash" aria-hidden="true"><div class="in">
+ <div class="c">🫙 Cash in jar<span class="v cash" id="dCash">$0</span></div>
+ <div class="c">🍋 In the cooler<span class="v" id="dInv">$0</span></div>
+ <div class="c">📈 Profit so far<span class="v prof" id="dProf">$0</span></div>
+ <div class="lab" id="dLab">Before opening</div>
+</div></div>
+
+<main>
+<header class="hero w" id="top">
+ <nav class="sect" aria-label="Library sections"><a class="s-inv" href="https://alienspacex.com/" target="_top" data-bg="#ffffff" aria-label="Investors: learn from the great investors">Investors</a><a class="s-spa" href="https://alienspacex.com/space/" target="_top" data-bg="#05060c" aria-label="Space: from the Big Bang to you">Space</a><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" data-bg="#05060c" aria-label="Evolution: from the first cell to you">Evolution</a><span class="s-eco on" aria-current="page">Economics <i>New</i></span></nav>
+ <div class="kick">Economics, made simple</div>
+ <h1>The <span>Lemonade</span> Stand</h1>
+ <p>How money works in a business, with one little stand and a lot of lemons. By the end you will read a company's three big reports like a grown-up.</p>
+ <div id="heroArt" role="img" aria-label="Sunny the golden retriever smiling behind a lemonade stand with lemons, a jug and glasses"></div>
+ <div class="btns"><a class="btn pri" href="#meet">Start the story ↓</a><a class="btn" href="#play">Jump to the games</a></div>
+</header>
+
+<div class="w">
+<section class="blk reveal" id="meet">
+ <h2>Meet the stand</h2>
+ <p>Sunny wants to earn some money this summer, so Sunny opens a lemonade stand. Keep an eye on the bar at the top of your screen: it shows Sunny's <b>cash</b>, the <b>lemons waiting in the cooler</b> and the <b>profit so far</b>, and it changes as the story goes on.</p>
+ <div class="cast" id="cast"></div>
+</section>
+
+<section class="blk reveal" id="d0" data-dash="0,0,0,Before opening">
+ <div class="day">
+  <div class="dh"><span id="i0"></span><div><small>Opening morning</small><h3>Getting ready</h3></div></div>
+  <ul class="story">
+   <li data-dash="30,0,0,Sunny puts in savings">Sunny puts <b>$30 of savings</b> into a jar. This is the <b>owner's money</b>: the business now has $30.</li>
+   <li data-dash="18,0,0,Stand bought">Sunny buys the <b>stand</b> (table, sign and jug) for <b>$12</b>. Cash goes down to $18.</li>
+  </ul>
+  <div class="note"><b>Is the $12 stand a cost today?</b> Not all of it. The stand will be used for 3 years, so it is something Sunny <i>owns</i>. Each year a little of it "wears out", and only that part counts as a cost. We'll come back to this.</div>
+ </div>
+</section>
+
+<section class="blk reveal" id="d1" data-dash="23,3,8,End of day 1">
+ <div class="day">
+  <div class="dh"><span id="i1"></span><div><small>Day 1 · Sunny weather</small><h3>The first sale!</h3></div></div>
+  <ul class="story">
+   <li>Sunny buys lemons, sugar and cups for <b>15 glasses</b>. Each glass costs <b>$1</b> to make, so that's <b>$15</b>.</li>
+   <li>Sunny makes 12 glasses and keeps lemons for 3 more in the cooler.</li>
+   <li>Customers buy <b>10 glasses at $2</b> each.</li>
+   <li>By evening, 2 glasses in the jug are warm. Nobody wants warm lemonade, so they're <b>poured away</b>.</li>
+  </ul>
+  <div class="glasses" id="g1"></div>
+  <div class="gleg" id="gl1"></div>
+  <div class="two">
+   <div class="mini pl"><h4>Today's result</h4>
+    <div class="r"><span>Sales</span><span class="pos">+$20</span></div>
+    <div class="r"><span>Cost of 10 sold</span><span class="neg">−$10</span></div>
+    <div class="r"><span>Poured away</span><span class="neg">−$2</span></div>
+    <div class="r t"><span>Profit</span><span class="pos">$8</span></div></div>
+   <div class="mini cj"><h4>Cash jar</h4>
+    <div class="r"><span>Start</span><span>$18</span></div>
+    <div class="r"><span>Paid the shop</span><span class="neg">−$15</span></div>
+    <div class="r"><span>Customers paid</span><span class="pos">+$20</span></div>
+    <div class="r t"><span>End</span><span>$23</span></div></div>
+  </div>
+  <div class="note"><b>Wait, profit is $8 but the jar only grew by $5?</b> The missing $3 is sitting in the cooler as lemons. It isn't lost, just not used yet. Lemons waiting to be used are called <b>inventory</b>.</div>
+ </div>
+</section>
+
+<section class="blk reveal" id="d2" data-dash="37,0,21,End of day 2">
+ <div class="day">
+  <div class="dh"><span id="i2"></span><div><small>Day 2 · Very hot</small><h3>Everyone is thirsty</h3></div></div>
+  <ul class="story">
+   <li>Sunny uses the 3 glasses' worth of lemons from the cooler and buys lemons for <b>10 more</b> ($10).</li>
+   <li>All <b>13 glasses sell</b> at $2. Nothing is poured away.</li>
+   <li>Milo the cat forgot his money. "Can I pay next week?" Sunny says yes. Milo owes <b>$2</b>: that's an <b>IOU</b> ("I owe you").</li>
+  </ul>
+  <div class="glasses" id="g2"></div>
+  <div class="gleg" id="gl2"></div>
+  <div class="two">
+   <div class="mini pl"><h4>Today's result</h4>
+    <div class="r"><span>Sales</span><span class="pos">+$26</span></div>
+    <div class="r"><span>Cost of 13 sold</span><span class="neg">−$13</span></div>
+    <div class="r"><span>Poured away</span><span>$0</span></div>
+    <div class="r t"><span>Profit</span><span class="pos">$13</span></div></div>
+   <div class="mini cj"><h4>Cash jar</h4>
+    <div class="r"><span>Start</span><span>$23</span></div>
+    <div class="r"><span>Paid the shop</span><span class="neg">−$10</span></div>
+    <div class="r"><span>Customers paid</span><span class="pos">+$24</span></div>
+    <div class="r t"><span>End</span><span>$37</span></div></div>
+  </div>
+  <div class="note"><b>A sale counts on the day the lemonade is sold</b>, even if the money comes later. Milo's $2 is part of today's sales, but it's not in the jar yet. Money that others owe you is called <b>receivables</b>.</div>
+ </div>
+</section>
+
+<section class="blk reveal" id="d3" data-dash="37,0,19,End of day 3">
+ <div class="day">
+  <div class="dh"><span id="i3"></span><div><small>Day 3 · Rainy</small><h3>A bad day</h3></div></div>
+  <ul class="story">
+   <li>Sunny buys lemons for <b>8 glasses</b> ($8) and makes all 8.</li>
+   <li>It rains. Only <b>3 glasses sell</b> ($6).</li>
+   <li>Milo comes back and pays his <b>$2 IOU</b>. Good cat.</li>
+   <li>5 glasses are left at closing time and get poured away.</li>
+  </ul>
+  <div class="glasses" id="g3"></div>
+  <div class="gleg" id="gl3"></div>
+  <div class="two">
+   <div class="mini pl"><h4>Today's result</h4>
+    <div class="r"><span>Sales</span><span class="pos">+$6</span></div>
+    <div class="r"><span>Cost of 3 sold</span><span class="neg">−$3</span></div>
+    <div class="r"><span>Poured away</span><span class="neg">−$5</span></div>
+    <div class="r t"><span>Loss</span><span class="neg">−$2</span></div></div>
+   <div class="mini cj"><h4>Cash jar</h4>
+    <div class="r"><span>Start</span><span>$37</span></div>
+    <div class="r"><span>Paid the shop</span><span class="neg">−$8</span></div>
+    <div class="r"><span>Customers paid</span><span class="pos">+$6</span></div>
+    <div class="r"><span>Milo's IOU</span><span class="pos">+$2</span></div>
+    <div class="r t"><span>End</span><span>$37</span></div></div>
+  </div>
+  <div class="note"><b>A loss, but the jar didn't shrink!</b> Milo's $2 is cash coming in, but it is <i>not</i> a new sale. That sale was already counted on day 2.</div>
+ </div>
+</section>
+
+<section class="blk reveal" id="lesson">
+ <h2>The big lesson: profit is not cash</h2>
+ <table class="tbl" aria-label="Profit compared with change in cash, days 1 to 3">
+  <tr><th>Day</th><th class="n">Profit</th><th class="n">Change in the jar</th></tr>
+  <tr><td>1 · sunny</td><td class="n pos">$8</td><td class="n">+$5</td></tr>
+  <tr><td>2 · hot</td><td class="n pos">$13</td><td class="n">+$14</td></tr>
+  <tr><td>3 · rainy</td><td class="n neg">−$2</td><td class="n">$0</td></tr>
+ </table>
+ <p>They never match, because of three things:</p>
+ <div class="rule3">
+  <div><span class="e">🍋</span><b>Lemons waiting</b>Cash paid now, cost counted when used</div>
+  <div><span class="e">✍️</span><b>IOUs</b>Sale counted now, cash comes later</div>
+  <div><span class="e">🛠️</span><b>Things that last</b>Cash paid once, cost spread over years</div>
+ </div>
+ <div class="card tint"><b>Remember:</b> profit tells you whether the stand is a <b>good business</b>. Cash tells you whether it can <b>open again tomorrow</b>. Plenty of real businesses with profits have closed because they ran out of cash.</div>
+</section>
+
+<section class="blk reveal" id="year" data-dash="344,6,524,End of the year">
+ <h2>Fast forward: one whole year</h2>
+ <p class="lead">Sunny opened on weekends all year. Here is everything that happened, including the first three days.</p>
+ <table class="tbl" aria-label="The year at a glance">
+  <tr><td>🥤 Sold <b>900 glasses</b> at $2</td><td class="n pos">$1,800</td></tr>
+  <tr><td>🍋 Lemons, sugar and cups for those glasses ($1 each)</td><td class="n neg">−$900</td></tr>
+  <tr><td>🚰 Lemonade poured away over the year</td><td class="n neg">−$60</td></tr>
+  <tr><td>🐰 Paid Bea the bunny for helping</td><td class="n neg">−$300</td></tr>
+  <tr><td>🦉 Borrowed from Mr Owl, the banker, to buy a cooler</td><td class="n">$40</td></tr>
+  <tr><td>🧊 Bought the cooler (lasts 4 years)</td><td class="n">$40</td></tr>
+  <tr><td>🦉 Paid back part of the loan</td><td class="n">$10</td></tr>
+  <tr><td>🦉 Paid Mr Owl interest (his fee for lending)</td><td class="n neg">−$2</td></tr>
+  <tr><td>🏠 Sunny took some money home</td><td class="n">$200</td></tr>
+  <tr><td>✍️ Friends still owe Sunny (IOUs) on 31 Dec</td><td class="n">$8</td></tr>
+  <tr><td>🧾 Sunny still owes the shop for sugar on 31 Dec</td><td class="n">$12</td></tr>
+  <tr><td>🍋 Lemons left in the cooler on 31 Dec</td><td class="n">$6</td></tr>
+ </table>
+ <p>Messy, right? That's why every business sorts its year into <b>three reports</b>. Each one answers a different question.</p>
+ <div class="rule3">
+  <div><span class="e">🎬</span><b>Profit &amp; loss</b>The <b>movie</b>: did we make money this year?</div>
+  <div><span class="e">📸</span><b>Balance sheet</b>The <b>photo</b>: what do we own and owe today?</div>
+  <div><span class="e">📔</span><b>Cash flow</b>The jar's <b>diary</b>: where did every coin go?</div>
+ </div>
+ <svg class="divider" viewBox="0 0 120 26" aria-hidden="true"><path d="M4 22 L30 16 L46 19 L70 9 L86 12 L114 3" fill="none" stroke="#22794a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="114" cy="3" r="2.6" fill="#22794a"/></svg>
+</section>
+
+<section class="blk reveal" id="pl">
+ <h2>🎬 Report 1: Profit &amp; loss</h2>
+ <p class="lead">The movie of the year, from 1 January to 31 December. Grown-ups also call it the <b>income statement</b>.</p>
+ <table class="tbl" aria-label="Profit and loss for the year">
+  <tr><td>Sales<span class="gw">Revenue</span></td><td class="n">$1,800</td></tr>
+  <tr><td>Cost of the lemonade sold<span class="gw">Cost of goods sold</span></td><td class="n neg">−$900</td></tr>
+  <tr class="tot"><td>Money left after making it<span class="gw">Gross profit</span></td><td class="n">$900</td></tr>
+  <tr><td>Poured away<span class="gw">Write-off</span></td><td class="n neg">−$60</td></tr>
+  <tr><td>Bea's pay<span class="gw">Wages</span></td><td class="n neg">−$300</td></tr>
+  <tr><td>Stand and cooler wearing out<span class="gw">Depreciation: $12 stand ÷ 3 years = $4, $40 cooler ÷ 4 years = $10</span></td><td class="n neg">−$14</td></tr>
+  <tr><td>Mr Owl's fee<span class="gw">Interest</span></td><td class="n neg">−$2</td></tr>
+  <tr class="tot"><td>Profit for the year<span class="gw">Net profit (net income)</span></td><td class="n pos">$524</td></tr>
+ </table>
+ <p class="lead" style="font-size:.86rem">Real companies also pay tax on profit. We left it out to keep things simple.</p>
+</section>
+
+<section class="blk reveal" id="bs">
+ <h2>📸 Report 2: Balance sheet</h2>
+ <p class="lead">A photo taken on one day, 31 December. It always <b>balances</b>: everything Sunny owns was paid for either by others (what Sunny owes) or by Sunny (Sunny's share).</p>
+ <div id="saw"></div>
+ <table class="tbl" aria-label="Balance sheet on 31 December">
+  <tr class="sub"><td colspan="2">What Sunny owns <span style="text-transform:none;letter-spacing:0">(assets)</span></td></tr>
+  <tr><td>Stand and cooler<span class="gw">Equipment: $52 cost, minus $14 worn out</span></td><td class="n">$38</td></tr>
+  <tr><td>Lemons in the cooler<span class="gw">Inventory</span></td><td class="n">$6</td></tr>
+  <tr><td>Friends' IOUs<span class="gw">Receivables</span></td><td class="n">$8</td></tr>
+  <tr><td>Cash in the jar<span class="gw">Cash</span></td><td class="n">$344</td></tr>
+  <tr class="tot"><td>Total owned</td><td class="n">$396</td></tr>
+  <tr class="sub"><td colspan="2">What Sunny owes <span style="text-transform:none;letter-spacing:0">(liabilities)</span></td></tr>
+  <tr><td>Loan from Mr Owl<span class="gw">Borrowings: $40 − $10 paid back</span></td><td class="n">$30</td></tr>
+  <tr><td>Bill for sugar<span class="gw">Payables</span></td><td class="n">$12</td></tr>
+  <tr class="sub"><td colspan="2">Sunny's share <span style="text-transform:none;letter-spacing:0">(equity)</span></td></tr>
+  <tr><td>Money Sunny put in<span class="gw">Owner's capital</span></td><td class="n">$30</td></tr>
+  <tr><td>Profit kept in the business<span class="gw">Retained earnings: $524 profit − $200 taken home</span></td><td class="n">$324</td></tr>
+  <tr class="tot"><td>Total owed + Sunny's share</td><td class="n">$396</td></tr>
+ </table>
+</section>
+
+<section class="blk reveal" id="cf">
+ <h2>📔 Report 3: Cash flow</h2>
+ <p class="lead">The jar's diary: every coin that came in or went out, sorted into three piles.</p>
+ <table class="tbl" aria-label="Cash flow statement for the year">
+  <tr class="sub"><td colspan="2">1 · Running the stand <span style="text-transform:none;letter-spacing:0">(operating)</span></td></tr>
+  <tr><td>Profit for the year</td><td class="n">$524</td></tr>
+  <tr><td>Add back wearing out<span class="gw">It was a cost, but no coins left the jar for it</span></td><td class="n pos">+$14</td></tr>
+  <tr><td>IOUs went up<span class="gw">Sold, but the cash isn't in yet</span></td><td class="n neg">−$8</td></tr>
+  <tr><td>More lemons in the cooler<span class="gw">Paid for, not used yet</span></td><td class="n neg">−$6</td></tr>
+  <tr><td>Sugar bill not paid yet<span class="gw">Cost counted, cash still in the jar</span></td><td class="n pos">+$12</td></tr>
+  <tr class="tot"><td>Cash from running the stand</td><td class="n">$536</td></tr>
+  <tr class="sub"><td colspan="2">2 · Buying things that last <span style="text-transform:none;letter-spacing:0">(investing)</span></td></tr>
+  <tr><td>Stand</td><td class="n neg">−$12</td></tr>
+  <tr><td>Cooler</td><td class="n neg">−$40</td></tr>
+  <tr class="tot"><td>Cash used for things that last</td><td class="n">−$52</td></tr>
+  <tr class="sub"><td colspan="2">3 · Owners and lenders <span style="text-transform:none;letter-spacing:0">(financing)</span></td></tr>
+  <tr><td>Sunny put in savings</td><td class="n pos">+$30</td></tr>
+  <tr><td>Borrowed from Mr Owl</td><td class="n pos">+$40</td></tr>
+  <tr><td>Paid back Mr Owl</td><td class="n neg">−$10</td></tr>
+  <tr><td>Sunny took money home<span class="gw">Like a dividend</span></td><td class="n neg">−$200</td></tr>
+  <tr class="tot"><td>Cash from owners and lenders</td><td class="n">−$140</td></tr>
+  <tr><td><b>Change in the jar</b> ($536 − $52 − $140)</td><td class="n"><b>+$344</b></td></tr>
+  <tr><td>Jar on 1 January</td><td class="n">$0</td></tr>
+  <tr class="tot"><td>Jar on 31 December</td><td class="n" style="color:var(--blu)">$344</td></tr>
+ </table>
+</section>
+</div>
+
+<section class="reveal" id="links" aria-labelledby="linksH">
+ <div class="w">
+  <h2 id="linksH">How the three reports connect</h2>
+  <p class="lead">The same year, seen three ways. Follow the coloured arrows.</p>
+ </div>
+ <div class="w" style="flex:1;display:flex;flex-direction:column;justify-content:center">
+  <div id="dia" role="img" aria-label="Diagram: profit of 524 from the profit and loss starts the cash flow, profit kept of 324 sits in the balance sheet, and the cash flow ends with 344 in the jar, which is the cash in the balance sheet"></div>
+  <ul class="leg">
+   <li><i style="background:#22794a">1</i><span><b>Profit</b> is where the cash diary starts.</span></li>
+   <li><i style="background:#9a6a00">2</i><span>Profit Sunny <b>keeps</b> ($524 − $200 taken home) grows Sunny's share.</span></li>
+   <li><i style="background:#1d6fb8">3</i><span>Cash at the end of the diary is the <b>cash in the photo</b>.</span></li>
+  </ul>
+ </div>
+</section>
+
+<div class="w">
+<section class="blk reveal" id="play">
+ <h2>🎮 Run the stand yourself</h2>
+ <p class="lead">Pick the weather, a price and how many glasses to make. Each glass costs $1 to make. Unsold glasses are poured away.</p>
+ <div class="card sim">
+  <div class="row"><label class="h">Weather</label><div class="seg" id="sW">
+   <button type="button" data-v="hot" aria-pressed="false">🔥 Hot</button><button type="button" data-v="warm" aria-pressed="true">☀️ Warm</button><button type="button" data-v="rain" aria-pressed="false">🌧️ Rainy</button></div></div>
+  <div class="row"><label class="h">Price per glass</label><div class="seg" id="sP">
+   <button type="button" data-v="1" aria-pressed="false">$1</button><button type="button" data-v="2" aria-pressed="true">$2</button><button type="button" data-v="3" aria-pressed="false">$3</button><button type="button" data-v="4" aria-pressed="false">$4</button></div></div>
+  <div class="row"><label class="h" for="sM">Glasses to make: <span id="sMv">15</span></label><input type="range" id="sM" min="0" max="30" value="15"></div>
+  <div class="simout"><div>Customers wanting<b id="oD">16</b></div><div>Sold<b id="oS">15</b></div><div>Poured away<b id="oW">0</b></div>
+   <div>Sales<b id="oR">$30</b></div><div>Cost to make<b id="oC">$15</b></div><div>Cash after<b id="oJ">$30</b></div></div>
+  <div id="simProfit">Profit $15</div>
+  <div class="note" id="simMsg"></div>
+ </div>
+ <div class="card soft"><b>Challenge:</b> on a 🔥 hot day, can you make <b>more than $30 profit</b>? Hint: higher prices mean fewer customers, but each glass earns more.</div>
+</section>
+
+<section class="blk reveal" id="puzzles">
+ <h2>🧩 Puzzles</h2>
+ <p class="lead">Type your answer and press Check. Stuck? Tap "Show a hint".</p>
+ <div id="pzList"></div>
+ <div id="score" aria-live="polite"></div>
+</section>
+
+<section class="blk reveal" id="words">
+ <h2>📖 Grown-up words</h2>
+ <p class="lead">Same ideas, the names you'll see in real company reports.</p>
+ <table class="tbl gl">
+  <tr><th>In the story</th><th>Grown-up word</th></tr>
+  <tr><td>Sales</td><td>Revenue</td></tr>
+  <tr><td>Cost of the lemonade sold</td><td>Cost of goods sold</td></tr>
+  <tr><td>Poured away</td><td>Write-off</td></tr>
+  <tr><td>Lemons in the cooler</td><td>Inventory</td></tr>
+  <tr><td>IOUs friends owe you</td><td>Receivables</td></tr>
+  <tr><td>Bills you still have to pay</td><td>Payables</td></tr>
+  <tr><td>Stand wearing out</td><td>Depreciation</td></tr>
+  <tr><td>Things you own</td><td>Assets</td></tr>
+  <tr><td>Things you owe</td><td>Liabilities</td></tr>
+  <tr><td>Sunny's share</td><td>Equity</td></tr>
+  <tr><td>Profit kept in the business</td><td>Retained earnings</td></tr>
+  <tr><td>Money taken home by owners</td><td>Dividends</td></tr>
+  <tr><td>A minus number</td><td>Written in brackets: (2)</td></tr>
+ </table>
+ <div class="card tint"><b>Did you know?</b> The idea that every amount is written in two places, so the books always balance, is called <b>double-entry bookkeeping</b>. An Italian monk and teacher, Luca Pacioli, explained it in a famous maths book printed in Venice in 1494. Businesses still use it today.</div>
+ <div class="card soft">Great investors read these same three reports for every company they think about buying. See how they do it in the <a data-bg="#ffffff" href="https://alienspacex.com/" target="_top">Great Investors Library</a>.</div>
+</section>
+
+<section class="blk end" id="end">
+ <h2>You can now read a business 🍋</h2>
+ <p>Sales, profit, cash, and the three reports every company uses. Big companies use exactly the same ideas, just with bigger numbers.</p>
+ <div class="btns"><button class="btn pri" id="againBtn" type="button">↑ Start again</button><button class="btn" id="shareBtn" type="button">Share</button><a data-bg="#ffffff" class="btn" href="https://alienspacex.com/" target="_top">Investors library</a></div>
+ <div style="text-align:left">
+ <details class="panel"><summary>Sources and further reading</summary><ul style="font-size:.88rem">
+  <li>IFRS Foundation, IAS 1 <i>Presentation of Financial Statements</i> and IAS 7 <i>Statement of Cash Flows</i>: the international rules for these reports.</li>
+  <li>Luca Pacioli, <i>Summa de arithmetica, geometria, proportioni et proportionalita</i> (Venice, 1494), the first printed explanation of double-entry bookkeeping.</li>
+  <li>The lemonade stand, its characters and all numbers are made up for teaching.</li>
+ </ul></details>
+ <details class="panel"><summary>Disclaimer</summary><div class="disc">
+  <p>For education and general information only. This page uses a made-up, simplified example to explain basic ideas. Real accounting has more rules (for example tax, accruals, and different ways to present cash flows) and differs between countries.</p>
+  <p>It is not investment, financial, accounting, tax or legal advice and not a recommendation to buy, sell or hold anything. It may contain errors and is provided as is, with no warranty of accuracy or completeness. No liability is accepted for any loss arising from its use.</p>
+  <p>The characters and pictures are original drawings made with code. All names and trademarks mentioned belong to their owners.</p>
+  <p>An independent, non-commercial educational project. Not affiliated with, sponsored by or endorsed by any company or organisation.</p>
+ </div></details>
+ </div>
+</section>
+</div>
+<div class="foot">Part of a free learning library. No ads, no sign-up, no tracking scripts.</div>
+</main>
+
+<script>
+/*SECTJS*/(function(){var d=document.documentElement,R=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,T=false;try{T=window.top===window}catch(e){}
+addEventListener('pageshow',function(){d.classList.remove('pg-out');d.style.background=''});
+document.addEventListener('click',function(e){if(R||!T||e.defaultPrevented||e.button||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;var a=e.target.closest&&e.target.closest('a[data-bg]');if(!a)return;e.preventDefault();d.style.background=a.getAttribute('data-bg');d.classList.add('pg-out');setTimeout(function(){location.href=a.href},300)})})();/*/SECTJS*/
+(function(){
+"use strict";
+var $=function(id){return document.getElementById(id)};
+/* ---------- drawings ---------- */
+function dog(m){ // golden retriever head+chest, origin = centre of head
+ var mouth = m==="sad" ? '<path d="M-9 22 Q0 15 9 22" fill="none" stroke="#3a2614" stroke-width="2.6" stroke-linecap="round"/>'
+  : m==="wow" ? '<ellipse cx="0" cy="21" rx="6" ry="7" fill="#3a2614"/><ellipse cx="0" cy="24" rx="4" ry="3" fill="#ff8fa3"/>'
+  : '<path d="M-11 15 Q-5 22 0 16 Q5 22 11 15" fill="none" stroke="#3a2614" stroke-width="2.6" stroke-linecap="round"/><path d="M-5 19 Q0 31 5 19 Z" fill="#ff8fa3"/>';
+ var brow = m==="sad" ? '<path d="M-24 -18 L-12 -14 M24 -18 L12 -14" stroke="#9a6224" stroke-width="2.4" stroke-linecap="round"/>' : '';
+ return '<g>'+
+  '<ellipse cx="0" cy="70" rx="44" ry="34" fill="#efb35a"/><path d="M-16 44 Q0 82 16 44 Z" fill="#fbe6bd"/>'+
+  '<path d="M-24 44 L24 44 L0 70 Z" fill="#2a9d8f"/><circle cx="0" cy="48" r="3.2" fill="#ffd84d"/>'+
+  '<ellipse cx="-40" cy="2" rx="15" ry="29" transform="rotate(20 -40 2)" fill="#cf8a34"/>'+
+  '<ellipse cx="40" cy="2" rx="15" ry="29" transform="rotate(-20 40 2)" fill="#cf8a34"/>'+
+  '<ellipse cx="0" cy="0" rx="40" ry="38" fill="#f2bb63"/>'+
+  '<path d="M-8 -36 Q0 -46 8 -36" fill="#f2bb63"/>'+
+  '<ellipse cx="0" cy="14" rx="23" ry="17" fill="#fde7bf"/>'+
+  '<circle cx="-15" cy="-5" r="5.6" fill="#2b1d12"/><circle cx="15" cy="-5" r="5.6" fill="#2b1d12"/>'+
+  '<circle cx="-13.2" cy="-7" r="1.9" fill="#fff"/><circle cx="16.8" cy="-7" r="1.9" fill="#fff"/>'+brow+
+  '<ellipse cx="0" cy="6" rx="7.5" ry="5.6" fill="#2b1d12"/><ellipse cx="-2" cy="4.4" rx="2.2" ry="1.3" fill="#6b5545"/>'+
+  mouth+'<circle cx="-27" cy="10" r="5" fill="#ff9aa2" opacity=".35"/><circle cx="27" cy="10" r="5" fill="#ff9aa2" opacity=".35"/></g>';
+}
+function cat(){return '<g><path d="M-16 -12 L-12 -30 L-3 -17 Z M16 -12 L12 -30 L3 -17 Z" fill="#9aa4ae"/><path d="M-13 -15 L-12 -25 L-7 -18 Z M13 -15 L12 -25 L7 -18 Z" fill="#f5b8c4"/><circle r="19" fill="#aab3bd"/><ellipse cx="0" cy="34" rx="15" ry="14" fill="#aab3bd"/><circle cx="-7" cy="-2" r="3" fill="#2b2b2b"/><circle cx="7" cy="-2" r="3" fill="#2b2b2b"/><circle cx="-6" cy="-3" r="1" fill="#fff"/><circle cx="8" cy="-3" r="1" fill="#fff"/><path d="M-2.5 4 L2.5 4 L0 7 Z" fill="#f08aa0"/><path d="M0 7 Q-4 11 -7 9 M0 7 Q4 11 7 9" fill="none" stroke="#555" stroke-width="1.3"/><path d="M-10 5 L-22 2 M-10 8 L-22 9 M10 5 L22 2 M10 8 L22 9" stroke="#666" stroke-width="1"/></g>';}
+function bunny(){return '<g><ellipse cx="-7" cy="-27" rx="6" ry="17" fill="#f3efe9" stroke="#d6cfc4" stroke-width="1.5"/><ellipse cx="7" cy="-27" rx="6" ry="17" fill="#f3efe9" stroke="#d6cfc4" stroke-width="1.5"/><ellipse cx="-7" cy="-27" rx="2.6" ry="11" fill="#f7c3cf"/><ellipse cx="7" cy="-27" rx="2.6" ry="11" fill="#f7c3cf"/><circle r="17" fill="#f3efe9" stroke="#d6cfc4" stroke-width="1.5"/><ellipse cx="0" cy="32" rx="14" ry="14" fill="#f3efe9" stroke="#d6cfc4" stroke-width="1.5"/><circle cx="-6" cy="-2" r="2.8" fill="#2b2b2b"/><circle cx="6" cy="-2" r="2.8" fill="#2b2b2b"/><circle cx="-5" cy="-3" r=".9" fill="#fff"/><circle cx="7" cy="-3" r=".9" fill="#fff"/><ellipse cx="0" cy="4" rx="2.4" ry="1.8" fill="#f08aa0"/><path d="M0 6 L0 9 M-3 10 Q0 12 3 10" stroke="#777" stroke-width="1.2" fill="none"/><circle cx="-11" cy="5" r="3" fill="#ff9aa2" opacity=".35"/><circle cx="11" cy="5" r="3" fill="#ff9aa2" opacity=".35"/></g>';}
+function owl(){return '<g><path d="M-18 -16 L-14 -28 L-6 -19 Z M18 -16 L14 -28 L6 -19 Z" fill="#7a5a40"/><ellipse cx="0" cy="8" rx="22" ry="28" fill="#8b6a4e"/><ellipse cx="0" cy="16" rx="13" ry="16" fill="#e9d7bd"/><circle cx="-9" cy="-6" r="9" fill="#fff"/><circle cx="9" cy="-6" r="9" fill="#fff"/><circle cx="-9" cy="-6" r="4.2" fill="#2b2b2b"/><circle cx="9" cy="-6" r="4.2" fill="#2b2b2b"/><circle cx="-8" cy="-7.5" r="1.3" fill="#fff"/><circle cx="10" cy="-7.5" r="1.3" fill="#fff"/><circle cx="-9" cy="-6" r="9.5" fill="none" stroke="#3a3a3a" stroke-width="1.4"/><circle cx="9" cy="-6" r="9.5" fill="none" stroke="#3a3a3a" stroke-width="1.4"/><path d="M-0.5 -6 L0.5 -6" stroke="#3a3a3a" stroke-width="1.4"/><path d="M-3 2 L3 2 L0 7 Z" fill="#f2a43a"/><path d="M-6 30 L0 26 L6 30 L0 34 Z" fill="#1d6fb8"/></g>';}
+function lemon(x,y,s,r){return '<g transform="translate('+x+' '+y+') rotate('+(r||0)+') scale('+(s||1)+')"><ellipse rx="11" ry="8" fill="#ffd84d" stroke="#d9a400" stroke-width="1.6"/><path d="M10 -1 L14 -2 L10 2 Z" fill="#d9a400"/><ellipse cx="-3" cy="-3" rx="4" ry="1.6" fill="#fff4b8"/></g>';}
+function glassG(x,y,s){return '<g transform="translate('+x+' '+y+') scale('+(s||1)+')"><path d="M-9 -14 L9 -14 L7 12 L-7 12 Z" fill="#fff7c2" stroke="#9fb3c2" stroke-width="1.6"/><path d="M-8.2 -7 L8.2 -7 L7 12 L-7 12 Z" fill="#ffe36b"/><path d="M3 -22 L6 -13" stroke="#ff6b6b" stroke-width="2.4" stroke-linecap="round"/><circle cx="-4" cy="-10" r="3.4" fill="#ffd84d" stroke="#d9a400" stroke-width="1"/></g>';}
+function stand(m){
+ var stripes='';for(var i=0;i<8;i++){stripes+='<rect x="'+(28+i*33)+'" y="30" width="33" height="26" fill="'+(i%2?'#ffffff':'#ffd84d')+'"/>';}
+ var sc='';for(var j=0;j<8;j++){sc+='<circle cx="'+(44.5+j*33)+'" cy="56" r="16.5" fill="'+(j%2?'#ffffff':'#ffd84d')+'" stroke="#e0b100" stroke-width="1.4"/>';}
+ return '<svg class="art" viewBox="0 0 320 262" xmlns="http://www.w3.org/2000/svg">'+
+ '<line x1="10" y1="246" x2="310" y2="246" stroke="#ececec" stroke-width="3" stroke-linecap="round"/>'+
+ '<rect x="40" y="50" width="9" height="196" rx="3" fill="#c98b4f"/><rect x="271" y="50" width="9" height="196" rx="3" fill="#c98b4f"/>'+
+ '<g>'+sc+'</g><rect x="26" y="26" width="268" height="32" rx="6" fill="#ffd84d" stroke="#e0b100" stroke-width="1.4"/>'+stripes.replace(/y="30"/g,'y="29"')+
+ '<rect x="26" y="26" width="268" height="32" rx="6" fill="none" stroke="#e0b100" stroke-width="1.4"/>'+
+ 
+ '<g transform="translate(160 112)">'+dog(m||"happy")+'</g>'+
+ '<rect x="24" y="166" width="272" height="13" rx="5" fill="#d9a46a"/>'+
+ '<ellipse cx="128" cy="168" rx="11" ry="7" fill="#efb35a"/><ellipse cx="192" cy="168" rx="11" ry="7" fill="#efb35a"/>'+
+ '<rect x="34" y="179" width="252" height="66" rx="6" fill="#f6dcae" stroke="#c48f58" stroke-width="2"/>'+
+ '<text x="148" y="222" text-anchor="middle" font-family="ui-rounded,system-ui,sans-serif" font-weight="800" font-size="25" fill="#9a6a00" letter-spacing="1.5">LEMONADE</text>'+
+ '<circle cx="258" cy="212" r="18" fill="#ffd84d" stroke="#d9a400" stroke-width="2"/><text x="258" y="219" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="800" font-size="17" fill="#5a3d00">$2</text>'+
+ '<g transform="translate(64 140)"><path d="M-14 -24 L14 -24 L18 24 L-18 24 Z" fill="#fff7c2" stroke="#9fb3c2" stroke-width="2"/><path d="M-15.5 -6 L15.5 -6 L18 24 L-18 24 Z" fill="#ffe36b"/><path d="M14 -16 Q30 -14 26 6 Q24 14 16 12" fill="none" stroke="#9fb3c2" stroke-width="3"/>'+lemon(-4,8,.6,10)+'</g>'+
+ glassG(232,152,1)+glassG(256,152,1)+
+ lemon(96,158,.9,-12)+lemon(110,150,.9,14)+lemon(102,162,.9,4)+
+ '</svg>';
+}
+function icon(k){
+ if(k==="sun")return '<svg viewBox="0 0 48 48"><g stroke="#f4a100" stroke-width="3" stroke-linecap="round"><path d="M24 4v6M24 38v6M4 24h6M38 24h6M9.9 9.9l4.2 4.2M33.9 33.9l4.2 4.2M9.9 38.1l4.2-4.2M33.9 14.1l4.2-4.2"/></g><circle cx="24" cy="24" r="10" fill="#ffd84d" stroke="#f4a100" stroke-width="2"/></svg>';
+ if(k==="hot")return '<svg viewBox="0 0 48 48"><g stroke="#ef6c00" stroke-width="3" stroke-linecap="round"><path d="M24 3v6M24 39v6M3 24h6M39 24h6M8.5 8.5l4.3 4.3M35.2 35.2l4.3 4.3M8.5 39.5l4.3-4.3M35.2 12.8l4.3-4.3"/></g><circle cx="24" cy="24" r="11" fill="#ffb74d" stroke="#ef6c00" stroke-width="2"/><path d="M19 22c1-2 3-2 4 0M26 22c1-2 3-2 4 0M19 28q5 4 10 0" stroke="#7a3500" stroke-width="2" fill="none" stroke-linecap="round"/></svg>';
+ if(k==="rain")return '<svg viewBox="0 0 48 48"><path d="M13 30h22a8 8 0 0 0 0-16 11 11 0 0 0-21-2 8 8 0 0 0-1 18z" fill="#cfd8e3" stroke="#90a0b3" stroke-width="2"/><g stroke="#1d6fb8" stroke-width="3" stroke-linecap="round"><path d="M16 35l-2 6M25 35l-2 6M34 35l-2 6"/></g></svg>';
+ return '<svg viewBox="0 0 48 48"><rect x="6" y="20" width="36" height="22" rx="3" fill="#f6dcae" stroke="#c48f58" stroke-width="2"/><path d="M4 20l6-12h28l6 12z" fill="#ffd84d" stroke="#e0b100" stroke-width="2"/></svg>';
+}
+function gl(st){ // small glass for counting grids
+ if(st==="sold") return '<svg viewBox="0 0 20 26"><path d="M2 3h16l-2 21H4z" fill="#ffe36b" stroke="#c9a300" stroke-width="1.4"/><path d="M13 0l2 4" stroke="#ff6b6b" stroke-width="1.8" stroke-linecap="round"/></svg>';
+ if(st==="iou") return '<svg viewBox="0 0 20 26"><path d="M2 3h16l-2 21H4z" fill="#ffe36b" stroke="#1d6fb8" stroke-width="2"/><text x="10" y="18" text-anchor="middle" font-size="8" font-weight="800" font-family="system-ui" fill="#1d6fb8">IOU</text></svg>';
+ if(st==="pour") return '<svg viewBox="0 0 20 26"><path d="M2 3h16l-2 21H4z" fill="#f1f1f1" stroke="#b5b5b5" stroke-width="1.4"/><path d="M5 9l10 10M15 9L5 19" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/></svg>';
+ return '<svg viewBox="0 0 20 26"><ellipse cx="10" cy="15" rx="8" ry="6" fill="#ffd84d" stroke="#d9a400" stroke-width="1.4"/><ellipse cx="7" cy="12.5" rx="3" ry="1.2" fill="#fff4b8"/></svg>';
+}
+function grid(id,arr){var h='',L={sold:"Sold",iou:"Sold on IOU",pour:"Poured away",cool:"Kept in cooler"},seen={};
+ arr.forEach(function(p){for(var i=0;i<p[1];i++)h+=gl(p[0]);seen[p[0]]=(seen[p[0]]||0)+p[1];});
+ $(id).innerHTML=h;$(id).setAttribute("role","img");$(id).setAttribute("aria-label",arr.map(function(p){return p[1]+" "+L[p[0]].toLowerCase()}).join(", "));
+ $("gl"+id.slice(1)).innerHTML=Object.keys(seen).map(function(k){return '<span>'+gl(k)+L[k]+' ×'+seen[k]+'</span>'}).join("");}
+
+$("heroArt").innerHTML=stand("happy");
+function mini(svgInner,vb){return '<svg viewBox="'+(vb||"-30 -40 60 80")+'">'+svgInner+'</svg>';}
+$("cast").innerHTML=[
+ ['<svg viewBox="-50 -48 100 124">'+dog("happy")+'</svg>',"Sunny","owner of the stand"],
+ [mini(cat()),"Milo","a customer"],
+ [mini(bunny()),"Bea","customer, later helper"],
+ [mini(owl()),"Mr Owl","the banker"]
+].map(function(c){return '<figure>'+c[0]+'<b>'+c[1]+'</b>'+c[2]+'</figure>'}).join("");
+$("i0").innerHTML=icon("stand");$("i1").innerHTML=icon("sun");$("i2").innerHTML=icon("hot");$("i3").innerHTML=icon("rain");
+grid("g1",[["sold",10],["pour",2],["cool",3]]);
+grid("g2",[["sold",12],["iou",1]]);
+grid("g3",[["sold",3],["pour",5]]);
+
+/* seesaw: balance sheet */
+$("saw").innerHTML='<svg class="saw" viewBox="0 0 360 170" role="img" aria-label="A level seesaw: what Sunny owns, 396 dollars, balances what Sunny owes plus Sunny\'s share, 396 dollars">'+
+ '<path d="M180 118 L156 160 L204 160 Z" fill="#d9a46a"/><rect x="20" y="108" width="320" height="10" rx="5" fill="#9a6a00"/>'+
+ '<rect x="26" y="34" width="132" height="74" rx="12" fill="#fffbe6" stroke="#e0b100" stroke-width="2"/>'+
+ '<text x="92" y="58" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="700" fill="#5f6368">Owns</text>'+
+ '<text x="92" y="88" text-anchor="middle" font-family="system-ui" font-size="26" font-weight="800" fill="#1f2328">$396</text>'+
+ '<rect x="202" y="34" width="132" height="74" rx="12" fill="#eef5fc" stroke="#1d6fb8" stroke-width="2"/>'+
+ '<text x="268" y="56" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="700" fill="#5f6368">Owes $42</text>'+
+ '<text x="268" y="72" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="700" fill="#5f6368">+ Share $354</text>'+
+ '<text x="268" y="98" text-anchor="middle" font-family="system-ui" font-size="22" font-weight="800" fill="#1f2328">$396</text>'+
+ '<text x="180" y="22" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="800" fill="#22794a">✓ Always level</text></svg>';
+
+/* one-screen link diagram */
+(function(){
+ var C={pl:"#22794a",bs:"#9a6a00",cf:"#1d6fb8"},F='font-family="system-ui,-apple-system,sans-serif"';
+ function t(x,y,s,o){o=o||{};return '<text x="'+x+'" y="'+y+'" '+F+' font-size="'+(o.fs||10.5)+'" font-weight="'+(o.fw||500)+'" fill="'+(o.c||"#1f2328")+'" text-anchor="'+(o.a||"start")+'">'+s+'</text>';}
+ function row(x,y,w,l,v,o){o=o||{};return t(x+5,y,l,o)+t(x+w-5,y,v,{a:"end",fw:o.vw||700,c:o.vc,fs:o.fs});}
+ function box(x,y,w,h,c,fill){return '<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="8" fill="'+(fill||"#fff")+'" stroke="'+c+'" stroke-width="2"/>';}
+ function head(x,w,e,a,b,c){return '<rect x="'+x+'" y="22" width="'+w+'" height="42" rx="10" fill="'+c+'"/>'+t(x+w/2,40,e+" "+a,{a:"middle",fw:800,c:"#fff",fs:11.5})+t(x+w/2,55,b,{a:"middle",c:"#fff",fs:9.5});}
+ var W=104,A=2,B=128,Cx=254,PY=150,JY=352;
+ var s='<svg class="dia" viewBox="0 0 360 400" xmlns="http://www.w3.org/2000/svg"><defs>'+
+  ['g','y','b'].map(function(k,i){var c=[C.pl,C.bs,C.cf][i];return '<marker id="m'+k+'" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="'+c+'"/></marker>'}).join("")+'</defs>';
+ // columns background
+ [A,B,Cx].forEach(function(x){s+='<rect x="'+x+'" y="22" width="'+W+'" height="370" rx="12" fill="#fafafa"/>';});
+ s+=head(A,W,"🎬","Profit & loss","the movie",C.pl)+head(B,W,"📔","Cash flow","the jar's diary",C.cf)+head(Cx,W,"📸","Balance sheet","the photo",C.bs);
+ // P&L
+ s+=row(A,90,W,"Sales","1,800")+row(A,116,W,"Costs","−1,276",{vc:C.pl==="x"?"":"#c0392b"});
+ s+=box(A+3,PY-16,W-6,28,C.pl,"#e9f7ef")+row(A,PY+3,W,"Profit","524",{fw:800,vc:C.pl,fs:11.5});
+ s+=t(A+6,192,"Costs were:",{fs:9.5,c:"#5f6368",fw:700});
+ [["Lemonade","900"],["Poured away","60"],["Bea's pay","300"],["Wearing out","14"],["Interest","2"]].forEach(function(r,i){s+=row(A,208+i*15,W,r[0],r[1],{fs:9.5,vw:600,c:"#5f6368"});});
+ // Cash flow
+ s+=t(B+6,90,"1 · Running the stand",{fs:9.5,c:"#5f6368",fw:700});
+ s+=t(B+6,116,"starts with…",{fs:9.5,c:"#5f6368"});
+ s+=box(B+3,PY-16,W-6,28,C.pl,"#e9f7ef")+row(B,PY+3,W,"Profit","524",{fw:800,vc:C.pl,fs:11.5});
+ s+=row(B,180,W,"Adjustments","+12",{fs:10})+row(B,198,W,"= Running","536",{fs:10,fw:700});
+ s+=t(B+6,226,"2 · Things that last",{fs:9.5,c:"#5f6368",fw:700})+row(B,242,W,"Stand, cooler","−52",{fs:10});
+ s+=t(B+6,270,"3 · Owners, lenders",{fs:9.5,c:"#5f6368",fw:700})+row(B,286,W,"In − out","−140",{fs:10});
+ s+=row(B,316,W,"Change","+344",{fs:10,fw:700});
+ s+=box(B+3,JY-16,W-6,28,C.cf,"#eef5fc")+row(B,JY+3,W,"Jar 31 Dec","344",{fw:800,vc:C.cf,fs:11});
+ // Balance sheet
+ s+=t(Cx+6,90,"Owes",{fs:9.5,c:"#5f6368",fw:700})+row(Cx,106,W,"Loan + bill","42",{fs:10});
+ s+=t(Cx+6,124,"Sunny's share",{fs:9.5,c:"#5f6368",fw:700})+row(Cx,138,W,"Put in","30",{fs:10});
+ s+=box(Cx+3,PY-6,W-6,26,C.bs,"#fffbe6")+row(Cx,PY+11,W,"Profit kept","324",{fw:800,vc:C.bs,fs:10.5});
+ s+=row(Cx,196,W,"Total","396",{fs:10,fw:800});
+ s+='<line x1="'+(Cx+6)+'" y1="208" x2="'+(Cx+W-6)+'" y2="208" stroke="#ddd"/>';
+ s+=t(Cx+6,228,"Owns",{fs:9.5,c:"#5f6368",fw:700});
+ s+=row(Cx,246,W,"Stand, cooler","38",{fs:10})+row(Cx,264,W,"Lemons","6",{fs:10})+row(Cx,282,W,"IOUs","8",{fs:10});
+ s+=box(Cx+3,JY-16,W-6,28,C.cf,"#eef5fc")+row(Cx,JY+3,W,"Cash","344",{fw:800,vc:C.cf,fs:11});
+ s+=row(Cx,384,W,"Total","396 ✓",{fs:10,fw:800,vc:C.pl});
+ // arrows
+ function badge(x,y,n,c){return '<circle cx="'+x+'" cy="'+y+'" r="8" fill="'+c+'"/>'+t(x,y+3.6,n,{a:"middle",fw:800,c:"#fff",fs:10})}
+ s+='<path d="M'+(A+W-3)+' '+PY+' L'+(B+3)+' '+PY+'" stroke="'+C.pl+'" stroke-width="2.6" fill="none" marker-end="url(#mg)"/>'+badge((A+W+B)/2,PY+13,"1",C.pl);
+ var g1=(A+W+B)/2,g2=(B+W+Cx)/2;s+='<path d="M'+g1+' '+PY+' L'+g1+' 24 Q'+g1+' 12 '+(g1+12)+' 12 L'+(g2-12)+' 12 Q'+g2+' 12 '+g2+' 24 L'+g2+' '+(PY+7)+' L'+(Cx+3)+' '+(PY+7)+'" stroke="'+C.bs+'" stroke-width="2.6" fill="none" stroke-linejoin="round" marker-end="url(#my)"/>'+badge(180,12,"2",C.bs);
+ s+='<path d="M'+(B+W-3)+' '+JY+' L'+(Cx+3)+' '+JY+'" stroke="'+C.cf+'" stroke-width="2.6" fill="none" marker-end="url(#mb)"/>'+badge((B+W+Cx)/2,JY-12,"3",C.cf);
+ s+='</svg>';
+ $("dia").innerHTML=s;
+})();
+
+/* ---------- dashboard ---------- */
+var marks=[].slice.call(document.querySelectorAll("[data-dash]")),dash=$("dash"),cur={c:0,i:0,p:0},shown="";
+function money(n){return (n<0?"−$":"$")+Math.abs(n).toLocaleString("en-US")}
+function tween(el,from,to,cls){var t0=performance.now(),d=450;if(from===to){el.textContent=money(to);return}
+ (function f(t){var k=Math.min(1,(t-t0)/d),e=1-Math.pow(1-k,3),v=Math.round(from+(to-from)*e);el.textContent=money(v);if(cls)el.classList.toggle("l",v<0);if(k<1)requestAnimationFrame(f)})(t0);}
+function onScroll(){var y=innerHeight*0.42,last=null;
+ for(var i=0;i<marks.length;i++){if(marks[i].getBoundingClientRect().top<y)last=marks[i];}
+ var heroB=$("meet").getBoundingClientRect().top<innerHeight*0.5,linksR=$("links").getBoundingClientRect(),inLinks=linksR.top<100&&linksR.bottom>innerHeight*0.6;
+ dash.classList.toggle("on",!!last&&heroB&&!inLinks);
+ if(!last||last.getAttribute("data-dash")===shown)return;shown=last.getAttribute("data-dash");
+ var p=shown.split(","),n={c:+p[0],i:+p[1],p:+p[2]};
+ tween($("dCash"),cur.c,n.c);tween($("dInv"),cur.i,n.i);tween($("dProf"),cur.p,n.p,true);$("dLab").textContent=p[3];cur=n;}
+addEventListener("scroll",onScroll,{passive:true});addEventListener("resize",onScroll);onScroll();
+
+/* reveal */
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("seen");io.unobserve(e.target)}})},{rootMargin:"0px 0px -8% 0px"});
+ [].forEach.call(document.querySelectorAll(".reveal"),function(el){io.observe(el)});}else{[].forEach.call(document.querySelectorAll(".reveal"),function(el){el.classList.add("seen")})}
+
+/* ---------- simulator ---------- */
+var S={w:"warm",p:2,m:15},BASE={hot:26,warm:16,rain:6},MULT={1:1.4,2:1,3:0.65,4:0.35};
+function seg(id,key,num){var b=[].slice.call($(id).querySelectorAll("button"));b.forEach(function(x){x.addEventListener("click",function(){b.forEach(function(y){y.setAttribute("aria-pressed","false")});x.setAttribute("aria-pressed","true");S[key]=num?+x.dataset.v:x.dataset.v;sim()})})}
+seg("sW","w");seg("sP","p",true);
+$("sM").addEventListener("input",function(){S.m=+this.value;sim()});
+function sim(){var d=Math.round(BASE[S.w]*MULT[S.p]),sold=Math.min(d,S.m),waste=S.m-sold,rev=sold*S.p,cost=S.m,pr=rev-cost;
+ $("sMv").textContent=S.m;$("oD").textContent=d;$("oS").textContent=sold;$("oW").textContent=waste;$("oR").textContent=money(rev);$("oC").textContent=money(cost);$("oJ").textContent=money(rev);
+ var e=$("simProfit");e.textContent=(pr<0?"Loss ":"Profit ")+money(Math.abs(pr)).replace("−","");e.style.color=pr<0?"var(--red)":pr>0?"var(--grn)":"var(--ink)";
+ var msg;
+ if(S.m===0)msg="No lemonade, no sales. A stand needs something to sell!";
+ else if(d>S.m)msg="🏃 You ran out! <b>"+(d-S.m)+" thirsty customer"+(d-S.m>1?"s":"")+"</b> went home. Making more glasses could earn more.";
+ else if(waste>0)msg="🚰 You made too many: <b>"+waste+" glasses poured away</b>, costing you $"+waste+".";
+ else msg="🎯 Perfect: you made exactly what customers wanted.";
+ if(S.w==="hot"&&pr>30)msg+=" <b>Challenge beaten! 🏆</b>";
+ $("simMsg").innerHTML=msg;}
+sim();
+
+/* ---------- puzzles ---------- */
+var PZ=[
+ {q:"Bea buys <b>4 glasses</b> at <b>$2</b> each. What are Sunny's sales?",a:[8],l:["Sales $"],h:"Sales = number of glasses × price.",x:"4 × $2 = <b>$8</b> of sales."},
+ {q:"Sunny makes <b>20 glasses</b> (each costs $1 to make), sells <b>16 at $2</b> and pours away the other 4. What is the profit?",a:[12],l:["Profit $"],h:"Profit = sales − cost of glasses sold − poured away.",x:"Sales $32 − cost of 16 sold $16 − poured away $4 = <b>$12</b>. (Or: $32 earned − $20 spent making them.)"},
+ {q:"Milo buys <b>3 glasses at $2</b> and says \"I'll pay next week.\" Today, how much goes into <b>sales</b>, and how much <b>cash</b> goes into the jar?",a:[6,0],l:["Sales $","Cash $"],h:"A sale counts when the lemonade is sold. Cash counts when the coins arrive.",x:"Sales <b>$6</b> today, cash <b>$0</b>. Milo's $6 is an IOU (a receivable) until he pays."},
+ {q:"A new stand costs <b>$30</b> and lasts <b>3 years</b>. How much 'wearing out' (depreciation) is counted as a cost each year?",a:[10],l:["Each year $"],h:"Spread the cost evenly over the years it lasts.",x:"$30 ÷ 3 years = <b>$10</b> a year."},
+ {q:"Sunny owns: cash <b>$50</b>, lemons <b>$10</b>, stand <b>$20</b>. Sunny owes Mr Owl <b>$30</b>. What is <b>Sunny's share</b> (equity)?",a:[50],l:["Share $"],h:"Owns = owes + share, so share = owns − owes.",x:"Owns $80 − owes $30 = <b>$50</b>."},
+ {q:"Profit for the year was <b>$100</b>. Wearing out was <b>$10</b> (no coins left the jar for it). IOUs went <b>up by $15</b>. How much cash did running the stand bring in?",a:[95],l:["Cash $"],h:"Start with profit. Add back wearing out. Take away the IOU increase (sold but not paid yet).",x:"$100 + $10 − $15 = <b>$95</b>."},
+ {q:"True or false: a stand can make a <b>profit</b> and still <b>run out of cash</b>.",tf:true,x:"<b>True.</b> If lots of customers buy on IOUs, or Sunny buys too many lemons or a costly cooler, the jar can empty even while the stand is profitable."}
+];
+var solved={};
+function num(v){v=String(v).replace(/[$,\s]/g,"").replace("−","-");return v===""?NaN:+v}
+$("pzList").innerHTML=PZ.map(function(p,i){
+ var inputs=p.tf?'<button class="btn" type="button" data-tf="1">True</button><button class="btn" type="button" data-tf="0">False</button>'
+  :p.l.map(function(l,j){return '<label><span class="fl">'+l.replace(" $","")+' ($)</span><input inputmode="decimal" autocomplete="off" aria-label="'+l+'" data-j="'+j+'"></label>'}).join("")+'<button class="btn pri" type="button" data-ck="1" style="align-self:flex-end">Check</button>';
+ return '<div class="pz" data-i="'+i+'"><p class="q"><b>Puzzle '+(i+1)+'.</b> '+p.q+'</p><div class="in">'+inputs+'</div>'+(p.tf?'':'<button class="lnk" type="button" data-h="1">Show a hint</button>')+'<div class="fb" aria-live="polite"></div></div>';
+}).join("");
+function score(){var n=Object.keys(solved).length;$("score").textContent=n?("Solved "+n+" of "+PZ.length+(n===PZ.length?" · Brilliant! 🍋🏆":"")):"";}
+$("pzList").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;var box=b.closest(".pz"),i=+box.dataset.i,p=PZ[i],fb=box.querySelector(".fb");
+ if(b.dataset.h){fb.className="fb no";fb.innerHTML="💡 "+p.h;return}
+ var ok;
+ if(p.tf){ok=(b.dataset.tf==="1")===p.tf;}
+ else{var ins=box.querySelectorAll("input");ok=true;[].forEach.call(ins,function(inp,j){if(num(inp.value)!==p.a[j])ok=false;});
+  if([].some.call(ins,function(inp){return inp.value.trim()===""})){fb.className="fb no";fb.innerHTML="Type a number first.";return}}
+ if(ok){fb.className="fb ok";fb.innerHTML="✅ Correct! "+p.x;solved[i]=1;score();}
+ else{var tries=(+box.dataset.t||0)+1;box.dataset.t=tries;fb.className="fb no";fb.innerHTML=tries>=2?("Not quite. Here's how: "+p.x):("Not quite, try again."+(p.h?" 💡 "+p.h:""));}
+});
+$("pzList").addEventListener("keydown",function(e){if(e.key==="Enter"&&e.target.tagName==="INPUT"){var b=e.target.closest(".pz").querySelector("[data-ck]");if(b)b.click();}});
+
+/* end buttons */
+$("againBtn").addEventListener("click",function(){scrollTo({top:0,behavior:"smooth"})});
+$("shareBtn").addEventListener("click",function(){var u="https://alienspacex.com/economics/",d={title:"The Lemonade Stand",text:"Money, profit, cash and the three reports, explained with one lemonade stand.",url:u};
+ if(navigator.share){navigator.share(d).catch(function(){})}else if(navigator.clipboard){navigator.clipboard.writeText(u).then(function(){$("shareBtn").textContent="Link copied ✓"})}});
+})();
+</script>
+</body>
+</html>

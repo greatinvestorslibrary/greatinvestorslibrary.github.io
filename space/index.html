@@ -134,19 +134,24 @@ details p{font-size:15.5px;color:#e2e7f0;margin:0 0 8px!important}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (min-width:700px){#tv{font-size:32px}.ev{padding:26px 26px 16px}.ev h3{font-size:26px}}
 @media (prefers-reduced-motion:reduce){.js .ev{transition:none}.cue{animation:none}#hud{transition:none}}
-.sect{--inv:#2e6b4f;--spa:#4f46c8;--evo:#c4622d;display:flex;justify-content:center;gap:4px;width:max-content;max-width:100%;margin:-4vh auto 30px;padding:4px;border-radius:999px;background:var(--sect-track,#f1f2f4);border:1px solid var(--sect-edge,#e3e5e8)}
-.sect>*{position:relative;display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 14px;border-radius:999px;font:650 .88rem/1 system-ui,-apple-system,sans-serif;text-decoration:none;color:var(--c);background:transparent;border:0;white-space:nowrap}
-.sect>*::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c)}
-.sect .s-inv{--c:var(--sect-inv,var(--inv))}.sect .s-spa{--c:var(--sect-spa,var(--spa))}.sect .s-evo{--c:var(--sect-evo,var(--evo))}
+/*SECT*/.sect{--inv:#2e6b4f;--spa:#4f46c8;--evo:#c4622d;--eco:#9a6a00;display:flex;justify-content:center;gap:2px;width:max-content;max-width:100%;margin:-4vh auto 30px;padding:4px;border-radius:999px;background:var(--sect-track,#f1f2f4);border:1px solid var(--sect-edge,#e3e5e8)}
+.sect>*{position:relative;display:inline-flex;align-items:center;gap:5px;min-height:38px;padding:0 11px;border-radius:999px;font:650 .86rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;color:var(--c);background:transparent;border:0;white-space:nowrap}
+.sect>*::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--c)}
+.sect .s-inv{--c:var(--sect-inv,var(--inv))}.sect .s-spa{--c:var(--sect-spa,var(--spa))}.sect .s-evo{--c:var(--sect-evo,var(--evo))}.sect .s-eco{--c:var(--sect-eco,var(--eco))}
 .sect .on{background:var(--a);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.14)}
 .sect .on::before{background:#fff}
 .sect .on::after{content:"";position:absolute;left:50%;bottom:-11px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--a);border-bottom:0}
-.sect .s-inv.on{--a:var(--inv)}.sect .s-spa.on{--a:var(--spa)}.sect .s-evo.on{--a:var(--evo)}
+.sect .s-inv.on{--a:var(--inv)}.sect .s-spa.on{--a:var(--spa)}.sect .s-evo.on{--a:var(--evo)}.sect .s-eco.on{--a:var(--eco)}
 .sect a:active{transform:scale(.97)}
-.sect i{font-style:normal;font-size:.66rem;font-weight:800;background:#ffcf8a;color:#5a2a06;border-radius:10px;padding:2px 6px}
+.sect i{font-style:normal;font-size:.64rem;font-weight:800;background:#ffcf8a;color:#5a2a06;border-radius:10px;padding:2px 6px}
 .sect .on i{background:#fff;color:var(--a)}
-@media (max-width:360px){.sect>*{padding:0 10px;font-size:.82rem}}
-.hero .sect{position:absolute;top:calc(14px + env(safe-area-inset-top));left:50%;transform:translateX(-50%);margin:0;--sect-track:rgba(255,255,255,.08);--sect-edge:rgba(255,255,255,.16);--sect-inv:#9ad8b8;--sect-spa:#b9b4ff;--sect-evo:#ffb98a;z-index:3}
+@media (max-width:440px){.sect>*{padding:0 9px;font-size:.8rem;gap:0}.sect>*::before{display:none}.sect i{font-size:0;width:7px;height:7px;padding:0;border-radius:50%;background:#ff9f2e;margin:-12px 0 0 3px}.sect .on i{background:#fff}}
+@media (max-width:350px){.sect{gap:0;padding:3px}.sect>*{padding:0 6px;font-size:.74rem}}
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.45s}
+@media (prefers-reduced-motion:no-preference){body{animation:pgIn .5s ease-out backwards}html.pg-out body{opacity:0;transition:opacity .3s ease-in}}
+@keyframes pgIn{from{opacity:0}}/*/SECT*/
+.hero .sect{position:absolute;top:calc(14px + env(safe-area-inset-top));left:50%;transform:translateX(-50%);margin:0;--sect-track:rgba(255,255,255,.08);--sect-edge:rgba(255,255,255,.16);--sect-inv:#9ad8b8;--sect-spa:#b9b4ff;--sect-evo:#ffb98a;--sect-eco:#ffd27a;z-index:3}
 </style>
 </head>
 <body>
@@ -162,7 +167,7 @@ details p{font-size:15.5px;color:#e2e7f0;margin:0 0 8px!important}
 </header>
 <main id="story">
  <section class="hero" id="top">
-  <nav class="sect" aria-label="Library sections"><a class="s-inv" href="https://alienspacex.com/" target="_top" aria-label="Investors: learn from the great investors">Investors</a><span class="s-spa on" aria-current="page">Space</span><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" aria-label="Evolution: from the first cell to you (new)">Evolution <i>New</i></a></nav>
+  <nav class="sect" aria-label="Library sections"><a class="s-inv" href="https://alienspacex.com/" target="_top" data-bg="#ffffff" aria-label="Investors: learn from the great investors">Investors</a><span class="s-spa on" aria-current="page">Space</span><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" data-bg="#05060c" aria-label="Evolution: from the first cell to you">Evolution</a><a class="s-eco" href="https://alienspacex.com/economics/" target="_top" data-bg="#ffffff" aria-label="Economics: the lemonade stand (new)">Economics <i>New</i></a></nav>
   <div class="kick">A journey through time</div>
   <h1>From the Big Bang<br><span>to You</span></h1>
   <p>13.8 billion years in one scroll. Swipe down and watch the universe build itself: stars, planets, oceans, dinosaurs, and finally us.</p>
@@ -174,7 +179,7 @@ details p{font-size:15.5px;color:#e2e7f0;margin:0 0 8px!important}
  <section class="end" id="end">
   <h2>That was 13.8 billion years.</h2>
   <p>Squeeze it all into one calendar year and every human who ever lived fits into the last 12 minutes of 31 December. All of written history fits into the last 12 seconds.</p>
-  <div class="btns"><button class="btn pri" id="againBtn" type="button">↑ Start again</button><button class="btn" id="shareBtn" type="button">Share</button><a class="btn" href="https://alienspacex.com/evolution/" target="_top">Next: From the First Cell to You</a><a class="btn" href="https://alienspacex.com/" target="_top">Library home</a></div>
+  <div class="btns"><button class="btn pri" id="againBtn" type="button">↑ Start again</button><button class="btn" id="shareBtn" type="button">Share</button><a data-bg="#05060c" class="btn" href="https://alienspacex.com/evolution/" target="_top">Next: From the First Cell to You</a><a data-bg="#ffffff" class="btn" href="https://alienspacex.com/" target="_top">Library home</a></div>
   <details class="panel" id="srcs"><summary>Sources and further reading</summary><ol id="srcList"></ol></details>
   <details class="panel"><summary>Disclaimer</summary><div class="disc">
    <p>For education and general interest only. This page simplifies a large and changing body of science. Dates are rounded, many are estimates, and some are still argued over; each card is graded to show how sure scientists are.</p>
@@ -193,12 +198,15 @@ details p{font-size:15.5px;color:#e2e7f0;margin:0 0 8px!important}
   <h2 id="shT">Jump to an era <button class="hb" id="shX" type="button" aria-label="Close">✕</button></h2>
   <ul class="erl" id="erl"></ul>
   <div class="row"><button class="btn" id="shPlay" type="button">▶ Play from here</button><button class="btn" id="shTop" type="button">↑ Back to the Big Bang</button><button class="btn" id="shMotion" type="button">Animation: on</button></div>
-  <div class="row"><a class="btn" href="https://alienspacex.com/" target="_top">‹ Library home</a></div>
+  <div class="row"><a data-bg="#ffffff" class="btn" href="https://alienspacex.com/" target="_top">‹ Library home</a></div>
  </div>
 </div>
 <div id="toast" role="status" aria-live="polite"></div>
 <noscript><p style="position:relative;z-index:9;padding:20px;max-width:560px;margin:0 auto">This journey needs JavaScript to draw the pictures and build the timeline. Please turn it on and reload.</p></noscript>
 <script>
+/*SECTJS*/(function(){var d=document.documentElement,R=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,T=false;try{T=window.top===window}catch(e){}
+addEventListener('pageshow',function(){d.classList.remove('pg-out');d.style.background=''});
+document.addEventListener('click',function(e){if(R||!T||e.defaultPrevented||e.button||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;var a=e.target.closest&&e.target.closest('a[data-bg]');if(!a)return;e.preventDefault();d.style.background=a.getAttribute('data-bg');d.classList.add('pg-out');setTimeout(function(){location.href=a.href},300)})})();/*/SECTJS*/
 /* ===== The story: chapters and events =====
    t  = years ago (for anything after the first billion years)
    s  = seconds after the Big Bang (for the very first moments)
