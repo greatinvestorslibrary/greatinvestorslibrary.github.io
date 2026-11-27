@@ -2749,8 +2749,9 @@ const SITE_DISC=[
 
 /* ---------- privacy and terms ---------- */
 const PRIVACY=[
- ["The short version","This site does not ask for your name or email, has no accounts, sets no tracking cookies, shows no ads and runs no analytics or tracking scripts. It does not sell or share any information about you."],
+ ["The short version","This site does not ask for your name or email, has no accounts, sets no cookies and shows no ads. To count visits, the website uses Cloudflare Web Analytics, which sets no cookies and does not track individual visitors. The site does not sell or share any information about you."],
  ["What your browser keeps","Nothing. The site saves nothing in your browser and sets no cookies. If you used notes or bookmarks in an earlier version of the site, those were kept only on your own device; you can clear them at any time in your browser settings."],
+ ["Visitor counts","On alienspacex.com, a small script from Cloudflare Web Analytics counts page views and visits in total, for example which pages are read and roughly which countries visitors come from. It sets no cookies, does not follow you across other websites and does not build a profile of you. This is covered by Cloudflare's own privacy policy."],
  ["What the host sees","The site is hosted on GitHub Pages (and a copy on claude.ai). Like any web host, they may record technical information such as your IP address and browser type to keep the service running and secure. This is covered by their own privacy statements: GitHub's Privacy Statement and Anthropic's Privacy Policy."],
  ["Fonts and outside requests","The site uses the fonts already on your device and loads nothing from other websites while you read. Links to original letters, talks and books take you to other sites, which have their own policies."],
  ["Search engines","If you arrive from a search engine, that search engine's own policy applies to your search."],
@@ -2919,5 +2920,6 @@ addEventListener('pageshow',function(){d.classList.remove('pg-out');d.style.back
 document.addEventListener('click',function(e){if(R||!T||e.defaultPrevented||e.button||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;var a=e.target.closest&&e.target.closest('a[data-bg]');if(!a)return;e.preventDefault();d.style.background=a.getAttribute('data-bg');d.classList.add('pg-out');setTimeout(function(){location.href=a.href},300)})})();/*/SECTJS*/
 
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "efd3635c396040c9bc367306ad17d0de"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
