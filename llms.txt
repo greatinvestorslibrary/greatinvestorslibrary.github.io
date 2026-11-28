@@ -6,7 +6,7 @@ Every summary is written in the site's own words; exact quotations are short and
 
 ## Sections
 
-- [Great investors (interactive)](https://alienspacex.com/): 23 investors across the USA, UK, China, India and Japan
+- [Great investors (interactive)](https://alienspacex.com/): 27 investors across the USA, UK, China, India, Japan and the wider world
 - [The Lemonade Stand](https://alienspacex.com/economics/): profit, cash and the three financial reports explained with a children's lemonade stand
 - [From the Big Bang to You](https://alienspacex.com/space/): 13.8 billion years of cosmic history in one scroll
 - [From the First Cell to You](https://alienspacex.com/evolution/): the story of life and human evolution
@@ -51,6 +51,13 @@ Every summary is written in the site's own words; exact quotations are short and
 - [Seiroku Honda](https://alienspacex.com/honda.html): A poor farmer's son who saved a quarter of every pay cheque from 25, invested it, and gave almost all of it away when he retired.
 - [Wahei Takeda](https://alienspacex.com/takeda.html): Made Japan's favourite baby biscuit, then became a patient shareholder in over a hundred companies, treating each as a field to tend.
 - [Atsuto Sawakami](https://alienspacex.com/sawakami.html): Founded Japan's first independent fund company in 1999 and preached long-term investing for decades, when few in Japan would listen.
+
+### World
+
+- [Prem Watsa](https://alienspacex.com/watsa.html): Reached Canada from Hyderabad with almost nothing, turned a failing insurer into Fairfax, and grew its book value 18.7% a year for forty years.
+- [Francisco García Paramés](https://alienspacex.com/parames.html): Taught himself value investing from Peter Lynch and Buffett's letters, then beat Spain's market for 21 years, survived his worst years, and kept going.
+- [André Kostolany](https://alienspacex.com/kostolany.html): A speculator, not a value investor: rich twice, broke in between, and the man who taught Germany how crowds move markets.
+- [Peter Cundill](https://alienspacex.com/cundill.html): Read Graham on a plane in 1973, then hunted the world for shares below their liquidation value: the Indiana Jones of Canadian money managers.
 
 ## Timelines
 
