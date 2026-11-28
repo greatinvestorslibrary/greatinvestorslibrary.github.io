@@ -6,7 +6,7 @@ Every summary is written in the site's own words; exact quotations are short and
 
 ## Sections
 
-- [Great investors (interactive)](https://alienspacex.com/): 27 investors across the USA, UK, China, India, Japan and the wider world
+- [Great investors (interactive)](https://alienspacex.com/): 30 investors across the USA, UK, China, India, Japan and the wider world
 - [The Lemonade Stand](https://alienspacex.com/economics/): profit, cash and the three financial reports explained with a children's lemonade stand
 - [From the Big Bang to You](https://alienspacex.com/space/): 13.8 billion years of cosmic history in one scroll
 - [From the First Cell to You](https://alienspacex.com/evolution/): the story of life and human evolution
@@ -58,6 +58,9 @@ Every summary is written in the site's own words; exact quotations are short and
 - [Francisco García Paramés](https://alienspacex.com/parames.html): Taught himself value investing from Peter Lynch and Buffett's letters, then beat Spain's market for 21 years, survived his worst years, and kept going.
 - [André Kostolany](https://alienspacex.com/kostolany.html): A speculator, not a value investor: rich twice, broke in between, and the man who taught Germany how crowds move markets.
 - [Peter Cundill](https://alienspacex.com/cundill.html): Read Graham on a plane in 1973, then hunted the world for shares below their liquidation value: the Indiana Jones of Canadian money managers.
+- [Luiz Barsi Filho](https://alienspacex.com/barsi.html): Shined shoes in a São Paulo tenement, then built his own pension one dividend share at a time, and became Brazil's biggest individual investor.
+- [Allan Gray](https://alienspacex.com/gray.html): Rose 10% at Fidelity while the 1962 market crashed, founded South Africa's biggest private fund firm and Orbis, then gave his control to charity.
+- [Cheah Cheng Hye](https://alienspacex.com/cheah.html): Sold pineapples as a boy in Penang, spent 17 years as a journalist, then built Value Partners from under US$5 million: Asia's Warren Buffett.
 
 ## Timelines
 
