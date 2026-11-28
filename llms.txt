@@ -82,6 +82,7 @@ Every summary is written in the site's own words; exact quotations are short and
 ## Optional
 
 - [About](https://alienspacex.com/about.html)
+- [Corrections log](https://alienspacex.com/corrections.html): every fix, dated, with the reason
 - [Terms of use](https://alienspacex.com/terms.html)
 - [Privacy](https://alienspacex.com/privacy.html)
 
