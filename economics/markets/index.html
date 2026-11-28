@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Supply and demand, opportunity cost and booms and busts explained simply</title>
+<meta name="description" content="Supply and demand, opportunity cost and comparative advantage, competition and moats, booms and busts in India and America since 1975, and Mr. Market, with drag-and-play charts, games and quizzes. Free.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://alienspacex.com/economics/markets/">
+<link rel="alternate" type="application/rss+xml" title="New pages and corrections" href="https://alienspacex.com/feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="How Markets Work, explained with lemonade">
+<meta property="og:description" content="Supply and demand, opportunity cost, competition and moats, booms and busts, and Mr. Market, with drag-and-play charts, games and quizzes. Free.">
+<meta property="og:url" content="https://alienspacex.com/economics/markets/">
+<meta property="og:image" content="https://alienspacex.com/economics/og-economics.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Markets Work, explained with lemonade">
+<meta name="twitter:description" content="Supply and demand, opportunity cost, competition and moats, booms and busts, and Mr. Market, with drag-and-play charts, games and quizzes. Free.">
+<meta name="twitter:image" content="https://alienspacex.com/economics/og-economics.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23fff6cc'/%3E%3Cellipse cx='32' cy='34' rx='20' ry='15' fill='%23ffd84d' stroke='%23d9a400' stroke-width='3'/%3E%3C/svg%3E">
+<style>
+
+:root{--ink:#1f2328;--mut:#5f6368;--rule:#ececec;--soft:#f7f7f5;--lemon:#ffd84d;--lemon2:#e0b100;--tint:#fffbe6;--acc:#9a6a00;--grn:#22794a;--red:#c0392b;--blu:#1d6fb8;--r:16px}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;background:#fff}
+html,body{margin:0;background:#fff;color:var(--ink)}
+body{font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;-webkit-tap-highlight-color:transparent;overflow-x:hidden}
+@supports (overflow:clip){body{overflow-x:clip}}
+h1,h2,h3,.rd{font-family:ui-rounded,"SF Pro Rounded","Nunito","Segoe UI",system-ui,sans-serif}
+.w{max-width:640px;margin:0 auto;padding:0 18px}
+a{color:var(--blu)}
+.sr{position:absolute;left:-9999px}
+/* hero */
+.hero{text-align:center;padding:calc(18px + env(safe-area-inset-top)) 0 10px}
+.hero .sect{margin:0 auto 26px}
+.kick{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:750;color:var(--acc)}
+h1{font-size:clamp(2rem,9vw,3rem);line-height:1.05;margin:.25em 0 .3em;letter-spacing:-.01em}
+h1 span{color:var(--acc)}
+.hero p{color:var(--mut);margin:0 auto 18px;max-width:30em}
+.art{display:block;margin:0 auto;max-width:360px;width:100%;height:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:46px;padding:0 20px;border-radius:999px;border:1px solid var(--rule);background:#fff;color:var(--ink);font:650 1rem system-ui,sans-serif;text-decoration:none;cursor:pointer}
+.btn.pri{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:18px 0 6px}
+.cast{display:flex;justify-content:center;gap:14px;margin:16px 0 4px;flex-wrap:wrap}
+.cast figure{margin:0;width:76px;text-align:center;font-size:.78rem;color:var(--mut);line-height:1.25}
+.cast svg{width:58px;height:58px;display:block;margin:0 auto 4px}
+.cast b{display:block;color:var(--ink);font-size:.86rem}
+/* sections */
+section.blk{padding:34px 0 8px}section,.day{scroll-margin-top:72px}
+h2{font-size:1.6rem;line-height:1.15;margin:0 0 .45em}
+h3{font-size:1.15rem;margin:1.1em 0 .4em}
+.lead{color:var(--mut);margin-top:-.2em}
+.divider{display:block;width:120px;height:26px;margin:26px auto 0}
+.card{border:1px solid var(--rule);border-radius:var(--r);padding:16px;margin:14px 0;background:#fff}
+.card.tint{background:var(--tint);border-color:#f3e6a8}
+.card.soft{background:var(--soft)}
+.day{border:1px solid var(--rule);border-radius:20px;padding:16px 16px 12px;margin:20px 0;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+.dh{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.dh svg{width:46px;height:46px;flex:none}
+.dh small{display:block;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);font-weight:750}
+.dh h3{margin:0;font-size:1.2rem}
+.story{margin:.4em 0 .6em;padding-left:1.15em}
+.story li{margin:.25em 0}
+.glasses{display:flex;flex-wrap:wrap;gap:3px;margin:10px 0 4px}
+.glasses svg{width:20px;height:26px}
+.gleg{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.78rem;color:var(--mut);margin-bottom:10px}
+.gleg span{display:inline-flex;align-items:center;gap:4px}
+.gleg svg{width:13px;height:17px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mini{border-radius:14px;padding:10px 11px;font-size:.88rem;background:var(--soft)}
+.mini h4{margin:0 0 6px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.mini .r{display:flex;justify-content:space-between;gap:6px;padding:2px 0}.mini .r span:last-child{white-space:nowrap}
+.mini .r.t{border-top:1px solid #dcdcdc;margin-top:4px;padding-top:5px;font-weight:750}
+.mini.pl h4{color:var(--grn)}.mini.cj h4{color:var(--blu)}
+.pos{color:var(--grn)}.neg{color:var(--red)}
+.note{font-size:.92rem;background:var(--tint);border-radius:12px;padding:10px 12px;margin:10px 0 2px}
+.note b{color:var(--acc)}
+.tbl{width:100%;border-collapse:collapse;font-size:.95rem;margin:6px 0}
+.tbl td,.tbl th{padding:7px 4px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+.tbl td.n,.tbl th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl tr.sub td{color:var(--mut);font-size:.82rem;padding-top:12px;border-bottom:0;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.tbl tr.tot td{font-weight:800;border-bottom:2px solid var(--ink)}
+.tbl .gw{display:block;font-size:.76rem;color:var(--mut);font-weight:500}
+.rule3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.rule3 div{border-radius:14px;padding:12px 8px;text-align:center;font-size:.84rem;line-height:1.3;background:var(--soft)}
+.rule3 .e{font-size:1.6rem;display:block;margin-bottom:4px}
+.rule3 b{display:block;font-size:.95rem;margin-bottom:2px}
+.big{font-size:2rem;font-weight:800;font-variant-numeric:tabular-nums}
+/* dashboard */
+#dash{position:fixed;left:0;right:0;top:0;z-index:20;background:rgba(255,255,255,.96);border-bottom:1px solid var(--rule);padding:calc(6px + env(safe-area-inset-top)) 10px 6px;transform:translateY(-110%);transition:transform .35s ease;backdrop-filter:saturate(1.4) blur(6px);-webkit-backdrop-filter:saturate(1.4) blur(6px)}
+#dash.on{transform:none}
+#dash .in{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;text-align:center}
+#dash .c{font-size:.68rem;color:var(--mut);line-height:1.2;text-transform:uppercase;letter-spacing:.05em}
+#dash .v{display:block;font:800 1.05rem/1.25 system-ui,sans-serif;color:var(--ink);font-variant-numeric:tabular-nums;text-transform:none;letter-spacing:0}
+#dash .v.cash{color:var(--blu)}#dash .v.prof{color:var(--grn)}#dash .v.prof.l{color:var(--red)}
+#dash .lab{grid-column:1/-1;font-size:.7rem;color:var(--acc);font-weight:700;margin-top:1px}
+/* seesaw */
+.saw{display:block;width:100%;max-width:420px;height:auto;margin:6px auto}
+/* link diagram */
+#links{min-height:100svh;padding-top:58px;display:flex;flex-direction:column}
+#links h2{margin-bottom:.15em}
+#links .lead{font-size:.92rem;margin-bottom:4px}
+.dia{display:block;width:100%;height:auto;max-height:calc(100svh - 250px);margin:0 auto}
+.leg{display:grid;gap:3px;font-size:.82rem;line-height:1.3;margin:6px 0 0;padding:0;list-style:none}
+.leg li{display:flex;gap:7px;align-items:flex-start}
+.leg i{flex:none;width:18px;height:18px;border-radius:50%;color:#fff;font:800 .72rem/18px system-ui;text-align:center;font-style:normal}
+/* simulator */
+.sim .row{margin:12px 0}
+.sim label.h{display:block;font-size:.8rem;font-weight:750;color:var(--mut);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg button{flex:1;min-width:64px;min-height:42px;border-radius:12px;border:1px solid var(--rule);background:#fff;font:650 .95rem system-ui,sans-serif;color:var(--ink);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+input[type=range]{width:100%;accent-color:var(--acc);height:34px}
+.simout{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.simout div{background:var(--soft);border-radius:12px;padding:8px;text-align:center;font-size:.76rem;color:var(--mut)}
+.simout b{display:block;font-size:1.15rem;color:var(--ink);font-variant-numeric:tabular-nums}
+#simMsg{margin-top:10px}
+#simProfit{font-size:2.2rem;font-weight:800;text-align:center;margin:10px 0 0;font-variant-numeric:tabular-nums}
+/* puzzles */
+.pz{border:1px solid var(--rule);border-radius:16px;padding:14px;margin:14px 0}
+.pz .q{margin:0 0 10px}
+.pz .q b{color:var(--acc)}
+.pz .in{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.pz input{width:110px;min-height:44px;border:1.5px solid #cfcfcf;border-radius:12px;padding:0 12px;font:650 1.05rem system-ui,sans-serif}
+.pz input:focus{outline:2px solid var(--lemon2);border-color:var(--lemon2)}
+.pz .fl{font-size:.8rem;color:var(--mut);display:block;margin-bottom:3px}
+.pz .btn{min-height:44px;padding:0 16px;font-size:.95rem}
+.pz .fb{margin-top:10px;font-size:.93rem;border-radius:12px;padding:0;max-height:0;overflow:hidden;transition:max-height .3s}
+.pz .fb.ok,.pz .fb.no{padding:10px 12px;max-height:400px}
+.pz .fb.ok{background:#e9f7ef}.pz .fb.no{background:#fdf0ec}
+.pz .lnk{background:none;border:0;color:var(--blu);text-decoration:underline;font:inherit;font-size:.86rem;cursor:pointer;padding:6px 2px}
+#score{text-align:center;font-weight:750;margin:8px 0}
+/* glossary */
+.gl td:first-child{width:46%}
+.gl td:last-child{font-weight:650}
+details.panel{border:1px solid var(--rule);border-radius:14px;padding:4px 14px;margin:12px 0}
+details.panel summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}
+.disc p{font-size:.84rem;color:var(--mut)}
+.foot{font-size:.8rem;color:var(--mut);text-align:center;padding:20px 0 calc(30px + env(safe-area-inset-bottom))}
+.end{text-align:center}
+@media (prefers-reduced-motion:no-preference){.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}.reveal.seen{opacity:1;transform:none}}
+@media (max-width:380px){body{font-size:16px}.w{padding:0 14px}.two{gap:7px}.mini{padding:9px 8px;font-size:.84rem}}
+
+/* ---- chapter bar (economics parts) ---- */
+.chap{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:0 0 18px}
+.chap a,.chap span{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 14px;border-radius:999px;border:1px solid var(--rule);font:650 .86rem system-ui,sans-serif;color:var(--ink);text-decoration:none;background:#fff}
+.chap .on{background:var(--lemon);border-color:var(--lemon2)}
+.chap i{font-style:normal;display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--ink);color:#fff;font-size:.72rem}
+/* ---- world page ---- */
+.chip{display:inline-block;font-size:.72rem;font-weight:750;letter-spacing:.08em;text-transform:uppercase;color:var(--acc);margin-bottom:4px}
+.vis{border:1px solid var(--rule);border-radius:18px;padding:14px 12px 10px;margin:14px 0;background:#fff}
+.vis h3{margin:.1em 0 .2em}
+.vis .sub{font-size:.85rem;color:var(--mut);margin:0 0 10px}
+.src{font-size:.76rem;color:var(--mut);margin:8px 2px 0}
+.seg.sm button{min-height:38px;font-size:.86rem;min-width:0;padding:0 8px}
+/* bars */
+.bars{position:relative;margin:26px 0 4px}
+.br{position:absolute;left:0;right:0;height:30px;display:grid;grid-template-columns:20px 112px 1fr 66px;align-items:center;gap:6px;font-size:.84rem;transition:transform .7s cubic-bezier(.3,.7,.2,1)}
+.br .rk{color:var(--mut);font-variant-numeric:tabular-nums;text-align:right;font-size:.76rem}
+.br .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.br .tr{position:relative;height:18px;background:var(--soft);border-radius:6px;overflow:hidden}
+.br .tr i{position:absolute;left:0;top:0;bottom:0;width:0;background:#f2c94c;border-radius:6px;transition:width .7s cubic-bezier(.3,.7,.2,1)}
+.br.me .tr i{background:var(--acc)}.br.me .nm,.br.me .vl{font-weight:800}
+.br .vl{text-align:right;font-variant-numeric:tabular-nums;font-weight:650;white-space:nowrap}
+.avg{position:absolute;top:-6px;bottom:-4px;width:0;border-left:2px dashed var(--blu);transition:left .7s;pointer-events:none}
+.avg span{position:absolute;top:-16px;left:4px;white-space:nowrap;font-size:.7rem;color:var(--blu);font-weight:700}
+.callout{margin:10px 0 0;padding:10px 12px;border-radius:12px;background:var(--tint);font-size:.92rem}
+/* donut */
+.dn{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center}
+.dn svg{width:150px;height:150px}
+.dn ul{list-style:none;margin:0;padding:0;font-size:.84rem;line-height:1.5}
+.dn li{display:flex;gap:7px;align-items:center}.dn li b{margin-left:auto;font-variant-numeric:tabular-nums}
+.dn li i{width:12px;height:12px;border-radius:3px;flex:none}
+@media (max-width:370px){.dn{grid-template-columns:1fr}.dn svg{margin:0 auto}}
+/* race */
+.race svg{display:block;width:100%;height:auto}
+.rhead{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin:2px 0 4px}
+.ryear{font:800 2.2rem/1 system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink)}
+.rvals{display:grid;gap:2px;text-align:right;font-size:.84rem;font-variant-numeric:tabular-nums}
+.rvals b{font-size:.98rem}
+.rctl{display:flex;gap:8px;align-items:center;margin:6px 0}
+.rctl .btn{min-height:40px;padding:0 14px;font-size:.9rem}
+.rctl label{font-size:.84rem;color:var(--mut);display:inline-flex;gap:6px;align-items:center;margin-left:auto}
+.story2{min-height:4.6em;margin:8px 0 0;padding:10px 12px;border-radius:12px;background:var(--soft);font-size:.92rem;transition:background .3s}
+/* calculators */
+.calc .out{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.calc .out div{background:var(--soft);border-radius:12px;padding:8px;text-align:center;font-size:.76rem;color:var(--mut)}
+.calc .out b{display:block;font-size:1.15rem;color:var(--ink);font-variant-numeric:tabular-nums}
+.calc .big2{font:800 1.9rem/1.2 system-ui,sans-serif;text-align:center;margin:8px 0 2px;font-variant-numeric:tabular-nums}
+.quick{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.quick button{min-height:36px;border-radius:999px;border:1px solid var(--rule);background:#fff;padding:0 12px;font:650 .82rem system-ui,sans-serif;cursor:pointer}
+.twobar{display:flex;gap:18px;justify-content:center;align-items:flex-end;height:170px;margin:10px 0 0}
+.twobar div{width:84px;text-align:center;font-size:.8rem;color:var(--mut)}
+.twobar i{display:block;margin:0 auto 6px;width:56px;border-radius:10px 10px 4px 4px;background:#f2c94c;transition:height .4s}
+.twobar div:last-child i{background:var(--acc)}
+.twobar b{display:block;color:var(--ink);font-size:1.05rem}
+.calc input[type=number]{width:124px;min-height:42px;border:1.5px solid #cfcfcf;border-radius:12px;padding:0 10px;font:650 1rem system-ui,sans-serif}
+.irow{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0}
+.irow label{font-size:.88rem;flex:1;min-width:150px}
+/* value chain */
+.chain svg{display:block;width:100%;height:auto}
+/* quizzes */
+.quiz{border:2px solid var(--lemon);border-radius:18px;padding:14px;margin:18px 0;background:var(--tint)}
+.quiz h3{margin:0 0 4px;font-size:1.05rem}
+.qq{margin:12px 0 0}
+.qq p{margin:0 0 8px;font-weight:650}
+.qo{display:grid;gap:6px}
+.qo button{text-align:left;min-height:44px;border-radius:12px;border:1.5px solid #e6dca6;background:#fff;padding:8px 12px;font:600 .95rem system-ui,sans-serif;color:var(--ink);cursor:pointer}
+.qo button.ok{border-color:var(--grn);background:#e9f7ef}.qo button.no{border-color:var(--red);background:#fdf0ec}
+.qo button:disabled{cursor:default;opacity:1}
+.qw{font-size:.88rem;margin:6px 2px 0;color:var(--mut)}
+.qs{font-weight:750;margin-top:10px;text-align:right;font-size:.88rem}
+/* misc */
+.cards2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+.cards2 div{border-radius:14px;padding:12px;background:var(--soft);font-size:.88rem;line-height:1.4}
+.cards2 b{display:block;margin-bottom:3px}
+.cards2 .e{font-size:1.4rem;display:block}
+.tasks{list-style:none;padding:0;margin:8px 0}
+.tasks li{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--rule)}
+.tasks input{width:22px;height:22px;flex:none;margin-top:2px;accent-color:var(--grn)}
+.next{display:block;text-align:center;margin:18px 0}
+
+.lc svg,.sd svg,.pf svg,.cyc svg{display:block;width:100%;height:auto;touch-action:pan-y}
+.lread{display:flex;justify-content:space-between;gap:8px;align-items:baseline;min-height:2.2em;margin:2px 0 6px;font-size:.86rem;font-variant-numeric:tabular-nums}
+.lread b{font-size:1.05rem}
+.lread .yy{font:800 1.5rem/1 system-ui,sans-serif}
+.tg{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.tg button{flex:1;min-width:96px;min-height:44px;border-radius:12px;border:1.5px solid #e6dca6;background:#fff;font:700 .86rem system-ui,sans-serif;cursor:pointer;color:var(--ink)}
+.tg button[aria-pressed=true]{background:var(--lemon);border-color:var(--lemon2)}
+.gov{border:2px dashed var(--lemon2);border-radius:16px;padding:12px;margin:10px 0}
+.gov .sc{font-weight:650;margin:0 0 8px}
+.gov .ch{display:flex;gap:6px;flex-wrap:wrap}
+.gov .ch button{flex:1;min-width:84px;min-height:44px;border-radius:12px;border:1.5px solid #e6dca6;background:#fff;font:700 .92rem system-ui,sans-serif;cursor:pointer;color:var(--ink)}
+.gov .ch button.ok{border-color:var(--grn);background:#e9f7ef}.gov .ch button.no{border-color:var(--red);background:#fdf0ec}
+.gov .fb{font-size:.9rem;margin:8px 0 0}
+.mm{text-align:center}
+.mm .face{font-size:3rem;line-height:1.1;margin:4px 0}
+.mm .quote{font:800 1.6rem/1.2 system-ui,sans-serif;font-variant-numeric:tabular-nums;margin:4px 0}
+.mm .why{font-size:.9rem;color:#5f6368;min-height:2.6em}
+.drop{margin:10px 0}
+.drop .row{display:grid;grid-template-columns:92px 1fr;gap:8px;align-items:center;margin:6px 0;font-size:.82rem}
+.drop .tr{height:22px;border-radius:6px;background:#f1f1f1;position:relative;overflow:hidden}
+.drop .fill{position:absolute;left:0;top:0;bottom:0;border-radius:6px;width:0;transition:width 1.6s ease}
+.drop .fill span{position:absolute;right:6px;top:2px;font-weight:800;font-size:.78rem;color:#fff;white-space:nowrap}
+.trade{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0;font-size:.86rem;text-align:center}
+.trade div{background:var(--soft);border-radius:12px;padding:10px 6px}
+.trade b{display:block;font-size:1.25rem}
+select{min-height:42px;border:1.5px solid #cfcfcf;border-radius:12px;padding:0 10px;font:650 1rem system-ui,sans-serif;background:#fff}
+/*SECT*/.sect{--g:#2e6b4f;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));width:auto;max-width:none;margin:0 calc(50% - 50vw) 26px;padding:0;background:var(--card,#fff);border-bottom:1px solid var(--sect-edge,#e3e5e8);position:relative;z-index:2}
+body{overflow-x:clip}
+.sect>*{position:relative;display:flex;align-items:center;justify-content:center;min-height:46px;padding:0 2px;font:600 .9rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;color:var(--sect-ink,#6b6f76);background:none;border:0;white-space:nowrap}
+.sect a:hover{color:var(--g)}
+.sect .on{color:var(--g);box-shadow:inset 0 -3px 0 var(--g)}
+.sect .on::after{content:"";position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--g);border-bottom:0}
+.sect a:active{opacity:.7}
+@media (max-width:440px){.sect>*{font-size:.82rem;min-height:44px}}
+@media (max-width:360px){.sect>*{font-size:.7rem}}
+@media (prefers-color-scheme:dark){.sect{--g:#7fcfa6;--sect-ink:#a3a8b0;--sect-edge:#2a2e35}}
+/*/SECT*/
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "How Markets Work", "headline": "Supply and demand, opportunity cost and booms and busts explained simply", "description": "Supply and demand, opportunity cost and comparative advantage, competition and moats, booms and busts in India and America since 1975, and Mr. Market, with drag-and-play charts, games and quizzes. Free.", "url": "https://alienspacex.com/economics/markets/", "inLanguage": "en", "isAccessibleForFree": true, "learningResourceType": "Interactive resource", "educationalLevel": "Beginner", "audience": {"@type": "Audience", "audienceType": "Students, parents, teachers and curious beginners"}, "about": [{"@type": "Thing", "name": "Supply and demand"}, {"@type": "Thing", "name": "Opportunity cost"}, {"@type": "Thing", "name": "Comparative advantage"}, {"@type": "Thing", "name": "Economic moat"}, {"@type": "Thing", "name": "Business cycle"}, {"@type": "Thing", "name": "Stock market bubble"}], "isPartOf": {"@type": "WebSite", "name": "The Alien's Guide to Earth", "url": "https://alienspacex.com/"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is supply and demand, in simple words?", "acceptedAnswer": {"@type": "Answer", "text": "Demand is how much people want to buy at each price; supply is how much sellers want to sell. The market price settles where the two are equal. If the price is too high, goods are left over; too low, and there is a queue."}}, {"@type": "Question", "name": "What is opportunity cost?", "acceptedAnswer": {"@type": "Answer", "text": "The best thing you give up when you choose something. An hour spent baking cookies costs you whatever else you could have made or done in that hour."}}, {"@type": "Question", "name": "What is comparative advantage?", "acceptedAnswer": {"@type": "Answer", "text": "Being able to do something at a lower opportunity cost than someone else. David Ricardo showed in 1817 that two countries can both gain by specialising and trading, even if one is better at making everything."}}, {"@type": "Question", "name": "What is a moat in investing?", "acceptedAnswer": {"@type": "Answer", "text": "A lasting advantage, such as a trusted brand or a cost edge, that stops rivals from competing away a company's profits. Warren Buffett made the term popular."}}, {"@type": "Question", "name": "What is a recession?", "acceptedAnswer": {"@type": "Answer", "text": "A period when an economy produces less than before. India's economy shrank in 1979 and 2020; America's in six years between 1975 and 2025, including 2009 and 2020."}}, {"@type": "Question", "name": "Who is Mr. Market?", "acceptedAnswer": {"@type": "Answer", "text": "A character invented by the investor Benjamin Graham. He stands for the stock market's mood swings: some days he offers silly low prices, some days silly high ones, and you are free to ignore him."}}]}</script><style>.faqs{margin:18px 0 6px;text-align:left}.faqs h3{margin:0 0 8px;font-size:1.1rem}.faqq summary{font-weight:650}.faqq p{margin:.2em 0 .8em}#storyText .stxt{font-size:.9rem;text-align:left}#storyText h4{margin:1em 0 .3em}#storyText ol{padding-left:1.2em}#storyText li{margin:.35em 0}</style></head>
+<body>
+<main>
+<header class="hero w" id="top">
+ <nav class="sect" aria-label="Library sections"><a class="s-inv" href="https://alienspacex.com/" target="_top" data-bg="#ffffff" aria-label="Investors: learn from the great investors">Investors</a><a class="s-trd" href="https://alienspacex.com/#traders" target="_top" data-bg="#ffffff" aria-label="Traders: great traders, with risk warnings">Traders</a><span class="s-eco on" aria-current="page">Economics</span><a class="s-spa" href="https://alienspacex.com/space/" target="_top" data-bg="#05060c" aria-label="Space: from the Big Bang to you">Space</a><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" data-bg="#05060c" aria-label="Evolution: from the first cell to you">Evolution</a></nav>
+ <nav class="chap" aria-label="Economics chapters"><a data-bg="#ffffff" href="https://alienspacex.com/economics/"><i>1</i>The Stand</a><a href="https://alienspacex.com/economics/world/"><i>2</i>The World Economy</a><a href="https://alienspacex.com/economics/money/"><i>3</i>Money & Prices</a><span class="on" aria-current="page"><i>4</i>How Markets Work</span></nav>
+ <div class="kick">Economics · Part 4</div>
+ <h1>How <span>Markets</span> Work</h1>
+ <p>Why lemonade costs more on a hot day, why two friends both win by trading, why a rival stand cuts your profit, why whole economies boom and bust, and why the stock market sometimes acts like a moody neighbour.</p>
+ <div id="heroArt" role="img" aria-label="A demand line and a supply line crossing at the market price of a glass of lemonade"></div>
+ <div class="btns"><a class="btn pri" href="#sd">Start ↓</a><a class="btn" href="#mr">Jump to Mr. Market</a></div>
+</header>
+
+<div class="w">
+
+<section class="blk reveal" id="sd">
+ <span class="chip">Chapter 1</span>
+ <h2>Supply and demand 🍋</h2>
+ <p class="lead">A market price is where the number of glasses people want to buy meets the number sellers want to sell.</p>
+ <p><b>Demand:</b> the cheaper the lemonade, the more glasses people want. <b>Supply:</b> the higher the price, the more glasses Sunny is willing to squeeze, because each extra glass is worth the effort. Drag the price and watch what happens.</p>
+ <div class="vis sd">
+  <h3>Set the price of a glass</h3>
+  <div class="tg" id="sdTg"><button aria-pressed="false" data-k="heat">☀️ Heatwave</button><button aria-pressed="false" data-k="crop">🥀 Lemon crop fails</button></div>
+  <div id="sdSvg"></div>
+  <label for="sdP" class="sr">Price of a glass</label>
+  <input type="range" id="sdP" min="3" max="22" step="0.5" value="16" aria-label="Price of a glass in rupees">
+  <p class="callout" id="sdMsg"></p>
+  <div class="btns"><button class="btn" type="button" id="sdEq">Snap to the market price</button></div>
+  <p class="src">Made-up numbers for teaching. Blue line: how many glasses people want at each price. Gold line: how many Sunny will make.</p>
+ </div>
+ <div class="cards2">
+  <div><span class="e">⬆️</span><b>Price too high</b>Glasses are left over. To sell them, Sunny cuts the price.</div>
+  <div><span class="e">⬇️</span><b>Price too low</b>A queue forms and Sunny runs out. Sunny can raise the price and still sell out.</div>
+  <div><span class="e">☀️</span><b>Demand shifts</b>A heatwave means more people want lemonade at every price. The price and the number sold both rise.</div>
+  <div><span class="e">🥀</span><b>Supply shifts</b>A bad lemon crop makes each glass dearer to make. The price rises but fewer glasses are sold.</div>
+ </div>
+ <p class="note"><b>Real life: tomatoes in 2023.</b> NABARD, India's farm-development bank, reported that retail tomato prices roughly tripled in July 2023, from about ₹30 a kilo in June to ₹109 by the end of July. July and August are always a lean season for tomatoes, and that year heat and heavy rain also damaged crops. On 2 August the government's own price tracker showed ₹203 a kilo in Delhi. That is a supply shift: same appetite for tomatoes, far fewer tomatoes.</p>
+ <div class="quiz" data-quiz="q1"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="oc">
+ <span class="chip">Chapter 2</span>
+ <h2>Opportunity cost and why trade helps</h2>
+ <p class="lead">The real cost of anything is the best thing you gave up to get it.</p>
+ <p>If Sunny spends Saturday at the cinema, the cost is not just the ticket. It is also the lemonade profit Sunny would have made that afternoon. Economists call that the <b>opportunity cost</b>.</p>
+ <p>Opportunity cost explains one of the most surprising ideas in economics. In one hour, Sunny can make <b>20 glasses or 10 cookies</b>. Pip can make <b>6 glasses or 6 cookies</b>. Sunny is better at both. Should Sunny do everything?</p>
+ <div class="trade"><div>For Sunny, 1 cookie costs<b>2 glasses</b>(the 2 glasses Sunny could have made instead)</div><div>For Pip, 1 cookie costs<b>1 glass</b>So Pip is the cheaper cookie maker</div></div>
+ <div class="vis calc">
+  <h3>Plan the day: 8 hours each</h3>
+  <p class="sub">Without a plan, each spends 4 hours on lemonade and 4 on cookies: 104 glasses and 64 cookies in all. Can you beat that on both?</p>
+  <div class="irow"><label for="ocS">Sunny's hours on lemonade: <b id="ocSv">6</b></label></div>
+  <input type="range" id="ocS" min="0" max="8" step="1" value="6" aria-label="Sunny's hours on lemonade">
+  <div class="irow"><label for="ocP">Pip's hours on lemonade: <b id="ocPv">0</b></label></div>
+  <input type="range" id="ocP" min="0" max="8" step="1" value="0" aria-label="Pip's hours on lemonade">
+  <div class="out"><div>Glasses<b id="ocG"></b></div><div>Cookies<b id="ocC"></b></div><div>Against no plan<b id="ocD"></b></div></div>
+  <p class="callout" id="ocMsg"></p>
+ </div>
+ <p>This is <b>comparative advantage</b>. Each person should do the job where their opportunity cost is lowest, then trade. The economist David Ricardo explained it in 1817 with England, Portugal, cloth and wine: even if one country is better at making everything, both can end up with more by specialising and trading. It is why India sells software services and buys oil, and why most of us buy our bread instead of baking it.</p>
+ <div class="quiz" data-quiz="q2"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="cm">
+ <span class="chip">Chapter 3</span>
+ <h2>Competition and moats 🏰</h2>
+ <p class="lead">Rivals push prices down towards cost. A "moat" is whatever stops them.</p>
+ <p>Each glass costs Sunny ₹5 in lemons, sugar and cups, plus ₹100 a day for the stall. Charge too little and there is no margin; charge too much and customers walk away. Find the most profitable price, then see what a rival does to it.</p>
+ <div class="vis pf">
+  <h3>🎮 Pick your price</h3>
+  <div class="seg sm" id="cmSeg"><button aria-pressed="true" data-v="0">Only stand</button><button aria-pressed="false" data-v="1">Rival at ₹8</button><button aria-pressed="false" data-v="2">Rival + your secret recipe</button></div>
+  <div class="lread"><span class="yy" id="cmP">₹10</span><span>Glasses <b id="cmQ">–</b></span><span>Profit a day <b id="cmPr">–</b></span></div>
+  <div id="cmSvg"></div>
+  <input type="range" id="cmR" min="5" max="20" step="0.5" value="10" aria-label="Your price in rupees">
+  <p class="callout" id="cmMsg"></p>
+  <div class="btns"><button class="btn" type="button" id="cmBest">Show me the best price</button></div>
+  <p class="src">A made-up model for teaching: people buy 200 − 10 × price glasses a day; with a rival, your share depends on how your price compares with theirs.</p>
+ </div>
+ <p>Warren Buffett calls a lasting advantage a <b>moat</b>, like the water around a castle: a brand people trust, a secret recipe, the best spot on the street, or customers who find it a pain to switch. In the game, the secret recipe lets Sunny charge more than the rival and still keep customers. Investors look for moats because without one, competition slowly eats the profit away. See <a href="https://alienspacex.com/buffett.html">Buffett's page in the investors library</a>.</p>
+ <div class="quiz" data-quiz="q3"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="bb">
+ <span class="chip">Chapter 4</span>
+ <h2>Booms and busts</h2>
+ <p class="lead">Economies do not grow in a straight line. They speed up, slow down and sometimes shrink.</p>
+ <div class="vis cyc"><h3>The business cycle</h3><div id="cycSvg" role="img" aria-label="A wave showing boom, peak, recession, trough and recovery"></div></div>
+ <p>In a <b>boom</b>, shops are busy, firms hire and borrow, and prices tend to rise. At the <b>peak</b> things overheat. In a <b>recession</b>, the economy produces less than the year before: sales fall, firms cut jobs and people spend less. Then comes the <b>trough</b>, and the <b>recovery</b>. A common rule of thumb calls two quarters in a row of shrinking output a recession. In America, a committee of economists makes the official call.</p>
+ <div class="vis lc">
+  <h3>Real growth every year: India and America, 1975 to 2025</h3>
+  <div class="lread"><span class="yy" id="gY">2025</span><span>🇮🇳 India <b id="gI">–</b></span><span>🇺🇸 US <b id="gU">–</b></span></div>
+  <div id="gSvg"></div>
+  <p class="callout">Below the zero line, the economy shrank. India shrank in only two of these 51 years; America in six. Over the whole period India's economy grew about 17 times in real terms (about 5.8% a year), America's about 4 times (about 2.7% a year).</p>
+  <p class="src">Real GDP growth, after inflation. India: World Bank, calendar years (our calculation from World Bank GDP per person in constant dollars and population, which matches the World Bank's published growth rates). United States: Bureau of Economic Analysis. Both via FRED. Touch and drag to read any year.</p>
+ </div>
+ <div class="cards2">
+  <div><span class="e">🌾</span><b>India 1979: −5.2%</b>A severe drought hit farming, at the same time as a second world oil-price shock.</div>
+  <div><span class="e">💸</span><b>India 1991: +1.1%</b>India nearly ran out of foreign currency to pay for imports. The crisis led to the 1991 reforms and faster growth afterwards.</div>
+  <div><span class="e">🏚️</span><b>America 2009: −2.6%</b>A housing bubble burst and big banks failed: the global financial crisis.</div>
+  <div><span class="e">😷</span><b>2020: Covid</b>Lockdowns shrank India's economy by 5.8% and America's by 2.1%. Both bounced back in 2021.</div>
+ </div>
+ <p>Remember the lever from Part 3: in a bust, central banks usually cut interest rates to make borrowing cheaper and get spending going again. In a boom they raise rates to cool things down.</p>
+ <div class="quiz" data-quiz="q4"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="mr">
+ <span class="chip">Chapter 5</span>
+ <h2>The stock market and Mr. Market 📈</h2>
+ <p class="lead">A share is a small slice of a business. Its price is set, second by second, by supply and demand.</p>
+ <p>Suppose Sunny's stand makes about ₹1,000 profit a year, and a sensible price for the whole stand is about <b>₹10,000</b>. If Sunny sold it on a stock market, the price would move every day with the mood of buyers and sellers, even when nothing about the stand had changed.</p>
+ <p>Benjamin Graham, Buffett's teacher, described the market as a business partner called <b>Mr. Market</b>. Every day he offers to buy your share or sell you his. Some days he is gloomy and offers a silly low price; some days he is excited and offers a silly high one. You do not have to trade with him. You can wait for a good offer. See <a href="https://alienspacex.com/graham.html">Graham's page</a>.</p>
+ <div class="vis mm" id="mmBox">
+  <h3>🎮 Deal with Mr. Market</h3>
+  <p class="sub">The stand is worth about ₹10,000. Buy when he is cheap, sell when he is dear, otherwise wait.</p>
+  <div class="face" id="mmF">🙂</div>
+  <div class="why" id="mmW"></div>
+  <div class="quote" id="mmQ"></div>
+  <div class="gov"><div class="ch"><button type="button" data-a="b">Buy</button><button type="button" data-a="p">Wait</button><button type="button" data-a="s">Sell</button></div><p class="fb" id="mmFb" hidden></p></div>
+  <p id="mmS"></p>
+ </div>
+ <h3>When the mood goes too far: bubbles</h3>
+ <p>A bubble is when prices rise far above what the businesses are worth, because people buy simply because prices are rising. When the mood turns, prices can fall a long way.</p>
+ <div class="drop" id="drop">
+  <div class="row"><span>🇺🇸 Nasdaq<br>2000–2002</span><div class="tr"><div class="fill" style="background:#1d6fb8" data-w="78"><span>−78%</span></div></div></div>
+  <div class="row"><span>🇮🇳 Sensex<br>2008–2009</span><div class="tr"><div class="fill" style="background:#9a6a00" data-w="61"><span>−61%</span></div></div></div>
+ </div>
+ <div class="cards2">
+  <div><span class="e">💻</span><b>The dot-com bubble</b>America's tech-heavy Nasdaq index closed at 5,048.62 on 10 March 2000 and fell to 1,114.11 by October 2002. It took until April 2015 to close at a new high.</div>
+  <div><span class="e">🏦</span><b>The 2008 crash</b>India's Sensex closed at 20,873 on 8 January 2008 and fell to about 8,160 in March 2009. It closed above 21,000 for the first time in November 2010.</div>
+ </div>
+ <p>Graham's lesson: over short periods the market behaves like a vote on what is popular; over long periods it works more like a scale that weighs what businesses actually earn. The great investors in the library mostly got rich by keeping calm when Mr. Market did not.</p>
+ <div class="quiz" data-quiz="q5"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="puzzles">
+ <h2>🧩 Puzzles</h2>
+ <p class="lead">Type a number and press Check.</p>
+ <div id="pzList"></div>
+ <p id="score"></p>
+</section>
+
+<section class="blk reveal" id="hw">
+ <h2>📝 Take-home assignment</h2>
+ <p class="lead">Tick them off as you go (your ticks stay on this phone).</p>
+ <ul class="tasks" id="tasks"></ul>
+</section>
+
+<section class="blk reveal" id="test">
+ <h2>🏁 Final test</h2>
+ <p class="lead">Ten questions on the whole page. Aim for 8 or more.</p>
+ <div class="quiz" data-quiz="final"><h3>Test yourself</h3></div>
+</section>
+
+<section class="blk reveal" id="words">
+ <h2>📖 Grown-up words</h2>
+ <table class="tbl gl"><tbody>
+  <tr><td>Demand</td><td>How much people want to buy at each price</td></tr>
+  <tr><td>Supply</td><td>How much sellers want to sell at each price</td></tr>
+  <tr><td>Equilibrium (market) price</td><td>The price where the amount wanted equals the amount offered</td></tr>
+  <tr><td>Shortage / surplus</td><td>Too little or too much on offer at the current price</td></tr>
+  <tr><td>Opportunity cost</td><td>The best thing you give up when you choose something</td></tr>
+  <tr><td>Comparative advantage</td><td>Being able to do something at a lower opportunity cost than others</td></tr>
+  <tr><td>Margin</td><td>What is left from each sale after paying for what went into it</td></tr>
+  <tr><td>Moat</td><td>A lasting advantage that keeps rivals from taking a business's profits</td></tr>
+  <tr><td>Recession</td><td>A period when the economy produces less than before</td></tr>
+  <tr><td>Bubble</td><td>Prices rising far above value because people expect them to keep rising</td></tr>
+ </tbody></table>
+</section>
+
+<section class="blk reveal" id="end">
+ <h2>🎓 You finished the Economics course</h2>
+ <p>Four parts, from one lemonade stand to the whole world: the three money reports, the world economy, money and prices, and now how markets work. Next, see how the great investors used these ideas.</p>
+ <div class="btns"><a class="btn" href="../">Part 1: The Stand</a><a class="btn" href="../world/">Part 2: The World</a><a class="btn" href="../money/">Part 3: Money</a><a data-bg="#ffffff" class="btn pri" href="https://alienspacex.com/">The investors library →</a></div>
+</section>
+
+<section class="faqs" aria-labelledby="faqH-ecmk"><h3 id="faqH-ecmk">Questions people ask</h3><details class="panel faqq"><summary>What is supply and demand, in simple words?</summary><p>Demand is how much people want to buy at each price; supply is how much sellers want to sell. The market price settles where the two are equal. If the price is too high, goods are left over; too low, and there is a queue.</p></details><details class="panel faqq"><summary>What is opportunity cost?</summary><p>The best thing you give up when you choose something. An hour spent baking cookies costs you whatever else you could have made or done in that hour.</p></details><details class="panel faqq"><summary>What is comparative advantage?</summary><p>Being able to do something at a lower opportunity cost than someone else. David Ricardo showed in 1817 that two countries can both gain by specialising and trading, even if one is better at making everything.</p></details><details class="panel faqq"><summary>What is a moat in investing?</summary><p>A lasting advantage, such as a trusted brand or a cost edge, that stops rivals from competing away a company&#x27;s profits. Warren Buffett made the term popular.</p></details><details class="panel faqq"><summary>What is a recession?</summary><p>A period when an economy produces less than before. India&#x27;s economy shrank in 1979 and 2020; America&#x27;s in six years between 1975 and 2025, including 2009 and 2020.</p></details><details class="panel faqq"><summary>Who is Mr. Market?</summary><p>A character invented by the investor Benjamin Graham. He stands for the stock market&#x27;s mood swings: some days he offers silly low prices, some days silly high ones, and you are free to ignore him.</p></details></section>
+
+<details class="panel"><summary>Sources and further reading</summary>
+ <ul class="story">
+  <li>NABARD, "Spiralling Tomato Prices: Issues and Concerns" (August 2023): retail prices from about ₹30 a kilo in June to ₹109 by end-July 2023. Press Trust of India via Deccan Herald (2 August 2023): Department of Consumer Affairs retail price of ₹203 a kilo in Delhi.</li>
+  <li>David Ricardo, <i>On the Principles of Political Economy and Taxation</i> (1817): comparative advantage, with England, Portugal, cloth and wine.</li>
+  <li>World Bank GDP per person in constant US dollars for India (FRED series NYGDPPCAPKDIND) and World Bank population (via the open "datasets/population" collection); growth is our calculation and matches the World Bank's published growth figures. US Bureau of Economic Analysis real GDP growth (FRED series A191RL1A225NBEA).</li>
+  <li>Reuters, Fortune and NPR (23 April 2015): the Nasdaq's 10 March 2000 record close of 5,048.62, the October 2002 low of 1,114.11 and the new record close in April 2015.</li>
+  <li>BSE Sensex history (Wikipedia, Business Standard, March 2009): the 8 January 2008 close of 20,873, the March 2009 low near 8,160, and the first close above 21,000 in November 2010.</li>
+  <li>Benjamin Graham, <i>The Intelligent Investor</i> (1949): the Mr. Market parable. Warren Buffett's shareholder letters: the idea of an economic moat.</li>
+  <li>The supply-and-demand lines, the cookie example, the pricing game and the Mr. Market game are made-up teaching models.</li>
+ </ul>
+</details>
+
+<div class="disc">
+ <p>For education only. Not investment, financial, legal or tax advice, and not a recommendation to buy, sell or hold any security. The games are simplified teaching models, not forecasts. Past market falls and recoveries do not predict future ones. Figures may be revised and may contain errors; no warranty is given and no liability is accepted for any loss from using this page.</p>
+ <p>An independent, non-commercial project. Not affiliated with or endorsed by NABARD, the World Bank, the US Bureau of Economic Analysis, Nasdaq, BSE, or any person or organisation named. All trademarks belong to their owners.</p>
+</div>
+<div class="btns"><a class="btn" href="../money/">← Part 3: Money &amp; Prices</a></div>
+<p class="foot">alienspacex.com · The Alien's Guide to Earth</p>
+</div>
+</main>
+<script>
+const DATA={"grow":{"years":[1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],"gI":[9.15,1.66,7.25,5.71,-5.24,6.74,6.01,3.48,7.29,3.82,5.25,4.78,3.97,9.63,5.95,5.53,1.06,5.48,4.75,6.66,7.57,7.55,4.05,6.18,8.85,3.84,4.82,3.8,7.86,7.92,7.92,8.06,7.66,3.09,7.86,8.5,5.24,5.46,6.39,7.41,8.0,8.26,6.8,6.45,3.87,-5.78,9.69,7.61,7.21,7.1,7.57],"gU":[-0.2,5.4,4.6,5.5,3.2,-0.3,2.5,-1.8,4.6,7.2,4.2,3.5,3.5,4.2,3.7,1.9,-0.1,3.5,2.7,4.0,2.7,3.8,4.4,4.5,4.8,4.1,1.0,1.7,2.8,3.8,3.5,2.8,2.0,0.1,-2.6,2.7,1.6,2.3,2.1,2.5,2.9,1.8,2.5,3.0,2.6,-2.1,6.3,2.4,2.9,3.0,2.3]}}, G=DATA.grow;
+const RM=!!(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches);
+const $=id=>document.getElementById(id);
+const inr=v=>(v<0?"−₹":"₹")+Math.round(Math.abs(v)).toLocaleString("en-IN");
+const store={get(k){try{return JSON.parse(localStorage.getItem("eco-"+k))}catch(e){return null}},set(k,v){try{localStorage.setItem("eco-"+k,JSON.stringify(v))}catch(e){}}};
+function onView(el,fn,th){ if(!el) return; if(!("IntersectionObserver" in window)){fn();return;} const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){fn();io.disconnect();}})},{threshold:th||0.35}); io.observe(el); }
+function seg(id,fn){ const bs=[...$(id).querySelectorAll("button")]; bs.forEach(b=>b.addEventListener("click",()=>{ bs.forEach(x=>x.setAttribute("aria-pressed",String(x===b))); fn(b.dataset.v); })); }
+const T=(x,y,t,o)=>`<text x="${x.toFixed?x.toFixed(1):x}" y="${y.toFixed?y.toFixed(1):y}" font-family="system-ui" ${o||""}>${t}</text>`;
+
+/* hero */
+$("heroArt").innerHTML=`<svg class="art" viewBox="0 0 360 150"><line x1="40" y1="134" x2="330" y2="134" stroke="#ccc" stroke-width="2"/><line x1="40" y1="134" x2="40" y2="10" stroke="#ccc" stroke-width="2"/>
+<path d="M70 24 L306 120" stroke="#1d6fb8" stroke-width="4" fill="none" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze"/></path>
+<path d="M70 120 L306 24" stroke="#e0a000" stroke-width="4" fill="none" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="1s" begin=".25s" fill="freeze"/></path>
+<circle cx="188" cy="72" r="0" fill="#1f2328"><animate attributeName="r" from="0" to="7" dur=".4s" begin="1.2s" fill="freeze"/></circle>
+${T(188,114,"₹11 a glass",'font-size="13" font-weight="800" fill="#1f2328" text-anchor="middle"')}${T(300,145,"glasses",'font-size="10.5" fill="#5f6368" text-anchor="end"')}${T(46,13,"price",'font-size="10.5" fill="#5f6368"')}${T(312,124,"want",'font-size="11" font-weight="700" fill="#1d6fb8"')}${T(312,28,"make",'font-size="11" font-weight="700" fill="#b07d00"')}</svg>`;
+
+/* ---------- supply and demand ---------- */
+const sh={heat:false,crop:false};
+const sdA=()=>sh.heat?156:120, sdB=()=>sh.crop?48:12;
+const Qd=p=>Math.max(0,sdA()-6*p), Qs=p=>Math.max(0,6*p-sdB()), pEq=()=>(sdA()+sdB())/12, qEq=()=>(sdA()-sdB())/2;
+function sd(){ const p=+$("sdP").value, W=360,H=230,L=40,R=12,Tp=12,B=30, X=q=>L+(W-L-R)*q/160, Y=v=>Tp+(H-Tp-B)*(1-v/24);
+  let s="";
+  [0,6,12,18,24].forEach(t=>{ s+=`<line x1="${L}" x2="${W-R}" y1="${Y(t)}" y2="${Y(t)}" stroke="#eee"/>`+T(L-5,Y(t)+3.5,"₹"+t,'font-size="9.5" fill="#888" text-anchor="end"'); });
+  [0,40,80,120,160].forEach(q=>{ s+=T(X(q),H-14,q,'font-size="9.5" fill="#888" text-anchor="middle"'); });
+  s+=T((L+W-R)/2,H-2,"glasses a day",'font-size="9.5" fill="#888" text-anchor="middle"');
+  const A=sdA(),Bv=sdB(), pd=Math.min(24,A/6);
+  if(sh.heat) s+=`<line x1="${X(120)}" y1="${Y(0)}" x2="${X(0)}" y2="${Y(20)}" stroke="#1d6fb8" stroke-width="1.5" stroke-dasharray="3 4" opacity=".45"/>`;
+  if(sh.crop) s+=`<line x1="${X(0)}" y1="${Y(2)}" x2="${X(132)}" y2="${Y(24)}" stroke="#e0a000" stroke-width="1.5" stroke-dasharray="3 4" opacity=".5"/>`;
+  s+=`<line x1="${X(Qd(pd))}" y1="${Y(pd)}" x2="${X(A)}" y2="${Y(0)}" stroke="#1d6fb8" stroke-width="3" stroke-linecap="round"/>`;
+  s+=`<line x1="${X(0)}" y1="${Y(Bv/6)}" x2="${X(144-Bv)}" y2="${Y(24)}" stroke="#e0a000" stroke-width="3" stroke-linecap="round"/>`;
+  const d=Qd(p), q=Math.round(Qs(p)), lo=Math.min(d,q), hi=Math.max(d,q), gap=Math.round(hi-lo);
+  s+=`<line x1="${L}" x2="${W-R}" y1="${Y(p)}" y2="${Y(p)}" stroke="#1f2328" stroke-width="1" stroke-dasharray="2 3" opacity=".5"/>`;
+  if(gap>0) s+=`<rect x="${X(lo)}" y="${Y(p)-5}" width="${X(hi)-X(lo)}" height="10" rx="4" fill="${q>d?"#d9534f":"#22794a"}" opacity=".28"/>`+T((X(lo)+X(hi))/2,Y(p)-9,q>d?"leftover "+gap:"queue "+gap,`font-size="10" font-weight="800" fill="${q>d?"#b03a2e":"#22794a"}" text-anchor="middle"`);
+  s+=`<circle cx="${X(d)}" cy="${Y(p)}" r="5" fill="#1d6fb8"/><circle cx="${X(q)}" cy="${Y(p)}" r="5" fill="#e0a000"/>`;
+  s+=`<circle cx="${X(qEq())}" cy="${Y(pEq())}" r="4" fill="none" stroke="#1f2328" stroke-width="1.5"/>`+T(X(qEq())+7,Y(pEq())+12,"market price ₹"+pEq(),'font-size="9.5" font-weight="700" fill="#1f2328"');
+  s+=T(X(A)-2,Y(0)-6,"want",'font-size="10" font-weight="800" fill="#1d6fb8" text-anchor="end"')+T(X(144-Bv)-4,Y(24)+12,"make",'font-size="10" font-weight="800" fill="#b07d00" text-anchor="end"');
+  $("sdSvg").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Demand and supply lines for lemonade with your chosen price">${s}</svg>`;
+  const ev=sh.heat&&sh.crop?"With a heatwave and a bad crop together, the market price jumps to ₹"+pEq()+". ":sh.heat?"The heatwave pushes the want line right: the market price rises to ₹"+pEq()+" and more glasses are sold. ":sh.crop?"The bad crop pushes the make line left: the price rises to ₹"+pEq()+" but only "+qEq()+" glasses are sold. ":"";
+  $("sdMsg").textContent=ev+(gap===0?`At ₹${p}, people want ${Math.round(d)} glasses and Sunny makes ${Math.round(q)}. They match: this is the market price.`:q>d?`At ₹${p}, Sunny makes ${Math.round(q)} glasses but people want only ${Math.round(d)}. ${gap} are left over, so the price will drift down.`:`At ₹${p}, people want ${Math.round(d)} glasses but Sunny makes ${q===0?"none at that price":"only "+Math.round(q)}. ${gap} people go without, so the price will drift up.`); }
+$("sdP").addEventListener("input",sd);
+document.querySelectorAll("#sdTg button").forEach(b=>b.addEventListener("click",()=>{ const k=b.dataset.k; sh[k]=!sh[k]; b.setAttribute("aria-pressed",String(sh[k])); sd(); }));
+$("sdEq").addEventListener("click",()=>{ $("sdP").value=pEq(); sd(); });
+sd();
+
+/* ---------- opportunity cost ---------- */
+function oc(){ const s=+$("ocS").value, p=+$("ocP").value, g=s*20+p*6, c=(8-s)*10+(8-p)*6, dg=g-104, dc=c-64;
+  $("ocSv").textContent=s; $("ocPv").textContent=p; $("ocG").textContent=g; $("ocC").textContent=c;
+  $("ocD").textContent=(dg>=0?"+":"")+dg+" / "+(dc>=0?"+":"")+dc;
+  $("ocMsg").textContent= dg>=0&&dc>=0&&(dg+dc)>0 ? `More of both! Pip, the cheaper cookie maker, ${p===0?"bakes all day":"bakes most of the day"}, and Sunny makes most of the lemonade. Together they have ${dg} more glasses and ${dc} more cookies to share.` : dg<0&&dc<0 ? "Fewer of both. Someone is spending time on the job they are relatively worse at." : `More of one, less of the other. Hint: let Pip bake cookies all day and give Sunny 6 hours of lemonade.`; }
+["ocS","ocP"].forEach(id=>$(id).addEventListener("input",oc)); oc();
+
+/* ---------- competition game ---------- */
+let cmMode=0;
+const cQ=p=>Math.max(0,200-10*p);
+const share=p=>{ if(cmMode===0) return 1; const r=cmMode===2?11:8; return p<r?0.9:p===r?0.5:Math.max(0.05,0.5-0.15*(p-r)); };
+const prof=p=>(p-5)*cQ(p)*share(p)-100;
+function bestP(){ let b=5,bv=-1e9; for(let p=5;p<=20;p+=0.5){ const v=prof(p); if(v>bv+1e-9){ bv=v; b=p; } } return [b,bv]; }
+function cm(){ const p=+$("cmR").value, q=cQ(p)*share(p), pr=prof(p), W=360,H=190,L=44,R=12,Tp=12,B=26, X=v=>L+(W-L-R)*(v-5)/15, Y=v=>Tp+(H-Tp-B)*(1-(v+200)/700);
+  let s=""; [-200,0,200,400].forEach(t=>{ s+=`<line x1="${L}" x2="${W-R}" y1="${Y(t)}" y2="${Y(t)}" stroke="${t===0?"#bbb":"#eee"}"/>`+T(L-5,Y(t)+3.5,inr(t),'font-size="9" fill="#888" text-anchor="end"'); });
+  [5,8,11,14,17,20].forEach(v=>{ s+=T(X(v),H-8,"₹"+v,'font-size="9.5" fill="#888" text-anchor="middle"'); });
+  const pts=[]; for(let v=5;v<=20;v+=0.5) pts.push(X(v).toFixed(1)+","+Y(Math.max(-200,prof(v))).toFixed(1));
+  s+=`<polyline points="${pts.join(" ")}" fill="none" stroke="#22794a" stroke-width="2.6" stroke-linejoin="round"/>`;
+  if(cmMode) s+=`<line x1="${X(8)}" x2="${X(8)}" y1="${Tp}" y2="${H-B}" stroke="#d9534f" stroke-dasharray="3 3"/>`+T(X(8)+3,Tp+10,"rival ₹8",'font-size="9" font-weight="700" fill="#b03a2e"');
+  s+=`<circle cx="${X(p)}" cy="${Y(Math.max(-200,pr))}" r="6" fill="#1f2328"/>`;
+  $("cmSvg").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily profit at each price, with your chosen price marked">${s}</svg>`;
+  $("cmP").textContent="₹"+(Number.isInteger(p)?p:p.toFixed(2)); $("cmQ").textContent=Math.round(q); $("cmPr").textContent=inr(pr);
+  const [bp,bv]=bestP(), msgs=["With no rival, the best price is around ₹12.50, for about ₹460 a day. Too cheap and the margin vanishes; too dear and customers stop coming.","The rival at ₹8 pulls the best price down to about ₹7.50 and the best profit to about ₹180 a day. That is competition: customers win, and profits shrink towards cost.","With a recipe customers love, Sunny can charge about ₹10.50, more than the rival, and still make about ₹370 a day. That is a moat."];
+  $("cmMsg").textContent=(Math.abs(p-bp)<0.01?"🎯 That's the best price. ":"")+msgs[cmMode]; }
+seg("cmSeg",v=>{ cmMode=+v; cm(); }); $("cmR").addEventListener("input",cm);
+$("cmBest").addEventListener("click",()=>{ $("cmR").value=bestP()[0]; cm(); }); cm();
+
+/* ---------- business cycle wave ---------- */
+(function(){ const W=360,H=150; let d="M10 90"; for(let x=10;x<=350;x+=4){ d+=` L${x} ${(80-45*Math.sin((x-10)/340*2*Math.PI*1.25)).toFixed(1)}`; }
+  const lab=[[44,"Boom","#22794a",70],[78,"Peak","#1f2328",26],[146,"Recession","#b03a2e",90],[214,"Trough","#1f2328",138],[262,"Recovery","#22794a",106]];
+  $("cycSvg").innerHTML=`<svg viewBox="0 0 ${W} ${H}"><line x1="10" x2="350" y1="80" y2="80" stroke="#ddd" stroke-dasharray="4 4"/><path d="M10 110 L350 50" stroke="#9aa0a6" stroke-width="1.5" stroke-dasharray="2 4" fill="none"/>${T(348,46,"long-run trend",'font-size="9" fill="#888" text-anchor="end"')}<path d="${d}" fill="none" stroke="#e0a000" stroke-width="3.5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${RM?0:1}" id="cycP"/>${lab.map(l=>T(l[0],l[3],l[1],`font-size="11" font-weight="800" fill="${l[2]}" text-anchor="middle"`)).join("")}</svg>`;
+  const p=$("cycP"); p.style.transition="stroke-dashoffset 2.2s ease"; onView(p,()=>requestAnimationFrame(()=>p.style.strokeDashoffset="0"),0.5); })();
+
+/* ---------- growth chart ---------- */
+function lineChart(o){ const W=360,H=220,L=38,R=12,Tp=14,B=26, ys=o.years, n=ys.length, x0=ys[0], x1=ys[n-1];
+  const mn=o.ymin, mx=o.ymax, X=y=>L+(W-L-R)*(y-x0)/(x1-x0), Y=v=>Tp+(H-Tp-B)*(1-(v-mn)/(mx-mn));
+  let b="";
+  b+=`<rect x="${L}" y="${Y(0)}" width="${W-L-R}" height="${Y(mn)-Y(0)}" fill="#d9534f" opacity=".06"/>`;
+  o.ticks.forEach(t=>{ const y=Y(t); b+=`<line x1="${L}" x2="${W-R}" y1="${y.toFixed(1)}" y2="${y.toFixed(1)}" stroke="${t===0?"#999":"#eee"}"/>`+T(L-5,y+3.5,t+"%",'font-size="9.5" fill="#888" text-anchor="end"'); });
+  o.xt.forEach(y=>{ b+=T(X(y),H-8,y,'font-size="9.5" fill="#888" text-anchor="middle"'); });
+  o.series.forEach(s=>{ const pts=s.vals.map((v,i)=>X(ys[i]).toFixed(1)+","+Y(v).toFixed(1)); b+=`<polyline points="${pts.join(" ")}" fill="none" stroke="${s.color}" stroke-width="${s.w||2.6}" stroke-linejoin="round" pathLength="1000" style="stroke-dasharray:1000;stroke-dashoffset:${RM?0:1000};transition:stroke-dashoffset 2.6s ease"/>`; });
+  (o.notes||[]).forEach(([y,v,t,col,anc,dy])=>{ b+=`<circle cx="${X(y).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="3.5" fill="${col}"/>`+T(X(y)+(anc==="end"?-5:5),Y(v)+(dy||-6),t,`text-anchor="${anc||"start"}" font-size="9" font-weight="700" fill="${col}"`); });
+  b+=`<line class="cur" x1="0" x2="0" y1="${Tp}" y2="${H-B}" stroke="#1f2328" stroke-width="1" opacity="0"/>`;
+  o.el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${o.label}">${b}</svg>`;
+  const svg=o.el.querySelector("svg"), cur=svg.querySelector(".cur");
+  const pick=e=>{ const r=svg.getBoundingClientRect(), px=(e.clientX-r.left)*W/r.width, yr=Math.max(x0,Math.min(x1,Math.round(x0+(px-L)*(x1-x0)/(W-L-R)))); cur.setAttribute("x1",X(yr)); cur.setAttribute("x2",X(yr)); cur.setAttribute("opacity",".35"); o.read(yr); };
+  svg.addEventListener("pointerdown",pick); svg.addEventListener("pointermove",e=>{ if(e.buttons||e.pointerType==="mouse") pick(e); });
+  const go=()=>svg.querySelectorAll("polyline").forEach(p=>p.style.strokeDashoffset="0");
+  if(RM) go(); else onView(o.el,()=>requestAnimationFrame(go),0.4); }
+const fmtG=v=>(v>0?"+":v<0?"−":"")+Math.abs(v).toFixed(1)+"%";
+function gRead(y){ const i=G.years.indexOf(y); $("gY").textContent=y; $("gI").textContent=fmtG(G.gI[i]); $("gU").textContent=fmtG(G.gU[i]); }
+lineChart({el:$("gSvg"),years:G.years,series:[{vals:G.gU,color:"#1d6fb8",w:2.2},{vals:G.gI,color:"#e0a000"}],ymin:-8,ymax:12,ticks:[-5,0,5,10],xt:[1975,1985,1995,2005,2015,2025],
+  notes:[[1979,-5.24,"India 1979","#b07d00","start",13],[1991,1.06,"1991","#b07d00","start",13],[2009,-2.6,"US 2009","#1d6fb8","end",13],[2020,-5.78,"Covid","#b07d00","end",4]],
+  label:"Real GDP growth each year in India and the United States, 1975 to 2025", read:gRead});
+gRead(2025);
+
+/* ---------- Mr. Market game ---------- */
+const MM=[["😱","Panic! The news says lemons will be scarce for years.",5500],["🤩","Everyone on TV says lemonade is the future!",17500],["😐","A normal, quiet day.",9800],["😨","A rival stand opened down the road.",7200],["🥳","A heatwave is forecast. Mr. Market is thrilled.",15000],["😴","Mr. Market is bored.",10400]];
+let mi=0, mscore=0;
+function mmShow(){ const m=MM[mi], fb=$("mmFb"); $("mmF").textContent=m[0]; $("mmW").textContent=`Round ${mi+1} of ${MM.length}. ${m[1]}`; $("mmQ").textContent="He offers "+inr(m[2]); fb.hidden=true; document.querySelectorAll("#mmBox .ch button").forEach(b=>{ b.disabled=false; b.className=""; }); }
+const mmBest=v=>v<8000?"b":v>12000?"s":"p";
+document.querySelectorAll("#mmBox .ch button").forEach(b=>b.addEventListener("click",()=>{ if(mi>=MM.length) return; const m=MM[mi], best=mmBest(m[2]), a=b.dataset.a, fb=$("mmFb");
+  document.querySelectorAll("#mmBox .ch button").forEach(x=>{ x.disabled=true; if(x.dataset.a===best) x.classList.add("ok"); }); if(a!==best) b.classList.add("no"); else mscore++;
+  fb.hidden=false; fb.textContent=(a===best?"✓ ":"✗ ")+(best==="b"?`At ${inr(m[2])} you get a ₹10,000 stand at a big discount. Buy.`:best==="s"?`${inr(m[2])} is far above what the stand is worth. Sell to him.`:`${inr(m[2])} is close to fair value. No bargain either way, so wait.`);
+  mi++; setTimeout(()=>{ if(mi<MM.length) mmShow(); else { $("mmS").textContent=`You scored ${mscore} of ${MM.length}. `+(mscore>=5?"Graham would hire you. 🍋🏆":"The trick: ignore his mood and compare his price with the ₹10,000 value."); $("mmF").textContent="🧐"; $("mmW").textContent="Game over. The stand's value never changed; only his mood did."; $("mmQ").textContent=""; } },1800); }));
+mmShow();
+onView($("drop"),()=>document.querySelectorAll("#drop .fill").forEach(f=>f.style.width=f.dataset.w+"%"),0.5);
+
+/* ---------- quizzes ---------- */
+const Q={q1:[["When the price of lemonade goes up, the number of glasses people want usually…",["rises","falls","stays the same"],1,"Higher prices make people buy less: the demand line slopes down."],
+  ["At the current price, 30 glasses are left over every day. The price will probably…",["rise","fall","stay the same"],1,"A surplus pushes sellers to cut prices."],
+  ["Heavy rain ruins the tomato crop. Tomato prices…",["fall, because demand drops","rise, because supply drops","do not change"],1,"Fewer tomatoes for the same appetite: a supply shift."]],
+ q2:[["Opportunity cost is…",["the price on the tag","the best thing you gave up to get something","the tax you pay"],1,"Every choice has a cost in the next-best thing you didn't do."],
+  ["Sunny makes 20 glasses or 10 cookies an hour. What does one cookie cost Sunny?",["2 glasses","10 glasses","half a glass"],0,"Each hour on cookies gives up 20 glasses for 10 cookies: 2 glasses per cookie."],
+  ["Who explained comparative advantage with England, Portugal, cloth and wine?",["Adam Smith","David Ricardo","Karl Marx"],1,"David Ricardo, in 1817."]],
+ q3:[["When a rival stand opens next door, Sunny's best price usually…",["rises","falls","does not change"],1,"Competition pulls prices towards cost."],
+  ["In investing, a 'moat' is…",["a type of bond","a lasting advantage that keeps rivals away","the water around a factory"],1,"A term Warren Buffett made popular."],
+  ["Which is most like a moat?",["Having the lowest price this week","A brand customers trust and stick with","A big advertising budget for one month"],1,"Moats last; one-off advantages don't."]],
+ q4:[["A recession means the economy…",["grows slower than 5%","produces less than before","has high inflation"],1,"Output shrinks."],
+  ["In which year did India's economy shrink because of a drought and an oil shock?",["1979","1991","2008"],0,"1979, by about 5.2%."],
+  ["In a bust, central banks usually…",["raise interest rates","cut interest rates","close the stock market"],1,"Cheaper borrowing encourages spending."]],
+ q5:[["A share is…",["a loan to the government","a small slice of ownership in a business","a type of bank account"],1,"Own a share, own a bit of the business."],
+  ["Mr. Market offers a very low price on a gloomy day. Graham would say…",["you must sell","you can take advantage of it or ignore it","the business must be worse"],1,"His mood is not the business's value."],
+  ["About how far did the Nasdaq fall from 2000 to 2002?",["About 20%","About 50%","About 78%"],2,"From 5,048.62 to 1,114.11."]],
+ final:[["The market price is where…",["sellers make the most profit","the amount people want equals the amount on offer","the government sets it"],1,"Where supply meets demand."],
+  ["A heatwave makes lemonade…",["cheaper, with fewer glasses sold","dearer, with more glasses sold","dearer, with fewer glasses sold"],1,"Demand rises: price and quantity both go up."],
+  ["A bad lemon crop makes lemonade…",["cheaper, with more glasses sold","dearer, with fewer glasses sold","dearer, with more glasses sold"],1,"Supply falls: price up, quantity down."],
+  ["Pip makes 6 glasses or 6 cookies an hour; Sunny 20 glasses or 10 cookies. Who should bake the cookies?",["Sunny, who is faster at everything","Pip, whose cookies cost fewer glasses","Neither"],1,"Pip's opportunity cost per cookie is 1 glass; Sunny's is 2."],
+  ["Why can both sides win from trade?",["Because one side always cheats","Because each can focus on what they give up least to make","Because prices are fixed"],1,"Comparative advantage."],
+  ["In the pricing game, what happened when the rival arrived?",["Sunny's best price and profit both fell","Sunny's profit rose","Nothing changed"],0,"From about ₹460 a day to about ₹180."],
+  ["Which country shrank in more years between 1975 and 2025?",["India","America","They were the same"],1,"America in six years, India in two (World Bank and BEA data)."],
+  ["About how many times bigger did India's economy get in real terms from 1974 to 2025?",["About 4 times","About 17 times","About 100 times"],1,"About 5.8% a year for 51 years."],
+  ["India's Sensex fell about how much from January 2008 to March 2009?",["About 10%","About 61%","About 95%"],1,"From 20,873 to about 8,160."],
+  ["A bubble is when…",["prices rise far above value because people expect them to keep rising","prices are exactly fair","a company pays a big dividend"],0,"When the mood turns, prices can fall a long way."]]};
+const ord=q=>{ let h=0; for(const c of q[0]) h=(h*31+c.charCodeAt(0))>>>0; const n=q[1].length, r=h%n; return q[1].map((_,j)=>(j+r)%n); };
+document.querySelectorAll("[data-quiz]").forEach(box=>{ const qs=Q[box.dataset.quiz]; let right=0, done=0;
+  box.insertAdjacentHTML("beforeend",qs.map((q,i)=>`<div class="qq"><p>${i+1}. ${q[0]}</p><div class="qo">${ord(q).map(j=>`<button type="button" data-j="${j}">${q[1][j]}</button>`).join("")}</div><p class="qw" hidden></p></div>`).join("")+`<p class="qs" hidden></p>`);
+  box.querySelectorAll(".qq").forEach((qq,i)=>{ const q=qs[i]; qq.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{ const j=+b.dataset.j; qq.querySelectorAll("button").forEach(x=>{ x.disabled=true; if(+x.dataset.j===q[2]) x.classList.add("ok"); }); if(j!==q[2]) b.classList.add("no"); else right++; done++;
+      const w=qq.querySelector(".qw"); w.hidden=false; w.textContent=(j===q[2]?"✓ Right. ":"✗ Not quite. ")+q[3]; if(done===qs.length){ const s=box.querySelector(".qs"); s.hidden=false; s.textContent=`You got ${right} of ${qs.length}`+(right===qs.length?" 🍋🏆":right>=qs.length*0.7?" 👍":" · try again after rereading"); } })); }); });
+
+/* ---------- puzzles ---------- */
+const PZ=[["People want <b>120 − 6 × price</b> glasses and Sunny makes <b>6 × price − 12</b>. At what price (₹) do they match?",11,0,"120 − 6p = 6p − 12, so 12p = 132 and p = 11.","Set the two equal and solve for the price."],
+ ["At ₹15, people want 120 − 6 × 15 glasses and Sunny makes 6 × 15 − 12. How many glasses are left over?",48,0,"Want 30, make 78: 78 − 30 = 48 left over.","Work out both numbers, then subtract."],
+ ["Pip makes 6 glasses or 6 cookies an hour. If Pip bakes cookies for 8 hours, how many glasses did Pip give up?",48,0,"8 hours × 6 glasses = 48 glasses: that is the opportunity cost.","What could Pip have made instead?"],
+ ["Each glass costs ₹5 to make. Sunny sells 75 glasses at ₹12.50 and pays ₹100 for the stall. What is the profit, in rupees? (one decimal)",462.5,0.05,"(12.50 − 5) × 75 − 100 = 462.5.","Margin per glass × glasses − the stall."],
+ ["An index falls from 5,000 to 1,000. By how many percent must it rise to get back to 5,000?",400,0,"It must multiply by 5, a rise of 400%. Big falls need even bigger rises to recover.","From 1,000 to 5,000 is how many times?"]];
+const solved=store.get("k-pz")||{};
+$("pzList").innerHTML=PZ.map((p,i)=>`<div class="pz" data-i="${i}"><p class="q"><b>Puzzle ${i+1}.</b> ${p[0]}</p><div class="in"><input inputmode="decimal" aria-label="Your answer to puzzle ${i+1}"><button class="btn pri" type="button">Check</button><button class="lnk" type="button">Hint</button></div><div class="fb"></div></div>`).join("");
+const pscore=()=>{ const n=Object.keys(solved).length; $("score").textContent=n?("Solved "+n+" of "+PZ.length+(n===PZ.length?" · Brilliant! 🍋🏆":"")):""; };
+document.querySelectorAll("#pzList .pz").forEach(el=>{ const i=+el.dataset.i, p=PZ[i], fb=el.querySelector(".fb"), inp=el.querySelector("input");
+  const check=()=>{ const v=parseFloat(String(inp.value).replace(/[₹$,%\s]/g,"")); if(isNaN(v)){ fb.className="fb no"; fb.textContent="Type a number first."; return; }
+    if(Math.abs(v-p[1])<=p[2]+1e-9){ fb.className="fb ok"; fb.textContent="✓ Correct! "+p[3]; solved[i]=1; store.set("k-pz",solved); pscore(); } else { fb.className="fb no"; fb.textContent="Not quite. Try again, or tap Hint."; } };
+  el.querySelector(".btn").addEventListener("click",check); inp.addEventListener("keydown",e=>{ if(e.key==="Enter") check(); });
+  el.querySelector(".lnk").addEventListener("click",()=>{ fb.className="fb ok"; fb.textContent="Hint: "+p[4]; });
+  if(solved[i]){ fb.className="fb ok"; fb.textContent="✓ Solved earlier. "+p[3]; } });
+pscore();
+
+const TASKS=["Track the price of one vegetable at your local market for four weeks. Did it move? Can you explain why with supply or demand?",
+ "List three things you do yourself and three you pay others to do. For each, what is your opportunity cost?",
+ "Pick a company you know. Does it have a moat (brand, network, cost, switching pain)? Write two sentences on why or why not.",
+ "Ask an older relative what they remember about 1991 or 2008. How did it affect jobs, prices or savings at home?",
+ "Follow the Sensex or Nifty for a week and write down each day's move and the news reason given. Did the businesses really change that much?"];
+const done=store.get("k-hw")||{};
+$("tasks").innerHTML=TASKS.map((t,i)=>`<li><input type="checkbox" id="hw${i}" ${done[i]?"checked":""}><label for="hw${i}">${t}</label></li>`).join("");
+$("tasks").addEventListener("change",e=>{ const m=e.target.id.match(/^hw(\d+)$/); if(m){ done[m[1]]=e.target.checked; store.set("k-hw",done); } });
+
+if("IntersectionObserver" in window){ const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("seen"); io.unobserve(e.target); } }),{rootMargin:"0px 0px -10% 0px"}); document.querySelectorAll(".reveal").forEach(el=>io.observe(el)); } else document.querySelectorAll(".reveal").forEach(el=>el.classList.add("seen"));
+</script>
+<script>/*SECTJS*/(function(){try{if(location.hostname!=="alienspacex.com")return;var c=navigator.connection;if(c&&(c.saveData||/2g/.test(c.effectiveType||"")))return;}catch(e){return}
+var B="https://alienspacex.com",P=location.pathname,U=["/","/economics/","/space/","/evolution/"].filter(function(p){return p!==P}).map(function(p){return B+p});
+function go(){try{if(HTMLScriptElement.supports&&HTMLScriptElement.supports("speculationrules")){var s=document.createElement("script");s.type="speculationrules";s.textContent=JSON.stringify({prefetch:[{source:"list",urls:U,eagerness:"eager"}],prerender:[{source:"list",urls:U,eagerness:"moderate"}]});document.head.appendChild(s);}else{U.forEach(function(u){var l=document.createElement("link");l.rel="prefetch";l.href=u;document.head.appendChild(l);});}}catch(e){}}
+function later(){(window.requestIdleCallback||function(f){setTimeout(f,1200)})(go,{timeout:3000});}
+if(document.readyState==="complete")later();else addEventListener("load",later);})();/*/SECTJS*/</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "efd3635c396040c9bc367306ad17d0de"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
