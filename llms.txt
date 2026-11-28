@@ -6,7 +6,7 @@ Every summary is written in the site's own words; exact quotations are short and
 
 ## Sections
 
-- [Great investors (interactive)](https://alienspacex.com/): 31 investors across the USA, UK, China, India, Japan and the wider world, plus traders
+- [Great investors (interactive)](https://alienspacex.com/): 32 investors across the USA, UK, China, India, Japan and the wider world, plus traders
 - [The Lemonade Stand](https://alienspacex.com/economics/): profit, cash and the three financial reports explained with a children's lemonade stand
 - [From the Big Bang to You](https://alienspacex.com/space/): 13.8 billion years of cosmic history in one scroll
 - [From the First Cell to You](https://alienspacex.com/evolution/): the story of life and human evolution
@@ -65,6 +65,7 @@ Every summary is written in the site's own words; exact quotations are short and
 ### Traders
 
 - [Paul Tudor Jones](https://alienspacex.com/ptj.html): Lost most of his clients' money on one cotton trade in 1979, built his rules around defence, and is reported to have tripled his money in the 1987 crash.
+- [Mark Minervini](https://alienspacex.com/minervini.html): Lost all his capital in the 1980s, then studied history's biggest winning stocks and won the U.S. Investing Championship twice, in 1997 and 2021.
 
 ## Timelines
 
