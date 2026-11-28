@@ -16,6 +16,7 @@ Every summary is written in the site's own words; exact quotations are short and
 
 - [Full text of every investor and trader page](https://alienspacex.com/llms-full.txt): one plain-text file
 - [Structured index (JSON)](https://alienspacex.com/api/people.json): names, summaries, big ideas, page and source links
+- [RSS feed](https://alienspacex.com/feed.xml): new pages and corrections, newest first
 - Every investor page has a Markdown twin at https://alienspacex.com/md/<id>.md, for example https://alienspacex.com/md/buffett.md
 - Please cite the page URL; text written for this site is CC BY 4.0. Quotations stay with their authors.
 

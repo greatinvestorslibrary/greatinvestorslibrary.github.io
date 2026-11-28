@@ -1,0 +1,30 @@
+# Tells Bing and other IndexNow search engines which pages changed, right after each publish.
+name: IndexNow ping
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Wait for GitHub Pages to finish publishing
+        run: sleep 150
+      - name: Send changed pages to IndexNow
+        run: |
+          KEY=f544512c772cea5407b3bebfe4e6238b
+          HOST=alienspacex.com
+          git diff --name-only HEAD~1 HEAD -- '*.html' 'feed.xml' 'sitemap.xml' | grep -v '^404.html$' | sed -e 's#index\.html$##' -e "s#^#https://$HOST/#" | head -n 10000 > urls.txt || true
+          echo "Changed pages: $(wc -l < urls.txt)"
+          if [ ! -s urls.txt ]; then echo "Nothing to send"; exit 0; fi
+          python3 - <<'PY'
+          import json
+          urls=[u.strip() for u in open("urls.txt") if u.strip()]
+          json.dump({"host":"alienspacex.com","key":"f544512c772cea5407b3bebfe4e6238b","keyLocation":"https://alienspacex.com/f544512c772cea5407b3bebfe4e6238b.txt","urlList":urls},open("body.json","w"))
+          PY
+          curl -sS -o resp.txt -w "IndexNow answered %{http_code}\n" -H "Content-Type: application/json; charset=utf-8" --data @body.json https://api.indexnow.org/indexnow
+          cat resp.txt || true

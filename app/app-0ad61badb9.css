@@ -791,9 +791,14 @@ p{margin:.6em 0}
 .home{max-width:620px;margin:0 auto;padding:calc(18px + env(safe-area-inset-top)) 20px 48px;text-align:center}
 .logo{font-size:2.15rem;margin:0 0 .25em;letter-spacing:-.01em;line-height:1.1}
 .logo .earth{color:#2e6b4f}
-.alien-w{display:flex;justify-content:center;margin:-6px 0 2px}.alien{width:104px;height:104px}
+.alien-w{display:flex;justify-content:center;margin:-6px 0 2px}.alien{width:104px;height:104px;overflow:visible}
 @media (prefers-reduced-motion:no-preference){.al-b{animation:alFloat 3.2s ease-in-out infinite}@keyframes alFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}}
-.tagline{color:var(--muted);margin:0 auto 1.6em;max-width:30em}
+/* puppy-style head tilt and blink (top mascot) */
+.al-h{transform-box:view-box;transform-origin:80px 112px}.al-e{transform-box:fill-box;transform-origin:50% 50%}
+@media (prefers-reduced-motion:no-preference){.al-h{animation:alTilt 9s ease-in-out 1.2s infinite}.al-e{animation:alBlink 4.6s ease-in-out .8s infinite}
+@keyframes alTilt{0%,8%{transform:none}14%,34%{transform:rotate(-11deg)}38%{transform:rotate(-9deg)}42%,56%{transform:none}62%,78%{transform:rotate(9deg)}84%,100%{transform:none}}
+@keyframes alBlink{0%,86%,100%{transform:none}89%{transform:scaleY(.08)}92%{transform:none}94.5%{transform:scaleY(.08)}97%{transform:none}}}
+.tagline{color:var(--muted);margin:0 auto 1.6em;max-width:30em}.tagline b{color:var(--ink);font-weight:600}
 .search input{width:100%;min-height:52px;border:1px solid var(--rule);border-radius:26px;padding:0 22px;background:var(--card);font-size:1rem;outline:none;box-shadow:0 1px 3px rgba(32,33,36,.08)}
 .search{position:relative;margin-top:18px}
 .search .runner{position:absolute;top:50%;left:14px;width:26px;height:29px;margin-top:-15px;pointer-events:none;opacity:0}
@@ -1095,6 +1100,9 @@ table.qtab thead th{font-size:.78rem;color:var(--muted);font-weight:600}
 @keyframes alHeart{0%{opacity:0;transform:translate(-50%,0) scale(.4)}25%{opacity:1;transform:translate(-50%,-14px) scale(1.2)}70%{opacity:1;transform:translate(-50%,-22px) scale(1)}100%{opacity:0;transform:translate(-50%,-34px) scale(.9)}}
 @keyframes alSpark{0%{opacity:0;transform:translate(-50%,0) scale(.3)}40%{opacity:1;transform:translate(-90%,-16px) scale(1.1)}100%{opacity:0;transform:translate(-120%,-26px) scale(.6)}}
 }
+
+/* idea of the day */
+.iod{display:block;text-align:left;margin:18px 0 24px;padding:14px 16px 13px;border:1px solid var(--rule);border-left:4px solid #2e6b4f;border-radius:14px;background:var(--card);color:var(--ink);text-decoration:none}.iod:hover{border-color:#2e6b4f}.iod-k{display:block;font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}.iod b{display:block;font-family:var(--display);font-size:1.18rem;line-height:1.3}.iod-x{display:block;color:var(--muted);font-size:.95rem;line-height:1.45;margin-top:5px}.iod-x:empty{display:none}.iod-go{display:inline-block;margin-top:8px;color:#2e6b4f;font-weight:600;font-size:.9rem}@media (prefers-color-scheme:dark){.iod{border-left-color:#7cc39c}.iod-go{color:#7cc39c}}
 
 /* ================= TIMELINE · daytime astronomy (light lemon) =================
    In light mode the Timeline uses the same light ground as the rest of the site: a pale lemon sky with faint
