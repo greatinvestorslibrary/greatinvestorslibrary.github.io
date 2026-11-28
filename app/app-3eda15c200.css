@@ -839,10 +839,7 @@ body{overflow-x:clip}
 @media (max-width:440px){.sect>*{font-size:.82rem;min-height:44px}}
 @media (max-width:360px){.sect>*{font-size:.7rem}}
 @media (prefers-color-scheme:dark){.sect{--g:#7fcfa6;--sect-ink:#a3a8b0;--sect-edge:#2a2e35}}
-@view-transition{navigation:auto}
-::view-transition-old(root),::view-transition-new(root){animation-duration:.45s}
-@media (prefers-reduced-motion:no-preference){body{animation:pgIn .5s ease-out backwards}html.pg-out body{opacity:0;transition:opacity .3s ease-in}}
-@keyframes pgIn{from{opacity:0}}/*/SECT*/
+/*/SECT*/
 .hlinks{font-size:.85rem;color:var(--muted);display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
 .hlinks a{color:var(--muted)}
 
@@ -1112,6 +1109,10 @@ table.qtab thead th{font-size:.78rem;color:var(--muted);font-weight:600}
 .bwnav button{font:inherit;font-weight:600;padding:9px 16px;border-radius:999px;border:1px solid var(--accent);background:var(--card);color:var(--accent);cursor:pointer;min-width:96px}
 .bwnav button:disabled{opacity:.35;cursor:default}
 .bwwhy{padding:10px 14px;border-left:3px solid var(--accent);background:var(--grey);border-radius:0 12px 12px 0}
+
+/* home: the section bar stays on screen while scrolling the list */
+.home>.sect{position:sticky;top:0;z-index:30}
+.home h2.sech{scroll-margin-top:64px}
 
 /* ================= TIMELINE · daytime astronomy (light lemon) =================
    In light mode the Timeline uses the same light ground as the rest of the site: a pale lemon sky with faint

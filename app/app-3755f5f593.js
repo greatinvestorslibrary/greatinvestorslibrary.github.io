@@ -1462,7 +1462,7 @@ function goBtn(sec, open, label, cls){ return `<button class="golink${cls?" "+cl
 const stripHead = h => h.replace(/^\s*<span class="eyebrow">[^<]*<\/span><h2>[^<]*<\/h2>/, "");
 
 function renderSecs(secs){ return secs.map((s,i)=>`<section class="psec" id="s-${s.id}"><header class="psh"><span class="psn">${i+1}</span><div><h2>${esc(s.title)}</h2>${s.sub?`<p class="ssub">${esc(s.sub)}</p>`:""}</div></header><div class="sb" id="sb-${s.id}">${s.html()}</div></section>`).join(""); }
-function topbar(title){ return `<div class="topbar"><div class="topbar-in"><a class="tback" href="#" aria-label="Back to the library">‹ Library</a><span class="bt">${esc(title)}</span><button class="cbtn" id="cBtn" aria-expanded="false" aria-controls="cMenu">Contents</button></div>
+function topbar(title){ return `<div class="topbar"><div class="topbar-in"><a class="tback" href="${V4.country==="traders"?"#traders":"#"}" aria-label="Back to the library">‹ Library</a><span class="bt">${esc(title)}</span><button class="cbtn" id="cBtn" aria-expanded="false" aria-controls="cMenu">Contents</button></div>
   <nav class="cmenu" id="cMenu" hidden><ol>${V4.secs.map(s=>`<li><button data-go="${s.id}">${esc(s.title)}</button></li>`).join("")}</ol></nav></div>`; }
 function footNote(){ return `<footer class="foot"><p>The Alien's Guide to Earth is a free, independent study guide, for education only. It is not investment advice. Not affiliated with any person, company or publisher named.</p><p>An independent, non-commercial educational project. Not affiliated with, sponsored by or endorsed by any company or organisation.</p><p class="flinks"><a href="#about">About and disclaimer</a><a href="corrections.html">Corrections</a><a href="#privacy">Privacy</a><a href="#terms">Terms of use</a></p></footer>`; }
 
@@ -1861,6 +1861,11 @@ function fillLazy(d){ const b=d.querySelector(":scope > .accb"); if(!b || b.chil
   let m; if((m=d.id.match(/^yr-(\d{4})$/))) b.innerHTML=tlYearBody(+m[1]);
   else if(d.id==="lives-chart") b.innerHTML=`<figure class="tl-lives">${tlLivesSVG()}<figcaption>${tlLegend("Shaded bands: "+esc(TL.labels.leaders))}</figcaption></figure>`; labelSvgs(b); }
 
+/* ---------- home: after switching Investors/Traders, glide to the list so the change is visible ---------- */
+function toList(){ const h=document.querySelector(".home h2.sech"); if(!h) return; const bar=document.querySelector(".home>.sect"), off=(bar?bar.offsetHeight:0)+12;
+  const y=Math.max(0,h.getBoundingClientRect().top+window.scrollY-off), y0=window.scrollY; if(Math.abs(y-y0)<4) return;
+  if(REDUCED){ window.scrollTo(0,y); return; } const t0=performance.now(), D=260;
+  (function f(t){ const k=Math.min(1,(t-t0)/D), e=1-Math.pow(1-k,3); window.scrollTo(0,y0+(y-y0)*e); if(k<1) requestAnimationFrame(f); })(t0); }
 /* ---------- events ---------- */
 document.addEventListener("toggle", e=>{ const d=e.target; if(!d || d.tagName!=="DETAILS" || !d.id) return; if(d.open){ V4.open.add(d.id); fillLazy(d); } else V4.open.delete(d.id); }, true);
 function closeMenu(){ const m=document.getElementById("cMenu"), b=document.getElementById("cBtn"); if(m){ m.hidden=true; } if(b) b.setAttribute("aria-expanded","false"); }
@@ -1870,7 +1875,9 @@ document.addEventListener("click", e=>{
   const tt=e.target.closest("[data-trtab]"); if(tt){ V4.tr.tab=tt.dataset.trtab; const p=P(); if(p&&p.rec){ const f=document.getElementById("trEq"); if(f) f.innerHTML=trEquitySVG(p.rec); document.querySelectorAll("[data-trtab]").forEach(b=>{ const on=b.dataset.trtab===V4.tr.tab; b.classList.toggle("on",on); b.setAttribute("aria-pressed",String(on)); }); } return; }
   const cb=e.target.closest("#cBtn"); if(cb){ const m=document.getElementById("cMenu"); m.hidden=!m.hidden; cb.setAttribute("aria-expanded", String(!m.hidden)); return; }
   const g=e.target.closest("[data-go]"); if(g){ e.preventDefault(); closeMenu(); const el = g.dataset.open ? openEl(g.dataset.open) : document.getElementById("s-"+g.dataset.go); scrollToEl(el, true); return; }
-  const cc=e.target.closest("[data-country]"); if(cc){ e.preventDefault(); V4.country=cc.dataset.country; const app=document.getElementById("app"); app.innerHTML=homeHTML(); return; }
+  const cc=e.target.closest("[data-country]"); if(cc){ e.preventDefault(); V4.country=cc.dataset.country; const app=document.getElementById("app"); app.innerHTML=homeHTML();
+    try{ history.replaceState(history.state,"",V4.country==="usa"?location.pathname+location.search:"#"+V4.country); }catch(_){}
+    if(cc.closest(".explore,.sect")) toList(); return; }
   const qb=e.target.closest("[data-q]"); if(qb){ const i=document.getElementById("q"); if(i){ i.value=qb.dataset.q; V4.q=i.value; document.getElementById("qres").innerHTML=searchHTML(V4.q); } return; }
   if(!e.target.closest("#cMenu")) closeMenu();
   const a=e.target.closest('a[href^="#"]'); if(a && !e.defaultPrevented){ const h=a.getAttribute("href"); if(h===location.hash || (h==="#" && !location.hash)){ e.preventDefault(); navigate(route(h)); } }
@@ -1942,10 +1949,13 @@ if(topBtn) topBtn.addEventListener("click", ()=>window.scrollTo({top:0, behavior
     first=false; return NV(r); };
 })();
 navigate(route());
+if(location.hash==="#traders") setTimeout(()=>{ if(window.scrollY<10) toList(); },80);
 
-/*SECTJS*/(function(){var d=document.documentElement,R=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,T=false;try{T=window.top===window}catch(e){}
-addEventListener('pageshow',function(){d.classList.remove('pg-out');d.style.background=''});
-document.addEventListener('click',function(e){if(R||!T||e.defaultPrevented||e.button||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;var a=e.target.closest&&e.target.closest('a[data-bg]');if(!a)return;e.preventDefault();d.style.background=a.getAttribute('data-bg');d.classList.add('pg-out');setTimeout(function(){location.href=a.href},300)})})();/*/SECTJS*/
+/*SECTJS*/(function(){try{if(location.hostname!=="alienspacex.com")return;var c=navigator.connection;if(c&&(c.saveData||/2g/.test(c.effectiveType||"")))return;}catch(e){return}
+var B="https://alienspacex.com",P=location.pathname,U=["/","/economics/","/space/","/evolution/"].filter(function(p){return p!==P}).map(function(p){return B+p});
+function go(){try{if(HTMLScriptElement.supports&&HTMLScriptElement.supports("speculationrules")){var s=document.createElement("script");s.type="speculationrules";s.textContent=JSON.stringify({prefetch:[{source:"list",urls:U,eagerness:"eager"}],prerender:[{source:"list",urls:U,eagerness:"moderate"}]});document.head.appendChild(s);}else{U.forEach(function(u){var l=document.createElement("link");l.rel="prefetch";l.href=u;document.head.appendChild(l);});}}catch(e){}}
+function later(){(window.requestIdleCallback||function(f){setTimeout(f,1200)})(go,{timeout:3000});}
+if(document.readyState==="complete")later();else addEventListener("load",later);})();/*/SECTJS*/
 
 /* typing alien in the search box: types once, performs once, then rests */
 (function(){var TXT="Type your query…",R=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches,cv=document.createElement("canvas").getContext("2d"),st={n:0,ph:0,w:0},q0=null,played=false,tm=null;
