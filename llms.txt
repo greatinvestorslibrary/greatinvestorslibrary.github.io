@@ -12,7 +12,14 @@ Every summary is written in the site's own words; exact quotations are short and
 - [From the First Cell to You](https://alienspacex.com/evolution/): the story of life and human evolution
 - [All pages](https://alienspacex.com/library.html): every investor and every big idea, as plain text pages
 
-## Investors
+## For AI agents
+
+- [Full text of every investor and trader page](https://alienspacex.com/llms-full.txt): one plain-text file
+- [Structured index (JSON)](https://alienspacex.com/api/people.json): names, summaries, big ideas, page and source links
+- Every investor page has a Markdown twin at https://alienspacex.com/md/<id>.md, for example https://alienspacex.com/md/buffett.md
+- Please cite the page URL; text written for this site is CC BY 4.0. Quotations stay with their authors.
+
+## Investors and traders
 
 ### USA
 

@@ -1,0 +1,3379 @@
+{
+ "site": "The Alien's Guide to Earth",
+ "url": "https://alienspacex.com",
+ "updated": "2026-11-28",
+ "license": "CC BY 4.0 for text written for this site",
+ "disclaimer": "Education only; not investment advice.",
+ "people": [
+  {
+   "id": "buffett",
+   "name": "Warren Buffett",
+   "section": "investors",
+   "region": "the United States",
+   "summary": "Ran Berkshire Hathaway for sixty years and explained every decision in a yearly letter to its owners.",
+   "core_idea": "You are buying a claim on what a company will earn.",
+   "page": "https://alienspacex.com/buffett.html",
+   "markdown": "https://alienspacex.com/md/buffett.md",
+   "big_ideas": [
+    {
+     "title": "A share is a slice of a business",
+     "idea": "You are buying a claim on what a company will earn. The price on the screen is an offer from a stranger, and it carries no information about the business.",
+     "page": "https://alienspacex.com/ideas/buffett-01-a-share-is-a-slice-of-a-business.html"
+    },
+    {
+     "title": "Moats: what makes a business worth owning",
+     "idea": "A great business earns a high return on the money inside it, and can keep doing so because something stops competitors from taking it away.",
+     "page": "https://alienspacex.com/ideas/buffett-02-moats-what-makes-a-business-worth-owning.html"
+    },
+    {
+     "title": "Price, value and the margin of safety",
+     "idea": "Value is the cash a business will hand its owners over time. Price is what you pay for that. The gap between the two is your return and your protection.",
+     "page": "https://alienspacex.com/ideas/buffett-03-price-value-and-the-margin-of-safety.html"
+    },
+    {
+     "title": "Mr. Market and temperament",
+     "idea": "Prices swing far more than values do. The swings are there to be used or ignored. They are never instructions.",
+     "page": "https://alienspacex.com/ideas/buffett-04-mr-market-and-temperament.html"
+    },
+    {
+     "title": "Activity, costs and patience",
+     "idea": "The return from owning good businesses is earned by sitting. Almost everything an investor does beyond that subtracts from it.",
+     "page": "https://alienspacex.com/ideas/buffett-05-activity-costs-and-patience.html"
+    },
+    {
+     "title": "Risk, debt and survival",
+     "idea": "Risk is the chance of losing capital for good. Price swings are something else. Stay in a position where no single event can end the game.",
+     "page": "https://alienspacex.com/ideas/buffett-06-risk-debt-and-survival.html"
+    },
+    {
+     "title": "Circle of competence",
+     "idea": "You do not need to understand many businesses. You need to know exactly which ones you do understand, and stay there.",
+     "page": "https://alienspacex.com/ideas/buffett-07-circle-of-competence.html"
+    },
+    {
+     "title": "Capital allocation: what happens to retained profit",
+     "idea": "Over a decade, what management does with the profit it keeps counts for more than the profit itself.",
+     "page": "https://alienspacex.com/ideas/buffett-08-capital-allocation-what-happens-to-retained-profit.html"
+    },
+    {
+     "title": "Acquisitions: a test for any company that buys others",
+     "idea": "Most deals help the seller and the adviser. Use his filters to judge every serial acquirer you own.",
+     "page": "https://alienspacex.com/ideas/buffett-09-acquisitions-a-test-for-any-company-that-buys-others.html"
+    },
+    {
+     "title": "Managers, pay and boards",
+     "idea": "He looks for people who run a company as if it were their family's only asset, and for pay and boards that keep them that way.",
+     "page": "https://alienspacex.com/ideas/buffett-10-managers-pay-and-boards.html"
+    },
+    {
+     "title": "Accounting: read like an owner",
+     "idea": "Reported numbers are where analysis starts. His letters are a thirty-year course in where they mislead.",
+     "page": "https://alienspacex.com/ideas/buffett-11-accounting-read-like-an-owner.html"
+    },
+    {
+     "title": "Insurance: float and the discipline of saying no",
+     "idea": "Every letter returns to insurance. The ideas carry over to any business that takes money today against a promise to pay later, such as lenders.",
+     "page": "https://alienspacex.com/ideas/buffett-12-insurance-float-and-the-discipline-of-saying-no.html"
+    },
+    {
+     "title": "Mistakes: his own list",
+     "idea": "Read what he took from each one. His costly errors fall into four groups: misjudging how long an advantage would last, paying with undervalued shares, paying an optimistic price, and waiting too long once the facts changed. Market crashes do not appear on the list. The other half of the picture came in 2022: about one good decision every five years has carried the record.",
+     "page": "https://alienspacex.com/ideas/buffett-13-mistakes-his-own-list.html"
+    },
+    {
+     "title": "Productive assets, inflation and the long view",
+     "idea": "Wealth compounds in things that produce: businesses, farms, property. Claims on money and objects that produce nothing do not compound.",
+     "page": "https://alienspacex.com/ideas/buffett-14-productive-assets-inflation-and-the-long-view.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The 1995 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 1996 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 1997 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 1998 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 1999 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2000 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2001 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2002 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2003 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2004 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2005 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2006 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2007 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2008 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2009 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2010 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2011 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2012 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2013 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2014 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2015 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2016 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2017 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2018 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2019 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2020 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2021 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2022 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2023 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "The 2024 letter",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    }
+   ]
+  },
+  {
+   "id": "munger",
+   "name": "Charlie Munger",
+   "section": "investors",
+   "region": "the United States",
+   "summary": "Buffett's partner for over forty years, and the clearest thinker on why smart people make bad decisions.",
+   "core_idea": "Hang what you learn on a latticework of big ideas from many fields, and invert: ask what would guarantee failure, then avoid it.",
+   "page": "https://alienspacex.com/munger.html",
+   "markdown": "https://alienspacex.com/md/munger.md",
+   "big_ideas": [
+    {
+     "title": "A latticework of models",
+     "idea": "Isolated facts do not stick and do not help. Hang them on a frame built from the big ideas of many fields, then use whichever ideas fit the problem.",
+     "page": "https://alienspacex.com/ideas/munger-01-a-latticework-of-models.html"
+    },
+    {
+     "title": "Invert, always invert",
+     "idea": "Many problems that resist a direct attack give way when turned round. Ask what would guarantee failure, and then avoid it.",
+     "page": "https://alienspacex.com/ideas/munger-02-invert-always-invert.html"
+    },
+    {
+     "title": "Incentives",
+     "idea": "To predict what people will do, look first at what they are rewarded for. He put this first in his list of 25 human tendencies.",
+     "page": "https://alienspacex.com/ideas/munger-03-incentives.html"
+    },
+    {
+     "title": "The psychology of misjudgment",
+     "idea": "He built a list of 25 mental tendencies that lead sensible people into error, and used it as a checklist. The danger peaks when several act at once.",
+     "page": "https://alienspacex.com/ideas/munger-04-the-psychology-of-misjudgment.html"
+    },
+    {
+     "title": "The inner life: envy, resentment, self-pity",
+     "idea": "Much of his life advice is about thoughts to refuse. A few emotions do more damage than bad luck, and they are under your control.",
+     "page": "https://alienspacex.com/ideas/munger-05-the-inner-life-envy-resentment-self-pity.html"
+    },
+    {
+     "title": "Reliability, trust and deserving",
+     "idea": "He thought most of what people want in life is earned by being someone others can rely on. Trust that is deserved is the strongest arrangement there is.",
+     "page": "https://alienspacex.com/ideas/munger-06-reliability-trust-and-deserving.html"
+    },
+    {
+     "title": "Learning for life",
+     "idea": "He saw lifelong learning as a duty, and as the main reason ordinary people overtake cleverer ones over a working life.",
+     "page": "https://alienspacex.com/ideas/munger-07-learning-for-life.html"
+    },
+    {
+     "title": "Objectivity and the edge of what you know",
+     "idea": "Knowing the limits of your competence is worth more than its size. Self-regard and strong ideology are the usual ways people step over the edge without noticing.",
+     "page": "https://alienspacex.com/ideas/munger-08-objectivity-and-the-edge-of-what-you-know.html"
+    },
+    {
+     "title": "Investing: few, great, and then sit",
+     "idea": "The big money comes from a handful of great businesses, bought when the odds are clearly favourable, then held for a long time.",
+     "page": "https://alienspacex.com/ideas/munger-09-investing-few-great-and-then-sit.html"
+    },
+    {
+     "title": "Business models, moats and scale",
+     "idea": "He studied why some businesses compound for a century while others never earn their keep, and taught it through plain examples.",
+     "page": "https://alienspacex.com/ideas/munger-10-business-models-moats-and-scale.html"
+    },
+    {
+     "title": "Costs, consultants and febezzlement",
+     "idea": "Fees and frictional costs look small each year and become enormous over time. He attacked them with arithmetic and with a word he coined.",
+     "page": "https://alienspacex.com/ideas/munger-11-costs-consultants-and-febezzlement.html"
+    },
+    {
+     "title": "Accounting, honesty and candour",
+     "idea": "He wrote as a lawyer who distrusted flattering numbers. The test is always what an absent owner would want to be told.",
+     "page": "https://alienspacex.com/ideas/munger-12-accounting-honesty-and-candour.html"
+    },
+    {
+     "title": "Adversity, patience and hard work",
+     "idea": "Setbacks are certain, and many are unfair. What decides a life is the response to them, and the steady work done in between.",
+     "page": "https://alienspacex.com/ideas/munger-13-adversity-patience-and-hard-work.html"
+    },
+    {
+     "title": "The Berkshire system, in his words",
+     "idea": "In his 2014 essay, written directly to Berkshire shareholders for the first time, he explained why the company had worked.",
+     "page": "https://alienspacex.com/ideas/munger-14-the-berkshire-system-in-his-words.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Letter to Blue Chip Stamps stockholders for 1982, signed by Munger as chairman, dated 17 February 1983",
+     "url": "https://www.gurufocus.com/news/2135167/charlie-mungers-1982-letter-to-wesco-shareholders"
+    },
+    {
+     "title": "Letter to Wesco Financial shareholders for 1985, dated 13 February 1986",
+     "url": "https://www.gurufocus.com/news/2136293/charlie-mungers-1985-letter-to-wesco-shareholders"
+    },
+    {
+     "title": "Harvard School commencement, Los Angeles, 13 June 1986",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "A Lesson on Elementary, Worldly Wisdom",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "Worldly Wisdom, Revisited, with questions from students",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "Practical Thought about Practical Thought?",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "Letter to Wesco Financial shareholders for 1996",
+     "url": "https://gurufocus.com/news/2136790/charlie-mungers-1996-letter-to-wesco-shareholders"
+    },
+    {
+     "title": "Fiftieth reunion of the Harvard Law School class of 1948, 24 April 1998",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "Investment Practices of Leading Charitable Foundations",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "Breakfast meeting of the Philanthropy Roundtable, 10 November 2000",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "The Great Financial Scandal of 2003",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "Academic Economics",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "The Psychology of Human Misjudgment",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "Letter to Wesco Financial shareholders for 2006, dated 27 February 2007",
+     "url": "https://www.gurufocus.com/news/2135591/charlie-mungers-2006-letter-to-wesco-shareholders"
+    },
+    {
+     "title": "USC Gould School of Law commencement, 13 May 2007",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    },
+    {
+     "title": "Vice Chairman's Thoughts, Past and Future",
+     "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+     "title": "Poor Charlie's Almanack: the editor's chapters",
+     "url": "https://stripe.press/poor-charlies-almanack/book"
+    }
+   ]
+  },
+  {
+   "id": "lynch",
+   "name": "Peter Lynch",
+   "section": "investors",
+   "region": "the United States",
+   "summary": "Ran the Magellan Fund from 1977 to 1990, beat the market by a mile, and showed ordinary people how to find good stocks.",
+   "core_idea": "An ordinary person who keeps their eyes open often spots a good company years before the professionals, but must still do the homework.",
+   "page": "https://alienspacex.com/lynch.html",
+   "markdown": "https://alienspacex.com/md/lynch.md",
+   "big_ideas": [
+    {
+     "title": "The amateur's edge",
+     "idea": "An ordinary person who keeps their eyes open often spots a good company years before the professionals do.",
+     "page": "https://alienspacex.com/ideas/lynch-01-the-amateurs-edge.html"
+    },
+    {
+     "title": "Is it gambling? Stocks and your stomach",
+     "idea": "Stocks reward patient owners of good companies; the real test is your stomach, not your brain.",
+     "page": "https://alienspacex.com/ideas/lynch-02-is-it-gambling-stocks-and-your-stomach.html"
+    },
+    {
+     "title": "Look in your own backyard",
+     "idea": "The best leads come from everyday life: the store you like, the product people keep buying, the trend at your job.",
+     "page": "https://alienspacex.com/ideas/lynch-03-look-in-your-own-backyard.html"
+    },
+    {
+     "title": "The six kinds of stock",
+     "idea": "Before buying, decide which of six kinds of stock you are looking at; that tells you what to expect and when to sell.",
+     "page": "https://alienspacex.com/ideas/lynch-04-the-six-kinds-of-stock.html"
+    },
+    {
+     "title": "The perfect stock, and the ones to avoid",
+     "idea": "He looked for dull, overlooked companies in boring niches, and stayed away from the hottest story in town.",
+     "page": "https://alienspacex.com/ideas/lynch-05-the-perfect-stock-and-the-ones-to-avoid.html"
+    },
+    {
+     "title": "Earnings are the engine",
+     "idea": "Over months the price can do anything; over years it follows the company's earnings.",
+     "page": "https://alienspacex.com/ideas/lynch-06-earnings-are-the-engine.html"
+    },
+    {
+     "title": "The famous numbers",
+     "idea": "A few simple numbers tell you whether a good company is also a good price.",
+     "page": "https://alienspacex.com/ideas/lynch-07-the-famous-numbers.html"
+    },
+    {
+     "title": "Balance sheet first",
+     "idea": "The biggest losses come from weak balance sheets; know a company's finances before you risk money on it.",
+     "page": "https://alienspacex.com/ideas/lynch-08-balance-sheet-first.html"
+    },
+    {
+     "title": "The two-minute drill",
+     "idea": "If you can't explain why you own a stock in two minutes, simply enough for a child, you don't know enough to own it.",
+     "page": "https://alienspacex.com/ideas/lynch-09-the-two-minute-drill.html"
+    },
+    {
+     "title": "Ten-baggers: let the winners run",
+     "idea": "You only need a few big winners in a lifetime, so let them run and don't cut the flowers to water the weeds.",
+     "page": "https://alienspacex.com/ideas/lynch-10-ten-baggers-let-the-winners-run.html"
+    },
+    {
+     "title": "Don't time the market",
+     "idea": "Nobody can predict the economy or the next fall; study companies, not forecasts.",
+     "page": "https://alienspacex.com/ideas/lynch-11-dont-time-the-market.html"
+    },
+    {
+     "title": "Keep checking the story",
+     "idea": "Hold as long as the story holds; recheck it every few months, and sell when the story, not the price, changes.",
+     "page": "https://alienspacex.com/ideas/lynch-12-keep-checking-the-story.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "One Up on Wall Street, Part 1: Preparing to invest",
+     "url": "https://www.simonandschuster.com/books/One-Up-On-Wall-Street/Peter-Lynch/9780743200400"
+    },
+    {
+     "title": "One Up on Wall Street, Part 2: Picking winners",
+     "url": "https://www.simonandschuster.com/books/One-Up-On-Wall-Street/Peter-Lynch/9780743200400"
+    },
+    {
+     "title": "One Up on Wall Street, Part 3: The long-term view",
+     "url": "https://www.simonandschuster.com/books/One-Up-On-Wall-Street/Peter-Lynch/9780743200400"
+    },
+    {
+     "title": "One Up on Wall Street: Introduction to the millennium edition",
+     "url": "https://www.simonandschuster.com/books/One-Up-On-Wall-Street/Peter-Lynch/9780743200400"
+    },
+    {
+     "title": "Beating the Street",
+     "url": "https://www.simonandschuster.com/books/Beating-the-Street/Peter-Lynch/9780671891633"
+    },
+    {
+     "title": "Talk at the National Press Club",
+     "url": "https://novelinvestor.com/peter-lynch-single-important-thing/"
+    },
+    {
+     "title": "Learn to Earn",
+     "url": "https://www.simonandschuster.ca/books/Learn-to-Earn/Peter-Lynch/9780684811635"
+    },
+    {
+     "title": "Interview for PBS Frontline, “Betting on the Market”",
+     "url": "https://www.pbs.org/wgbh/pages/frontline/shows/betting/pros/lynch.html"
+    },
+    {
+     "title": "Interview with Yahoo Finance",
+     "url": "https://ca.finance.yahoo.com/news/fidelity-legend-peter-lynch-i-never-said-to-invest-in-the-stock-market-120755736.html"
+    }
+   ]
+  },
+  {
+   "id": "bolton",
+   "name": "Anthony Bolton",
+   "section": "investors",
+   "region": "the United Kingdom",
+   "summary": "Ran Fidelity Special Situations for 28 years, about 19.5% a year, by buying good companies the crowd had given up on.",
+   "core_idea": "Go against the crowd, with a reason. He bought what others disliked, but only once he understood why the gloom was overdone.",
+   "page": "https://alienspacex.com/bolton.html",
+   "markdown": "https://alienspacex.com/md/bolton.md",
+   "big_ideas": [
+    {
+     "title": "The contrarian's edge",
+     "idea": "The best bargains are usually in companies the crowd has given up on. The hard part is buying when it feels uncomfortable.",
+     "page": "https://alienspacex.com/ideas/bolton-01-the-contrarians-edge.html"
+    },
+    {
+     "title": "Write down why you own it",
+     "idea": "Every share you own needs a reason you can write in a few lines, and a written case against it.",
+     "page": "https://alienspacex.com/ideas/bolton-02-write-down-why-you-own-it.html"
+    },
+    {
+     "title": "What is already in the price",
+     "idea": "Look for a gap between price and value, measured in several ways, then give it time to close.",
+     "page": "https://alienspacex.com/ideas/bolton-03-what-is-already-in-the-price.html"
+    },
+    {
+     "title": "Meet the managers",
+     "idea": "He learnt most by meeting the people who run companies, again and again, and writing everything down.",
+     "page": "https://alienspacex.com/ideas/bolton-04-meet-the-managers.html"
+    },
+    {
+     "title": "What makes a good company",
+     "idea": "Start with the quality of the business, then ask whether it will be worth more in ten years.",
+     "page": "https://alienspacex.com/ideas/bolton-05-what-makes-a-good-company.html"
+    },
+    {
+     "title": "Where the analysts are not",
+     "idea": "Medium and smaller companies, and those analysts have given up on, are where mispricing lives.",
+     "page": "https://alienspacex.com/ideas/bolton-06-where-the-analysts-are-not.html"
+    },
+    {
+     "title": "Charts as a second opinion",
+     "idea": "Research comes first. He used price charts to confirm it and to time his buying and selling, never on their own.",
+     "page": "https://alienspacex.com/ideas/bolton-07-charts-as-a-second-opinion.html"
+    },
+    {
+     "title": "When to sell",
+     "idea": "Sell when the reason for owning breaks, when the price reaches your target, or when you find something better.",
+     "page": "https://alienspacex.com/ideas/bolton-08-when-to-sell.html"
+    },
+    {
+     "title": "Know yourself",
+     "idea": "Temperament matters more than intelligence. Find an approach that fits your nature, then stick with it.",
+     "page": "https://alienspacex.com/ideas/bolton-09-know-yourself.html"
+    },
+    {
+     "title": "Even legends stumble",
+     "idea": "His China fund went badly at first. How he explained it teaches as much as his years of success.",
+     "page": "https://alienspacex.com/ideas/bolton-10-even-legends-stumble.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Investing Against the Tide",
+     "url": "https://www.pearson.com/store/p/investing-against-the-tide/P200000009635/9781292129280"
+    },
+    {
+     "title": "Investing with Anthony Bolton",
+     "url": "https://harriman-house.com/investing-with-anthony-bolton"
+    },
+    {
+     "title": "Remember the wisdom of Keynes and Mark Twain",
+     "url": "https://archive.spectator.co.uk/article/9th-june-2007/22/remember-the-wisdom-of-keynes-and-mark-twain"
+    },
+    {
+     "title": "The guru who believes in charts",
+     "url": "https://moneyweek.com/10642/anthony-bolton-the-guru-who-believes-in-charts"
+    },
+    {
+     "title": "What he learnt in three decades of investing",
+     "url": "https://www.morningstar.in/posts/35426/investing-against-the-tide.aspx"
+    },
+    {
+     "title": "The mindset of a contrarian investor",
+     "url": "https://www.nbim.no/en/news-and-insights/podcast/2025/the-mindset-of-a-contrarian-investor--anthony-bolton/"
+    },
+    {
+     "title": "The reasons for my underperformance",
+     "url": "https://www.trustnet.com/News/386663/fund/sectors"
+    },
+    {
+     "title": "Five fund managers who said sorry",
+     "url": "https://ii.co.uk/analysis-commentary/five-fund-managers-who-said-sorry-and-what-happened-next-ii515118"
+    }
+   ]
+  },
+  {
+   "id": "smith",
+   "name": "Terry Smith",
+   "section": "investors",
+   "region": "the United Kingdom",
+   "summary": "Exposed creative accounting and lost his job for it, then built Fundsmith on three rules: buy good companies, don't overpay, do nothing.",
+   "core_idea": "Buy good companies. Companies that earn high returns on their capital, in cash, year after year, without much debt.",
+   "page": "https://alienspacex.com/smith.html",
+   "markdown": "https://alienspacex.com/md/smith.md",
+   "big_ideas": [
+    {
+     "title": "Buy good companies",
+     "idea": "A good company earns a high return on the money tied up in it, in cash, and keeps doing so for decades.",
+     "page": "https://alienspacex.com/ideas/smith-01-buy-good-companies.html"
+    },
+    {
+     "title": "The numbers that show quality",
+     "idea": "Every year he publishes the same few measures for his companies beside the market's. Quality shows up in the numbers.",
+     "page": "https://alienspacex.com/ideas/smith-02-the-numbers-that-show-quality.html"
+    },
+    {
+     "title": "Don't overpay",
+     "idea": "Even the best company can be a bad investment at the wrong price. He checks how much cash you get for what you pay.",
+     "page": "https://alienspacex.com/ideas/smith-03-dont-overpay.html"
+    },
+    {
+     "title": "Do nothing",
+     "idea": "Once you own good companies at sensible prices, the hardest and best thing is to leave them alone.",
+     "page": "https://alienspacex.com/ideas/smith-04-do-nothing.html"
+    },
+    {
+     "title": "Read the accounts",
+     "idea": "His first fame came from showing how companies dressed up their profits. Reported profit can mislead; cash is harder to fake.",
+     "page": "https://alienspacex.com/ideas/smith-05-read-the-accounts.html"
+    },
+    {
+     "title": "You are the biggest risk",
+     "idea": "Most damage to investors' returns is self-inflicted: chasing fashion, trading too much, buying what they don't understand.",
+     "page": "https://alienspacex.com/ideas/smith-06-you-are-the-biggest-risk.html"
+    },
+    {
+     "title": "Costs come out of your pocket",
+     "idea": "Fees, charges and dealing costs are certain; returns are not. Keep the certain losses small.",
+     "page": "https://alienspacex.com/ideas/smith-07-costs-come-out-of-your-pocket.html"
+    },
+    {
+     "title": "Don't over-diversify",
+     "idea": "Twenty or so well-chosen companies give most of the safety of spreading out. More than that, and you know each one less well.",
+     "page": "https://alienspacex.com/ideas/smith-08-dont-over-diversify.html"
+    },
+    {
+     "title": "Avoid poor businesses and star bosses",
+     "idea": "Stay away from companies that earn poor returns, and from companies that only work with a genius in charge.",
+     "page": "https://alienspacex.com/ideas/smith-09-avoid-poor-businesses-and-star-bosses.html"
+    },
+    {
+     "title": "When it doesn't work",
+     "idea": "From 2021 to 2025 his fund trailed the market five years running. How he explained it is a lesson in honesty and patience.",
+     "page": "https://alienspacex.com/ideas/smith-10-when-it-doesnt-work.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fundsmith Equity Fund Owner's Manual",
+     "url": "https://www.fundsmith.co.uk/media/mv3abv1h/owners-manual.pdf"
+    },
+    {
+     "title": "Annual letters to fund owners",
+     "url": "https://www.fundsmith.co.uk/media/4hcfd1pg/2025-fef-annual-letter-web.pdf"
+    },
+    {
+     "title": "Ten golden rules of investment",
+     "url": "https://www.fundsmith.co.uk/news/2013/2070-financial-times-ten-golden-rules-of-investment/"
+    },
+    {
+     "title": "Accounting for Growth",
+     "url": "https://www.worldofbooks.com/en-au/books/terry-smith/accounting-for-growth/9780712657648"
+    },
+    {
+     "title": "Investing for Growth",
+     "url": "https://www.panmacmillan.com/authors/terry-smith/investing-for-growth/9780857199010"
+    }
+   ]
+  },
+  {
+   "id": "keynes",
+   "name": "John Maynard Keynes",
+   "section": "investors",
+   "region": "the United Kingdom",
+   "summary": "The century's most famous economist failed at forecasting markets, changed his method, and beat the UK market for a quarter of a century.",
+   "core_idea": "In 1938: choose a few cheap investments carefully, hold them steadfastly, and balance the risks.",
+   "page": "https://alienspacex.com/keynes.html",
+   "markdown": "https://alienspacex.com/md/keynes.md",
+   "big_ideas": [
+    {
+     "title": "The forecaster who failed",
+     "idea": "In the 1920s he tried to profit from the ups and downs of the economy. Even he could not time them.",
+     "page": "https://alienspacex.com/ideas/keynes-01-the-forecaster-who-failed.html"
+    },
+    {
+     "title": "From forecaster to stock picker",
+     "idea": "In the early 1930s he stopped forecasting the market and started choosing individual companies. His results improved dramatically.",
+     "page": "https://alienspacex.com/ideas/keynes-02-from-forecaster-to-stock-picker.html"
+    },
+    {
+     "title": "His three principles",
+     "idea": "In May 1938 he summed up successful investment in three principles: careful selection, steadfast holding, balance.",
+     "page": "https://alienspacex.com/ideas/keynes-03-his-three-principles.html"
+    },
+    {
+     "title": "A few big bets you understand",
+     "idea": "He thought spreading money across many things you know little about was a mistake. Better a few large holdings you understand.",
+     "page": "https://alienspacex.com/ideas/keynes-04-a-few-big-bets-you-understand.html"
+    },
+    {
+     "title": "Shares over bonds, for the long run",
+     "idea": "He moved a centuries-old college endowment from land and bonds into shares, decades before other institutions.",
+     "page": "https://alienspacex.com/ideas/keynes-05-shares-over-bonds-for-the-long-run.html"
+    },
+    {
+     "title": "The beauty contest",
+     "idea": "He compared the stock market to a newspaper contest where you win by guessing what others will pick, not what you think is best.",
+     "page": "https://alienspacex.com/ideas/keynes-06-the-beauty-contest.html"
+    },
+    {
+     "title": "Convention and reputation",
+     "idea": "Most people assume tomorrow will look like today, and most professionals would rather be wrong with the crowd than right alone.",
+     "page": "https://alienspacex.com/ideas/keynes-07-convention-and-reputation.html"
+    },
+    {
+     "title": "Animal spirits",
+     "idea": "Much of what drives business and markets is not calculation but a spontaneous urge to act, which can switch off suddenly.",
+     "page": "https://alienspacex.com/ideas/keynes-08-animal-spirits.html"
+    },
+    {
+     "title": "Holding through the falls",
+     "idea": "Long-term investing means sitting through sharp falls. He did, and it cost him a chairmanship.",
+     "page": "https://alienspacex.com/ideas/keynes-09-holding-through-the-falls.html"
+    },
+    {
+     "title": "Words he never said",
+     "idea": "Keynes is the most misquoted investor of all. Checking who really said what is a good habit for every investor.",
+     "page": "https://alienspacex.com/ideas/keynes-10-words-he-never-said.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Post-mortem memo to the King's College Estates Committee",
+     "url": "https://novelinvestor.com/john-maynard-keyness-investment-policy/"
+    },
+    {
+     "title": "Letter to F. C. Scott",
+     "url": "https://www.berkshirehathaway.com/letters/1991.html"
+    },
+    {
+     "title": "The General Theory, chapter 12",
+     "url": "https://www.marxists.org/reference/subject/economics/keynes/general-theory/ch12.htm"
+    },
+    {
+     "title": "Keynes the stock market investor",
+     "url": "https://www.jbs.cam.ac.uk/insight/2013/investing-in-2013-ask-john-maynard-keynes"
+    },
+    {
+     "title": "Keynes the investor: lessons to be learned",
+     "url": "https://blogs.cfainstitute.org/eic/2014/10/20/keynes-the-investor-lessons-to-be-learned/"
+    },
+    {
+     "title": "If you're so smart: Keynes and currency speculation",
+     "url": "https://www.jbs.cam.ac.uk/2016/if-youre-so-smart/"
+    },
+    {
+     "title": "Maynard Keynes in King's College",
+     "url": "https://www.kings.cam.ac.uk/node/16149"
+    },
+    {
+     "title": "The market can remain irrational…: who said it?",
+     "url": "https://quoteinvestigator.com/2011/08/09/remain-solvent/"
+    },
+    {
+     "title": "Keynesian eugenics and the goodness of the world",
+     "url": "https://www.cambridge.org/core/product/1D1FE14255DA18E1DA28ED94E9680198"
+    }
+   ]
+  },
+  {
+   "id": "lilu",
+   "name": "Li Lu",
+   "section": "investors",
+   "region": "China",
+   "summary": "Heard Buffett speak by chance, founded Himalaya Capital, and became the only outside manager Charlie Munger said he ever invested with.",
+   "core_idea": "A share is part of a business. Returns come from the business growing in value, not from guessing prices.",
+   "page": "https://alienspacex.com/lilu.html",
+   "markdown": "https://alienspacex.com/md/lilu.md",
+   "big_ideas": [
+    {
+     "title": "A share is a piece of a business",
+     "idea": "Value investing rests on four ideas. The first is that a share is part-ownership of a real business, so your return comes from the business growing.",
+     "page": "https://alienspacex.com/ideas/lilu-01-a-share-is-a-piece-of-a-business.html"
+    },
+    {
+     "title": "Know where your circle ends",
+     "idea": "Your circle of competence should be small and clearly drawn. The skill is knowing where it ends, and what would prove you wrong.",
+     "page": "https://alienspacex.com/ideas/lilu-02-know-where-your-circle-ends.html"
+    },
+    {
+     "title": "The market serves you",
+     "idea": "Prices are there to use when they suit you. The market cannot tell you what a company is worth, and it punishes anyone who forgets that.",
+     "page": "https://alienspacex.com/ideas/lilu-03-the-market-serves-you.html"
+    },
+    {
+     "title": "Margin of safety",
+     "idea": "Because the future is uncertain, buy at a price far below your cautious estimate of value. He started with very cheap shares and moved, over time, to great businesses at fair prices.",
+     "page": "https://alienspacex.com/ideas/lilu-04-margin-of-safety.html"
+    },
+    {
+     "title": "Research like an owner",
+     "idea": "Study a company as if you had just inherited it and had to run it. Talk to everyone, from the boss to the security guard.",
+     "page": "https://alienspacex.com/ideas/lilu-05-research-like-an-owner.html"
+    },
+    {
+     "title": "Why he gave up short selling",
+     "idea": "He calls short selling one of his worst mistakes. The maths, the frauds and the distraction all work against you.",
+     "page": "https://alienspacex.com/ideas/lilu-06-why-he-gave-up-short-selling.html"
+    },
+    {
+     "title": "Patient, then decisive",
+     "idea": "Great opportunities are rare. Wait calmly while nothing happens, then act firmly when one appears.",
+     "page": "https://alienspacex.com/ideas/lilu-07-patient-then-decisive.html"
+    },
+    {
+     "title": "A different road from Wall Street",
+     "idea": "Munger told him his problems were Wall Street's problems. He rebuilt his fund around long-term partners and a sense of duty to their savings.",
+     "page": "https://alienspacex.com/ideas/lilu-08-a-different-road-from-wall-street.html"
+    },
+    {
+     "title": "Own a slice of the world",
+     "idea": "Real wealth is your share of the world's buying power. Over two centuries, owning businesses beat cash, gold and bonds by a vast margin.",
+     "page": "https://alienspacex.com/ideas/lilu-09-own-a-slice-of-the-world.html"
+    },
+    {
+     "title": "Mistakes, luck and compounding knowledge",
+     "idea": "He had a bad first year, sold winners too early and gave up shorting the hard way. He credits luck, and says knowledge compounds like money.",
+     "page": "https://alienspacex.com/ideas/lilu-10-mistakes-luck-and-compounding-knowledge.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Foreword to the Chinese edition of Poor Charlie's Almanack",
+     "url": "https://uploads-ssl.webflow.com/5ef3c7300432b40ed865991a/5ef3c7300432b4440a659983_Li%20Lu%20-%20Foreword%20to%20Chinese%20Edition%20of%20PCA%20(English%20translation).pdf"
+    },
+    {
+     "title": "Know what you don't know",
+     "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville%20-%20Issue%2018%20-%20Spring%202013_0.pdf"
+    },
+    {
+     "title": "The prospects for value investing in China",
+     "url": "https://www.himcap.com/publications"
+    },
+    {
+     "title": "The practice of value investing",
+     "url": "https://www.longriverinv.com/thought/the-practice-of-value-investing-by-li-lu"
+    },
+    {
+     "title": "Civilization, Modernization, Value Investing and China",
+     "url": "https://www.himcap.com/publications"
+    },
+    {
+     "title": "Fireside chat at the Graham & Dodd luncheon",
+     "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/36th%20Annual%20Graham%20%26%20Dodd%20Luncheon%20Transcript%20(20261005)%20CBS.pdf"
+    },
+    {
+     "title": "Berkshire exits BYD after 17 years",
+     "url": "https://www.rte.ie/news/business/2025/0922/1534663-berkshire-hathaway-exits-byd"
+    }
+   ]
+  },
+  {
+   "id": "duan",
+   "name": "Duan Yongping",
+   "section": "investors",
+   "region": "China",
+   "summary": "Built the companies behind OPPO and vivo, then turned investor: buy businesses you understand, never borrow, and keep a list of things you won't do.",
+   "core_idea": "Buying a stock is buying the company. A company is worth the cash it will produce in future, discounted. Full stop.",
+   "page": "https://alienspacex.com/duan.html",
+   "markdown": "https://alienspacex.com/md/duan.md",
+   "big_ideas": [
+    {
+     "title": "Buying a stock is buying the company",
+     "idea": "One sentence from Buffett changed how he invested. A share is part of a company, and a company is worth the cash it will produce from now on.",
+     "page": "https://alienspacex.com/ideas/duan-01-buying-a-stock-is-buying-the-company.html"
+    },
+    {
+     "title": "Only what you understand",
+     "idea": "Be honest about what you understand. He says he truly understands only a few companies, and his losses came when he strayed.",
+     "page": "https://alienspacex.com/ideas/duan-02-only-what-you-understand.html"
+    },
+    {
+     "title": "The stop-doing list",
+     "idea": "Doing the right thing mostly means refusing to do wrong things. Most people know what is wrong; they do it anyway for a short-term gain.",
+     "page": "https://alienspacex.com/ideas/duan-03-the-stop-doing-list.html"
+    },
+    {
+     "title": "Never borrow",
+     "idea": "His companies take no interest-bearing loans, and he never borrows to invest. Debt makes you faster in both directions.",
+     "page": "https://alienspacex.com/ideas/duan-04-never-borrow.html"
+    },
+    {
+     "title": "Right business, right people, right price",
+     "idea": "Look at the business model and the culture first. Price comes last.",
+     "page": "https://alienspacex.com/ideas/duan-05-right-business-right-people-right-price.html"
+    },
+    {
+     "title": "Benfen and a calm mind",
+     "idea": "Benfen means doing what you should, even when nobody asked. Add a calm, ordinary mind and, he says, you have the whole secret of BBK.",
+     "page": "https://alienspacex.com/ideas/duan-06-benfen-and-a-calm-mind.html"
+    },
+    {
+     "title": "Hold great companies",
+     "idea": "Good companies rarely need selling. He sells when the business changes or something clearly better appears.",
+     "page": "https://alienspacex.com/ideas/duan-07-hold-great-companies.html"
+    },
+    {
+     "title": "NetEase, Apple and Moutai",
+     "idea": "Three bets made him famous as an investor. Each fits his rules: a business he understood, a culture he liked, a sensible price.",
+     "page": "https://alienspacex.com/ideas/duan-08-netease-apple-and-moutai.html"
+    },
+    {
+     "title": "The Buffett lunch and giving back",
+     "idea": "In 2006 he paid a record sum to lunch with Buffett, to charity. He plans to give most of his money away, and gives with conditions that make gifts last.",
+     "page": "https://alienspacex.com/ideas/duan-09-the-buffett-lunch-and-giving-back.html"
+    },
+    {
+     "title": "The mistakes he admits",
+     "idea": "He is frank about his errors. Most came when he speculated or strayed outside what he understood.",
+     "page": "https://alienspacex.com/ideas/duan-10-the-mistakes-he-admits.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Talk and questions at Stanford",
+     "url": "https://m.huxiu.com/article/265373.html"
+    },
+    {
+     "title": "Interview with Fang Sanwen",
+     "url": "https://finance.ifeng.com/c/8oChp5B5WMc"
+    },
+    {
+     "title": "Da Dao: Duan Yongping's investing questions and answers",
+     "url": "https://m.huxiu.com/article/4292824.html"
+    },
+    {
+     "title": "His replies on Xueqiu",
+     "url": "https://www.xueqiu.com/3640871106/288907057"
+    },
+    {
+     "title": "China's secretive billionaire reveals how he toppled Apple",
+     "url": "https://www.malaymail.com/news/money/2017/03/20/chinas-secretive-billionaire-reveals-how-he-toppled-apple/1339087"
+    },
+    {
+     "title": "No shortage of tips at Buffett lunch",
+     "url": "https://www.scmp.com/article/556023/no-shortage-tips-buffett-lunch"
+    },
+    {
+     "title": "The two words that made Duan Yongping rich",
+     "url": "https://www.36kr.com/p/3555484789095560"
+    },
+    {
+     "title": "What the book Da Dao really teaches",
+     "url": "https://finance.ifeng.com/c/8vOYN25Ve8V"
+    }
+   ]
+  },
+  {
+   "id": "qiu",
+   "name": "Qiu Guolu",
+   "section": "investors",
+   "region": "China",
+   "summary": "Boiled investing down to three questions, why cheap, why good, why now, and built one of China's largest private fund firms on them.",
+   "core_idea": "Cheapness is the hard truth. Even an ordinary company can pay well if bought cheaply enough.",
+   "page": "https://alienspacex.com/qiu.html",
+   "markdown": "https://alienspacex.com/md/qiu.md",
+   "big_ideas": [
+    {
+     "title": "Three questions",
+     "idea": "All his analysis comes down to three questions: why is it cheap, why is it good, and why buy now?",
+     "page": "https://alienspacex.com/ideas/qiu-01-three-questions.html"
+    },
+    {
+     "title": "Cheapness is the hard truth",
+     "idea": "A low price is the investor's first protection. Even an ordinary company can pay well if bought cheaply enough.",
+     "page": "https://alienspacex.com/ideas/qiu-02-cheapness-is-the-hard-truth.html"
+    },
+    {
+     "title": "Pricing power is the core advantage",
+     "idea": "A company with a real edge can raise prices without losing customers. That power comes from doing what you can repeat and others cannot copy.",
+     "page": "https://alienspacex.com/ideas/qiu-03-pricing-power-is-the-core-advantage.html"
+    },
+    {
+     "title": "Count the moons, not the stars",
+     "idea": "Look at the whole industry, not just the company. The best skies have one bright moon; the worst are crowded with stars.",
+     "page": "https://alienspacex.com/ideas/qiu-04-count-the-moons-not-the-stars.html"
+    },
+    {
+     "title": "Win first, then fight",
+     "idea": "Crowded, fast-growing industries make poor hunting grounds. Wait until the battle is over and back the winner.",
+     "page": "https://alienspacex.com/ideas/qiu-05-win-first-then-fight.html"
+    },
+    {
+     "title": "Take what others discard",
+     "idea": "Go where the crowd is not, and be careful where it is packed. But cheap can stay cheap: check why the crowd left.",
+     "page": "https://alienspacex.com/ideas/qiu-06-take-what-others-discard.html"
+    },
+    {
+     "title": "A lucky win is not a right bet",
+     "idea": "Judge your method, not this year's result. A sound process shows itself over five to ten years.",
+     "page": "https://alienspacex.com/ideas/qiu-07-a-lucky-win-is-not-a-right-bet.html"
+    },
+    {
+     "title": "Clients first",
+     "idea": "A fund firm must put compliance before growth, clients before itself, and results before size.",
+     "page": "https://alienspacex.com/ideas/qiu-08-clients-first.html"
+    },
+    {
+     "title": "Value investing works in China",
+     "idea": "He has tried most methods. For most people, he concluded, only value investing can really be learned and used, in China as anywhere.",
+     "page": "https://alienspacex.com/ideas/qiu-09-value-investing-works-in-china.html"
+    },
+    {
+     "title": "Even legends stumble",
+     "idea": "After two hard years he wrote to investors about his mistakes, and what he would watch more closely.",
+     "page": "https://alienspacex.com/ideas/qiu-10-even-legends-stumble.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Simplest Things in Investing",
+     "url": "https://news.cnyes.com/news/id/3568837"
+    },
+    {
+     "title": "The Not-So-Simple Things in Investing",
+     "url": "https://www.36kr.com/p/1722207780865"
+    },
+    {
+     "title": "Crazy only for value",
+     "url": "https://finance.ifeng.com/a/20150226/13514764_0.shtml"
+    },
+    {
+     "title": "Interviews with Smart Investor",
+     "url": "https://m.gelonghui.com/p/266308"
+    },
+    {
+     "title": "Counting the moon",
+     "url": "https://m.gelonghui.com/p/186330"
+    },
+    {
+     "title": "Why fast-changing industries make poor investments",
+     "url": "https://m.gelonghui.com/p/156733"
+    },
+    {
+     "title": "Letter to investors",
+     "url": "https://wallstreetcn.com/articles/3659973"
+    }
+   ]
+  },
+  {
+   "id": "zhanglei",
+   "name": "Zhang Lei",
+   "section": "investors",
+   "region": "China",
+   "summary": "Learned investing at Yale under David Swensen, founded Hillhouse with $20 million, and preaches long-term bets on great entrepreneurs.",
+   "core_idea": "Long-termism. Put time and conviction into things that create value over many years.",
+   "page": "https://alienspacex.com/zhanglei.html",
+   "markdown": "https://alienspacex.com/md/zhanglei.md",
+   "big_ideas": [
+    {
+     "title": "Long-termism",
+     "idea": "Put your time and conviction into things that create value over many years. A long horizon is an edge from the starting line.",
+     "page": "https://alienspacex.com/ideas/zhanglei-01-long-termism.html"
+    },
+    {
+     "title": "Swensen's lessons",
+     "idea": "David Swensen was his first teacher. He learned what it means to be a fiduciary, to think truly long term, and to build an organisation with a soul.",
+     "page": "https://alienspacex.com/ideas/zhanglei-02-swensens-lessons.html"
+    },
+    {
+     "title": "Research is the base",
+     "idea": "Deep research comes first, and few bets. Understand real businesses the way a field researcher studies a village.",
+     "page": "https://alienspacex.com/ideas/zhanglei-03-research-is-the-base.html"
+    },
+    {
+     "title": "People first",
+     "idea": "Hillhouse's growth came mainly from people: the managers it hires and the entrepreneurs it backs.",
+     "page": "https://alienspacex.com/ideas/zhanglei-04-people-first.html"
+    },
+    {
+     "title": "Backing great vision",
+     "idea": "He looks for entrepreneurs with great vision, which he defines in four parts.",
+     "page": "https://alienspacex.com/ideas/zhanglei-05-backing-great-vision.html"
+    },
+    {
+     "title": "Moats must keep moving",
+     "idea": "Static moats erode. The lasting edge belongs to companies that keep innovating and rebuilding their advantage.",
+     "page": "https://alienspacex.com/ideas/zhanglei-06-moats-must-keep-moving.html"
+    },
+    {
+     "title": "Create value, don't just find it",
+     "idea": "Hillhouse tries to help good companies get better, rather than planning the exit first.",
+     "page": "https://alienspacex.com/ideas/zhanglei-07-create-value-dont-just-find-it.html"
+    },
+    {
+     "title": "Fire cannot burn it",
+     "idea": "As a student he decided that what fire can burn, money and houses, matters least. What lasts is knowledge, ability and values.",
+     "page": "https://alienspacex.com/ideas/zhanglei-08-fire-cannot-burn-it.html"
+    },
+    {
+     "title": "Patience with big bets",
+     "idea": "Long-term bets can stay underwater for years. Gree shows both the patience and the risk.",
+     "page": "https://alienspacex.com/ideas/zhanglei-09-patience-with-big-bets.html"
+    },
+    {
+     "title": "The LONGi investigation",
+     "idea": "In 2023 China's securities regulator investigated a Hillhouse unit over undisclosed share sales. Here are the facts, so you can judge for yourself.",
+     "page": "https://alienspacex.com/ideas/zhanglei-10-the-longi-investigation.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Value: My Thoughts on Investing",
+     "url": "https://book.douban.com/subject/35188914/"
+    },
+    {
+     "title": "Preface to Value: long-termism",
+     "url": "https://www.yicai.com/news/100751845.html"
+    },
+    {
+     "title": "Investing and entrepreneurship both need long-termism",
+     "url": "https://www.36kr.com/p/852939339586439"
+    },
+    {
+     "title": "Lecture at Columbia Business School",
+     "url": "https://www.gurufocus.com/news/349678/notes-from-hillhouse-capitals-lei-zhangs-lecture-at-columbia-business-school"
+    },
+    {
+     "title": "Lei Zhang on Hillhouse Capital's success equation",
+     "url": "https://blogs.cfainstitute.org/blog/2018/05/14/lei-zhang-on-hillhouse-capitals-success-equation/"
+    },
+    {
+     "title": "Remembering my legendary mentor David Swensen",
+     "url": "https://www.caixinglobal.com/2021-05-09/obituary-remembering-my-legendary-mentor-david-swensen-101708563.html"
+    },
+    {
+     "title": "Profile of Lei Zhang, Yale trustee",
+     "url": "https://yaledailynews.com/?p=152260"
+    },
+    {
+     "title": "Yale's $2.4 billion profit machine Hillhouse is ready to reload",
+     "url": "https://www.bnnbloomberg.ca/yale-s-2-4-billion-profit-machine-hillhouse-ready-to-reload-1.1427668"
+    },
+    {
+     "title": "Practising value investing: a review of Value",
+     "url": "https://cs.com.cn/xwzx/jr/202009/t20200921_6096372.html"
+    },
+    {
+     "title": "Hillhouse and Gree Electric",
+     "url": "https://www.caixinglobal.com/2026-02-27/hillhouse-to-cut-gree-stake-in-first-move-since-landmark-buyout-102417309.html"
+    },
+    {
+     "title": "The HHLR investigation over LONGi shares",
+     "url": "https://yicaiglobal.com/news/hillhouse-unit-is-probed-by-chinese-regulators-for-allegedly-breaking-bourse-rules"
+    }
+   ]
+  },
+  {
+   "id": "graham",
+   "name": "Benjamin Graham",
+   "section": "investors",
+   "region": "the United States",
+   "summary": "Taught Buffett, wrote the two founding books of value investing, and turned a near-ruinous 1929 into rules for never being ruined again.",
+   "core_idea": "Investing, not speculating. An investment protects your money and earns a fair return. Anything else is speculation.",
+   "page": "https://alienspacex.com/graham.html",
+   "markdown": "https://alienspacex.com/md/graham.md",
+   "big_ideas": [
+    {
+     "title": "Investing or speculating?",
+     "idea": "An investment, after careful study, protects your money and promises a fair return. Anything else is speculation, and you should know which you are doing.",
+     "page": "https://alienspacex.com/ideas/graham-01-investing-or-speculating.html"
+    },
+    {
+     "title": "Mr Market",
+     "idea": "Picture a partner who offers every day to buy your share or sell you his, at a price that depends on his mood. You may take his offer or ignore it.",
+     "page": "https://alienspacex.com/ideas/graham-02-mr-market.html"
+    },
+    {
+     "title": "Margin of safety",
+     "idea": "Pay well below what something is worth. The gap protects you from your own mistakes, bad luck and the unknown.",
+     "page": "https://alienspacex.com/ideas/graham-03-margin-of-safety.html"
+    },
+    {
+     "title": "Know which investor you are",
+     "idea": "He split investors in two. Defensive investors want safety and little effort; enterprising ones will put in time and skill. Mixing the two is the danger.",
+     "page": "https://alienspacex.com/ideas/graham-04-know-which-investor-you-are.html"
+    },
+    {
+     "title": "Seven tests for the defensive investor",
+     "idea": "For investors who want safety, he set seven plain tests: size, strong finances, steady earnings, dividends, growth, and moderate prices against earnings and assets.",
+     "page": "https://alienspacex.com/ideas/graham-05-seven-tests-for-the-defensive-investor.html"
+    },
+    {
+     "title": "Buying below working capital",
+     "idea": "His favourite bargain: shares selling for less than the company's current assets minus all its debts, giving nothing at all for factories or brands.",
+     "page": "https://alienspacex.com/ideas/graham-06-buying-below-working-capital.html"
+    },
+    {
+     "title": "Simple rules, many stocks",
+     "idea": "Late in life he decided that detailed analysis rarely paid any more. Better to buy groups of cheap shares by simple rules, and to sell by rules too.",
+     "page": "https://alienspacex.com/ideas/graham-07-simple-rules-many-stocks.html"
+    },
+    {
+     "title": "Stocks and bonds: the 25–75 rule",
+     "idea": "Keep at least a quarter of your money in shares and at least a quarter in bonds, always. Rebalance as markets move.",
+     "page": "https://alienspacex.com/ideas/graham-08-stocks-and-bonds-the-25-75-rule.html"
+    },
+    {
+     "title": "The market catches up with value",
+     "idea": "Prices can stray far from value for a long time. But, as he told the Senate, the market eventually catches up.",
+     "page": "https://alienspacex.com/ideas/graham-09-the-market-catches-up-with-value.html"
+    },
+    {
+     "title": "Loss, luck and generosity",
+     "idea": "The crash taught him caution, GEICO taught him how much luck matters, and his friends remembered his generosity.",
+     "page": "https://alienspacex.com/ideas/graham-10-loss-luck-and-generosity.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Security Analysis",
+     "url": "https://www.ivey.uwo.ca/bengrahaminvesting/resources/ben-graham-collection/"
+    },
+    {
+     "title": "The Intelligent Investor",
+     "url": "https://en.wikipedia.org/wiki/The_Intelligent_Investor"
+    },
+    {
+     "title": "Testimony on the stock market",
+     "url": "https://novelinvestor.com/graham-mysteries-stock-market/"
+    },
+    {
+     "title": "A conversation with Benjamin Graham",
+     "url": "https://bylo.org/bgraham76.html"
+    },
+    {
+     "title": "Benjamin Graham, the father of financial analysis",
+     "url": "https://rpc.cfainstitute.org/research/foundation/1977/benjamin-graham-the-father-of-financial-analysis-full-pdf"
+    },
+    {
+     "title": "The Superinvestors of Graham-and-Doddsville",
+     "url": "https://en.wikipedia.org/wiki/The_Superinvestors_of_Graham-and-Doddsville"
+    },
+    {
+     "title": "Berkshire Hathaway letter to shareholders",
+     "url": "https://www.berkshirehathaway.com/letters/1987.html"
+    }
+   ]
+  },
+  {
+   "id": "fisher",
+   "name": "Philip Fisher",
+   "section": "investors",
+   "region": "the United States",
+   "summary": "Ran his own firm for 68 years, found great companies by talking to everyone around them, and held Motorola for nearly half a century.",
+   "core_idea": "Scuttlebutt. Learn about a company from its customers, suppliers, rivals and former staff.",
+   "page": "https://alienspacex.com/fisher.html",
+   "markdown": "https://alienspacex.com/md/fisher.md",
+   "big_ideas": [
+    {
+     "title": "Scuttlebutt",
+     "idea": "Find out about a company from the people around it: customers, suppliers, competitors, former employees and scientists. Only then visit the managers.",
+     "page": "https://alienspacex.com/ideas/fisher-01-scuttlebutt.html"
+    },
+    {
+     "title": "The fifteen points",
+     "idea": "He listed fifteen questions an outstanding company should answer well. A company need not pass all, but must pass most.",
+     "page": "https://alienspacex.com/ideas/fisher-02-the-fifteen-points.html"
+    },
+    {
+     "title": "Ability and integrity",
+     "idea": "Two traits in the people who run a company are essential: business ability, and honesty. Without both, he would not invest.",
+     "page": "https://alienspacex.com/ideas/fisher-03-ability-and-integrity.html"
+    },
+    {
+     "title": "Growth that lasts",
+     "idea": "Look for companies that can keep growing for years, because they keep developing new products. Fortunes come from seeing big changes early.",
+     "page": "https://alienspacex.com/ideas/fisher-04-growth-that-lasts.html"
+    },
+    {
+     "title": "Conservative investors sleep well",
+     "idea": "A conservative investment keeps your purchasing power with the least risk. He defined it in four dimensions.",
+     "page": "https://alienspacex.com/ideas/fisher-05-conservative-investors-sleep-well.html"
+    },
+    {
+     "title": "When to sell: almost never",
+     "idea": "If you bought the right company, the time to sell is almost never. He gave three reasons to sell, and dismissed the rest.",
+     "page": "https://alienspacex.com/ideas/fisher-06-when-to-sell-almost-never.html"
+    },
+    {
+     "title": "Own the best, not the most",
+     "idea": "Over-diversifying into companies you don't know well is riskier than owning a few you know thoroughly.",
+     "page": "https://alienspacex.com/ideas/fisher-07-own-the-best-not-the-most.html"
+    },
+    {
+     "title": "Don't follow the crowd",
+     "idea": "Prices swing with fashion. Look years ahead, buy when fear runs high, and judge price by tomorrow's earnings, not today's.",
+     "page": "https://alienspacex.com/ideas/fisher-08-dont-follow-the-crowd.html"
+    },
+    {
+     "title": "Dividends matter less",
+     "idea": "He thought investors made too much fuss about dividends. A company that can reinvest profits well usually serves owners better by doing so.",
+     "page": "https://alienspacex.com/ideas/fisher-09-dividends-matter-less.html"
+    },
+    {
+     "title": "Lessons from his own mistakes",
+     "idea": "He saw the 1929 crash coming and still lost money. He started his firm in the Depression with almost nothing, and built his method from mistakes.",
+     "page": "https://alienspacex.com/ideas/fisher-10-lessons-from-his-own-mistakes.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Common Stocks and Uncommon Profits",
+     "url": "https://www.fool.com/specials/2001/01/18/fishers-investing-criteria-sp010118.aspx"
+    },
+    {
+     "title": "Paths to Wealth through Common Stocks",
+     "url": "https://en.wikiquote.org/wiki/Philip_Arthur_Fisher"
+    },
+    {
+     "title": "Conservative Investors Sleep Well",
+     "url": "https://www.morningstar.com.au/personal-finance/bookworm-an-essential-quality-conservative-investments-phil-fisher"
+    },
+    {
+     "title": "Developing an Investment Philosophy",
+     "url": "https://www.fool.com/archive/portfolios/rulemaker/2001/03/23/eight-principles-of-investing.aspx"
+    },
+    {
+     "title": "Philip A. Fisher, 96, is dead; wrote key investment book",
+     "url": "https://www.nytimes.com/2004/04/19/business/philip-a-fisher-96-is-dead-wrote-key-investment-book.html"
+    },
+    {
+     "title": "How Omaha beats Wall Street",
+     "url": "https://hedgefundalpha.com/strategies/forbes-warren-buffett-omaha-beats-wall-street/"
+    }
+   ]
+  },
+  {
+   "id": "templeton",
+   "name": "John Templeton",
+   "section": "investors",
+   "region": "the United States",
+   "summary": "Bought 104 cheap shares as war broke out in 1939, then searched the whole world for bargains at the point of maximum pessimism.",
+   "core_idea": "Maximum pessimism. The best bargains appear when almost everyone is selling.",
+   "page": "https://alienspacex.com/templeton.html",
+   "markdown": "https://alienspacex.com/md/templeton.md",
+   "big_ideas": [
+    {
+     "title": "Buy at maximum pessimism",
+     "idea": "Shares only become bargains when people sell them, and people sell when they are gloomy. So the best time to buy is when almost everyone else is pessimistic.",
+     "page": "https://alienspacex.com/ideas/templeton-01-buy-at-maximum-pessimism.html"
+    },
+    {
+     "title": "The 1939 basket",
+     "idea": "As war broke out in Europe, he borrowed $10,000 and bought 100 shares in each of 104 companies trading at $1 or less. Nearly all of them made money.",
+     "page": "https://alienspacex.com/ideas/templeton-02-the-1939-basket.html"
+    },
+    {
+     "title": "Search the whole world",
+     "idea": "He looked for bargains in every country, not just at home. That was rare in the 1950s, and it gave him far more choices.",
+     "page": "https://alienspacex.com/ideas/templeton-03-search-the-whole-world.html"
+    },
+    {
+     "title": "Bargains among quality",
+     "idea": "Cheap is not enough. He looked for good businesses, with strong market positions and capable managers, at low prices.",
+     "page": "https://alienspacex.com/ideas/templeton-04-bargains-among-quality.html"
+    },
+    {
+     "title": "Value, not forecasts",
+     "idea": "Buy individual companies on their own merits, not on what you think the economy or the market will do.",
+     "page": "https://alienspacex.com/ideas/templeton-05-value-not-forecasts.html"
+    },
+    {
+     "title": "Diversify, and keep watching",
+     "idea": "There is safety in numbers. Spread your money by industry, by risk and by country, and keep checking what you own.",
+     "page": "https://alienspacex.com/ideas/templeton-06-diversify-and-keep-watching.html"
+    },
+    {
+     "title": "Don't panic",
+     "idea": "When markets crash, don't sell in fear. And don't be gloomy too often: over time, optimism has paid.",
+     "page": "https://alienspacex.com/ideas/templeton-07-dont-panic.html"
+    },
+    {
+     "title": "Selling into euphoria",
+     "idea": "The mirror of buying at maximum pessimism is selling at maximum optimism. In 2000, aged 87, he bet heavily against overpriced technology shares.",
+     "page": "https://alienspacex.com/ideas/templeton-08-selling-into-euphoria.html"
+    },
+    {
+     "title": "Humility",
+     "idea": "Invest, don't speculate. Learn from mistakes, accept there is no free lunch, and never think you know it all.",
+     "page": "https://alienspacex.com/ideas/templeton-09-humility.html"
+    },
+    {
+     "title": "Distance, thrift and giving",
+     "idea": "He did his best work far from Wall Street, lived frugally, and gave much of his fortune to the study of the spiritual side of life.",
+     "page": "https://alienspacex.com/ideas/templeton-10-distance-thrift-and-giving.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "16 rules for investment success",
+     "url": "https://www.franklintempleton.com/forms-literature/download/TL-R16"
+    },
+    {
+     "title": "Billionaire investor dies at 95",
+     "url": "https://www.americanrhodes.org/news-123.html"
+    },
+    {
+     "title": "Legendary investor Templeton dead at 95",
+     "url": "https://www.startribune.com/legendary-investor-templeton-dead-at-95/24090479/"
+    },
+    {
+     "title": "Investment guru once dubbed the greatest global stock-picker",
+     "url": "https://www.irishtimes.com/news/investment-guru-once-dubbed-the-greatest-global-stock-picker-1.944579"
+    },
+    {
+     "title": "John Templeton: how to be a bargain hunter",
+     "url": "https://www.morningstar.com.au/personal-finance/john-templeton-how-to-be-a-bargain-hunter"
+    },
+    {
+     "title": "How to invest like the best: John Templeton",
+     "url": "https://www-warranty.ii.co.uk/analysis-commentary/how-invest-best-buy-low-and-sell-high-john-templeton-ii538493"
+    },
+    {
+     "title": "How John Templeton reconciled God and Mammon",
+     "url": "https://www.lgt.com/de-en/market-assessments/insights/financial-knowledge/how-john-templeton-reconciled-god-and-mammon-301902"
+    },
+    {
+     "title": "The making of Templeton",
+     "url": "https://www.fa-mag.com/news/making-templeton-1966.html?page=3"
+    },
+    {
+     "title": "John Templeton's 16 rules for investment success",
+     "url": "https://awealthofcommonsense.com/john-templetons-16-rules-for-investment-success/"
+    },
+    {
+     "title": "Investing the Templeton Way",
+     "url": "https://moiglobal.com/lauren-templeton-investing-the-templeton-way/"
+    }
+   ]
+  },
+  {
+   "id": "bogle",
+   "name": "John Bogle",
+   "section": "investors",
+   "region": "the United States",
+   "summary": "Launched the first index fund for ordinary investors, was mocked for it, and spent his life cutting the costs that eat savers' returns.",
+   "core_idea": "Buy the haystack. Own the whole market instead of hunting for the few winners.",
+   "page": "https://alienspacex.com/bogle.html",
+   "markdown": "https://alienspacex.com/md/bogle.md",
+   "big_ideas": [
+    {
+     "title": "Buy the haystack",
+     "idea": "Instead of searching for the few stocks or funds that will beat the market, buy the whole market through a low-cost index fund, and hold it.",
+     "page": "https://alienspacex.com/ideas/bogle-01-buy-the-haystack.html"
+    },
+    {
+     "title": "Costs matter",
+     "idea": "Returns are uncertain; costs are certain. Every fee and commission comes straight out of what you earn, and over decades the damage compounds.",
+     "page": "https://alienspacex.com/ideas/bogle-02-costs-matter.html"
+    },
+    {
+     "title": "The simple arithmetic",
+     "idea": "All investors together own the market. So, before costs, they earn the market's return; after costs, they must earn less. Beating the market is a loser's game for most.",
+     "page": "https://alienspacex.com/ideas/bogle-03-the-simple-arithmetic.html"
+    },
+    {
+     "title": "Bogle's folly",
+     "idea": "His first index fund was mocked and nearly failed to launch. He stood behind it for years until the idea won.",
+     "page": "https://alienspacex.com/ideas/bogle-04-bogles-folly.html"
+    },
+    {
+     "title": "Owned by its investors",
+     "idea": "After losing his job in 1974, he built Vanguard differently: the fund company is owned by its funds, and so by their investors, not by outside shareholders.",
+     "page": "https://alienspacex.com/ideas/bogle-05-owned-by-its-investors.html"
+    },
+    {
+     "title": "Time is your friend",
+     "idea": "Buy, hold, and stay the course. Trading in and out, and chasing what has done well, is how investors lose the market's return.",
+     "page": "https://alienspacex.com/ideas/bogle-06-time-is-your-friend.html"
+    },
+    {
+     "title": "Yesterday's winners, tomorrow's losers",
+     "idea": "Funds that topped the charts rarely stay on top. Chasing past performance means buying high and paying for luck.",
+     "page": "https://alienspacex.com/ideas/bogle-07-yesterdays-winners-tomorrows-losers.html"
+    },
+    {
+     "title": "Taxes and trading",
+     "idea": "Trading costs money twice: in commissions and in taxes. Low turnover keeps more of the return working for you.",
+     "page": "https://alienspacex.com/ideas/bogle-08-taxes-and-trading.html"
+    },
+    {
+     "title": "A duty of trust",
+     "idea": "He believed managing other people's money is a duty, not just a business, and spent his later years saying so.",
+     "page": "https://alienspacex.com/ideas/bogle-09-a-duty-of-trust.html"
+    },
+    {
+     "title": "A statue, a heart, and enough",
+     "idea": "He took far less from his work than he could have, survived years of heart disease, and was honoured by Buffett as the person who did most for American investors.",
+     "page": "https://alienspacex.com/ideas/bogle-10-a-statue-a-heart-and-enough.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Little Book of Common Sense Investing",
+     "url": "https://en.wikipedia.org/wiki/The_Little_Book_of_Common_Sense_Investing"
+    },
+    {
+     "title": "Vanguard announces the passing of its founder",
+     "url": "https://www.newswire.ca/news-releases/vanguard-announces-the-passing-of-founder-john-c-bogle-869516972.html"
+    },
+    {
+     "title": "John Bogle dies at 89; fought for lower fees for investors",
+     "url": "https://triblive.com/news/world/john-bogle-dies-at-89-fought-for-lower-fees-for-investors"
+    },
+    {
+     "title": "John Bogle, champion of the small investor",
+     "url": "https://uk.news.yahoo.com/john-bogle-champion-small-investor-060000466.html"
+    },
+    {
+     "title": "Vanguard founder Jack Bogle dies",
+     "url": "https://morningstar.co.uk/uk/news/180816/vanguard-founder-jack-bogle-dies.aspx"
+    },
+    {
+     "title": "Investment legend Bogle dies",
+     "url": "https://www.napa-net.org/news/2019/2/investment-legend-bogle-dies/"
+    },
+    {
+     "title": "Berkshire Hathaway letter for 2016",
+     "url": "https://www.berkshirehathaway.com/letters/2016ltr.pdf"
+    }
+   ]
+  },
+  {
+   "id": "marks",
+   "name": "Howard Marks",
+   "section": "investors",
+   "region": "the United States",
+   "summary": "Has written memos since 1990 that Buffett opens first: on risk, cycles, and thinking differently from the crowd.",
+   "core_idea": "Second-level thinking. Ask not just what is good, but what everyone else already thinks.",
+   "page": "https://alienspacex.com/marks.html",
+   "markdown": "https://alienspacex.com/md/marks.md",
+   "big_ideas": [
+    {
+     "title": "Second-level thinking",
+     "idea": "To do better than others you must think differently, and better. First-level thinking asks whether something is good; second-level thinking asks what is already in the price.",
+     "page": "https://alienspacex.com/ideas/marks-01-second-level-thinking.html"
+    },
+    {
+     "title": "Risk means losing money",
+     "idea": "For Marks, risk is not the jiggling of prices. It is the chance of a permanent loss, and it is hardest to see when times are good.",
+     "page": "https://alienspacex.com/ideas/marks-02-risk-means-losing-money.html"
+    },
+    {
+     "title": "It's what you pay",
+     "idea": "There is no such thing as a good or bad asset in itself, only a good or bad price. A great company bought too dear can be a poor investment.",
+     "page": "https://alienspacex.com/ideas/marks-03-its-what-you-pay.html"
+    },
+    {
+     "title": "The pendulum",
+     "idea": "Investor psychology swings like a pendulum between greed and fear, optimism and despair. It spends little time at the sensible midpoint.",
+     "page": "https://alienspacex.com/ideas/marks-04-the-pendulum.html"
+    },
+    {
+     "title": "You can't predict. You can prepare.",
+     "idea": "Nobody can forecast the economy or the market reliably. But you can know roughly where you are in the cycle and prepare for what usually follows.",
+     "page": "https://alienspacex.com/ideas/marks-05-you-cant-predict-you-can-prepare.html"
+    },
+    {
+     "title": "Take the temperature",
+     "idea": "Watch how people around you behave. When everyone is eager and careless, be careful; when everyone is frightened, look for bargains.",
+     "page": "https://alienspacex.com/ideas/marks-06-take-the-temperature.html"
+    },
+    {
+     "title": "bubble.com",
+     "idea": "In January 2000, near the peak of the technology bubble, he warned that internet and telecom shares had become a bubble. It burst within weeks.",
+     "page": "https://alienspacex.com/ideas/marks-07-bubble-com.html"
+    },
+    {
+     "title": "Buying in the panic",
+     "idea": "Being prepared paid off in late 2008. When panic was at its worst, Oaktree had money ready and spent it.",
+     "page": "https://alienspacex.com/ideas/marks-08-buying-in-the-panic.html"
+    },
+    {
+     "title": "Avoid the losers",
+     "idea": "Superior results over time come less from big wins than from avoiding big losses. His very first memo made the point.",
+     "page": "https://alienspacex.com/ideas/marks-09-avoid-the-losers.html"
+    },
+    {
+     "title": "Writing to think, and saying 'I don't know'",
+     "idea": "His memos are how he thinks. He is candid about uncertainty and avoids flat predictions.",
+     "page": "https://alienspacex.com/ideas/marks-10-writing-to-think-and-saying-i-dont-know.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Route to Performance",
+     "url": "https://www.oaktreecapital.com/docs/default-source/memos/1990-10-12-the-route-to-performance.pdf"
+    },
+    {
+     "title": "You Can't Predict. You Can Prepare.",
+     "url": "https://www.oaktreecapital.com/docs/default-source/memos/2001-11-20-you-cant-predict-you-can-prepare.pdf"
+    },
+    {
+     "title": "Taking the Temperature",
+     "url": "https://www.oaktreecapital.com/docs/default-source/memos/taking-the-temperature.pdf"
+    },
+    {
+     "title": "The Most Important Thing",
+     "url": "https://news.columbia.edu/node/2519"
+    },
+    {
+     "title": "Mastering the Market Cycle",
+     "url": "https://books.google.com/books?id=8hhDDwAAQBAJ"
+    },
+    {
+     "title": "Talks at Goldman Sachs",
+     "url": "https://www.goldmansachs.com/insights/talks-at-gs/howard-marks.html"
+    },
+    {
+     "title": "The Best of",
+     "url": "https://cnt.oaktreecapital.com/insights/memo/the-best-of"
+    },
+    {
+     "title": "Getting the odds on your side",
+     "url": "https://blogs.cfainstitute.org/investor/2019/02/19/howard-marks-cfa-getting-the-odds-on-your-side/"
+    }
+   ]
+  },
+  {
+   "id": "klarman",
+   "name": "Seth Klarman",
+   "section": "investors",
+   "region": "the United States",
+   "summary": "Wrote a book that sold 5,000 copies and became a legend, and built a firm on one rule above all: avoid losing money.",
+   "core_idea": "Avoid loss first. The first goal is not to lose money; returns come second.",
+   "page": "https://alienspacex.com/klarman.html",
+   "markdown": "https://alienspacex.com/md/klarman.md",
+   "big_ideas": [
+    {
+     "title": "Avoid loss first",
+     "idea": "Klarman puts avoiding loss ahead of everything. A big loss takes a long time to recover from, so protecting money comes before chasing returns.",
+     "page": "https://alienspacex.com/ideas/klarman-01-avoid-loss-first.html"
+    },
+    {
+     "title": "Margin of safety",
+     "idea": "Valuation is never precise, the future is unknowable and people make mistakes. So buy only at a price far enough below value to absorb all three.",
+     "page": "https://alienspacex.com/ideas/klarman-02-margin-of-safety.html"
+    },
+    {
+     "title": "Investors and speculators",
+     "idea": "Investors buy businesses below their value; speculators bet on which way prices will move. Wall Street, he argues, mostly serves the speculators.",
+     "page": "https://alienspacex.com/ideas/klarman-03-investors-and-speculators.html"
+    },
+    {
+     "title": "The performance derby",
+     "idea": "Many professional investors are judged every quarter against an index. That pushes them to follow the crowd, which creates chances for investors who don't have to.",
+     "page": "https://alienspacex.com/ideas/klarman-04-the-performance-derby.html"
+    },
+    {
+     "title": "Value it three ways",
+     "idea": "No single method gives the true value. He discusses several, from future cash flows to break-up value to what similar companies fetch, and urges conservatism.",
+     "page": "https://alienspacex.com/ideas/klarman-05-value-it-three-ways.html"
+    },
+    {
+     "title": "Look where others aren't",
+     "idea": "Bargains are most common in complicated, unpopular or forced-sale situations that most investors avoid.",
+     "page": "https://alienspacex.com/ideas/klarman-06-look-where-others-arent.html"
+    },
+    {
+     "title": "Cheap isn't enough",
+     "idea": "A cheap share can stay cheap for years. He looks for a catalyst, an event that can close the gap between price and value.",
+     "page": "https://alienspacex.com/ideas/klarman-07-cheap-isnt-enough.html"
+    },
+    {
+     "title": "Patience and cash",
+     "idea": "When there is nothing good to buy, hold cash rather than take more risk. But he admits that holding too much cash for too long was a mistake.",
+     "page": "https://alienspacex.com/ideas/klarman-08-patience-and-cash.html"
+    },
+    {
+     "title": "Fear is useful",
+     "idea": "Klarman sees fear as protective. Being worried keeps you prepared; the danger is when everyone feels safe.",
+     "page": "https://alienspacex.com/ideas/klarman-09-fear-is-useful.html"
+    },
+    {
+     "title": "A book that landed with a thud",
+     "idea": "His one book sold poorly, went out of print and became one of the most sought-after investing books in the world. His career began with two mentors and four families.",
+     "page": "https://alienspacex.com/ideas/klarman-10-a-book-that-landed-with-a-thud.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Margin of Safety",
+     "url": "https://en.wikipedia.org/wiki/Margin_of_Safety_(book)"
+    },
+    {
+     "title": "Margin of Safety: a book summary",
+     "url": "https://jamesclear.com/book-summaries/margin-of-safety"
+    },
+    {
+     "title": "Masters in Business: Seth Klarman",
+     "url": "https://ritholtz.com/2026/06/transcript-seth-klarman/"
+    },
+    {
+     "title": "Seth A. Klarman",
+     "url": "https://ivey.uwo.ca/bengrahaminvesting/resources/interviews-notes/seth-a-klarman"
+    },
+    {
+     "title": "The investing book that sells for thousands",
+     "url": "https://money.com/seth-klarman-margin-of-safety-author-value-investing/"
+    },
+    {
+     "title": "Seth Klarman",
+     "url": "https://www.hks.harvard.edu/about/seth-klarman"
+    }
+   ]
+  },
+  {
+   "id": "schloss",
+   "name": "Walter Schloss",
+   "section": "investors",
+   "region": "the United States",
+   "summary": "Never went to college, never visited a company, owned a hundred cheap shares at a time, and beat the market for 47 years.",
+   "core_idea": "Price first. Price, compared with value, is what matters most.",
+   "page": "https://alienspacex.com/schloss.html",
+   "markdown": "https://alienspacex.com/md/schloss.md",
+   "big_ideas": [
+    {
+     "title": "Price comes first",
+     "idea": "His first factor: price, compared with value, is the most important thing. A share is part of a business, not a piece of paper.",
+     "page": "https://alienspacex.com/ideas/schloss-01-price-comes-first.html"
+    },
+    {
+     "title": "Assets over earnings",
+     "idea": "He preferred buying assets at a discount to buying earnings. Earnings can change fast; assets usually change slowly.",
+     "page": "https://alienspacex.com/ideas/schloss-02-assets-over-earnings.html"
+    },
+    {
+     "title": "Buy near the lows",
+     "idea": "He liked shares trading near the bottom of their range of recent years, and he was patient once he had bought.",
+     "page": "https://alienspacex.com/ideas/schloss-03-buy-near-the-lows.html"
+    },
+    {
+     "title": "Own many, buy in steps",
+     "idea": "He spread his money across around a hundred shares and bought and sold gradually rather than all at once.",
+     "page": "https://alienspacex.com/ideas/schloss-04-own-many-buy-in-steps.html"
+    },
+    {
+     "title": "Public numbers only",
+     "idea": "He never visited managements or chased inside information. He read the published numbers, sent for annual reports and decided for himself.",
+     "page": "https://alienspacex.com/ideas/schloss-05-public-numbers-only.html"
+    },
+    {
+     "title": "Keep emotions out",
+     "idea": "Fear and greed are the worst emotions for an investor. Have your own method, follow it calmly, and don't be swayed by tips or crowds.",
+     "page": "https://alienspacex.com/ideas/schloss-06-keep-emotions-out.html"
+    },
+    {
+     "title": "Don't sell too soon",
+     "idea": "Many investors sell after a quick gain. He re-checked the company's value first, and watched the level of the whole market.",
+     "page": "https://alienspacex.com/ideas/schloss-07-dont-sell-too-soon.html"
+    },
+    {
+     "title": "Compounding, shares and leverage",
+     "idea": "Let returns compound, prefer shares to bonds over the long run, and be careful with borrowed money.",
+     "page": "https://alienspacex.com/ideas/schloss-08-compounding-shares-and-leverage.html"
+    },
+    {
+     "title": "Paid only when partners gained",
+     "idea": "He charged no management fee. He took a share of profits only, and kept his costs tiny.",
+     "page": "https://alienspacex.com/ideas/schloss-09-paid-only-when-partners-gained.html"
+    },
+    {
+     "title": "A quiet life on Wall Street",
+     "idea": "He came in as a teenage runner, learned from Graham, served in the war and ran his partnership for 47 years with his son. Buffett used his record to show that skill, not luck, can beat the market.",
+     "page": "https://alienspacex.com/ideas/schloss-10-a-quiet-life-on-wall-street.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Factors needed to make money in the stock market",
+     "url": "https://novelinvestor.com/walter-schloss-investing-stocks/"
+    },
+    {
+     "title": "The Superinvestors of Graham-and-Doddsville",
+     "url": "https://en.wikipedia.org/wiki/The_Superinvestors_of_Graham-and-Doddsville"
+    },
+    {
+     "title": "Berkshire Hathaway letter for 2006",
+     "url": "https://www.berkshirehathaway.com/letters/2006ltr.pdf"
+    },
+    {
+     "title": "Walter & Edwin Schloss",
+     "url": "https://static1.squarespace.com/static/5886cbc4a5790a5c18741c5a/t/5a82161e9140b7fe8b250bf3/1518474785579/Schloss+-+OID+1989.pdf"
+    },
+    {
+     "title": "Graham disciple and Buffett favourite dead at 95",
+     "url": "https://www.investmentnews.com/industry-news/legendary-graham-disciple-and-buffett-favorite-dead-at-95/42387"
+    },
+    {
+     "title": "16 guidelines that stock investors must adhere to",
+     "url": "https://www.morningstar.in/posts/50090/equity-6.aspx"
+    },
+    {
+     "title": "Walter Schloss: a maverick on Wall Street",
+     "url": "https://www.morningstar.in/posts/31470/3/a-maverick-on-wall-street.aspx"
+    }
+   ]
+  },
+  {
+   "id": "sampat",
+   "name": "Chandrakant Sampat",
+   "section": "investors",
+   "region": "India",
+   "summary": "India's original value investor: left the family business in the 1950s, bought the Indian arms of global companies cheaply, and taught a generation.",
+   "core_idea": "Own businesses, not factories. Buying shares lets you share a business's growth without running it.",
+   "page": "https://alienspacex.com/sampat.html",
+   "markdown": "https://alienspacex.com/md/sampat.md",
+   "big_ideas": [
+    {
+     "title": "Own businesses, don't build factories",
+     "idea": "He left his family's business in the 1950s, drawn to shares. Buying a slice of a good listed business, he believed, beats the struggle of building one from scratch.",
+     "page": "https://alienspacex.com/ideas/sampat-01-own-businesses-dont-build-factories.html"
+    },
+    {
+     "title": "The FERA windfall",
+     "idea": "In the 1970s, India's Foreign Exchange Regulation Act forced many foreign companies to sell shares to Indian investors, often cheaply. Sampat bought the best of them and held for decades.",
+     "page": "https://alienspacex.com/ideas/sampat-02-the-fera-windfall.html"
+    },
+    {
+     "title": "Cash flow and durability",
+     "idea": "For Sampat a good investment had to throw off cash, year after year, and last. He judged businesses by their cash, not their story.",
+     "page": "https://alienspacex.com/ideas/sampat-03-cash-flow-and-durability.html"
+    },
+    {
+     "title": "Buy at the lows",
+     "idea": "Find good companies with good managements, then wait until their share price sinks to an eight- or ten-year low. Buy from pessimists; sell to optimists.",
+     "page": "https://alienspacex.com/ideas/sampat-04-buy-at-the-lows.html"
+    },
+    {
+     "title": "Simple, with little debt",
+     "idea": "He wanted businesses simple enough for anyone to understand, carrying little debt and needing little new money to grow.",
+     "page": "https://alienspacex.com/ideas/sampat-05-simple-with-little-debt.html"
+    },
+    {
+     "title": "Muscle, fat or cancer",
+     "idea": "Not all growth is good. He sorted it into muscle, fat and cancer, and warned that nothing grows exponentially for long.",
+     "page": "https://alienspacex.com/ideas/sampat-06-muscle-fat-or-cancer.html"
+    },
+    {
+     "title": "Technology and creative destruction",
+     "idea": "He believed new technology destroys old businesses ever faster. That made him wary of fashionable shares and focused on durability.",
+     "page": "https://alienspacex.com/ideas/sampat-07-technology-and-creative-destruction.html"
+    },
+    {
+     "title": "Integrity: humility plus courage",
+     "idea": "Sampat defined integrity as humility plus courage, and lived it. His four touchstone values were high enlightenment, high integrity, low expectation and hard work.",
+     "page": "https://alienspacex.com/ideas/sampat-08-integrity-humility-plus-courage.html"
+    },
+    {
+     "title": "How many things can you do without?",
+     "idea": "One of India's richest investors lived simply, jogged daily and asked how little he needed, not how much he could have.",
+     "page": "https://alienspacex.com/ideas/sampat-09-how-many-things-can-you-do-without.html"
+    },
+    {
+     "title": "A teacher, and his blind spot",
+     "idea": "He shaped some of India's best investors. But his caution in later years also cost him, which he would have wanted us to learn from too.",
+     "page": "https://alienspacex.com/ideas/sampat-10-a-teacher-and-his-blind-spot.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Investor Round Table",
+     "url": "https://www.flame.edu.in/pdfs/fil/articles/Capital-Ideas-Online-Investor-Conference-Jan-2000.pdf"
+    },
+    {
+     "title": "There will be no capital formation",
+     "url": "https://www.business-standard.com/article/markets/-8220-there-will-be-no-capital-formation-8221-103031701010_1.html"
+    },
+    {
+     "title": "Chandrakant Sampat: his philosophy in his words",
+     "url": "https://hedgefundalpha.com/?p=34371"
+    },
+    {
+     "title": "Chandrakant Sampat: grand old man of Dalal Street",
+     "url": "https://www.business-standard.com/article/markets/chandrakant-sampat-grand-old-man-of-dalal-street-115020201089_1.html"
+    },
+    {
+     "title": "A life spent spotting value in Indian markets",
+     "url": "https://amc.ppfas.com/media/quotes/chandrakant-sampat-a-life-spent-spotting-value-in-indian-markets.php"
+    },
+    {
+     "title": "A man of value and wit",
+     "url": "https://www.outlookbusiness.com/perspective/a-man-of-value-and-wit-596"
+    },
+    {
+     "title": "In a class of his own",
+     "url": "https://www.outlookbusiness.com/perspective/in-a-class-of-his-own-595"
+    }
+   ]
+  },
+  {
+   "id": "parikh",
+   "name": "Parag Parikh",
+   "section": "investors",
+   "region": "India",
+   "summary": "Started as a sub-broker in 1979, became India's voice of behavioural finance, and built a fund with one scheme and his own money in it.",
+   "core_idea": "Study the mind. Investor behaviour matters as much as the balance sheet.",
+   "page": "https://alienspacex.com/parikh.html",
+   "markdown": "https://alienspacex.com/md/parikh.md",
+   "big_ideas": [
+    {
+     "title": "From toothpaste tubes to shares",
+     "idea": "As a young man he wanted to make toothpaste tubes. Chandrakant Sampat told him to buy shares in good businesses instead. He started as a sub-broker, with his family's help.",
+     "page": "https://alienspacex.com/ideas/parikh-01-from-toothpaste-tubes-to-shares.html"
+    },
+    {
+     "title": "Study the mind, not just the accounts",
+     "idea": "He believed investor behaviour moves markets as much as company results. Understanding emotions, yours and others', is half the job.",
+     "page": "https://alienspacex.com/ideas/parikh-02-study-the-mind-not-just-the-accounts.html"
+    },
+    {
+     "title": "Leave the herd",
+     "idea": "Greed and fear make Indian markets swing. He urged investors to buy when others are fearful, and paid a price for it in the technology boom.",
+     "page": "https://alienspacex.com/ideas/parikh-03-leave-the-herd.html"
+    },
+    {
+     "title": "Mistakes with Indian faces",
+     "idea": "His books name the traps: loss aversion, sunk costs, the endowment effect, mental accounting, decision paralysis. He showed them in Indian investors and Indian markets.",
+     "page": "https://alienspacex.com/ideas/parikh-04-mistakes-with-indian-faces.html"
+    },
+    {
+     "title": "The law of the farm",
+     "idea": "Value investing is boring. You plant, you wait for years, you harvest. He called it the law of the farm.",
+     "page": "https://alienspacex.com/ideas/parikh-05-the-law-of-the-farm.html"
+    },
+    {
+     "title": "What a good business looks like",
+     "idea": "He looked for four things: honest management that treats minority shareholders well, a simple business, a strong moat and pricing power.",
+     "page": "https://alienspacex.com/ideas/parikh-06-what-a-good-business-looks-like.html"
+    },
+    {
+     "title": "Skin in the game",
+     "idea": "He insisted that those who manage money should invest alongside their clients, and he removed every conflict he could, even at a cost.",
+     "page": "https://alienspacex.com/ideas/parikh-07-skin-in-the-game.html"
+    },
+    {
+     "title": "One fund, not a grocery shop",
+     "idea": "While fund houses launched scheme after scheme, he launched one. One clear way of investing, he argued, serves investors better.",
+     "page": "https://alienspacex.com/ideas/parikh-08-one-fund-not-a-grocery-shop.html"
+    },
+    {
+     "title": "Standing up to the system",
+     "idea": "He was outspoken about the failings of India's finance industry, and argued with the regulator when he thought a rule would hurt competition.",
+     "page": "https://alienspacex.com/ideas/parikh-09-standing-up-to-the-system.html"
+    },
+    {
+     "title": "A firm built to outlast him",
+     "idea": "He died suddenly in 2015, in Omaha, after Warren Buffett's annual meeting. The firm he built, run on his principles, carried on without him.",
+     "page": "https://alienspacex.com/ideas/parikh-10-a-firm-built-to-outlast-him.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Stocks to Riches: Insights on Investor Behaviour",
+     "url": "https://amc.ppfas.com/knowledge-center/parags-views/books/"
+    },
+    {
+     "title": "Value Investing and Behavioural Finance",
+     "url": "https://amc.ppfas.com/knowledge-center/parags-views/books/"
+    },
+    {
+     "title": "What made Parag Parikh a great investor",
+     "url": "https://morningstar.in/posts/32853/what-made-parag-parikh-a-great-investor.aspx"
+    },
+    {
+     "title": "Parag Parikh dies in a car accident in USA",
+     "url": "https://cafemutual.com/news/industry/3744-parag-parikh-dies-in-a-car-accident-in-usa"
+    },
+    {
+     "title": "RIP Parag Parikh, a true-blue value investor",
+     "url": "https://www.valueresearchonline.com/stories/27810/rip-parag-parikh-a-true-blue-value-investor/"
+    },
+    {
+     "title": "Remembrance: when Parag Parikh got (a little) angry",
+     "url": "https://www.business-standard.com/article/opinion/remembrance-when-parag-parikh-got-a-little-angry-115050500344_1.html"
+    },
+    {
+     "title": "Chandrakant Sampat: grand old man of Dalal Street",
+     "url": "https://www.business-standard.com/article/markets/chandrakant-sampat-grand-old-man-of-dalal-street-115020201089_1.html"
+    },
+    {
+     "title": "Parag Parikh, promoter of PPFAS Mutual Fund, dies in a crash",
+     "url": "https://moneylife.in/article/parag-parikh-promoter-of-ppfas-mutual-fund-dies-in-a-crash/41556.html"
+    },
+    {
+     "title": "Dalal Street veteran Parag Parikh killed in US car accident",
+     "url": "https://www.business-standard.com/article/current-affairs/dalal-street-veteran-parag-parikh-dies-in-omaha-115050400135_1.html"
+    },
+    {
+     "title": "Remembering Parag Parikh",
+     "url": "https://amc.ppfas.com/paragparikh/"
+    }
+   ]
+  },
+  {
+   "id": "damani",
+   "name": "Radhakishan Damani",
+   "section": "investors",
+   "region": "India",
+   "summary": "Dalal Street's famous bear turned patient investor, then built DMart from one Mumbai store on low costs, owned shops and fast payments.",
+   "core_idea": "Leave the small pond. Be a small fish in a big sea rather than the biggest in a pond.",
+   "page": "https://alienspacex.com/damani.html",
+   "markdown": "https://alienspacex.com/md/damani.md",
+   "big_ideas": [
+    {
+     "title": "Leave the small pond",
+     "idea": "He did not start in the market. He ran a ball-bearings business until an uncle asked him: how rich is the top ball-bearings trader, next to Dalal Street's biggest names?",
+     "page": "https://alienspacex.com/ideas/damani-01-leave-the-small-pond.html"
+    },
+    {
+     "title": "The bear in the Harshad Mehta years",
+     "idea": "In the early 1990s, while Harshad Mehta drove prices to dizzying heights with borrowed money, Damani bet on a fall. He was right, but it hurt before it paid.",
+     "page": "https://alienspacex.com/ideas/damani-02-the-bear-in-the-harshad-mehta-years.html"
+    },
+    {
+     "title": "From trader to owner",
+     "idea": "Influenced by Chandrakant Sampat, he moved from trading to owning quality businesses for years. Fund managers said they could never tell which hat he was wearing.",
+     "page": "https://alienspacex.com/ideas/damani-03-from-trader-to-owner.html"
+    },
+    {
+     "title": "Listen more than you talk",
+     "idea": "He rarely speaks in public and has never appeared on television. Friends say he says little and listens a lot, asking people what they see.",
+     "page": "https://alienspacex.com/ideas/damani-04-listen-more-than-you-talk.html"
+    },
+    {
+     "title": "Why a shop?",
+     "idea": "In 2000, at the height of his market success, he turned to retailing, after studying how Indians shop.",
+     "page": "https://alienspacex.com/ideas/damani-05-why-a-shop.html"
+    },
+    {
+     "title": "Everyday low cost, everyday low price",
+     "idea": "DMart's model is simple to say and hard to copy: keep costs lower than anyone, so prices can be lower than anyone's, every day, without flashy discounts.",
+     "page": "https://alienspacex.com/ideas/damani-06-everyday-low-cost-everyday-low-price.html"
+    },
+    {
+     "title": "Own the shop",
+     "idea": "Most retailers rent. DMart prefers to buy land and build its own stores, which keeps costs stable and avoids rent shocks.",
+     "page": "https://alienspacex.com/ideas/damani-07-own-the-shop.html"
+    },
+    {
+     "title": "Slow, then fast",
+     "idea": "He grew DMart slowly for years, proving the model in a few regions before expanding. Then it grew quickly, cluster by cluster.",
+     "page": "https://alienspacex.com/ideas/damani-08-slow-then-fast.html"
+    },
+    {
+     "title": "Frugal at the top",
+     "idea": "The man who became one of India's richest kept DMart's head office in a corner of an early store and worked without hierarchy.",
+     "page": "https://alienspacex.com/ideas/damani-09-frugal-at-the-top.html"
+    },
+    {
+     "title": "Listing day, and an honest note",
+     "idea": "In 2017 DMart's listing showed what patient building can be worth. And since this library puts integrity first, we also set out the one regulatory matter on record.",
+     "page": "https://alienspacex.com/ideas/damani-10-listing-day-and-an-honest-note.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Avenue Supermarts annual report 2018-19",
+     "url": "https://bseindia.com/bseplus/AnnualReport/540376/5403760319.pdf"
+    },
+    {
+     "title": "Avenue Supermarts annual report 2022-23",
+     "url": "https://bseindia.com/xml-data/corpfiling/AttachHis/73ffab69-cd41-4f5d-a4d4-0c1894813d31.pdf"
+    },
+    {
+     "title": "Meet D-Mart's Radhakishan Damani, the silent giant of stock markets",
+     "url": "https://business-standard.com/article/markets/meet-d-mart-s-radhakishan-damani-the-silent-giant-of-stock-markets-117032301462_1.html"
+    },
+    {
+     "title": "The rise of DMart's Radhakishan Damani",
+     "url": "https://business-standard.com/article/markets/the-rise-of-dmart-s-radhakishan-damani-who-got-richer-during-lockdown-120042401376_1.html"
+    },
+    {
+     "title": "Avenue Supermarts settles with stellar premium on debut",
+     "url": "https://www.business-standard.com/article/news-cm/avenue-supermarts-settles-with-stellar-premium-on-debut-117032100698_1.html"
+    },
+    {
+     "title": "Avenue Supermarts: delivering value",
+     "url": "https://www.motilaloswal.com/site/rreports/HTML/636337193984127111/index.htm"
+    },
+    {
+     "title": "Avenue Supermarts (DMart)",
+     "url": "https://insights.dsij.in/dsijarticledetail/avenue-supermarts-dmart-42221"
+    },
+    {
+     "title": "Radhakishan Damani's portfolio and lessons",
+     "url": "https://equitymaster.com/timeless-reading/radhakishan-damani-portfolio"
+    },
+    {
+     "title": "Order in the matter of R.S. Damani Group",
+     "url": "https://www.sebi.gov.in/enforcement/orders/jan-2007/order-in-the-matter-of-rs-damani-group_7804.html"
+    }
+   ]
+  },
+  {
+   "id": "honda",
+   "name": "Seiroku Honda",
+   "section": "investors",
+   "region": "Japan",
+   "summary": "A poor farmer's son who saved a quarter of every pay cheque from 25, invested it, and gave almost all of it away when he retired.",
+   "core_idea": "Save first. Set aside a quarter the day the money arrives, before spending anything.",
+   "page": "https://alienspacex.com/honda.html",
+   "markdown": "https://alienspacex.com/md/honda.md",
+   "big_ideas": [
+    {
+     "title": "A poor farmer's son",
+     "idea": "He was born poor in 1866, studied his way up, and became Japan's first doctor of forestry and the designer of famous parks and forests.",
+     "page": "https://alienspacex.com/ideas/honda-01-a-poor-farmers-son.html"
+    },
+    {
+     "title": "The quarter rule",
+     "idea": "Every time pay arrived, he set aside a quarter before spending anything, and saved every bonus and windfall in full.",
+     "page": "https://alienspacex.com/ideas/honda-02-the-quarter-rule.html"
+    },
+    {
+     "title": "Hard years by choice",
+     "idea": "The rule hurt. With a large household, money ran out each month. He held firm, choosing hardship early rather than being forced into it later.",
+     "page": "https://alienspacex.com/ideas/honda-03-hard-years-by-choice.html"
+    },
+    {
+     "title": "Vanity is the enemy",
+     "idea": "He saw the wish to look well-off as the biggest obstacle to saving, and believed early hardship makes for a better life later.",
+     "page": "https://alienspacex.com/ideas/honda-04-vanity-is-the-enemy.html"
+    },
+    {
+     "title": "The snowball",
+     "idea": "Savings, once they form a core, grow by themselves. By 40 his interest and dividends earned more than his salary.",
+     "page": "https://alienspacex.com/ideas/honda-05-the-snowball.html"
+    },
+    {
+     "title": "Own good businesses, widely",
+     "idea": "He put his savings into the sound companies of his day, starting with railways and spreading across more than thirty industries.",
+     "page": "https://alienspacex.com/ideas/honda-06-own-good-businesses-widely.html"
+    },
+    {
+     "title": "Invest in what you know: his forest",
+     "idea": "As a forester, he understood land and trees. He bought natural forest in the Chichibu mountains, and it became part of his fortune, and later his gift.",
+     "page": "https://alienspacex.com/ideas/honda-07-invest-in-what-you-know-his-forest.html"
+    },
+    {
+     "title": "Take a modest profit, protect the principal",
+     "idea": "He followed a simple selling rule: take a 20% gain when it comes, and if a holding doubles, sell half so the original money is safe.",
+     "page": "https://alienspacex.com/ideas/honda-08-take-a-modest-profit-protect-the-principal.html"
+    },
+    {
+     "title": "Patience, and no shame about money",
+     "idea": "He waited patiently for good chances, invested boldly when times were bad, and rejected the old samurai pose of looking down on money.",
+     "page": "https://alienspacex.com/ideas/honda-09-patience-and-no-shame-about-money.html"
+    },
+    {
+     "title": "Give it back",
+     "idea": "At 60 he retired and gave almost everything away, mostly anonymously. His forest still pays for students' education in Saitama.",
+     "page": "https://alienspacex.com/ideas/honda-10-give-it-back.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "私の財産告白 (My Confession of Wealth)",
+     "url": "https://www.hanmoto.com/bd/isbn/9784408551227"
+    },
+    {
+     "title": "Honda Seiroku's saving and investing",
+     "url": "https://money-bu-jpx.com/news/article002718/"
+    },
+    {
+     "title": "Honda Seiroku's way of building wealth",
+     "url": "https://president.jp/articles/-/111122"
+    },
+    {
+     "title": "Learning from the 'father of parks'",
+     "url": "https://www.bk.mufg.jp/column/shisan_unyo/0020.html"
+    },
+    {
+     "title": "Life-plan column on the quarter method",
+     "url": "https://www.daiwa.jp/lp_dc/ideco/column/article_159/"
+    },
+    {
+     "title": "Japan's Buffett: Honda Seiroku's wealth-building",
+     "url": "https://media.rakuten-sec.net/articles/-/29878"
+    },
+    {
+     "title": "Dr Honda Seiroku: his scholarship work",
+     "url": "https://www.pref.saitama.lg.jp/documents/231096/hondadouga_no5.pdf"
+    },
+    {
+     "title": "Honda Seiroku scholarship: call for applicants",
+     "url": "https://www.pref.saitama.lg.jp/documents/257306/news2024082801.pdf"
+    }
+   ]
+  },
+  {
+   "id": "takeda",
+   "name": "Wahei Takeda",
+   "section": "investors",
+   "region": "Japan",
+   "summary": "Made Japan's favourite baby biscuit, then became a patient shareholder in over a hundred companies, treating each as a field to tend.",
+   "core_idea": "Investing, not speculating. Owning a company to support it is not the same as betting on its price.",
+   "page": "https://alienspacex.com/takeda.html",
+   "markdown": "https://alienspacex.com/md/takeda.md",
+   "big_ideas": [
+    {
+     "title": "The biscuit maker",
+     "idea": "He was a confectioner first. He turned a sweet sold loose by weight into a bagged, machine-made product, and built Japan's biggest tamago boro maker.",
+     "page": "https://alienspacex.com/ideas/takeda-01-the-biscuit-maker.html"
+    },
+    {
+     "title": "From speculator to investor",
+     "idea": "He began by trading famous shares for quick profit. Later he called that speculation, and drew a sharp line between betting on prices and owning a business to support it.",
+     "page": "https://alienspacex.com/ideas/takeda-02-from-speculator-to-investor.html"
+    },
+    {
+     "title": "The lesson of a collapse",
+     "idea": "In the 1990s a large company in which he was the top individual shareholder went bankrupt, its managers insisting all was well to the end. He sold his large companies and turned to smaller ones he could understand.",
+     "page": "https://alienspacex.com/ideas/takeda-03-the-lesson-of-a-collapse.html"
+    },
+    {
+     "title": "Be the danna",
+     "idea": "In old Japan a danna was a patron who stood behind a business or an artist. He said that becoming a shareholder means becoming the company's danna.",
+     "page": "https://alienspacex.com/ideas/takeda-04-be-the-danna.html"
+    },
+    {
+     "title": "Fields and harvests",
+     "idea": "He saw investing as farming. Shares are the field and dividends the harvest. A good farmer watches the harvest, not the price of the land.",
+     "page": "https://alienspacex.com/ideas/takeda-05-fields-and-harvests.html"
+    },
+    {
+     "title": "Cheap, sound and generous",
+     "idea": "He wanted shares that were cheap against earnings, companies with strong balance sheets, and managers who shared profits with shareholders.",
+     "page": "https://alienspacex.com/ideas/takeda-06-cheap-sound-and-generous.html"
+    },
+    {
+     "title": "Dividends first",
+     "idea": "Dividends, not price gains, were the core of his returns. He noted that dividends hold up far better than prices in bad times.",
+     "page": "https://alienspacex.com/ideas/takeda-07-dividends-first.html"
+    },
+    {
+     "title": "Calm in storms",
+     "idea": "He used only spare money, never borrowed to the limit, and refused to panic. A share price, he said, may go up or down; either is fine.",
+     "page": "https://alienspacex.com/ideas/takeda-08-calm-in-storms.html"
+    },
+    {
+     "title": "When to sell",
+     "idea": "He held for the long run, but sold when a share looked overvalued, and lost patience with companies that hoarded cash instead of rewarding owners.",
+     "page": "https://alienspacex.com/ideas/takeda-09-when-to-sell.html"
+    },
+    {
+     "title": "Sincerity, and giving back",
+     "idea": "He believed sincerity passed from person to person brings success and happiness, ran a circle to develop young people, and gave back much of what he gained.",
+     "page": "https://alienspacex.com/ideas/takeda-10-sincerity-and-giving-back.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Japan's top individual shareholder speaks",
+     "url": "https://gendai.media/articles/-/42374"
+    },
+    {
+     "title": "Learning from the masters: Wahei Takeda",
+     "url": "https://www.sc.mufg.jp/market/mnl/pdf/mnl202406/mnl_moneyphil_202406.pdf"
+    },
+    {
+     "title": "花のタネは真夏に播くな (Don't Sow Flower Seeds in Midsummer)",
+     "url": "https://books.bunshun.jp/ud/book/num/9784167756017"
+    },
+    {
+     "title": "人生を拓く「百尊」の教え",
+     "url": "https://www.kodansha.co.jp/book/products/0000182722"
+    },
+    {
+     "title": "How Wahei Takeda succeeded",
+     "url": "https://life.oricon.co.jp/rank_certificate/news/2061107/"
+    },
+    {
+     "title": "A conversation with Wahei Takeda",
+     "url": "https://www.kenbiya.com/ar/cl/kenbiya-ac/2.html"
+    },
+    {
+     "title": "Tamago boro's Wahei Takeda dies",
+     "url": "https://www.j-cast.com/2016/07/22273252.html"
+    }
+   ]
+  },
+  {
+   "id": "sawakami",
+   "name": "Atsuto Sawakami",
+   "section": "investors",
+   "region": "Japan",
+   "summary": "Founded Japan's first independent fund company in 1999 and preached long-term investing for decades, when few in Japan would listen.",
+   "core_idea": "Investing, not money-rolling. Buying and selling on price moves is not investing.",
+   "page": "https://alienspacex.com/sawakami.html",
+   "markdown": "https://alienspacex.com/md/sawakami.md",
+   "big_ideas": [
+    {
+     "title": "The outsider from Pictet",
+     "idea": "He spent sixteen years at the head of a Swiss private bank's Japanese business, then left to build a fund company for ordinary savers, owned by no big group.",
+     "page": "https://alienspacex.com/ideas/sawakami-01-the-outsider-from-pictet.html"
+    },
+    {
+     "title": "Investing, not money-rolling",
+     "idea": "He divides the market in two: real long-term investing, and what he calls money-rolling, buying and selling on price moves.",
+     "page": "https://alienspacex.com/ideas/sawakami-02-investing-not-money-rolling.html"
+    },
+    {
+     "title": "Buy when they sell",
+     "idea": "His fund adds to holdings when others sell and trims when others buy. Most people, he says, do the reverse and pay for it.",
+     "page": "https://alienspacex.com/ideas/sawakami-03-buy-when-they-sell.html"
+    },
+    {
+     "title": "Proof in a bad year, and the long record",
+     "idea": "In 2001, as Japanese shares crashed, his fund rose and gained customers. Over the long run its returns were steady rather than spectacular.",
+     "page": "https://alienspacex.com/ideas/sawakami-04-proof-in-a-bad-year-and-the-long-record.html"
+    },
+    {
+     "title": "Why even pensions turned short-term",
+     "idea": "He argues that pension funds, which should be the most patient money, became short-termist once they began judging managers every year. So he would not take their money.",
+     "page": "https://alienspacex.com/ideas/sawakami-05-why-even-pensions-turned-short-term.html"
+    },
+    {
+     "title": "Sell direct, charge little",
+     "idea": "He sold his fund straight to savers, with no up-front commission, a low fee, no advertising and no sales force.",
+     "page": "https://alienspacex.com/ideas/sawakami-06-sell-direct-charge-little.html"
+    },
+    {
+     "title": "Tell investors everything",
+     "idea": "He believed savers should be told more, not less, and reported on every move every month.",
+     "page": "https://alienspacex.com/ideas/sawakami-07-tell-investors-everything.html"
+    },
+    {
+     "title": "Think in decades",
+     "idea": "Look at least ten years ahead, he says, and ask how a company helps people live now and will help them in future.",
+     "page": "https://alienspacex.com/ideas/sawakami-08-think-in-decades.html"
+    },
+    {
+     "title": "Letting go",
+     "idea": "He hired a former part-time actor, handed him the fund, and promised to judge him only over years, even when investors left and the style changed.",
+     "page": "https://alienspacex.com/ideas/sawakami-09-letting-go.html"
+    },
+    {
+     "title": "NISA, Japan, and an honest note",
+     "idea": "He welcomed Japan's tax-free NISA accounts but warned about timing, and this library also sets out the one regulatory action on record against his firm.",
+     "page": "https://alienspacex.com/ideas/sawakami-10-nisa-japan-and-an-honest-note.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Days of wine and grosses",
+     "url": "https://www.institutionalinvestor.com/article/b15134gys29nfc/days-of-wine-and-grosses"
+    },
+    {
+     "title": "Investors fume as Enron-linked funds bleed",
+     "url": "https://www.japantimes.co.jp/news/2001/12/01/business/investors-fume-as-enron-linked-funds-bleed"
+    },
+    {
+     "title": "Long-term investing needs foresight and reasoning",
+     "url": "https://toyokeizai.net/articles/-/56222"
+    },
+    {
+     "title": "What the Sawakami Fund chairman calls ideal investing",
+     "url": "https://life.oricon.co.jp/rank_certificate/news/2061842/"
+    },
+    {
+     "title": "Bit actor-bum managing $2.7 billion Japanese fund",
+     "url": "https://www.japantimes.co.jp/news/2016/09/30/business/corporate-business/bit-actor-bum-managing-2-7-billion-japanese-fund"
+    },
+    {
+     "title": "One man's fight against the lions of Japanese investing",
+     "url": "https://www.bloombergquint.com/amp/business/one-man-s-fight-against-the-lions-of-japanese-investing"
+    },
+    {
+     "title": "Long-term investing in the new NISA era",
+     "url": "https://president.jp/growth/archives/133"
+    },
+    {
+     "title": "Administrative action against Sawakami Investment Trust",
+     "url": "https://www.fsa.go.jp/news/newsj/17/syouken/20060330-3.html"
+    }
+   ]
+  },
+  {
+   "id": "watsa",
+   "name": "Prem Watsa",
+   "section": "investors",
+   "region": "the wider world",
+   "summary": "Reached Canada from Hyderabad with almost nothing, turned a failing insurer into Fairfax, and grew its book value 18.7% a year for forty years.",
+   "core_idea": "Value first. Buy below what a business is worth, as Graham and Buffett taught.",
+   "page": "https://alienspacex.com/watsa.html",
+   "markdown": "https://alienspacex.com/md/watsa.md",
+   "big_ideas": [
+    {
+     "title": "Eight dollars and a degree",
+     "idea": "He grew up in Hyderabad, son of a teacher, studied engineering at IIT Madras, and arrived in Canada with almost nothing.",
+     "page": "https://alienspacex.com/ideas/watsa-01-eight-dollars-and-a-degree.html"
+    },
+    {
+     "title": "A rescue becomes Fairfax",
+     "idea": "In 1985 he and his partners took over a small trucking insurer close to failure, renamed it Fairfax, and built it into a global insurance group.",
+     "page": "https://alienspacex.com/ideas/watsa-02-a-rescue-becomes-fairfax.html"
+    },
+    {
+     "title": "Graham's disciple",
+     "idea": "From his first letter he said Fairfax would follow the value approach of Benjamin Graham and his famous student, Warren Buffett.",
+     "page": "https://alienspacex.com/ideas/watsa-03-grahams-disciple.html"
+    },
+    {
+     "title": "Book value per share, not quarters",
+     "idea": "He judges Fairfax by one long-term number: the growth of book value per share. The target has been 15% a year since the start.",
+     "page": "https://alienspacex.com/ideas/watsa-04-book-value-per-share-not-quarters.html"
+    },
+    {
+     "title": "Insure against the storm",
+     "idea": "He treats the investment portfolio like an insurer treats risk: buy protection against disasters others think impossible.",
+     "page": "https://alienspacex.com/ideas/watsa-05-insure-against-the-storm.html"
+    },
+    {
+     "title": "Early looks like wrong",
+     "idea": "Being right too soon is painful. While he waited for the crisis, Fairfax's shares fell by about half, and critics mocked him.",
+     "page": "https://alienspacex.com/ideas/watsa-06-early-looks-like-wrong.html"
+    },
+    {
+     "title": "When protection costs too much",
+     "idea": "From 2010 he hedged all of Fairfax's shares against a deflationary slump that never came. The hedges cost billions before he removed them in 2016.",
+     "page": "https://alienspacex.com/ideas/watsa-07-when-protection-costs-too-much.html"
+    },
+    {
+     "title": "Own your mistakes",
+     "idea": "His letters take the blame for what goes wrong and share the credit for what goes right, including public apologies.",
+     "page": "https://alienspacex.com/ideas/watsa-08-own-your-mistakes.html"
+    },
+    {
+     "title": "Integrity under scrutiny",
+     "idea": "In 2006 a Fairfax subsidiary restated its accounts and the SEC investigated. In 2009 the SEC closed its review with no enforcement action.",
+     "page": "https://alienspacex.com/ideas/watsa-09-integrity-under-scrutiny.html"
+    },
+    {
+     "title": "Patient, quiet and decentralised",
+     "idea": "He avoids publicity, runs Fairfax through independent managers, and thinks in decades.",
+     "page": "https://alienspacex.com/ideas/watsa-10-patient-quiet-and-decentralised.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fairfax letter to shareholders for 2025",
+     "url": "https://www.fairfax.ca/wp-content/uploads/2026/03/FFH_Fairfax-Financials-Shareholders-Letter-2025-with-attachments-092704.pdf"
+    },
+    {
+     "title": "Guiding principles for Fairfax",
+     "url": "https://www.fairfax.ca/wp-content/uploads/2026/03/FFH_Fairfax-Financial-2025-Annual-Report-144860.pdf"
+    },
+    {
+     "title": "Prem Watsa",
+     "url": "https://thecanadianencyclopedia.ca/en/article/prem-watsa"
+    },
+    {
+     "title": "V. Prem Watsa",
+     "url": "https://horatioalger.org/members/detail/v-prem-watsa"
+    },
+    {
+     "title": "Fairfax sells credit default swaps",
+     "url": "https://investmentexecutive.com/?p=309460"
+    },
+    {
+     "title": "Reduction in defensive equity hedges",
+     "url": "https://www.fairfax.ca/press-releases/fairfax-financial-holdings-limited-reduction-in-defensive-equity-hedges-2016-11-11/"
+    },
+    {
+     "title": "Watsa's returns improve after dropping full hedges",
+     "url": "https://www.nasdaq.com/articles/prem-watsas-returns-improve-after-dropping-full-portfolio-hedges-2017-08-08"
+    },
+    {
+     "title": "Win some, lose some",
+     "url": "https://www.theglobeandmail.com/report-on-business/rob-magazine/win-some-lose-some-win-some/article1347711/"
+    },
+    {
+     "title": "Fairfax letter to shareholders for 2024",
+     "url": "https://fairfax.ca/wp-content/uploads/2025/03/FFH_Fairfax-Financials-Shareholders-Letter-2024-with-attachments.pdf"
+    },
+    {
+     "title": "BlackBerry and Watsa: looking wrong today, right tomorrow",
+     "url": "https://www.carriermanagement.com/news/2013/09/23/113421.htm"
+    },
+    {
+     "title": "SEC plans no enforcement action against Fairfax",
+     "url": "https://www.canadianunderwriter.ca/insurance/sec-plans-no-enforcement-action-against-fairfax-related-to-finite-reinsurance-1000332293/"
+    }
+   ]
+  },
+  {
+   "id": "parames",
+   "name": "Francisco García Paramés",
+   "section": "investors",
+   "region": "the wider world",
+   "summary": "Taught himself value investing from Peter Lynch and Buffett's letters, then beat Spain's market for 21 years, survived his worst years, and kept going.",
+   "core_idea": "Self-taught. Read the masters, then think for yourself.",
+   "page": "https://alienspacex.com/parames.html",
+   "markdown": "https://alienspacex.com/md/parames.md",
+   "big_ideas": [
+    {
+     "title": "An uninspired start",
+     "idea": "He was an average student and a reluctant shop trainee. A magazine review of Peter Lynch's book changed his life.",
+     "page": "https://alienspacex.com/ideas/parames-01-an-uninspired-start.html"
+    },
+    {
+     "title": "Self-taught at Bestinver",
+     "idea": "He joined a small fund firm owned by an industrial group as a young analyst, and within two years was running its Spanish fund.",
+     "page": "https://alienspacex.com/ideas/parames-02-self-taught-at-bestinver.html"
+    },
+    {
+     "title": "Twenty-one years of results",
+     "idea": "From 1993 to 2014 his Spanish fund returned about 15.7% a year: 2,279% in total, against 410% for its benchmark.",
+     "page": "https://alienspacex.com/ideas/parames-03-twenty-one-years-of-results.html"
+    },
+    {
+     "title": "Austrian economics",
+     "idea": "Ten years into his career he discovered the Austrian school of economics. It became his compass: markets work, are never in balance, and growth comes from saving.",
+     "page": "https://alienspacex.com/ideas/parames-04-austrian-economics.html"
+    },
+    {
+     "title": "Risk is losing money",
+     "idea": "He defines risk not as how much a price swings, but as the chance of losing money.",
+     "page": "https://alienspacex.com/ideas/parames-05-risk-is-losing-money.html"
+    },
+    {
+     "title": "Quality at a low price",
+     "idea": "He looks for strong businesses with high returns on capital, growth and little debt, bought when they are cheap.",
+     "page": "https://alienspacex.com/ideas/parames-06-quality-at-a-low-price.html"
+    },
+    {
+     "title": "Leaving, and starting again",
+     "idea": "In 2014 he left Bestinver over differences with its owners. After a two-year wait he launched Cobas in 2017.",
+     "page": "https://alienspacex.com/ideas/parames-07-leaving-and-starting-again.html"
+    },
+    {
+     "title": "The hard years",
+     "idea": "Cobas had a brutal start: losses in 2018, then the worst period for value investing on record, and the Covid crash. He wrote honestly to his investors.",
+     "page": "https://alienspacex.com/ideas/parames-08-the-hard-years.html"
+    },
+    {
+     "title": "The rebound",
+     "idea": "By mid-2026 his international fund had returned about 20% a year over five years, and Madrid had become Europe's value-investing capital.",
+     "page": "https://alienspacex.com/ideas/parames-09-the-rebound.html"
+    },
+    {
+     "title": "We are qualified to wait",
+     "idea": "His last lesson is patience: the best returns come to those who can wait, and to managers whose clients let them.",
+     "page": "https://alienspacex.com/ideas/parames-10-we-are-qualified-to-wait.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Investing for the Long Term",
+     "url": "https://www.oreilly.com/library/view/investing-for-the/9781119431190/"
+    },
+    {
+     "title": "Francisco García Paramés: quotations and references",
+     "url": "https://moiglobal.com/francisco-garcia-parames-quotations-references/"
+    },
+    {
+     "title": "The treasure? Stay in the stock market",
+     "url": "https://www.cobasam.com/wp-content/uploads/The-Treasure-Stay-in-the-stock-market.pdf"
+    },
+    {
+     "title": "What is the 'Warren Buffett of Europe' up to?",
+     "url": "https://rpc.cfainstitute.org/blogs/enterprising-investor/2013/what-is-the-warren-buffett-of-europe-up-to/"
+    },
+    {
+     "title": "Cobas comment, fourth quarter 2018",
+     "url": "https://www.cobasam.com/wp-content/uploads/CAM_Coment_4T_2018_ENG.pdf"
+    },
+    {
+     "title": "Cobas comment, second quarter 2019",
+     "url": "https://www.cobasam.com/wp-content/uploads/CAM_Coment_2T_2019_ENG_final.pdf"
+    },
+    {
+     "title": "Cobas comment, first quarter 2020",
+     "url": "https://www.cobasam.com/wp-content/uploads/CAM-Coment-1T-2020.pdf"
+    },
+    {
+     "title": "Austrian economics can help investors look beyond short-term thinking",
+     "url": "https://mises.org/mises-wire/austrian-economics-can-help-investors-look-beyond-short-term-thinking"
+    },
+    {
+     "title": "The world's greatest investors: Francisco García Paramés",
+     "url": "https://moneyweek.com/481749/the-worlds-greatest-investors-francisco-garcia-parames"
+    },
+    {
+     "title": "Spain's Warren Buffett followers score a rare win for value investing",
+     "url": "https://www.cobasam.com/wp-content/uploads/2026/07/Spains-Warren-Buffett-Followers-Score-a-R-are-Win-for-Value-Investing-Bloomberg_3849.pdf"
+    }
+   ]
+  },
+  {
+   "id": "kostolany",
+   "name": "André Kostolany",
+   "section": "investors",
+   "region": "the wider world",
+   "summary": "A speculator, not a value investor: rich twice, broke in between, and the man who taught Germany how crowds move markets.",
+   "core_idea": "Money + psychology. Prices follow the supply of money and the mood of the crowd.",
+   "page": "https://alienspacex.com/kostolany.html",
+   "markdown": "https://alienspacex.com/md/kostolany.md",
+   "big_ideas": [
+    {
+     "title": "From Budapest to the Paris bourse",
+     "idea": "A wealthy boy who wanted to be an art critic, he was sent by his father to learn broking in Paris in the 1920s.",
+     "page": "https://alienspacex.com/ideas/kostolany-01-from-budapest-to-the-paris-bourse.html"
+    },
+    {
+     "title": "Rich twice, broke in between",
+     "idea": "He made a fortune betting on falling prices around 1929, lost it, and came close to bankruptcy more than once.",
+     "page": "https://alienspacex.com/ideas/kostolany-02-rich-twice-broke-in-between.html"
+    },
+    {
+     "title": "The German bond coup",
+     "idea": "After the war he bought old German bonds that almost no one wanted, betting that Germany would want its good name back. It did.",
+     "page": "https://alienspacex.com/ideas/kostolany-03-the-german-bond-coup.html"
+    },
+    {
+     "title": "Money plus psychology",
+     "idea": "He said market trends come from two things: how much money is available, and the mood of the crowd.",
+     "page": "https://alienspacex.com/ideas/kostolany-04-money-plus-psychology.html"
+    },
+    {
+     "title": "The egg",
+     "idea": "He drew the market cycle as an egg. Rises and falls each have three phases: correction, accompanying, exaggeration.",
+     "page": "https://alienspacex.com/ideas/kostolany-05-the-egg.html"
+    },
+    {
+     "title": "The dog and its owner",
+     "idea": "Prices relate to the economy like a dog to its owner on a walk: running ahead, falling behind, but always coming back.",
+     "page": "https://alienspacex.com/ideas/kostolany-06-the-dog-and-its-owner.html"
+    },
+    {
+     "title": "The four Gs",
+     "idea": "He said a successful investor needs four Gs: Geld, Gedanken, Geduld and Glück. Money, thoughts, patience and luck.",
+     "page": "https://alienspacex.com/ideas/kostolany-07-the-four-gs.html"
+    },
+    {
+     "title": "Shaky hands and hard-boiled ones",
+     "idea": "He split investors into the shaky, who buy in euphoria and sell in panic, and the hard-boiled, who do the opposite.",
+     "page": "https://alienspacex.com/ideas/kostolany-08-shaky-hands-and-hard-boiled-ones.html"
+    },
+    {
+     "title": "Sleeping pills and trams",
+     "idea": "His most famous advice: buy good shares, take sleeping pills, and stop looking. And never chase a share, any more than a tram.",
+     "page": "https://alienspacex.com/ideas/kostolany-09-sleeping-pills-and-trams.html"
+    },
+    {
+     "title": "Teacher of a nation",
+     "idea": "In later life he explained markets to millions of Germans in columns, seminars and television, and co-founded an early asset manager.",
+     "page": "https://alienspacex.com/ideas/kostolany-10-teacher-of-a-nation.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "André Kostolany: gentleman and speculator",
+     "url": "https://magazin.comdirect.de/maerkte-im-blick/andre-kostolany"
+    },
+    {
+     "title": "Who was André Kostolany, and what was his method?",
+     "url": "https://etf.capital/andre-kostolany-methode/"
+    },
+    {
+     "title": "André Kostolany: the stock market guru",
+     "url": "https://extraetf.com/wissen/boersenguru-kostolany"
+    },
+    {
+     "title": "10 André Kostolany quotes that explain the stock market",
+     "url": "https://www.justetf.com/uk/academy/10-quotes-kostolany.html"
+    },
+    {
+     "title": "Investment gurus: André Kostolany",
+     "url": "https://hsbc-zertifikate.de/dam/jcr:3791f779-482d-48e4-92e0-f399c2c8fe8c/Gurus_Kostolany.2016-12-02-14-37-18.pdf"
+    },
+    {
+     "title": "Alles, was Sie über André Kostolany wissen müssen",
+     "url": "https://www.m-vg.de/mediafiles/Leseprobe/9783959722629.pdf"
+    },
+    {
+     "title": "André Kostolany: life, the egg and the four Gs",
+     "url": "https://www.kagels-trading.de/andre-kostolany/"
+    },
+    {
+     "title": "London Agreement on German External Debts",
+     "url": "https://en.wikipedia.org/wiki/London_Agreement_on_German_External_Debts"
+    }
+   ]
+  },
+  {
+   "id": "cundill",
+   "name": "Peter Cundill",
+   "section": "investors",
+   "region": "the wider world",
+   "summary": "Read Graham on a plane in 1973, then hunted the world for shares below their liquidation value: the Indiana Jones of Canadian money managers.",
+   "core_idea": "Below liquidation value. Buy a dollar of assets for 40 or 50 cents.",
+   "page": "https://alienspacex.com/cundill.html",
+   "markdown": "https://alienspacex.com/md/cundill.md",
+   "big_ideas": [
+    {
+     "title": "A $500 lesson",
+     "idea": "His first investment, as a summer office boy, was a mining tip. He lost all $500 in under two days, and never forgot it.",
+     "page": "https://alienspacex.com/ideas/cundill-01-a-500-lesson.html"
+    },
+    {
+     "title": "The eureka moment",
+     "idea": "On a flight home in December 1973 he read Graham's Security Analysis. It gave him the method he had been missing.",
+     "page": "https://alienspacex.com/ideas/cundill-02-the-eureka-moment.html"
+    },
+    {
+     "title": "A dollar for forty cents",
+     "idea": "He bought shares priced below the company's liquidation value: what it would be worth if it closed and sold everything.",
+     "page": "https://alienspacex.com/ideas/cundill-03-a-dollar-for-forty-cents.html"
+    },
+    {
+     "title": "His six tests",
+     "idea": "He wrote down his criteria: cheap against value and book, profitable, paying dividends, well off its high, and on a low P/E.",
+     "page": "https://alienspacex.com/ideas/cundill-04-his-six-tests.html"
+    },
+    {
+     "title": "Hidden assets",
+     "idea": "He read accounts for what they hid: buildings at old costs, valuable leases, power plants. JWT was his textbook case.",
+     "page": "https://alienspacex.com/ideas/cundill-05-hidden-assets.html"
+    },
+    {
+     "title": "Buy more as it falls",
+     "idea": "His best investment, Cleveland-Cliffs, fell by more than half after he bought. He kept buying.",
+     "page": "https://alienspacex.com/ideas/cundill-06-buy-more-as-it-falls.html"
+    },
+    {
+     "title": "Indiana Jones",
+     "idea": "He searched the world for bargains, often starting with the country whose market had done worst that year.",
+     "page": "https://alienspacex.com/ideas/cundill-07-indiana-jones.html"
+    },
+    {
+     "title": "Cash is a position",
+     "idea": "When few shares met his tests he simply held cash, sometimes up to 40%, and waited.",
+     "page": "https://alienspacex.com/ideas/cundill-08-cash-is-a-position.html"
+    },
+    {
+     "title": "The one that went wrong",
+     "idea": "His worst investment, Cable and Wireless, met every Graham test and still failed. Careful analysis guarantees nothing.",
+     "page": "https://alienspacex.com/ideas/cundill-09-the-one-that-went-wrong.html"
+    },
+    {
+     "title": "Patience, history and giving back",
+     "idea": "He ended advising patience, picking good managers, and studying history, and left a large prize for history writing.",
+     "page": "https://alienspacex.com/ideas/cundill-10-patience-history-and-giving-back.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "There's Always Something to Do: The Peter Cundill Investment Approach",
+     "url": "https://www.jstor.org/stable/j.ctt7zrfw"
+    },
+    {
+     "title": "Routines and Orgies: The Life of Peter Cundill",
+     "url": "https://www.jstor.org/stable/j.ctt1287h4s"
+    },
+    {
+     "title": "An interview with Peter Cundill",
+     "url": "https://www.theglobeandmail.com/report-on-business/rob-magazine/an-interview-with-peter-cundill/article566267/"
+    },
+    {
+     "title": "Three lessons from a Canadian investing legend",
+     "url": "https://www.morningstar.ca/ca/news/191149/three-lessons-from-a-canadian-investing-legend.aspx"
+    },
+    {
+     "title": "Peter Cundill of Ivy Cundill Global Value Fund",
+     "url": "https://www.thinkadvisor.com/2004/11/17/peter-cundill-of-ivy-cundill-global-value-fund/"
+    },
+    {
+     "title": "Investor Peter Cundill shook up money management industry",
+     "url": "https://www.mcgill.ca/desautels/node/59467"
+    },
+    {
+     "title": "Desautels alumnus Peter Cundill was a Canadian Warren Buffett",
+     "url": "https://mcgill.ca/channels/channels/news/desautels-alumnus-peter-cundhill-was-canadian-warren-buffett-268762"
+    },
+    {
+     "title": "Global value investor Peter Cundill dies",
+     "url": "https://www.investmentexecutive.com/news/people/global-value-investor-peter-cundill-dies"
+    }
+   ]
+  },
+  {
+   "id": "barsi",
+   "name": "Luiz Barsi Filho",
+   "section": "investors",
+   "region": "the wider world",
+   "summary": "Shined shoes in a São Paulo tenement, then built his own pension one dividend share at a time, and became Brazil's biggest individual investor.",
+   "core_idea": "A private pension. Build your own retirement out of dividend-paying shares.",
+   "page": "https://alienspacex.com/barsi.html",
+   "markdown": "https://alienspacex.com/md/barsi.md",
+   "big_ideas": [
+    {
+     "title": "A tenement childhood",
+     "idea": "He lost his father at one, grew up with his mother in a São Paulo tenement, and worked from about seven.",
+     "page": "https://alienspacex.com/ideas/barsi-01-a-tenement-childhood.html"
+    },
+    {
+     "title": "A stockbroker at fourteen",
+     "idea": "At 14 he got a job at a stockbroker and fell for company accounts. He went on to study accounting, law and economics.",
+     "page": "https://alienspacex.com/ideas/barsi-02-a-stockbroker-at-fourteen.html"
+    },
+    {
+     "title": "Shares guarantee the future",
+     "idea": "Before 30 he feared Brazil's state pension would fail him. In 1970 he wrote a study of which sectors last longest, and built his own pension from their shares.",
+     "page": "https://alienspacex.com/ideas/barsi-03-shares-guarantee-the-future.html"
+    },
+    {
+     "title": "One thousand shares a month",
+     "idea": "He chose São Paulo's power company and bought about a thousand shares every month until he reached his target.",
+     "page": "https://alienspacex.com/ideas/barsi-04-one-thousand-shares-a-month.html"
+    },
+    {
+     "title": "The pension portfolio",
+     "idea": "His method: own durable companies that pay good dividends, bought cheaply, held for decades.",
+     "page": "https://alienspacex.com/ideas/barsi-05-the-pension-portfolio.html"
+    },
+    {
+     "title": "Banks, energy, sanitation, insurance, telecoms",
+     "idea": "His followers sum up where he starts looking with one word: BESST, the sectors whose services people always need.",
+     "page": "https://alienspacex.com/ideas/barsi-06-banks-energy-sanitation-insurance-telecoms.html"
+    },
+    {
+     "title": "What he never does",
+     "idea": "He never invests money he may need, never sells because he has to, and avoids leverage, options and futures.",
+     "page": "https://alienspacex.com/ideas/barsi-07-what-he-never-does.html"
+    },
+    {
+     "title": "Patience pays",
+     "idea": "His best results came from holding for decades: shares bought for cents grew into fortunes and paid him every year.",
+     "page": "https://alienspacex.com/ideas/barsi-08-patience-pays.html"
+    },
+    {
+     "title": "Mistakes and a clean verdict",
+     "idea": "He lost money in banks that failed in the 1990s. In 2024 Brazil's regulator unanimously cleared him of an insider-trading charge.",
+     "page": "https://alienspacex.com/ideas/barsi-09-mistakes-and-a-clean-verdict.html"
+    },
+    {
+     "title": "Rich, but simple",
+     "idea": "He still lives simply, rides the metro on a free senior pass, and asks what wealth means.",
+     "page": "https://alienspacex.com/ideas/barsi-10-rich-but-simple.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Who is Luiz Barsi, and how he got rich",
+     "url": "https://www.infomoney.com.br/?p=1487952"
+    },
+    {
+     "title": "O Rei dos Dividendos (The King of Dividends)",
+     "url": "https://www.infomoney.com.br/?p=1978736"
+    },
+    {
+     "title": "Luiz Barsi: the history and strategy of the King of Dividends",
+     "url": "https://investidor10.com.br/conteudo/luiz-barsi-o-maior-investidor-individual-do-brasil-103470/"
+    },
+    {
+     "title": "Who is Luiz Barsi? Brazil's biggest individual investor",
+     "url": "https://fastcompanybrasil.com/money/quem-e-luiz-barsi-o-maior-investidor-individual-da-b3/"
+    },
+    {
+     "title": "Judgment extract, PAS CVM 19957.007375/2022-43",
+     "url": "https://conteudo.cvm.gov.br/export/sites/cvm/sancionadores/sancionador/anexos/2024/SEI_19957007375_2022_43.pdf"
+    },
+    {
+     "title": "CVM unanimously acquits Luiz Barsi",
+     "url": "https://www.infomoney.com.br/?p=2414844"
+    }
+   ]
+  },
+  {
+   "id": "gray",
+   "name": "Allan Gray",
+   "section": "investors",
+   "region": "the wider world",
+   "summary": "Rose 10% at Fidelity while the 1962 market crashed, founded South Africa's biggest private fund firm and Orbis, then gave his control to charity.",
+   "core_idea": "Be contrarian. Look where others will not: cheap, neglected, unloved.",
+   "page": "https://alienspacex.com/gray.html",
+   "markdown": "https://alienspacex.com/md/gray.md",
+   "big_ideas": [
+    {
+     "title": "Butterworth to Harvard",
+     "idea": "He came from a pioneering family in the Eastern Cape, overcame dyslexia, and studied at Rhodes, the LSE and Harvard.",
+     "page": "https://alienspacex.com/ideas/gray-01-butterworth-to-harvard.html"
+    },
+    {
+     "title": "1962",
+     "idea": "At Fidelity in Boston, the market fell 21.7% in January 1962 and stayed weak until October. His portfolio rose 10%.",
+     "page": "https://alienspacex.com/ideas/gray-02-1962.html"
+    },
+    {
+     "title": "Chosen, not sold",
+     "idea": "In 1973 he started his own firm in Cape Town, believing clients should choose its services rather than be sold them.",
+     "page": "https://alienspacex.com/ideas/gray-03-chosen-not-sold.html"
+    },
+    {
+     "title": "Contrarian by nature",
+     "idea": "He looked for cheap, neglected companies others overlooked, and trusted his own judgment over the crowd's mood.",
+     "page": "https://alienspacex.com/ideas/gray-04-contrarian-by-nature.html"
+    },
+    {
+     "title": "Cycles",
+     "idea": "He believed in cycles: good times breed bad times, and strong businesses bought near a cyclical low offer a discount and improving results.",
+     "page": "https://alienspacex.com/ideas/gray-05-cycles.html"
+    },
+    {
+     "title": "Value, then dream a little",
+     "idea": "He stood firmly on what a business was worth, then looked for the upside the market was not pricing.",
+     "page": "https://alienspacex.com/ideas/gray-06-value-then-dream-a-little.html"
+    },
+    {
+     "title": "Wrong, and changing your mind",
+     "idea": "He accepted being wrong sometimes, because good calls would more than pay for bad ones, and he changed his mind when the facts changed.",
+     "page": "https://alienspacex.com/ideas/gray-07-wrong-and-changing-your-mind.html"
+    },
+    {
+     "title": "The price of being different",
+     "idea": "He warned that a long-term contrarian approach pays only for those who can bear long, uncomfortable spells of underperformance.",
+     "page": "https://alienspacex.com/ideas/gray-08-the-price-of-being-different.html"
+    },
+    {
+     "title": "Fees that serve clients",
+     "idea": "His firms tied their fees to results, so they earned more only when clients did, an idea Orbis took further with refundable fees.",
+     "page": "https://alienspacex.com/ideas/gray-09-fees-that-serve-clients.html"
+    },
+    {
+     "title": "Giving it all back",
+     "idea": "He funded students' education for years, then gave his family's controlling stakes in both firms to a charitable foundation.",
+     "page": "https://alienspacex.com/ideas/gray-10-giving-it-all-back.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "A letter from our founder",
+     "url": "https://www.allangray.co.za/globalassets/about-us/our-ownership/a-letter-from-our-founder.pdf"
+    },
+    {
+     "title": "Allan's legacy: investment thinking",
+     "url": "https://www.allangray.co.za/latest-insights/investment-insights/allans-legacy-investment-thinking/"
+    },
+    {
+     "title": "Allan Gray: death of a gentleman",
+     "url": "https://www.dailymaverick.co.za/article/2019-11-12-allan-gray-death-of-a-gentleman/"
+    },
+    {
+     "title": "Allan Gray (investor)",
+     "url": "https://en.wikipedia.org/wiki/Allan_Gray_(investor)"
+    },
+    {
+     "title": "Orbis Global Equity: enduring lessons that shape how Orbis invests",
+     "url": "https://www.allangray.co.za/latest-insights/offshore-investing/orbis-global-equity-enduring-lessons-that-shape-how-orbis-invests/"
+    },
+    {
+     "title": "Orbis: President's letter 2021",
+     "url": "https://www.allangray.co.za/latest-insights/offshore-investing/orbis-presidents-letter-2021/"
+    },
+    {
+     "title": "Allan Gray Equity Fund factsheet",
+     "url": "https://www.allangray.co.za/globalassets/documents-repository/fund/factsheet/Allan%20Gray%20Equity%20Fund/Files/AGEF%20-%202026-05.pdf"
+    },
+    {
+     "title": "Allan Gray gives away controlling stake to charitable foundation",
+     "url": "https://www.businesslive.co.za/bd/companies/financial-services/2016-01-08-allan-gray-gives-away-controlling-stake-to-charitable-foundation/"
+    }
+   ]
+  },
+  {
+   "id": "cheah",
+   "name": "Cheah Cheng Hye",
+   "section": "investors",
+   "region": "the wider world",
+   "summary": "Sold pineapples as a boy in Penang, spent 17 years as a journalist, then built Value Partners from under US$5 million: Asia's Warren Buffett.",
+   "core_idea": "Do the legwork. Visit companies; spend little time in the office.",
+   "page": "https://alienspacex.com/cheah.html",
+   "markdown": "https://alienspacex.com/md/cheah.md",
+   "big_ideas": [
+    {
+     "title": "Pineapples in Penang",
+     "idea": "He grew up poor in Penang. When his father died he was nine, the eldest, and the family's breadwinner.",
+     "page": "https://alienspacex.com/ideas/cheah-01-pineapples-in-penang.html"
+    },
+    {
+     "title": "Seventeen years of journalism",
+     "idea": "At 17 he joined a Malaysian newspaper, moved to Hong Kong in 1974, and spent 17 years reporting on Asian business.",
+     "page": "https://alienspacex.com/ideas/cheah-02-seventeen-years-of-journalism.html"
+    },
+    {
+     "title": "Self-taught",
+     "idea": "With no university degree, he wrote himself a study plan in accounting, law and statistics, and read annual reports cover to cover.",
+     "page": "https://alienspacex.com/ideas/cheah-03-self-taught.html"
+    },
+    {
+     "title": "A hobby fund becomes a giant",
+     "idea": "In 1993 he and a partner started Value Partners with under US$5 million. In 2007 it became Hong Kong's first listed asset manager.",
+     "page": "https://alienspacex.com/ideas/cheah-04-a-hobby-fund-becomes-a-giant.html"
+    },
+    {
+     "title": "Graham, adapted for Asia",
+     "idea": "He calls himself an old-fashioned Graham-and-Dodd value investor, but puts more weight on cash flow and governance, which matter more in emerging markets.",
+     "page": "https://alienspacex.com/ideas/cheah-05-graham-adapted-for-asia.html"
+    },
+    {
+     "title": "Two thousand five hundred visits",
+     "idea": "His firm's analysts make about 2,500 company visits a year and are told to spend little time in the office.",
+     "page": "https://alienspacex.com/ideas/cheah-06-two-thousand-five-hundred-visits.html"
+    },
+    {
+     "title": "Buy when others sell",
+     "idea": "He buys when people sell and sells when they buy, prefers dull shares, and stayed out of the dot-com mania.",
+     "page": "https://alienspacex.com/ideas/cheah-07-buy-when-others-sell.html"
+    },
+    {
+     "title": "Stupid-clever",
+     "idea": "He says ego is an investor's worst enemy, and that about a third of his decisions are mistakes, mostly about people.",
+     "page": "https://alienspacex.com/ideas/cheah-08-stupid-clever.html"
+    },
+    {
+     "title": "Losing years, and the regulator",
+     "idea": "His fund lost money in seven of its first 25 years. His record also includes a 2000 public reprimand and a 2017 fine for the firm.",
+     "page": "https://alienspacex.com/ideas/cheah-09-losing-years-and-the-regulator.html"
+    },
+    {
+     "title": "The lucky unlucky boy",
+     "idea": "He credits luck and an era of fast growth as much as skill, and stepped back from the firm in 2025.",
+     "page": "https://alienspacex.com/ideas/cheah-10-the-lucky-unlucky-boy.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Instinct to be different pays Value Partners chief",
+     "url": "https://theedgemalaysia.com/article/lead-story-instinct-be-different-pays-value-partners-chief"
+    },
+    {
+     "title": "The world's greatest investors: Cheah Cheng Hye",
+     "url": "https://moneyweek.com/481353/the-worlds-greatest-investors-cheah-cheng-hye"
+    },
+    {
+     "title": "Malaysia's richest: Cheah Cheng Hye",
+     "url": "https://www.pressreader.com/malaysia/the-star-malaysia-starbiz/20190323/281938839257070"
+    },
+    {
+     "title": "A life-long learner who puts knowledge to use",
+     "url": "https://www.pressreader.com/china/china-daily-hong-kong/20180420/281861529100335"
+    },
+    {
+     "title": "Value Partners",
+     "url": "https://www.institutionalinvestor.com/article/b18bk5jvryckp8/value-partners"
+    },
+    {
+     "title": "Cheah Cheng Hye",
+     "url": "https://content.time.com/time/specials/2007/article/0,28804,1705574_1705572_1704395,00.html"
+    },
+    {
+     "title": "Small stocks, big ideas drive Value Partners boss",
+     "url": "https://www.scmp.com/article/620635/small-stocks-big-ideas-drive-value-partners-boss"
+    },
+    {
+     "title": "Cheah Cheng Hye",
+     "url": "https://en.wikipedia.org/wiki/Cheah_Cheng_Hye"
+    },
+    {
+     "title": "SFC takes action against Value Partners Limited and Cheah Cheng Hye",
+     "url": "https://www.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/enforcement-news/doc?refNo=00PR127"
+    },
+    {
+     "title": "SFC reprimands and fines Value Partners $4 million",
+     "url": "https://mondovisione.com/news/hong-kongs-securities-and-futures-commission-reprimands-and-fines-value-partner-2017125/"
+    },
+    {
+     "title": "Value Partners founder steps down from co-chairman role",
+     "url": "https://www.hedgeweek.com/value-partners-founder-steps-down-from-co-chairman-role/"
+    }
+   ]
+  },
+  {
+   "id": "ptj",
+   "name": "Paul Tudor Jones",
+   "section": "traders",
+   "region": "the traders",
+   "summary": "Lost most of his clients' money on one cotton trade in 1979, built his rules around defence, and is reported to have tripled his money in the 1987 crash.",
+   "core_idea": "Defence first. Protect what you have; profits follow.",
+   "page": "https://alienspacex.com/ptj.html",
+   "markdown": "https://alienspacex.com/md/ptj.md",
+   "big_ideas": [
+    {
+     "title": "From Memphis to the cotton pit",
+     "idea": "After university a relative in the cotton business sent him to the great cotton trader Eli Tullis, who hired him and taught him on the floor of the New York Cotton Exchange.",
+     "page": "https://alienspacex.com/ideas/ptj-01-from-memphis-to-the-cotton-pit.html"
+    },
+    {
+     "title": "Mr. Stupid: the 1979 cotton loss",
+     "idea": "In 1979 a cotton trade went badly wrong and he lost 60 to 70% of his clients' money. It nearly ended his career and shaped every rule he made afterwards.",
+     "page": "https://alienspacex.com/ideas/ptj-02-mr-stupid-the-1979-cotton-loss.html"
+    },
+    {
+     "title": "Tudor Investment, 1980",
+     "idea": "In 1980 he started his own firm. Dunavant and Tullis were among his first clients, and Commodities Corporation gave him $30,000 to manage.",
+     "page": "https://alienspacex.com/ideas/ptj-03-tudor-investment-1980.html"
+    },
+    {
+     "title": "1987: the crash he expected",
+     "idea": "In 1987 his deputy Peter Borish mapped that year's market against the run-up to the 1929 crash, and the two expected a collapse. In October the Dow fell 22.6% in a day. His main fund is reported to have made 125.9% that year.",
+     "page": "https://alienspacex.com/ideas/ptj-04-1987-the-crash-he-expected.html"
+    },
+    {
+     "title": "Defence first",
+     "idea": "His most repeated lesson: protect what you have before trying to make more. Never add to a losing position.",
+     "page": "https://alienspacex.com/ideas/ptj-05-defence-first.html"
+    },
+    {
+     "title": "Five to one",
+     "idea": "He looks for trades that could make five times what they risk. That means he can be wrong most of the time and still come out ahead.",
+     "page": "https://alienspacex.com/ideas/ptj-06-five-to-one.html"
+    },
+    {
+     "title": "The 200-day line",
+     "idea": "He watches the 200-day moving average of closing prices. If something falls below it, he gets out and plays defence.",
+     "page": "https://alienspacex.com/ideas/ptj-07-the-200-day-line.html"
+    },
+    {
+     "title": "Everything is connected",
+     "idea": "He is a global macro trader: he reads currencies, bonds, stocks and commodities as one system and bets on big shifts.",
+     "page": "https://alienspacex.com/ideas/ptj-08-everything-is-connected.html"
+    },
+    {
+     "title": "Two eras",
+     "idea": "His flagship fund averaged about 26% a year from 1987 to 2007, then about 4.7% a year from 2008 to 2015. Even legends have long flat stretches.",
+     "page": "https://alienspacex.com/ideas/ptj-09-two-eras.html"
+    },
+    {
+     "title": "Robin Hood, and a reputation",
+     "idea": "After the 1987 crash he co-founded the Robin Hood Foundation to fight poverty. His record also includes a guilty plea over wetlands, an SEC settlement, and words he later regretted.",
+     "page": "https://alienspacex.com/ideas/ptj-10-robin-hood-and-a-reputation.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tudor Fund For Employees L.P.: prospectus",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000861895/000119312504094225/dposam.htm"
+    },
+    {
+     "title": "Tudor Fund For Employees L.P.: Form 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000861895/000095013096003576/0000950130-96-003576.txt"
+    },
+    {
+     "title": "Market Wizards: interview with Paul Tudor Jones",
+     "url": "https://www.turtletrader.com/?p=1933"
+    },
+    {
+     "title": "20 trading insights from Paul Tudor Jones",
+     "url": "https://newtraderu.com/2013/09/25/20-trading-insights-from-paul-tudor-jones"
+    },
+    {
+     "title": "Paul Tudor Jones: the art of aggressive trading",
+     "url": "https://the7circles.uk/?p=8551"
+    },
+    {
+     "title": "From Jack Schwager's Market Wizards",
+     "url": "https://www.gurufocus.com/news/467413"
+    },
+    {
+     "title": "Paul Tudor Jones in Money: Master the Game",
+     "url": "https://trendfollowing.com/paul-tudor-jones"
+    },
+    {
+     "title": "A dozen things I've learned from Paul Tudor Jones",
+     "url": "https://25iq.com/2015/07/25/a-dozen-things-ive-learned-from-paul-tudor-jones-about-investing-and-trading/"
+    },
+    {
+     "title": "Paul Tudor Jones's trading rules",
+     "url": "https://www.benzinga.com/markets/25/03/44210928/paul-tudor-jones-trading-rules-never-trade-in-situations-where-you-dont-have-control"
+    },
+    {
+     "title": "The Paul Tudor Jones 'Trader' video is back",
+     "url": "https://www.cnbc.com/amp/id/48801252"
+    },
+    {
+     "title": "Remembering the worst day in Wall Street history",
+     "url": "https://money.cnn.com/2017/10/19/investing/romans-numeral-black-monday"
+    },
+    {
+     "title": "Remembering the crash of '87",
+     "url": "https://www.cnbc.com/amp/id/100104087"
+    },
+    {
+     "title": "Paul Tudor Jones clients said to pull 15% from main fund",
+     "url": "https://sg.finance.yahoo.com/news/paul-tudor-jones-clients-said-154040760.html"
+    },
+    {
+     "title": "After a dazzling early career, a star trader settles down",
+     "url": "https://www.cnbc.com/2014/03/06/after-a-dazzling-early-career-a-star-trader-settles-down.html"
+    },
+    {
+     "title": "Paul Tudor Jones: the global macro trader",
+     "url": "https://www.gurufocus.com/news/601011/paul-tudor-jones-the-global-macro-trader"
+    },
+    {
+     "title": "The day after the crash: Paul Tudor Jones made a mint, and found a mission",
+     "url": "https://www.bridgespan.org/insights/paul-tudor-jones/the-day-after-the-crash-paul-tudor-jones-made-a-m"
+    },
+    {
+     "title": "True tales of eco-crimes",
+     "url": "https://www.nwf.org/Magazines/National-Wildlife/1993/True-Tales-of-Eco-Crimes"
+    },
+    {
+     "title": "Paul Tudor Jones distances himself from Harvey Weinstein",
+     "url": "https://www.cnbc.com/2017/12/06/paul-tudor-jones-distances-himself-from-harvey-weinstein.html"
+    },
+    {
+     "title": "Hedge fund manager apologizes for comments on women traders",
+     "url": "https://www.npr.org/sections/thetwo-way/2013/05/24/186504874/hedge-fund-manager-apologizes-for-comments-on-women-traders"
+    },
+    {
+     "title": "Paul Tudor Jones makes the case for bitcoin",
+     "url": "https://www.theblock.co/post/64398/paul-tudor-jones-says-he-is-buying-bitcoin-as-a-hedge-against-central-bank-money-printing"
+    },
+    {
+     "title": "Paul Tudor Jones",
+     "url": "https://en.wikipedia.org/wiki/Paul_Tudor_Jones"
+    },
+    {
+     "title": "93% of individual traders lost money in equity F&O, FY22 to FY24",
+     "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2024/updated-sebi-study-reveals-93-of-individual-traders-incurred-losses-in-equity-fando-between-fy22-and-fy24-aggregate-losses-exceed-1-8-lakh-crores-over-three-years_86906.html"
+    }
+   ]
+  },
+  {
+   "id": "minervini",
+   "name": "Mark Minervini",
+   "section": "traders",
+   "region": "the traders",
+   "summary": "Lost all his capital in the 1980s, then studied history's biggest winning stocks and won the U.S. Investing Championship twice, in 1997 and 2021.",
+   "core_idea": "Study the winners. Copy what the biggest winners looked like before they ran.",
+   "page": "https://alienspacex.com/minervini.html",
+   "markdown": "https://alienspacex.com/md/minervini.md",
+   "big_ideas": [
+    {
+     "title": "A musician who lost it all",
+     "idea": "He wanted to be a musician, bought his first stock in 1983, and made money at once. Then he lost money for about six years, until his capital was gone.",
+     "page": "https://alienspacex.com/ideas/minervini-01-a-musician-who-lost-it-all.html"
+    },
+    {
+     "title": "Study the winners",
+     "idea": "Instead of guessing, he studied what the biggest winning stocks in history looked like before their big moves, and built a 'leadership profile' to copy.",
+     "page": "https://alienspacex.com/ideas/minervini-02-study-the-winners.html"
+    },
+    {
+     "title": "SEPA: a specific entry point",
+     "idea": "In 1993 he founded Quantech Research Group, selling research based on his method, Specific Entry Point Analysis, or SEPA.",
+     "page": "https://alienspacex.com/ideas/minervini-03-sepa-a-specific-entry-point.html"
+    },
+    {
+     "title": "Stage 2 only",
+     "idea": "Borrowing Stan Weinstein's idea that stocks move through four stages, he buys only in Stage 2: when a stock is already in a strong, rising trend.",
+     "page": "https://alienspacex.com/ideas/minervini-04-stage-2-only.html"
+    },
+    {
+     "title": "The Trend Template",
+     "idea": "His trademark filter: eight tests on price, moving averages and the yearly high and low. A stock that fails any of them is not a candidate.",
+     "page": "https://alienspacex.com/ideas/minervini-05-the-trend-template.html"
+    },
+    {
+     "title": "The VCP",
+     "idea": "His favourite setup is the Volatility Contraction Pattern: a rising stock pauses, and each pullback is smaller than the one before, until the price breaks out.",
+     "page": "https://alienspacex.com/ideas/minervini-06-the-vcp.html"
+    },
+    {
+     "title": "Cut losses small",
+     "idea": "After losing everything once, he made one rule above all: cut losses while they are small. He says no loss should ever reach 10%, and the average should be far smaller.",
+     "page": "https://alienspacex.com/ideas/minervini-07-cut-losses-small.html"
+    },
+    {
+     "title": "220% a year",
+     "idea": "Jack Schwager reported that from mid-1994 to 1999 he averaged about 220% a year, with only one small losing quarter. These are his own figures, not an audited fund.",
+     "page": "https://alienspacex.com/ideas/minervini-08-220-a-year.html"
+    },
+    {
+     "title": "Two championships",
+     "idea": "To prove his method with real money, he entered the U.S. Investing Championship twice and won both times: +155% in 1997 and a record +334.8% in 2021.",
+     "page": "https://alienspacex.com/ideas/minervini-09-two-championships.html"
+    },
+    {
+     "title": "Teacher, critics and the CNBC moment",
+     "idea": "He now writes books and sells trading education. His record has fans and critics, and a 2021 TV interview showed the limits of trading charts without knowing the business.",
+     "page": "https://alienspacex.com/ideas/minervini-10-teacher-critics-and-the-cnbc-moment.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Stock trader wins U.S. Investing Championship a second time",
+     "url": "https://www.streetinsider.com/Press+Releases/STOCK+TRADER+WINS+U.S.+INVESTING+CHAMPIONSHIP+A+SECOND+TIME+-+BREAKS+RECORD/19494329.html"
+    },
+    {
+     "title": "2021 United States Investing Championship winners",
+     "url": "https://www.businesswire.com/news/home/20220124005241/en/2021-United-States-Investing-Championship-Winners-%E2%80%94-Minervini-Smashes-Record"
+    },
+    {
+     "title": "Records shattered in international investing competition",
+     "url": "https://www.businesswire.com/news/home/20210426005252/en/Records-Shattered-in-International-Investing-Competition"
+    },
+    {
+     "title": "2021 championship six-month results",
+     "url": "https://www.businesswire.com/news/home/20210722005154/en"
+    },
+    {
+     "title": "2021 championship nine-month results",
+     "url": "https://www.businesswire.com/news/home/20211026005502/en"
+    },
+    {
+     "title": "2021 championship eleven-month results",
+     "url": "https://www.businesswire.com/news/home/20211222005142/en"
+    },
+    {
+     "title": "2025 U.S. Investing Championship first-half results",
+     "url": "https://www.webull.com/news/13249512026235904"
+    },
+    {
+     "title": "How early stock losses built a champion stock trader",
+     "url": "https://inkl.com/news/how-early-stock-losses-built-a-champion-stock-trader"
+    },
+    {
+     "title": "Expanded MarketWatch interview with Mark Minervini",
+     "url": "https://michaelsincere.com/articles/my-marketwatch-interview-with-stock-market-wizard-mark-minervini"
+    },
+    {
+     "title": "Mark Minervini: lessons from a stock market wizard",
+     "url": "https://www.stockopedia.com/academy/articles/secrets-stock-market-wizard-minervini"
+    },
+    {
+     "title": "Mark Minervini interview: how to trade like a champion",
+     "url": "https://stockopedia.com/blog/mark-minervini-interview-how-to-trade-like-a-champion-353963"
+    },
+    {
+     "title": "Mark T. Minervini, Quantech Research Group",
+     "url": "https://www.twst.com/?p=611"
+    },
+    {
+     "title": "Loren Fleckenstein chats with Jack Schwager",
+     "url": "https://tradingmarkets.com/?p=665916"
+    },
+    {
+     "title": "Mark Minervini: stocks around the clock",
+     "url": "https://the7circles.uk/?p=21165"
+    },
+    {
+     "title": "Stock Market Wizards: Mark Minervini",
+     "url": "https://elearnmarkets.com/school/units/stock-market-wizards/mark-minervini-stock-around-the-clock"
+    },
+    {
+     "title": "Trade Like a Stock Market Wizard",
+     "url": "https://goodreads.com/book/show/16189528"
+    },
+    {
+     "title": "Mark Minervini: author biography and quotes",
+     "url": "https://www.abebooks.co.uk/author/b00bn1x6ry/mark-minervini"
+    },
+    {
+     "title": "Mark Minervini's Trend Template: a step-by-step guide",
+     "url": "https://www.chartmill.com/documentation/stock-screener/technical-analysis-trading-strategies/496-Mark-Minervini-Trend-Template-A-Step-by-Step-Guide-for-Beginners"
+    },
+    {
+     "title": "Automating classic market methods: Minervini's Trend Template",
+     "url": "https://www.mql5.com/en/articles/22790"
+    },
+    {
+     "title": "The Volatility Contraction Pattern: how to spot and trade it",
+     "url": "https://www.chartmill.com/documentation/technical-analysis/chart-patterns/531-Volatility-Contraction-Pattern-VCP-How-to-Spot-and-Trade-It"
+    },
+    {
+     "title": "Mark Minervini: stock trading wizard",
+     "url": "https://www.financialwisdomtv.com/post/mark-minervini"
+    },
+    {
+     "title": "The weekend meltdown of Mark Minervini",
+     "url": "https://investinglive.com/news/!/the-weekend-meltdown-of-mark-minervini-was-a-sight-to-behold-20211018"
+    },
+    {
+     "title": "93% of individual traders lost money in equity F&O, FY22 to FY24",
+     "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2024/updated-sebi-study-reveals-93-of-individual-traders-incurred-losses-in-equity-fando-between-fy22-and-fy24-aggregate-losses-exceed-1-8-lakh-crores-over-three-years_86906.html"
+    }
+   ]
+  }
+ ]
+}

@@ -139,8 +139,8 @@ details p{font-size:15.5px;color:#e2e7f0;margin:0 0 8px!important}
 .sect .on{background:var(--g);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.14)}
 .sect .on::after{content:"";position:absolute;left:50%;bottom:-11px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--g);border-bottom:0}
 .sect a:active{transform:scale(.97)}
-@media (max-width:440px){.sect{gap:3px}.sect>*{padding:0 10px;font-size:.8rem}}
-@media (max-width:350px){.sect{gap:2px;padding:3px}.sect>*{padding:0 7px;font-size:.74rem}}
+@media (max-width:440px){.sect{gap:2px;padding:3px}.sect>*{padding:0 8px;font-size:.74rem;min-height:34px}}
+@media (max-width:360px){.sect>*{padding:0 6px;font-size:.68rem}}
 @view-transition{navigation:auto}
 ::view-transition-old(root),::view-transition-new(root){animation-duration:.45s}
 @media (prefers-reduced-motion:no-preference){body{animation:pgIn .5s ease-out backwards}html.pg-out body{opacity:0;transition:opacity .3s ease-in}}
@@ -161,7 +161,7 @@ details p{font-size:15.5px;color:#e2e7f0;margin:0 0 8px!important}
 </header>
 <main id="story">
  <section class="hero" id="top">
-  <nav class="sect" aria-label="Library sections"><a class="s-inv" href="https://alienspacex.com/" target="_top" data-bg="#ffffff" aria-label="Investors: learn from the great investors">Investors</a><a class="s-eco" href="https://alienspacex.com/economics/" target="_top" data-bg="#ffffff" aria-label="Economics: the lemonade stand">Economics</a><span class="s-spa on" aria-current="page">Space</span><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" data-bg="#05060c" aria-label="Evolution: from the first cell to you">Evolution</a></nav>
+  <nav class="sect" aria-label="Library sections"><a class="s-inv" href="https://alienspacex.com/" target="_top" data-bg="#ffffff" aria-label="Investors: learn from the great investors">Investors</a><a class="s-trd" href="https://alienspacex.com/#traders" target="_top" data-bg="#ffffff" aria-label="Traders: great traders, with risk warnings">Traders</a><a class="s-eco" href="https://alienspacex.com/economics/" target="_top" data-bg="#ffffff" aria-label="Economics: the lemonade stand">Economics</a><span class="s-spa on" aria-current="page">Space</span><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" data-bg="#05060c" aria-label="Evolution: from the first cell to you">Evolution</a></nav>
   <div class="kick">A journey through time</div>
   <h1>From the Big Bang<br><span>to You</span></h1>
   <p>13.8 billion years in one scroll. Swipe down and watch the universe build itself: stars, planets, oceans, dinosaurs, and finally us.</p>
