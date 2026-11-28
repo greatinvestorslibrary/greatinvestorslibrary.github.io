@@ -140,13 +140,16 @@ details.panel summary{cursor:pointer;font-weight:700;min-height:44px;display:fle
 .end{text-align:center}
 @media (prefers-reduced-motion:no-preference){.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}.reveal.seen{opacity:1;transform:none}}
 @media (max-width:380px){body{font-size:16px}.w{padding:0 14px}.two{gap:7px}.mini{padding:9px 8px;font-size:.84rem}}
-/*SECT*/.sect{--g:#2e6b4f;--gd:#1f4d38;display:flex;justify-content:center;gap:4px;width:max-content;max-width:100%;margin:0 auto 22px;padding:4px;border-radius:999px;background:var(--sect-track,#f1f2f4);border:1px solid var(--sect-edge,#e3e5e8)}
-.sect>*{position:relative;display:inline-flex;align-items:center;min-height:38px;padding:0 13px;border-radius:999px;font:650 .86rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;color:var(--g);background:#fff;border:0;box-shadow:inset 0 0 0 1.5px var(--g);white-space:nowrap}
-.sect .on{background:var(--g);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.14)}
-.sect .on::after{content:"";position:absolute;left:50%;bottom:-11px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--g);border-bottom:0}
-.sect a:active{transform:scale(.97)}
-@media (max-width:440px){.sect{gap:2px;padding:3px}.sect>*{padding:0 8px;font-size:.74rem;min-height:34px}}
-@media (max-width:360px){.sect>*{padding:0 6px;font-size:.68rem}}
+/*SECT*/.sect{--g:#2e6b4f;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));width:auto;max-width:none;margin:0 calc(50% - 50vw) 26px;padding:0;background:var(--card,#fff);border-bottom:1px solid var(--sect-edge,#e3e5e8);position:relative;z-index:2}
+body{overflow-x:clip}
+.sect>*{position:relative;display:flex;align-items:center;justify-content:center;min-height:46px;padding:0 2px;font:600 .9rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;color:var(--sect-ink,#6b6f76);background:none;border:0;white-space:nowrap}
+.sect a:hover{color:var(--g)}
+.sect .on{color:var(--g);box-shadow:inset 0 -3px 0 var(--g)}
+.sect .on::after{content:"";position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--g);border-bottom:0}
+.sect a:active{opacity:.7}
+@media (max-width:440px){.sect>*{font-size:.78rem;min-height:44px}}
+@media (max-width:360px){.sect>*{font-size:.7rem}}
+@media (prefers-color-scheme:dark){.sect{--g:#7fcfa6;--sect-ink:#a3a8b0;--sect-edge:#2a2e35}}
 @view-transition{navigation:auto}
 ::view-transition-old(root),::view-transition-new(root){animation-duration:.45s}
 @media (prefers-reduced-motion:no-preference){body{animation:pgIn .5s ease-out backwards}html.pg-out body{opacity:0;transition:opacity .3s ease-in}}
