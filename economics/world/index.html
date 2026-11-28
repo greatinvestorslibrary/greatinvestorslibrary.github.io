@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GDP explained simply: the world&#x27;s biggest economies, GDP per capita and India vs China</title>
+<meta name="description" content="GDP explained with a lemonade stand: the 15 biggest economies of 2026 (IMF), GDP per person and PPP, the India vs China race since 1975, and the rule of 70, with animated charts, quizzes and puzzles. Free.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://alienspacex.com/economics/world/">
+<link rel="alternate" type="application/rss+xml" title="New pages and corrections" href="https://alienspacex.com/feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The World Economy, explained with lemonade">
+<meta property="og:description" content="GDP, the 15 biggest economies, income per person and the India vs China race, in animated charts. Free.">
+<meta property="og:url" content="https://alienspacex.com/economics/world/">
+<meta property="og:image" content="https://alienspacex.com/economics/og-economics.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The World Economy, explained with lemonade">
+<meta name="twitter:description" content="GDP, the 15 biggest economies, income per person and the India vs China race, in animated charts. Free.">
+<meta name="twitter:image" content="https://alienspacex.com/economics/og-economics.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23fff6cc'/%3E%3Cellipse cx='32' cy='34' rx='20' ry='15' fill='%23ffd84d' stroke='%23d9a400' stroke-width='3'/%3E%3C/svg%3E">
+<style>
+
+:root{--ink:#1f2328;--mut:#5f6368;--rule:#ececec;--soft:#f7f7f5;--lemon:#ffd84d;--lemon2:#e0b100;--tint:#fffbe6;--acc:#9a6a00;--grn:#22794a;--red:#c0392b;--blu:#1d6fb8;--r:16px}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;background:#fff}
+html,body{margin:0;background:#fff;color:var(--ink)}
+body{font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;-webkit-tap-highlight-color:transparent;overflow-x:hidden}
+@supports (overflow:clip){body{overflow-x:clip}}
+h1,h2,h3,.rd{font-family:ui-rounded,"SF Pro Rounded","Nunito","Segoe UI",system-ui,sans-serif}
+.w{max-width:640px;margin:0 auto;padding:0 18px}
+a{color:var(--blu)}
+.sr{position:absolute;left:-9999px}
+/* hero */
+.hero{text-align:center;padding:calc(18px + env(safe-area-inset-top)) 0 10px}
+.hero .sect{margin:0 auto 26px}
+.kick{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:750;color:var(--acc)}
+h1{font-size:clamp(2rem,9vw,3rem);line-height:1.05;margin:.25em 0 .3em;letter-spacing:-.01em}
+h1 span{color:var(--acc)}
+.hero p{color:var(--mut);margin:0 auto 18px;max-width:30em}
+.art{display:block;margin:0 auto;max-width:360px;width:100%;height:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:46px;padding:0 20px;border-radius:999px;border:1px solid var(--rule);background:#fff;color:var(--ink);font:650 1rem system-ui,sans-serif;text-decoration:none;cursor:pointer}
+.btn.pri{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:18px 0 6px}
+.cast{display:flex;justify-content:center;gap:14px;margin:16px 0 4px;flex-wrap:wrap}
+.cast figure{margin:0;width:76px;text-align:center;font-size:.78rem;color:var(--mut);line-height:1.25}
+.cast svg{width:58px;height:58px;display:block;margin:0 auto 4px}
+.cast b{display:block;color:var(--ink);font-size:.86rem}
+/* sections */
+section.blk{padding:34px 0 8px}section,.day{scroll-margin-top:72px}
+h2{font-size:1.6rem;line-height:1.15;margin:0 0 .45em}
+h3{font-size:1.15rem;margin:1.1em 0 .4em}
+.lead{color:var(--mut);margin-top:-.2em}
+.divider{display:block;width:120px;height:26px;margin:26px auto 0}
+.card{border:1px solid var(--rule);border-radius:var(--r);padding:16px;margin:14px 0;background:#fff}
+.card.tint{background:var(--tint);border-color:#f3e6a8}
+.card.soft{background:var(--soft)}
+.day{border:1px solid var(--rule);border-radius:20px;padding:16px 16px 12px;margin:20px 0;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+.dh{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.dh svg{width:46px;height:46px;flex:none}
+.dh small{display:block;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);font-weight:750}
+.dh h3{margin:0;font-size:1.2rem}
+.story{margin:.4em 0 .6em;padding-left:1.15em}
+.story li{margin:.25em 0}
+.glasses{display:flex;flex-wrap:wrap;gap:3px;margin:10px 0 4px}
+.glasses svg{width:20px;height:26px}
+.gleg{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.78rem;color:var(--mut);margin-bottom:10px}
+.gleg span{display:inline-flex;align-items:center;gap:4px}
+.gleg svg{width:13px;height:17px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mini{border-radius:14px;padding:10px 11px;font-size:.88rem;background:var(--soft)}
+.mini h4{margin:0 0 6px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.mini .r{display:flex;justify-content:space-between;gap:6px;padding:2px 0}.mini .r span:last-child{white-space:nowrap}
+.mini .r.t{border-top:1px solid #dcdcdc;margin-top:4px;padding-top:5px;font-weight:750}
+.mini.pl h4{color:var(--grn)}.mini.cj h4{color:var(--blu)}
+.pos{color:var(--grn)}.neg{color:var(--red)}
+.note{font-size:.92rem;background:var(--tint);border-radius:12px;padding:10px 12px;margin:10px 0 2px}
+.note b{color:var(--acc)}
+.tbl{width:100%;border-collapse:collapse;font-size:.95rem;margin:6px 0}
+.tbl td,.tbl th{padding:7px 4px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+.tbl td.n,.tbl th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl tr.sub td{color:var(--mut);font-size:.82rem;padding-top:12px;border-bottom:0;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.tbl tr.tot td{font-weight:800;border-bottom:2px solid var(--ink)}
+.tbl .gw{display:block;font-size:.76rem;color:var(--mut);font-weight:500}
+.rule3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.rule3 div{border-radius:14px;padding:12px 8px;text-align:center;font-size:.84rem;line-height:1.3;background:var(--soft)}
+.rule3 .e{font-size:1.6rem;display:block;margin-bottom:4px}
+.rule3 b{display:block;font-size:.95rem;margin-bottom:2px}
+.big{font-size:2rem;font-weight:800;font-variant-numeric:tabular-nums}
+/* dashboard */
+#dash{position:fixed;left:0;right:0;top:0;z-index:20;background:rgba(255,255,255,.96);border-bottom:1px solid var(--rule);padding:calc(6px + env(safe-area-inset-top)) 10px 6px;transform:translateY(-110%);transition:transform .35s ease;backdrop-filter:saturate(1.4) blur(6px);-webkit-backdrop-filter:saturate(1.4) blur(6px)}
+#dash.on{transform:none}
+#dash .in{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;text-align:center}
+#dash .c{font-size:.68rem;color:var(--mut);line-height:1.2;text-transform:uppercase;letter-spacing:.05em}
+#dash .v{display:block;font:800 1.05rem/1.25 system-ui,sans-serif;color:var(--ink);font-variant-numeric:tabular-nums;text-transform:none;letter-spacing:0}
+#dash .v.cash{color:var(--blu)}#dash .v.prof{color:var(--grn)}#dash .v.prof.l{color:var(--red)}
+#dash .lab{grid-column:1/-1;font-size:.7rem;color:var(--acc);font-weight:700;margin-top:1px}
+/* seesaw */
+.saw{display:block;width:100%;max-width:420px;height:auto;margin:6px auto}
+/* link diagram */
+#links{min-height:100svh;padding-top:58px;display:flex;flex-direction:column}
+#links h2{margin-bottom:.15em}
+#links .lead{font-size:.92rem;margin-bottom:4px}
+.dia{display:block;width:100%;height:auto;max-height:calc(100svh - 250px);margin:0 auto}
+.leg{display:grid;gap:3px;font-size:.82rem;line-height:1.3;margin:6px 0 0;padding:0;list-style:none}
+.leg li{display:flex;gap:7px;align-items:flex-start}
+.leg i{flex:none;width:18px;height:18px;border-radius:50%;color:#fff;font:800 .72rem/18px system-ui;text-align:center;font-style:normal}
+/* simulator */
+.sim .row{margin:12px 0}
+.sim label.h{display:block;font-size:.8rem;font-weight:750;color:var(--mut);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg button{flex:1;min-width:64px;min-height:42px;border-radius:12px;border:1px solid var(--rule);background:#fff;font:650 .95rem system-ui,sans-serif;color:var(--ink);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+input[type=range]{width:100%;accent-color:var(--acc);height:34px}
+.simout{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.simout div{background:var(--soft);border-radius:12px;padding:8px;text-align:center;font-size:.76rem;color:var(--mut)}
+.simout b{display:block;font-size:1.15rem;color:var(--ink);font-variant-numeric:tabular-nums}
+#simMsg{margin-top:10px}
+#simProfit{font-size:2.2rem;font-weight:800;text-align:center;margin:10px 0 0;font-variant-numeric:tabular-nums}
+/* puzzles */
+.pz{border:1px solid var(--rule);border-radius:16px;padding:14px;margin:14px 0}
+.pz .q{margin:0 0 10px}
+.pz .q b{color:var(--acc)}
+.pz .in{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.pz input{width:110px;min-height:44px;border:1.5px solid #cfcfcf;border-radius:12px;padding:0 12px;font:650 1.05rem system-ui,sans-serif}
+.pz input:focus{outline:2px solid var(--lemon2);border-color:var(--lemon2)}
+.pz .fl{font-size:.8rem;color:var(--mut);display:block;margin-bottom:3px}
+.pz .btn{min-height:44px;padding:0 16px;font-size:.95rem}
+.pz .fb{margin-top:10px;font-size:.93rem;border-radius:12px;padding:0;max-height:0;overflow:hidden;transition:max-height .3s}
+.pz .fb.ok,.pz .fb.no{padding:10px 12px;max-height:400px}
+.pz .fb.ok{background:#e9f7ef}.pz .fb.no{background:#fdf0ec}
+.pz .lnk{background:none;border:0;color:var(--blu);text-decoration:underline;font:inherit;font-size:.86rem;cursor:pointer;padding:6px 2px}
+#score{text-align:center;font-weight:750;margin:8px 0}
+/* glossary */
+.gl td:first-child{width:46%}
+.gl td:last-child{font-weight:650}
+details.panel{border:1px solid var(--rule);border-radius:14px;padding:4px 14px;margin:12px 0}
+details.panel summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}
+.disc p{font-size:.84rem;color:var(--mut)}
+.foot{font-size:.8rem;color:var(--mut);text-align:center;padding:20px 0 calc(30px + env(safe-area-inset-bottom))}
+.end{text-align:center}
+@media (prefers-reduced-motion:no-preference){.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}.reveal.seen{opacity:1;transform:none}}
+@media (max-width:380px){body{font-size:16px}.w{padding:0 14px}.two{gap:7px}.mini{padding:9px 8px;font-size:.84rem}}
+
+/* ---- chapter bar (economics parts) ---- */
+.chap{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:0 0 18px}
+.chap a,.chap span{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 14px;border-radius:999px;border:1px solid var(--rule);font:650 .86rem system-ui,sans-serif;color:var(--ink);text-decoration:none;background:#fff}
+.chap .on{background:var(--lemon);border-color:var(--lemon2)}
+.chap i{font-style:normal;display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--ink);color:#fff;font-size:.72rem}
+/* ---- world page ---- */
+.chip{display:inline-block;font-size:.72rem;font-weight:750;letter-spacing:.08em;text-transform:uppercase;color:var(--acc);margin-bottom:4px}
+.vis{border:1px solid var(--rule);border-radius:18px;padding:14px 12px 10px;margin:14px 0;background:#fff}
+.vis h3{margin:.1em 0 .2em}
+.vis .sub{font-size:.85rem;color:var(--mut);margin:0 0 10px}
+.src{font-size:.76rem;color:var(--mut);margin:8px 2px 0}
+.seg.sm button{min-height:38px;font-size:.86rem;min-width:0;padding:0 8px}
+/* bars */
+.bars{position:relative;margin:26px 0 4px}
+.br{position:absolute;left:0;right:0;height:30px;display:grid;grid-template-columns:20px 112px 1fr 66px;align-items:center;gap:6px;font-size:.84rem;transition:transform .7s cubic-bezier(.3,.7,.2,1)}
+.br .rk{color:var(--mut);font-variant-numeric:tabular-nums;text-align:right;font-size:.76rem}
+.br .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.br .tr{position:relative;height:18px;background:var(--soft);border-radius:6px;overflow:hidden}
+.br .tr i{position:absolute;left:0;top:0;bottom:0;width:0;background:#f2c94c;border-radius:6px;transition:width .7s cubic-bezier(.3,.7,.2,1)}
+.br.me .tr i{background:var(--acc)}.br.me .nm,.br.me .vl{font-weight:800}
+.br .vl{text-align:right;font-variant-numeric:tabular-nums;font-weight:650;white-space:nowrap}
+.avg{position:absolute;top:-6px;bottom:-4px;width:0;border-left:2px dashed var(--blu);transition:left .7s;pointer-events:none}
+.avg span{position:absolute;top:-16px;left:4px;white-space:nowrap;font-size:.7rem;color:var(--blu);font-weight:700}
+.callout{margin:10px 0 0;padding:10px 12px;border-radius:12px;background:var(--tint);font-size:.92rem}
+/* donut */
+.dn{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center}
+.dn svg{width:150px;height:150px}
+.dn ul{list-style:none;margin:0;padding:0;font-size:.84rem;line-height:1.5}
+.dn li{display:flex;gap:7px;align-items:center}.dn li b{margin-left:auto;font-variant-numeric:tabular-nums}
+.dn li i{width:12px;height:12px;border-radius:3px;flex:none}
+@media (max-width:370px){.dn{grid-template-columns:1fr}.dn svg{margin:0 auto}}
+/* race */
+.race svg{display:block;width:100%;height:auto}
+.rhead{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin:2px 0 4px}
+.ryear{font:800 2.2rem/1 system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink)}
+.rvals{display:grid;gap:2px;text-align:right;font-size:.84rem;font-variant-numeric:tabular-nums}
+.rvals b{font-size:.98rem}
+.rctl{display:flex;gap:8px;align-items:center;margin:6px 0}
+.rctl .btn{min-height:40px;padding:0 14px;font-size:.9rem}
+.rctl label{font-size:.84rem;color:var(--mut);display:inline-flex;gap:6px;align-items:center;margin-left:auto}
+.story2{min-height:4.6em;margin:8px 0 0;padding:10px 12px;border-radius:12px;background:var(--soft);font-size:.92rem;transition:background .3s}
+/* calculators */
+.calc .out{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.calc .out div{background:var(--soft);border-radius:12px;padding:8px;text-align:center;font-size:.76rem;color:var(--mut)}
+.calc .out b{display:block;font-size:1.15rem;color:var(--ink);font-variant-numeric:tabular-nums}
+.calc .big2{font:800 1.9rem/1.2 system-ui,sans-serif;text-align:center;margin:8px 0 2px;font-variant-numeric:tabular-nums}
+.quick{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.quick button{min-height:36px;border-radius:999px;border:1px solid var(--rule);background:#fff;padding:0 12px;font:650 .82rem system-ui,sans-serif;cursor:pointer}
+.twobar{display:flex;gap:18px;justify-content:center;align-items:flex-end;height:170px;margin:10px 0 0}
+.twobar div{width:84px;text-align:center;font-size:.8rem;color:var(--mut)}
+.twobar i{display:block;margin:0 auto 6px;width:56px;border-radius:10px 10px 4px 4px;background:#f2c94c;transition:height .4s}
+.twobar div:last-child i{background:var(--acc)}
+.twobar b{display:block;color:var(--ink);font-size:1.05rem}
+.calc input[type=number]{width:90px;min-height:42px;border:1.5px solid #cfcfcf;border-radius:12px;padding:0 10px;font:650 1rem system-ui,sans-serif}
+.irow{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0}
+.irow label{font-size:.88rem;flex:1;min-width:150px}
+/* value chain */
+.chain svg{display:block;width:100%;height:auto}
+/* quizzes */
+.quiz{border:2px solid var(--lemon);border-radius:18px;padding:14px;margin:18px 0;background:var(--tint)}
+.quiz h3{margin:0 0 4px;font-size:1.05rem}
+.qq{margin:12px 0 0}
+.qq p{margin:0 0 8px;font-weight:650}
+.qo{display:grid;gap:6px}
+.qo button{text-align:left;min-height:44px;border-radius:12px;border:1.5px solid #e6dca6;background:#fff;padding:8px 12px;font:600 .95rem system-ui,sans-serif;color:var(--ink);cursor:pointer}
+.qo button.ok{border-color:var(--grn);background:#e9f7ef}.qo button.no{border-color:var(--red);background:#fdf0ec}
+.qo button:disabled{cursor:default;opacity:1}
+.qw{font-size:.88rem;margin:6px 2px 0;color:var(--mut)}
+.qs{font-weight:750;margin-top:10px;text-align:right;font-size:.88rem}
+/* misc */
+.cards2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+.cards2 div{border-radius:14px;padding:12px;background:var(--soft);font-size:.88rem;line-height:1.4}
+.cards2 b{display:block;margin-bottom:3px}
+.cards2 .e{font-size:1.4rem;display:block}
+.tasks{list-style:none;padding:0;margin:8px 0}
+.tasks li{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--rule)}
+.tasks input{width:22px;height:22px;flex:none;margin-top:2px;accent-color:var(--grn)}
+.next{display:block;text-align:center;margin:18px 0}
+/*SECT*/.sect{--g:#2e6b4f;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));width:auto;max-width:none;margin:0 calc(50% - 50vw) 26px;padding:0;background:var(--card,#fff);border-bottom:1px solid var(--sect-edge,#e3e5e8);position:relative;z-index:2}
+body{overflow-x:clip}
+.sect>*{position:relative;display:flex;align-items:center;justify-content:center;min-height:46px;padding:0 2px;font:600 .9rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;color:var(--sect-ink,#6b6f76);background:none;border:0;white-space:nowrap}
+.sect a:hover{color:var(--g)}
+.sect .on{color:var(--g);box-shadow:inset 0 -3px 0 var(--g)}
+.sect .on::after{content:"";position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--g);border-bottom:0}
+.sect a:active{opacity:.7}
+@media (max-width:440px){.sect>*{font-size:.82rem;min-height:44px}}
+@media (max-width:360px){.sect>*{font-size:.7rem}}
+@media (prefers-color-scheme:dark){.sect{--g:#7fcfa6;--sect-ink:#a3a8b0;--sect-edge:#2a2e35}}
+/*/SECT*/
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "The World Economy", "headline": "GDP explained simply: the world's biggest economies, GDP per capita and India vs China", "description": "GDP explained with a lemonade stand: the 15 biggest economies of 2026 (IMF), GDP per person and PPP, the India vs China race since 1975, and the rule of 70, with animated charts, quizzes and puzzles. Free.", "url": "https://alienspacex.com/economics/world/", "inLanguage": "en", "isAccessibleForFree": true, "learningResourceType": "Interactive resource", "educationalLevel": "Beginner", "audience": {"@type": "Audience", "audienceType": "Students, parents, teachers and curious beginners"}, "about": [{"@type": "Thing", "name": "Gross domestic product"}, {"@type": "Thing", "name": "GDP per capita"}, {"@type": "Thing", "name": "Purchasing power parity"}, {"@type": "Thing", "name": "Economy of India"}, {"@type": "Thing", "name": "Economy of China"}, {"@type": "Thing", "name": "Economic growth"}], "isPartOf": {"@type": "WebSite", "name": "The Alien's Guide to Earth", "url": "https://alienspacex.com/"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is GDP, in simple words?", "acceptedAnswer": {"@type": "Answer", "text": "GDP is the value of all the final goods and services a country makes in a year. Only final sales count: the lemons inside a glass of lemonade are not counted again on their own."}}, {"@type": "Question", "name": "Which is the biggest economy in the world in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "The United States, at about $32.6 trillion, followed by China at about $21.5 trillion, according to the IMF's October 2026 estimates at market exchange rates. Measured at local prices (PPP), China is the largest."}}, {"@type": "Question", "name": "What is GDP per capita?", "acceptedAnswer": {"@type": "Answer", "text": "GDP divided by the number of people. It is an average of output per person, not what a typical person earns."}}, {"@type": "Question", "name": "What is PPP?", "acceptedAnswer": {"@type": "Answer", "text": "Purchasing power parity adjusts for the fact that the same things cost different amounts in different countries, so it compares what money actually buys at local prices."}}, {"@type": "Question", "name": "When did China's economy overtake India's?", "acceptedAnswer": {"@type": "Answer", "text": "In US dollars the two were close until the late 1980s; India was even slightly ahead in 1987 by World Bank figures. China pulled away from the 1990s and was about five times India's size by 2023."}}, {"@type": "Question", "name": "What is the rule of 70?", "acceptedAnswer": {"@type": "Answer", "text": "Divide 70 by a growth rate to estimate how many years it takes to double. At 7% a year, an economy doubles in about 10 years."}}]}</script><style>.faqs{margin:18px 0 6px;text-align:left}.faqs h3{margin:0 0 8px;font-size:1.1rem}.faqq summary{font-weight:650}.faqq p{margin:.2em 0 .8em}#storyText .stxt{font-size:.9rem;text-align:left}#storyText h4{margin:1em 0 .3em}#storyText ol{padding-left:1.2em}#storyText li{margin:.35em 0}</style></head>
+<body>
+<main>
+<header class="hero w" id="top">
+ <nav class="sect" aria-label="Library sections"><a class="s-inv" href="https://alienspacex.com/" target="_top" data-bg="#ffffff" aria-label="Investors: learn from the great investors">Investors</a><a class="s-trd" href="https://alienspacex.com/#traders" target="_top" data-bg="#ffffff" aria-label="Traders: great traders, with risk warnings">Traders</a><span class="s-eco on" aria-current="page">Economics</span><a class="s-spa" href="https://alienspacex.com/space/" target="_top" data-bg="#05060c" aria-label="Space: from the Big Bang to you">Space</a><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" data-bg="#05060c" aria-label="Evolution: from the first cell to you">Evolution</a></nav>
+ <nav class="chap" aria-label="Economics chapters"><a data-bg="#ffffff" href="https://alienspacex.com/economics/"><i>1</i>The Stand</a><span class="on" aria-current="page"><i>2</i>The World Economy</span></nav>
+ <div class="kick">Economics · Part 2</div>
+ <h1>The <span>World</span> Economy</h1>
+ <p>One lemonade stand is a business. A whole town of them is an economy. Here is how we measure a country's economy, who has the biggest ones today, and how India and China raced each other for 50 years.</p>
+ <div id="heroArt" role="img" aria-label="A small lemonade stand next to a growing row of bars, with a globe"></div>
+ <div class="btns"><a class="btn pri" href="#gdp">Start ↓</a><a class="btn" href="#race">Jump to India vs China</a></div>
+</header>
+
+<div class="w">
+
+<section class="blk reveal" id="gdp">
+ <span class="chip">Chapter 1</span>
+ <h2>What is GDP? 🍋</h2>
+ <p class="lead">GDP (gross domestic product) is the value of everything a country makes and sells to final buyers in one year.</p>
+ <p>Picture a tiny town. A farmer grows lemons and sells them to Sunny's stand for $20. A mill sells Sunny sugar for $10. Sunny turns them into lemonade and sells it to thirsty customers for $60.</p>
+ <div class="vis chain">
+  <h3>Count the town's economy</h3>
+  <p class="sub">Tap the two ways of counting. Which one is right?</p>
+  <div class="seg sm" id="chainSeg"><button aria-pressed="true" data-v="add">Add up every sale</button><button aria-pressed="false" data-v="final">Count only final sales</button></div>
+  <div id="chainSvg"></div>
+  <p class="callout" id="chainMsg"></p>
+ </div>
+ <p>Each business adds something: the farmer adds $20, the mill $10, and Sunny's squeezing, mixing and selling adds $30. Add those up and you get $60, the same as the final price. Economists call each step <b>value added</b>.</p>
+ <div class="rule3"><div><span class="e">🛒</span><b>Spending</b>What people, companies and the government spend on final goods, plus exports minus imports</div><div><span class="e">💵</span><b>Income</b>Wages, profits and rents everyone earns from making those goods</div><div><span class="e">🏭</span><b>Production</b>The value added at every step, from farm to shop</div></div>
+ <p class="note"><b>Three ways, one answer.</b> Every rupee spent on lemonade is a rupee earned by someone who helped make it, so all three ways should give the same GDP. In real life the numbers differ a little, and statisticians reconcile them.</p>
+ <p>To compare how well off people are, we divide GDP by the number of people. That is <b>GDP per person</b> (or per capita). A town that makes $60 with 3 people makes $20 per person.</p>
+ <div class="quiz" data-quiz="q1"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="big">
+ <span class="chip">Chapter 2</span>
+ <h2>The world's 15 biggest economies</h2>
+ <p class="lead">Estimates for 2026 from the IMF's October 2026 World Economic Outlook. Tap to change the ranking.</p>
+ <div class="vis">
+  <div class="seg sm" id="barSeg"><button aria-pressed="true" data-v="tot">Total size</button><button aria-pressed="false" data-v="pc">Per person</button><button aria-pressed="false" data-v="ppp">Per person (PPP)</button></div>
+  <div class="bars" id="bars" role="img" aria-label="Bar chart of the 15 largest economies"></div>
+  <p class="callout" id="barMsg"></p>
+  <p class="src">Source: IMF, World Economic Outlook, October 2026 (estimates for 2026). "At local prices" means purchasing power parity (PPP), explained below.</p>
+ </div>
+ <h3>Big is not the same as rich</h3>
+ <p>India's economy (about $4.06 trillion) is almost as big as the UK's ($4.27 trillion). But India has about 1.48 billion people and the UK about 70 million, so the UK makes about 22 times more per person.</p>
+ <div class="two"><div class="mini"><h4>🇬🇧 United Kingdom</h4><div class="r"><span>GDP</span><span>$4.27tn</span></div><div class="r"><span>People</span><span>70 million</span></div><div class="r t"><span>Per person</span><span>$61,108</span></div></div><div class="mini"><h4>🇮🇳 India</h4><div class="r"><span>GDP</span><span>$4.06tn</span></div><div class="r"><span>People</span><span>1.48 billion</span></div><div class="r t"><span>Per person</span><span>$2,750</span></div></div></div>
+ <h3>Why "at local prices"?</h3>
+ <p>A glass of lemonade, a haircut or a bus ride costs far less in India than in America. Converting rupees to dollars at the market rate makes Indian incomes look smaller than what they actually buy at home. <b>Purchasing power parity</b> (PPP) adjusts for this, so India's GDP per person rises from $2,750 to about $13,000 in "international dollars".</p>
+ <div class="vis">
+  <h3>Who makes the world's output?</h3>
+  <p class="sub">Share of the world's $128 trillion GDP in 2026, at market exchange rates.</p>
+  <div class="dn"><div id="donut"></div><ul id="donutLeg"></ul></div>
+  <p class="src">Our calculation from IMF October 2026 estimates.</p>
+ </div>
+ <div class="quiz" data-quiz="q2"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="race">
+ <span class="chip">Chapter 3</span>
+ <h2>The great race: India vs China</h2>
+ <p class="lead">Fifty years ago the two giants were about the same size. Press play and watch what happened.</p>
+ <div class="vis race">
+  <div class="seg sm" id="raceSeg"><button aria-pressed="true" data-v="tot">Total GDP</button><button aria-pressed="false" data-v="pc">Per person</button><button aria-pressed="false" data-v="sh">World share</button></div>
+  <div class="rhead"><div class="ryear" id="rYear">1975</div><div class="rvals"><span>🇨🇳 China <b id="rC">–</b></span><span>🇮🇳 India <b id="rI">–</b></span></div></div>
+  <div id="raceSvg"></div>
+  <div class="rctl"><button class="btn pri" id="rPlay">▶ Play</button><label><input type="checkbox" id="rLog"> Ratio scale</label></div>
+  <input type="range" id="rScrub" min="1975" max="2026" step="1" value="1975" aria-label="Year">
+  <p class="story2" id="rStory"></p>
+  <p class="src">GDP in current US dollars: World Bank (1975 to 2023); per person and share of world are our calculations from World Bank data. The dashed end is the IMF's estimate for 2026. "Ratio scale" makes equal growth rates look like equal slopes.</p>
+ </div>
+ <h3>What the race shows</h3>
+ <div class="cards2">
+  <div><span class="e">🤝</span><b>A close start</b>In 1978 China's economy was $150 billion and India's $137 billion. In 1987 India was even slightly ahead in dollars.</div>
+  <div><span class="e">🔁</span><b>A surprise</b>From 1977 to 1990, the average Indian had a higher income in dollars than the average Chinese.</div>
+  <div><span class="e">🚀</span><b>The great divergence</b>By 2023 China's economy was about 5 times India's. In dollars it grew about 11% a year from 1978, India about 7.5%.</div>
+  <div><span class="e">⏱️</span><b>Milestones</b>India passed $1 trillion in 2007, $2 trillion in 2014 and $3 trillion in 2021. China passed $1 trillion in 1998.</div>
+ </div>
+ <p class="note"><b>Why did China pull ahead?</b> Economists still argue. Common explanations include very high saving and investment, a huge push into factories making goods for export, and an earlier start on reforms (1978, against India's 1991). India's growth has been faster than China's in recent years, which is why the race is not over.</p>
+ <div class="quiz" data-quiz="q3"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="grow">
+ <span class="chip">Chapter 4</span>
+ <h2>The magic of growth 📈</h2>
+ <p class="lead">Small differences in growth, repeated every year, become huge differences. This is compounding, the same force that grows savings.</p>
+ <div class="vis calc">
+  <h3>How long to double? The rule of 70</h3>
+  <p class="sub">Divide 70 by the growth rate to get the years it takes to double.</p>
+  <div class="quick" id="r70q"><button data-r="7">🇮🇳 India 7%</button><button data-r="4.5">🇨🇳 China 4.5%</button><button data-r="2.3">🇺🇸 US 2.3%</button><button data-r="0.7">🇯🇵 Japan 0.7%</button></div>
+  <input type="range" id="r70" min="0.5" max="12" step="0.5" value="7" aria-label="Growth rate per year">
+  <div class="big2" id="r70out"></div>
+  <div class="out"><div>Growth a year<b id="r70a"></b></div><div>Years to double<b id="r70b"></b></div><div>Size after 30 years<b id="r70c"></b></div></div>
+  <p class="src">IMF real growth estimates for 2026: India 7.0%, China 4.5%, US 2.3%, Japan 0.7%.</p>
+ </div>
+ <div class="vis calc">
+  <h3>Two lemonade towns</h3>
+  <p class="sub">Both start the same size. Town A grows 6% a year, Town B 9%. Slide the years and watch A fall behind.</p>
+  <input type="range" id="tw" min="0" max="40" step="1" value="0" aria-label="Years">
+  <div class="twobar"><div><i id="twA"></i><b id="twAv"></b>Town A, 6%</div><div><i id="twB"></i><b id="twBv"></b>Town B, 9%</div></div>
+  <p class="callout" id="twMsg"></p>
+ </div>
+ <div class="vis calc">
+  <h3>When could India's economy match America's?</h3>
+  <p class="sub">Pure arithmetic from the 2026 sizes ($4.06 trillion against $32.6 trillion). Change the growth rates in dollars and see the year.</p>
+  <div class="irow"><label for="cuI">India's yearly growth in dollars (%)</label><input type="number" id="cuI" value="10" step="0.5" min="0" max="30"></div>
+  <div class="irow"><label for="cuU">America's yearly growth in dollars (%)</label><input type="number" id="cuU" value="4" step="0.5" min="0" max="30"></div>
+  <div class="big2" id="cuOut"></div>
+  <p class="callout" id="cuMsg"></p>
+  <p class="src">Growth "in dollars" includes real growth, inflation and currency moves. This is not a forecast: real growth rates change over time.</p>
+ </div>
+ <div class="quiz" data-quiz="q4"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="miss">
+ <span class="chip">Chapter 5</span>
+ <h2>What GDP misses</h2>
+ <p class="lead">GDP is the best single measure of an economy's size, but it is not a measure of happiness.</p>
+ <div class="cards2">
+  <div><span class="e">🍳</span><b>Unpaid work</b>Cooking for your family counts as zero. Hire a cook to make the same meal and GDP goes up.</div>
+  <div><span class="e">⚖️</span><b>Who gets what</b>An average hides inequality. A few very rich people can lift GDP per person while most incomes stay flat.</div>
+  <div><span class="e">🌳</span><b>Nature</b>Cutting down a forest to sell the wood adds to GDP. The lost forest is not subtracted.</div>
+  <div><span class="e">🧾</span><b>Hidden trade</b>Cash work that is never recorded is only partly estimated, and in some countries it is large.</div>
+ </div>
+</section>
+
+<section class="blk reveal" id="puzzles">
+ <h2>🧩 Puzzles</h2>
+ <p class="lead">Type a number and press Check. A hint is there if you need it.</p>
+ <div id="pzList"></div>
+ <p id="score"></p>
+</section>
+
+<section class="blk reveal" id="hw">
+ <h2>📝 Take-home assignment</h2>
+ <p class="lead">Do these over a week. Tick them off as you go (your ticks stay on this phone).</p>
+ <ul class="tasks" id="tasks"></ul>
+</section>
+
+<section class="blk reveal" id="test">
+ <h2>🏁 Final test</h2>
+ <p class="lead">Ten questions on the whole page. Aim for 8 or more.</p>
+ <div class="quiz" data-quiz="final"><h3>Test yourself</h3></div>
+</section>
+
+<section class="blk reveal" id="words">
+ <h2>📖 Grown-up words</h2>
+ <table class="tbl gl"><tbody>
+  <tr><td>GDP (gross domestic product)</td><td>The value of all final goods and services a country makes in a year</td></tr>
+  <tr><td>Value added</td><td>What each business adds: its sales minus what it bought from others</td></tr>
+  <tr><td>GDP per person (per capita)</td><td>GDP divided by the number of people</td></tr>
+  <tr><td>Nominal</td><td>Measured in today's money and at today's exchange rates</td></tr>
+  <tr><td>Real growth</td><td>Growth after removing price rises (inflation)</td></tr>
+  <tr><td>Purchasing power parity (PPP)</td><td>A way of comparing countries using what money actually buys at local prices</td></tr>
+  <tr><td>Compounding</td><td>Growth on top of growth, year after year</td></tr>
+  <tr><td>Exchange rate</td><td>How many rupees (or yuan, or euros) one dollar buys</td></tr>
+ </tbody></table>
+</section>
+
+<section class="faqs" aria-labelledby="faqH-ecow"><h3 id="faqH-ecow">Questions people ask</h3><details class="panel faqq"><summary>What is GDP, in simple words?</summary><p>GDP is the value of all the final goods and services a country makes in a year. Only final sales count: the lemons inside a glass of lemonade are not counted again on their own.</p></details><details class="panel faqq"><summary>Which is the biggest economy in the world in 2026?</summary><p>The United States, at about $32.6 trillion, followed by China at about $21.5 trillion, according to the IMF&#x27;s October 2026 estimates at market exchange rates. Measured at local prices (PPP), China is the largest.</p></details><details class="panel faqq"><summary>What is GDP per capita?</summary><p>GDP divided by the number of people. It is an average of output per person, not what a typical person earns.</p></details><details class="panel faqq"><summary>What is PPP?</summary><p>Purchasing power parity adjusts for the fact that the same things cost different amounts in different countries, so it compares what money actually buys at local prices.</p></details><details class="panel faqq"><summary>When did China&#x27;s economy overtake India&#x27;s?</summary><p>In US dollars the two were close until the late 1980s; India was even slightly ahead in 1987 by World Bank figures. China pulled away from the 1990s and was about five times India&#x27;s size by 2023.</p></details><details class="panel faqq"><summary>What is the rule of 70?</summary><p>Divide 70 by a growth rate to estimate how many years it takes to double. At 7% a year, an economy doubles in about 10 years.</p></details></section>
+
+<details class="panel"><summary>Sources and further reading</summary>
+ <ul class="story">
+  <li>IMF, World Economic Outlook, October 2026: GDP, GDP per person (current prices and PPP) and real growth for 2026, via the IMF DataMapper; the same figures appear in Worldometers, CEOWorld (5 November 2026) and Wikipedia's IMF column.</li>
+  <li>World Bank, World Development Indicators: GDP in current US dollars and population, 1975 to 2023 (via the open "datasets" collection on GitHub; figures match Macrotrends and Statistics Times).</li>
+  <li>Xinhua (via China Services Info, October 2024): China's GDP of $149.5 billion in 1978 and the start of reform and opening up.</li>
+  <li>Business Standard (July 2021) and Wikipedia: India's 1991 balance-of-payments crisis, the two-step rupee devaluation on 1 and 3 July 1991, and the reforms that followed.</li>
+  <li>Wikipedia (Historical GDP of China): China passed Japan in 2010 to become the second-largest economy.</li>
+  <li>Per person, share of world, growth rates, the donut and the calculators are our own arithmetic from these figures.</li>
+ </ul>
+</details>
+
+<div class="disc">
+ <p>For education only. Not investment, financial, legal or tax advice, and not a recommendation. Figures are estimates that are revised over time; they may contain errors and come with no warranty. No liability is accepted for any loss from using this page.</p>
+ <p>An independent, non-commercial project. Not affiliated with or endorsed by the IMF, the World Bank or any organisation named. All trademarks belong to their owners.</p>
+</div>
+<a class="btn next" href="../">← Part 1: The Lemonade Stand</a>
+<p class="foot">alienspacex.com · The Alien's Guide to Earth</p>
+</div>
+</main>
+<script>
+const DATA={"race":{"years":[1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"ind":[98.5,102.7,121.5,137.3,153.0,186.3,193.5,200.7,218.3,212.2,232.5,249.0,279.0,296.6,296.0,321.0,270.1,288.2,279.3,327.3,360.3,392.9,415.9,421.4,458.8,468.4,485.4,514.9,607.7,709.2,820.4,940.3,1216.7,1198.9,1341.9,1675.6,1823.1,1827.6,1856.7,2039.1,2103.6,2294.8,2651.5,2702.9,2835.6,2674.9,3167.3,3353.5,3549.9],"chn":[163.4,153.9,174.9,149.5,178.3,191.1,195.9,205.1,230.7,259.9,309.5,300.8,273.0,312.4,347.8,360.9,383.4,426.9,444.7,564.3,734.5,863.7,961.6,1029.1,1094.0,1211.3,1339.4,1470.6,1660.3,1955.3,2286.0,2752.1,3550.3,4594.3,5101.7,6087.2,7551.5,8532.2,9570.5,10475.6,11061.6,11233.3,12310.5,13894.9,14280.0,14687.7,17820.5,17881.8,17794.8],"indpc":[161,164,190,209,228,271,275,279,296,281,301,315,345,358,350,371,306,319,303,348,375,401,416,414,442,443,450,469,544,624,710,802,1022,993,1095,1348,1445,1429,1433,1554,1584,1708,1950,1966,2041,1907,2240,2353,2469],"chnpc":[178,165,185,156,184,195,197,203,225,251,294,282,252,284,311,318,333,366,377,473,610,709,782,829,873,959,1053,1149,1289,1509,1753,2099,2694,3468,3832,4550,5614,6301,7020,7636,8016,8094,8817,9905,10144,10409,12618,12663,12614],"indsh":[1.64,1.58,1.65,1.58,1.51,1.63,1.64,1.72,1.82,1.7,1.79,1.62,1.6,1.52,1.46,1.41,1.13,1.13,1.08,1.17,1.16,1.23,1.31,1.33,1.4,1.38,1.44,1.47,1.55,1.61,1.72,1.82,2.09,1.87,2.21,2.52,2.46,2.42,2.39,2.55,2.79,3.0,3.25,3.12,3.22,3.13,3.25,3.31,3.37],"chnsh":[2.73,2.37,2.38,1.72,1.76,1.67,1.66,1.76,1.93,2.09,2.38,1.96,1.56,1.6,1.71,1.58,1.61,1.68,1.71,2.02,2.36,2.71,3.03,3.25,3.34,3.58,3.98,4.21,4.24,4.43,4.79,5.32,6.09,7.17,8.4,9.15,10.21,11.29,12.31,13.11,14.68,14.67,15.1,16.03,16.24,17.16,18.27,17.67,16.88],"est2026":{"ind":4060.2,"chn":21546.4,"indpc":2750,"chnpc":15371,"indsh":3.17,"chnsh":16.83}},"top":[["United States","🇺🇸",32642.373,95212,32642.373,95212,2.33,342.8],["China","🇨🇳",21546.403,15371,44554.951,31786,4.47,1401.8],["Germany","🇩🇪",5471.299,65699,6550.995,78664,1.32,83.3],["Japan","🇯🇵",4341.986,35400,7324.055,59712,0.75,122.7],["United Kingdom","🇬🇧",4268.446,61108,4783.102,68476,1.27,69.9],["India","🇮🇳",4060.207,2750,19192.617,12998,7.01,1476.4],["France","🇫🇷",3554.155,51448,4756.403,68852,0.41,69.1],["Russia","🇷🇺",2861.156,19953,7542.897,52602,0.87,143.4],["Italy","🇮🇹",2701.737,45886,3898.99,66221,0.78,58.9],["Brazil","🇧🇷",2654.761,12397,5266.506,24594,2.18,214.1],["Canada","🇨🇦",2490.256,60105,null,70374,1.12,41.4],["South Korea","🇰🇷",2245.847,43512,3625.973,70251,3.33,51.6],["Mexico","🇲🇽",2176.236,16191,3594.397,26743,1.51,134.4],["Australia","🇦🇺",2110.657,75172,null,75039,1.93,28.1],["Spain","🇪🇸",2085.276,41756,3001.678,60106,2.51,49.9]],"world":{"gdp":128003.776,"pc":15594,"pcppp":27321},"notes":{"top":"IMF WEO Oct 2026, 2026 estimates; nominal GDP $bn, per capita $, PPP GDP Intl$bn, PPP per capita, real growth %, implied population m (GDP/per capita)","race":"World Bank WDI GDP current US$ (datasets/gdp, matches Macrotrends) and population (datasets/population); per capita = our calculation; 2026 = IMF estimate"}};
+const RM=!!(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches);
+const $=id=>document.getElementById(id);
+const fmtB=v=>v>=1000?"$"+(v/1000).toFixed(v>=10000?1:2)+"tn":"$"+Math.round(v)+"bn";
+const fmtD=v=>"$"+Math.round(v).toLocaleString("en-US");
+const store={get(k){try{return JSON.parse(localStorage.getItem("eco-"+k))}catch(e){return null}},set(k,v){try{localStorage.setItem("eco-"+k,JSON.stringify(v))}catch(e){}}};
+function onView(el,fn,th){ if(!el) return; if(!("IntersectionObserver" in window)){fn();return;} const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){fn();io.disconnect();}})},{threshold:th||0.35}); io.observe(el); }
+function seg(id,fn){ const bs=[...$(id).querySelectorAll("button")]; bs.forEach(b=>b.addEventListener("click",()=>{ bs.forEach(x=>x.setAttribute("aria-pressed",String(x===b))); fn(b.dataset.v); })); }
+
+/* hero art */
+$("heroArt").innerHTML=`<svg class="art" viewBox="0 0 360 170"><rect x="0" y="150" width="360" height="4" rx="2" fill="#ececec"/>
+<g transform="translate(40 92)"><rect x="0" y="22" width="70" height="36" rx="4" fill="#fff6cc" stroke="#d9a400" stroke-width="2"/><path d="M-6 22 L35 0 L76 22 Z" fill="#ffd84d" stroke="#d9a400" stroke-width="2"/><text x="35" y="45" text-anchor="middle" font-size="11" font-weight="800" fill="#9a6a00" font-family="system-ui">LEMONADE</text></g>
+${[24,40,58,80,106,136].map((h,i)=>`<rect x="${150+i*26}" y="${150-h}" width="18" height="${h}" rx="4" fill="${i===5?"#9a6a00":"#f2c94c"}"><animate attributeName="height" from="0" to="${h}" dur="1s" begin="${i*0.12}s" fill="freeze"/><animate attributeName="y" from="150" to="${150-h}" dur="1s" begin="${i*0.12}s" fill="freeze"/></rect>`).join("")}
+<g transform="translate(318 40)"><circle r="24" fill="#e8f2fb" stroke="#1d6fb8" stroke-width="2"/><path d="M-22 -6 Q0 -14 22 -6 M-22 8 Q0 16 22 8 M0 -24 Q-12 0 0 24 Q12 0 0 -24" fill="none" stroke="#1d6fb8" stroke-width="1.6"/></g></svg>`;
+
+/* chapter 1: value chain */
+function chain(v){ const W=360,H=170,steps=[["🌱 Farmer","lemons",20,0],["🏭 Mill","sugar",10,0],["🍋 Sunny","lemonade",60,30]];
+  let b=""; const sc=1.6, base=140;
+  if(v==="add"){ let x=30; steps.forEach((s,i)=>{ const h=s[2]*sc; b+=`<rect x="${x}" y="${base-h}" width="56" height="${h}" rx="6" fill="${i===2?"#9a6a00":"#f2c94c"}"/><text x="${x+28}" y="${base-h-6}" text-anchor="middle" font-size="12" font-weight="800" font-family="system-ui">$${s[2]}</text><text x="${x+28}" y="${base+16}" text-anchor="middle" font-size="11" font-family="system-ui">${s[0]}</text>`; x+=72; });
+    const h=90*sc*0.95; b+=`<rect x="262" y="${base-h}" width="66" height="${h}" rx="6" fill="#fdf0ec" stroke="#c0392b" stroke-width="2" stroke-dasharray="5 4"/><text x="295" y="${base-h-6}" text-anchor="middle" font-size="13" font-weight="800" fill="#c0392b" font-family="system-ui">$90?</text><text x="295" y="${base+16}" text-anchor="middle" font-size="11" fill="#c0392b" font-family="system-ui">Total</text>`;
+  } else { const parts=[[20,"#f2c94c","Farmer adds $20"],[10,"#e0b100","Mill adds $10"],[30,"#9a6a00","Sunny adds $30"]]; let y=base;
+    parts.forEach(p=>{ const h=p[0]*sc; y-=h; b+=`<rect x="120" y="${y}" width="70" height="${h}" fill="${p[1]}"/><text x="200" y="${y+h/2+4}" font-size="11.5" font-family="system-ui">${p[2]}</text>`; });
+    b+=`<text x="155" y="${y-8}" text-anchor="middle" font-size="14" font-weight="800" fill="#22794a" font-family="system-ui">GDP $60 ✓</text><text x="155" y="${base+16}" text-anchor="middle" font-size="11" font-family="system-ui">= the final price</text>`; }
+  $("chainSvg").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${v==="add"?"Adding every sale gives 90 dollars, which counts the lemons and sugar twice":"Value added: 20 plus 10 plus 30 equals 60 dollars, the final price"}">${b}</svg>`;
+  $("chainMsg").innerHTML = v==="add" ? "Adding every sale gives <b>$90</b>. But the $20 of lemons and $10 of sugar are already inside the $60 glass of lemonade, so they get counted twice." : "Count only what final buyers pay, or add the value each business adds: <b>$20 + $10 + $30 = $60</b>. That is the town's GDP.";
+}
+seg("chainSeg",chain); chain("add");
+
+/* chapter 2: bars */
+const T=DATA.top, ROW=34, IND="India";
+(function(){ const box=$("bars"); box.style.height=(T.length*ROW)+"px";
+  box.innerHTML=T.map((t,i)=>`<div class="br${t[0]===IND?" me":""}" data-i="${i}" style="transform:translateY(${i*ROW}px)"><span class="rk"></span><span class="nm">${t[1]} ${t[0]}</span><span class="tr"><i></i></span><span class="vl"></span></div>`).join("")+`<div class="avg" id="avg"><span></span></div>`; })();
+const MSG={tot:"The US and China together make about 42% of the world's output. India is sixth, just behind Japan and the UK.",
+  pc:"Per person, the order flips. The US and Australia lead; India drops from 6th to 15th, below the world average of $15,594.",
+  ppp:"At local prices the gaps shrink: India's figure rises almost five times, to about $13,000, but it is still last of the 15."};
+function bars(v){ const k=v==="tot"?2:v==="pc"?3:5, vals=T.map(t=>t[k]), mx=Math.max(...vals), order=vals.map((x,i)=>[x,i]).sort((a,b)=>b[0]-a[0]).map(x=>x[1]);
+  const rows=[...$("bars").querySelectorAll(".br")];
+  order.forEach((i,r)=>{ const el=rows[i]; el.style.transform=`translateY(${r*ROW}px)`; el.querySelector(".rk").textContent=r+1; el.querySelector("i").style.width=(100*vals[i]/mx).toFixed(1)+"%"; el.querySelector(".vl").textContent=v==="tot"?fmtB(vals[i]):fmtD(vals[i]); });
+  const a=$("avg"), tr=rows[0].querySelector(".tr"); if(v==="tot"){ a.style.display="none"; } else { const w=v==="pc"?DATA.world.pc:DATA.world.pcppp, x=tr.offsetLeft+tr.offsetWidth*w/mx; a.style.display="block"; a.style.left=x+"px"; a.querySelector("span").textContent="World average "+fmtD(w); }
+  $("barMsg").textContent=MSG[v]; }
+seg("barSeg",bars);
+onView($("bars"),()=>bars("tot"),0.2);
+addEventListener("resize",()=>{ const on=$("barSeg").querySelector('[aria-pressed="true"]'); if(on) bars(on.dataset.v); });
+
+/* donut */
+(function(){ const W=DATA.world.gdp, top=T.slice(0,6).map(t=>[t[1]+" "+t[0],t[2]]), next9=T.slice(6).reduce((s,t)=>s+t[2],0), sum15=T.reduce((s,t)=>s+t[2],0);
+  const segs=[...top,["Next 9 of the top 15",next9],["Rest of the world",W-sum15]], cols=["#9a6a00","#c99a1a","#e0b100","#f2c94c","#ffd84d","#22794a","#f7e7a1","#ececec"];
+  let off=0; const R=58,C=2*Math.PI*R; let b=`<circle cx="75" cy="75" r="${R}" fill="none" stroke="#f4f4f2" stroke-width="26"/>`;
+  segs.forEach((s,i)=>{ const f=s[1]/W, len=f*C; b+=`<circle class="ds" cx="75" cy="75" r="${R}" fill="none" stroke="${cols[i]}" stroke-width="26" stroke-dasharray="0 ${C}" data-d="${len.toFixed(2)} ${(C-len).toFixed(2)}" stroke-dashoffset="${(-off).toFixed(2)}" transform="rotate(-90 75 75)" style="transition:stroke-dasharray .9s ${i*0.08}s ease"/>`; off+=len; });
+  b+=`<text x="75" y="72" text-anchor="middle" font-size="19" font-weight="800" font-family="system-ui">74%</text><text x="75" y="89" text-anchor="middle" font-size="9.5" fill="#5f6368" font-family="system-ui">made by the top 15</text>`;
+  $("donut").innerHTML=`<svg viewBox="0 0 150 150" role="img" aria-label="Donut chart of shares of world GDP in 2026">${b}</svg>`;
+  $("donutLeg").innerHTML=segs.map((s,i)=>`<li><i style="background:${cols[i]}"></i>${s[0]}<b>${(100*s[1]/W).toFixed(1)}%</b></li>`).join("");
+  const go=()=>document.querySelectorAll("#donut .ds").forEach(c=>c.setAttribute("stroke-dasharray",c.dataset.d));
+  if(RM) go(); else onView($("donut"),go,0.4); })();
+
+/* chapter 3: race */
+const RC=DATA.race, Y0=1975, Y1=2026;
+const SER={tot:["chn","ind",v=>fmtB(v)],pc:["chnpc","indpc",v=>fmtD(v)],sh:["chnsh","indsh",v=>v.toFixed(1)+"%"]};
+let rMode="tot", rLog=false, rT=Y0, rAnim=null;
+function rVal(key,yr){ const ys=RC.years, i=yr-Y0; if(yr<=2023) return RC[key][i]; const e=RC.est2026[key.replace("chn","chn").replace("ind","ind")], a=RC[key][ys.length-1]; return a+(e-a)*(yr-2023)/3; }
+function rPts(key,upto){ const p=[]; for(let y=Y0;y<=Math.min(Math.floor(upto),Y1);y++) p.push([y,rVal(key,y)]); const f=upto-Math.floor(upto); if(f>0&&upto<Y1) p.push([upto,rVal(key,Math.floor(upto))+(rVal(key,Math.floor(upto)+1)-rVal(key,Math.floor(upto)))*f]); return p; }
+const STORY=[[1975,"1975: both countries are poor and about the same size. Most people in each live in villages."],[1978,"1978: China begins 'reform and opening up': farmers get more freedom to sell their crops, and foreign companies are invited in."],[1987,"Late 1980s: India is still a match for China in dollars, and the average Indian earns slightly more."],[1991,"1991: India nearly runs out of foreign currency. The rupee is devalued on 1 and 3 July, which is why India's dollar GDP dips, and big reforms follow."],[1998,"1998: China's economy passes $1 trillion. Factories making goods for the world are booming."],[2007,"2007: India passes $1 trillion; China is already three times bigger."],[2014,"2014: India passes $2 trillion. China has become the world's second-largest economy."],[2021,"2021: India passes $3 trillion, growing faster than China in recent years."],[2024,"2024 to 2026: IMF estimates (dashed). China about $21.5 trillion, India about $4.1 trillion."]];
+function race(){ const M=SER[rMode], W=360,H=230,L=48,R=14,Tp=14,B=26;
+  const all=[...RC[M[0]],...RC[M[1]],RC.est2026[M[0]],RC.est2026[M[1]]], mx=Math.max(...all)*1.08, mnPos=Math.min(...all.filter(x=>x>0));
+  const lg=rLog&&rMode!=="sh", lo=lg?Math.log10(mnPos*0.8):0, hi=lg?Math.log10(mx):mx;
+  const X=y=>L+(W-L-R)*(y-Y0)/(Y1-Y0), Yv=v=>Tp+(H-Tp-B)*(1-((lg?Math.log10(Math.max(v,1e-9)):v)-lo)/(hi-lo));
+  let b="";
+  const ticks=lg?[1,10,100,1000,10000,100000].filter(t=>Math.log10(t)>=lo&&Math.log10(t)<=hi):(()=>{ const st=mx>15000?5000:mx>1500?(rMode==="pc"?4000:500):mx>60?5:2; const a=[]; for(let t=0;t<=mx;t+=st) a.push(t); return a; })();
+  ticks.forEach(t=>{ const y=Yv(t); b+=`<line x1="${L}" x2="${W-R}" y1="${y.toFixed(1)}" y2="${y.toFixed(1)}" stroke="#eee"/><text x="${L-5}" y="${(y+3.5).toFixed(1)}" text-anchor="end" font-size="9.5" fill="#888" font-family="system-ui">${rMode==="sh"?t+"%":rMode==="pc"?"$"+(t>=1000?(t/1000)+"k":t):(t===0?"$0":t>=1000?"$"+(t/1000)+"tn":"$"+t+"bn")}</text>`; });
+  [1975,1985,1995,2005,2015,2026].forEach(y=>{ b+=`<text x="${X(y).toFixed(1)}" y="${H-8}" text-anchor="middle" font-size="9.5" fill="#888" font-family="system-ui">${y}</text>`; });
+  [[1978,"China opens up"],[1991,"India reforms"]].forEach(([y,t],k)=>{ if(rT>=y){ b+=`<line x1="${X(y)}" x2="${X(y)}" y1="${Tp}" y2="${H-B}" stroke="${k?"#9a6a00":"#c0392b"}" stroke-dasharray="3 3" opacity=".7"/><text x="${X(y)+3}" y="${Tp+9+k*11}" font-size="9" font-weight="700" fill="${k?"#9a6a00":"#c0392b"}" font-family="system-ui">${t}</text>`; } });
+  const line=(key,col)=>{ const p=rPts(key,rT), solid=p.filter(q=>q[0]<=2023), dash=p.filter(q=>q[0]>=2023);
+    let s=`<polyline points="${solid.map(q=>X(q[0]).toFixed(1)+","+Yv(q[1]).toFixed(1)).join(" ")}" fill="none" stroke="${col}" stroke-width="2.8" stroke-linejoin="round"/>`;
+    if(dash.length>1) s+=`<polyline points="${dash.map(q=>X(q[0]).toFixed(1)+","+Yv(q[1]).toFixed(1)).join(" ")}" fill="none" stroke="${col}" stroke-width="2.4" stroke-dasharray="4 4"/>`;
+    const h=p[p.length-1]; if(h) s+=`<circle cx="${X(h[0]).toFixed(1)}" cy="${Yv(h[1]).toFixed(1)}" r="4.5" fill="${col}" stroke="#fff" stroke-width="1.5"/>`; return [s,h]; };
+  const [sc,hc]=line(M[0],"#c0392b"), [si,hi2]=line(M[1],"#e0a000"); b+=sc+si;
+  if(hc&&hi2){ let yc=Yv(hc[1]), yi=Yv(hi2[1]); if(Math.abs(yc-yi)<12){ if(yc<=yi){ yc-=6; yi+=6; } else { yc+=6; yi-=6; } } const xa=Math.min(X(hc[0])+7,W-R-2), anc=X(hc[0])>W-60?"end":"start", dx=anc==="end"?-14:0;
+    b+=`<text x="${(xa+dx).toFixed(1)}" y="${(yc-8).toFixed(1)}" text-anchor="${anc}" font-size="10.5" font-weight="800" fill="#c0392b" font-family="system-ui">China</text><text x="${(xa+dx).toFixed(1)}" y="${(yi+14).toFixed(1)}" text-anchor="${anc}" font-size="10.5" font-weight="800" fill="#b07d00" font-family="system-ui">India</text>`; }
+  $("raceSvg").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Line chart of China and India, ${rMode==="tot"?"total GDP":rMode==="pc"?"GDP per person":"share of world GDP"}, 1975 to 2026">${b}</svg>`;
+  const yr=Math.floor(rT), est=yr>2023&&yr<2026; $("rYear").textContent=yr; $("rC").textContent=est?"…":M[2](rVal(M[0],yr))+(yr===2026?" (est.)":""); $("rI").textContent=est?"…":M[2](rVal(M[1],yr))+(yr===2026?" (est.)":""); $("rScrub").value=yr;
+  let st=STORY[0][1]; STORY.forEach(s=>{ if(yr>=s[0]) st=s[1]; }); $("rStory").textContent=st; }
+function rPlay(){ if(rAnim){ cancelAnimationFrame(rAnim); rAnim=null; $("rPlay").textContent="▶ Play"; return; }
+  if(rT>=Y1) rT=Y0; if(RM){ rT=Y1; race(); return; } const t0=performance.now(), from=rT, D=7000*(Y1-from)/(Y1-Y0); $("rPlay").textContent="⏸ Pause";
+  const f=t=>{ const k=Math.min(1,(t-t0)/D); rT=from+(Y1-from)*k; race(); if(k<1) rAnim=requestAnimationFrame(f); else { rAnim=null; $("rPlay").textContent="⟲ Replay"; } }; rAnim=requestAnimationFrame(f); }
+$("rPlay").addEventListener("click",rPlay);
+$("rScrub").addEventListener("input",e=>{ if(rAnim){ cancelAnimationFrame(rAnim); rAnim=null; $("rPlay").textContent="▶ Play"; } rT=+e.target.value; race(); });
+$("rLog").addEventListener("change",e=>{ rLog=e.target.checked; race(); });
+seg("raceSeg",v=>{ rMode=v; race(); });
+race(); onView($("raceSvg"),()=>{ if(rT===Y0) rPlay(); },0.6);
+
+/* chapter 4: rule of 70 */
+function r70(){ const r=+$("r70").value, d=70/r, ex=Math.log(2)/Math.log(1+r/100), m=Math.pow(1+r/100,30);
+  $("r70out").textContent="Doubles in about "+(d>=10?Math.round(d):d.toFixed(1))+" years"; $("r70a").textContent=r+"%"; $("r70b").textContent=ex.toFixed(1); $("r70c").textContent=(m>=10?m.toFixed(0):m.toFixed(1))+"×"; }
+$("r70").addEventListener("input",r70); $("r70q").addEventListener("click",e=>{ const b=e.target.closest("button"); if(b){ $("r70").value=b.dataset.r; r70(); } }); r70();
+function towns(){ const y=+$("tw").value, a=Math.pow(1.06,y), b=Math.pow(1.09,y), mx=Math.pow(1.09,40);
+  $("twA").style.height=Math.max(6,150*a/b)+"px"; $("twB").style.height="150px";
+  $("twAv").textContent=a.toFixed(1)+"×"; $("twBv").textContent=b.toFixed(1)+"×";
+  $("twMsg").textContent= y===0?"Year 0: the same size. Slide to the right.":`After ${y} years, Town B is ${(b/a).toFixed(1)} times the size of Town A, from a growth gap of just 3 points a year.`; }
+$("tw").addEventListener("input",towns); towns();
+function catchup(){ const gi=(+$("cuI").value||0)/100, gu=(+$("cuU").value||0)/100, I=4060.207, U=32642.373;
+  if(gi<=gu){ $("cuOut").textContent="Never"; $("cuMsg").textContent="If India grows no faster than America in dollars, the gap never closes."; return; }
+  const n=Math.log(U/I)/Math.log((1+gi)/(1+gu)), yr=Math.ceil(2026+n), pr=(1+gi-0.007)/(1+gu-0.005), pc=pr>1?Math.log(95212/2750)/Math.log(pr):Infinity;
+  $("cuOut").textContent="Around "+yr; $("cuMsg").textContent=`That is about ${Math.round(n)} years of India growing faster. Per person it would take much longer${isFinite(pc)?", about "+Math.round(pc)+" years at these rates,":""} because India's gap per person is about 35 times, not 8. (We assume populations grow 0.7% and 0.5% a year.)`; }
+["cuI","cuU"].forEach(id=>$(id).addEventListener("input",catchup)); catchup();
+
+/* quizzes */
+const Q={q1:[["A farmer sells lemons to a stand for $20; the stand sells the lemonade for $50. How much does this add to GDP?",["$20","$50","$70"],1,"Only the final sale counts ($50). The lemons are already inside the lemonade."],
+  ["Which of these is NOT counted in this year's GDP?",["A new house being built","A haircut","Your neighbour selling you his old car"],2,"Second-hand goods were counted when they were new; reselling them makes nothing new."],
+  ["GDP per person is…",["GDP divided by the number of people","The average salary","GDP minus taxes"],0,"It is a simple average of output per person, not what a typical person earns."]],
+ q2:[["Which country has the biggest economy in 2026 at market exchange rates?",["China","United States","India"],1,"The US, at about $32.6 trillion; China is second at about $21.5 trillion."],
+  ["India is 6th by total GDP. Where is it by GDP per person among these 15?",["6th","10th","15th"],2,"Last: about $2,750 a person, against $95,212 in the US."],
+  ["Measured at local prices (PPP), India's total economy ranks…",["3rd in the world","6th","10th"],0,"Third, after China and the US, because money buys more in India."]],
+ q3:[["In 1990, whose average income was higher in US dollars?",["India's","China's"],0,"India's: about $371 against China's $318 (World Bank data, our calculation)."],
+  ["In which year did India's economy first pass $1 trillion?",["1998","2007","2014"],1,"2007. China passed the same mark in 1998."],
+  ["By 2023, China's economy was about how many times India's?",["2 times","5 times","10 times"],1,"About 5 times: $17.8 trillion against $3.5 trillion."]],
+ q4:[["With the rule of 70, how long does 7% growth take to double an economy?",["7 years","10 years","14 years"],1,"70 ÷ 7 = 10 years."],
+  ["Town A grows 6% a year and Town B 9%. After 30 years, Town B is about…",["1.5 times bigger","2.3 times bigger","5 times bigger"],1,"1.09^30 ≈ 13.3 and 1.06^30 ≈ 5.7, and 13.3 ÷ 5.7 ≈ 2.3."],
+  ["If GDP grows 3% and the population also grows 3%, GDP per person…",["grows 3%","stays about the same","doubles"],1,"More output shared by proportionally more people leaves the average about flat."]],
+ final:[["GDP counts…",["every sale in the economy","only final goods and services","only exports"],1,"Counting every sale would count lemons twice."],
+  ["Value added is…",["a business's sales minus what it bought from others","its profit after tax","its number of workers"],0,"Add up value added at every step and you get GDP."],
+  ["Which pair is closest in total GDP in 2026?",["India and the UK","India and the US","China and Japan"],0,"About $4.06 trillion and $4.27 trillion."],
+  ["Why does PPP raise India's GDP per person?",["Because prices are lower in India, so money buys more","Because India exports more","Because India has more people"],0,"PPP compares what money actually buys at local prices."],
+  ["Roughly what share of world GDP do the 15 biggest economies make?",["About a third","About half","About three-quarters"],2,"About 74% in 2026."],
+  ["What happened in China in 1978?",["It began 'reform and opening up'","It joined the euro","It became the biggest economy"],0,"Farmers could sell extra crops and foreign factories were invited in."],
+  ["Why did India's GDP in dollars dip in 1991?",["A war","The rupee was devalued during a currency crisis","A bad monsoon only"],1,"A cheaper rupee means the same output is worth fewer dollars."],
+  ["An economy growing 3.5% a year doubles in about…",["10 years","20 years","35 years"],1,"70 ÷ 3.5 = 20."],
+  ["Which of these raises GDP?",["Cooking dinner at home","Paying a restaurant for dinner","Lending a book to a friend"],1,"Only paid, recorded production is counted."],
+  ["A country's GDP is the same as the UK's but it has 20 times the people. Its GDP per person is…",["the same","about 20 times higher","about 20 times lower"],2,"The same output split among 20 times more people."]]};
+document.querySelectorAll("[data-quiz]").forEach(box=>{ const qs=Q[box.dataset.quiz]; let right=0, done=0;
+  box.insertAdjacentHTML("beforeend",qs.map((q,i)=>`<div class="qq"><p>${i+1}. ${q[0]}</p><div class="qo">${q[1].map((o,j)=>`<button type="button" data-j="${j}">${o}</button>`).join("")}</div><p class="qw" hidden></p></div>`).join("")+`<p class="qs" hidden></p>`);
+  box.querySelectorAll(".qq").forEach((qq,i)=>{ const q=qs[i]; qq.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{ const j=+b.dataset.j; qq.querySelectorAll("button").forEach(x=>{ x.disabled=true; if(+x.dataset.j===q[2]) x.classList.add("ok"); }); if(j!==q[2]) b.classList.add("no"); else right++; done++;
+      const w=qq.querySelector(".qw"); w.hidden=false; w.textContent=(j===q[2]?"✓ Right. ":"✗ Not quite. ")+q[3]; if(done===qs.length){ const s=box.querySelector(".qs"); s.hidden=false; s.textContent=`You got ${right} of ${qs.length}`+(right===qs.length?" 🍋🏆":right>=qs.length*0.7?" 👍":" · try again after rereading"); } })); }); });
+
+/* puzzles */
+const PZ=[["A farmer sells wheat to a mill for <b>$30</b>. The mill sells flour to a baker for <b>$50</b>. The baker sells bread for <b>$90</b>. How much do they add to GDP, in dollars?",90,0,"Only the bread is a final sale. Or add value: 30 + 20 + 40.","Count only what the final buyer pays."],
+ ["A town makes <b>$1,200,000</b> of goods a year and has <b>400</b> people. What is its GDP per person, in dollars?",3000,0,"1,200,000 ÷ 400 = 3,000.","Divide GDP by the number of people."],
+ ["An economy grows <b>5%</b> a year. With the rule of 70, about how many years until it doubles?",14,0,"70 ÷ 5 = 14 years.","Divide 70 by the growth rate."],
+ ["<b>$1,000</b> grows <b>10%</b> a year for <b>3</b> years. How many dollars is it worth?",1331,0,"1,000 × 1.1 × 1.1 × 1.1 = 1,331. The extra $31 is growth on growth.","Multiply by 1.1 three times."],
+ ["World GDP is <b>$128 trillion</b> and a country's is <b>$4 trillion</b>. What percentage of the world is that? (one decimal place)",3.1,0.1,"4 ÷ 128 = 0.031, so about 3.1%. That is roughly India's share.","Divide the country by the world and multiply by 100."]];
+const solved=store.get("w-pz")||{};
+$("pzList").innerHTML=PZ.map((p,i)=>`<div class="pz" data-i="${i}"><p class="q"><b>Puzzle ${i+1}.</b> ${p[0]}</p><div class="in"><input inputmode="decimal" aria-label="Your answer to puzzle ${i+1}"><button class="btn pri" type="button">Check</button><button class="lnk" type="button">Hint</button></div><div class="fb"></div></div>`).join("");
+const pscore=()=>{ const n=Object.keys(solved).length; $("score").textContent=n?("Solved "+n+" of "+PZ.length+(n===PZ.length?" · Brilliant! 🍋🏆":"")):""; };
+document.querySelectorAll("#pzList .pz").forEach(el=>{ const i=+el.dataset.i, p=PZ[i], fb=el.querySelector(".fb"), inp=el.querySelector("input");
+  const check=()=>{ const v=parseFloat(String(inp.value).replace(/[$,%\s]/g,"")); if(isNaN(v)){ fb.className="fb no"; fb.textContent="Type a number first."; return; }
+    if(Math.abs(v-p[1])<=p[2]+1e-9){ fb.className="fb ok"; fb.textContent="✓ Correct! "+p[3]; solved[i]=1; store.set("w-pz",solved); pscore(); } else { fb.className="fb no"; fb.textContent="Not quite. Try again, or tap Hint."; } };
+  el.querySelector(".btn").addEventListener("click",check); inp.addEventListener("keydown",e=>{ if(e.key==="Enter") check(); });
+  el.querySelector(".lnk").addEventListener("click",()=>{ fb.className="fb ok"; fb.textContent="Hint: "+p[4]; });
+  if(solved[i]){ fb.className="fb ok"; fb.textContent="✓ Solved earlier. "+p[3]; } });
+pscore();
+
+/* assignment */
+const TASKS=["Look up your country's GDP per person on the IMF DataMapper (search 'IMF DataMapper GDP per capita') and compare it with the world average of $15,594.",
+ "List five things your family bought this month. For each, name who added value along the way: farm, factory, truck, shop.",
+ "Pick two countries from the bar chart. In three sentences, explain why one is big in total but poorer per person.",
+ "Ask an adult what something cost 10 years ago and what it costs now. Work out the yearly rise with the rule of 70 in reverse.",
+ "Replay the India vs China race in 'Per person' mode. Write down the year the lines cross, and one reason you think it happened."];
+const done=store.get("w-hw")||{};
+$("tasks").innerHTML=TASKS.map((t,i)=>`<li><input type="checkbox" id="hw${i}" ${done[i]?"checked":""}><label for="hw${i}">${t}</label></li>`).join("");
+$("tasks").addEventListener("change",e=>{ const m=e.target.id.match(/^hw(\d+)$/); if(m){ done[m[1]]=e.target.checked; store.set("w-hw",done); } });
+
+/* reveal on scroll */
+if("IntersectionObserver" in window){ const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("seen"); io.unobserve(e.target); } }),{rootMargin:"0px 0px -10% 0px"}); document.querySelectorAll(".reveal").forEach(el=>io.observe(el)); } else document.querySelectorAll(".reveal").forEach(el=>el.classList.add("seen"));
+</script>
+<script>/*SECTJS*/(function(){try{if(location.hostname!=="alienspacex.com")return;var c=navigator.connection;if(c&&(c.saveData||/2g/.test(c.effectiveType||"")))return;}catch(e){return}
+var B="https://alienspacex.com",P=location.pathname,U=["/","/economics/","/space/","/evolution/"].filter(function(p){return p!==P}).map(function(p){return B+p});
+function go(){try{if(HTMLScriptElement.supports&&HTMLScriptElement.supports("speculationrules")){var s=document.createElement("script");s.type="speculationrules";s.textContent=JSON.stringify({prefetch:[{source:"list",urls:U,eagerness:"eager"}],prerender:[{source:"list",urls:U,eagerness:"moderate"}]});document.head.appendChild(s);}else{U.forEach(function(u){var l=document.createElement("link");l.rel="prefetch";l.href=u;document.head.appendChild(l);});}}catch(e){}}
+function later(){(window.requestIdleCallback||function(f){setTimeout(f,1200)})(go,{timeout:3000});}
+if(document.readyState==="complete")later();else addEventListener("load",later);})();/*/SECTJS*/</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "efd3635c396040c9bc367306ad17d0de"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
