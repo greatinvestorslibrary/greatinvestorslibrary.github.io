@@ -1103,6 +1103,15 @@ table.qtab thead th{font-size:.78rem;color:var(--muted);font-weight:600}
 
 /* idea of the day */
 .iod{display:block;text-align:left;margin:18px 0 24px;padding:14px 16px 13px;border:1px solid var(--rule);border-left:4px solid #2e6b4f;border-radius:14px;background:var(--card);color:var(--ink);text-decoration:none}.iod:hover{border-color:#2e6b4f}.iod-k{display:block;font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}.iod b{display:block;font-family:var(--display);font-size:1.18rem;line-height:1.3}.iod-x{display:block;color:var(--muted);font-size:.95rem;line-height:1.45;margin-top:5px}.iod-x:empty{display:none}.iod-go{display:inline-block;margin-top:8px;color:#2e6b4f;font-weight:600;font-size:.9rem}@media (prefers-color-scheme:dark){.iod{border-left-color:#7cc39c}.iod-go{color:#7cc39c}}
+/* Druckenmiller: Black Wednesday replay */
+.lg i.soft{background:var(--accent-soft,#cfe3d8);outline:1px solid rgba(0,0,0,.12)}
+.bwstep{margin:6px 0 10px;padding:12px 14px;border:1px solid var(--rule);border-radius:12px;background:var(--card)}
+.bwh{display:flex;justify-content:space-between;gap:10px;align-items:baseline}.bwh span{font-size:.85rem;font-weight:600;color:var(--accent)}
+.bwstep p{margin:.45em 0 0}
+.bwnav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:4px 0 12px}.bwnav span{font-size:.85rem;color:var(--muted)}
+.bwnav button{font:inherit;font-weight:600;padding:9px 16px;border-radius:999px;border:1px solid var(--accent);background:var(--card);color:var(--accent);cursor:pointer;min-width:96px}
+.bwnav button:disabled{opacity:.35;cursor:default}
+.bwwhy{padding:10px 14px;border-left:3px solid var(--accent);background:var(--grey);border-radius:0 12px 12px 0}
 
 /* ================= TIMELINE · daytime astronomy (light lemon) =================
    In light mode the Timeline uses the same light ground as the rest of the site: a pale lemon sky with faint
@@ -1228,3 +1237,4 @@ html:root[data-pack="timeline"] .aM .dot,html:root[data-pack="timeline"] .aB .do
 .ava.a-cheah,.gl-ava.a-cheah{background:#b5541c}
 .ava.a-ptj,.gl-ava.a-ptj{background:#7a2e3b}
 .ava.a-minervini,.gl-ava.a-minervini{background:#1f5f8b}
+.ava.a-druckenmiller,.gl-ava.a-druckenmiller{background:#2b4c7e}
