@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Inflation, interest rates and exchange rates explained simply: India vs America</title>
+<meta name="description" content="Inflation, interest rates, the rupee against the dollar and purchasing power parity, explained with a lemonade stand: 50 years of Indian and US inflation, a price machine, an EMI calculator and quizzes. Free.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://alienspacex.com/economics/money/">
+<link rel="alternate" type="application/rss+xml" title="New pages and corrections" href="https://alienspacex.com/feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Money and Prices, explained with lemonade">
+<meta property="og:description" content="Inflation, interest rates, the rupee against the dollar and why things cost less in India, in animated charts and calculators. Free.">
+<meta property="og:url" content="https://alienspacex.com/economics/money/">
+<meta property="og:image" content="https://alienspacex.com/economics/og-economics.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Money and Prices, explained with lemonade">
+<meta name="twitter:description" content="Inflation, interest rates, the rupee against the dollar and why things cost less in India, in animated charts and calculators. Free.">
+<meta name="twitter:image" content="https://alienspacex.com/economics/og-economics.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23fff6cc'/%3E%3Cellipse cx='32' cy='34' rx='20' ry='15' fill='%23ffd84d' stroke='%23d9a400' stroke-width='3'/%3E%3C/svg%3E">
+<style>
+
+:root{--ink:#1f2328;--mut:#5f6368;--rule:#ececec;--soft:#f7f7f5;--lemon:#ffd84d;--lemon2:#e0b100;--tint:#fffbe6;--acc:#9a6a00;--grn:#22794a;--red:#c0392b;--blu:#1d6fb8;--r:16px}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;background:#fff}
+html,body{margin:0;background:#fff;color:var(--ink)}
+body{font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;-webkit-tap-highlight-color:transparent;overflow-x:hidden}
+@supports (overflow:clip){body{overflow-x:clip}}
+h1,h2,h3,.rd{font-family:ui-rounded,"SF Pro Rounded","Nunito","Segoe UI",system-ui,sans-serif}
+.w{max-width:640px;margin:0 auto;padding:0 18px}
+a{color:var(--blu)}
+.sr{position:absolute;left:-9999px}
+/* hero */
+.hero{text-align:center;padding:calc(18px + env(safe-area-inset-top)) 0 10px}
+.hero .sect{margin:0 auto 26px}
+.kick{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:750;color:var(--acc)}
+h1{font-size:clamp(2rem,9vw,3rem);line-height:1.05;margin:.25em 0 .3em;letter-spacing:-.01em}
+h1 span{color:var(--acc)}
+.hero p{color:var(--mut);margin:0 auto 18px;max-width:30em}
+.art{display:block;margin:0 auto;max-width:360px;width:100%;height:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:46px;padding:0 20px;border-radius:999px;border:1px solid var(--rule);background:#fff;color:var(--ink);font:650 1rem system-ui,sans-serif;text-decoration:none;cursor:pointer}
+.btn.pri{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:18px 0 6px}
+.cast{display:flex;justify-content:center;gap:14px;margin:16px 0 4px;flex-wrap:wrap}
+.cast figure{margin:0;width:76px;text-align:center;font-size:.78rem;color:var(--mut);line-height:1.25}
+.cast svg{width:58px;height:58px;display:block;margin:0 auto 4px}
+.cast b{display:block;color:var(--ink);font-size:.86rem}
+/* sections */
+section.blk{padding:34px 0 8px}section,.day{scroll-margin-top:72px}
+h2{font-size:1.6rem;line-height:1.15;margin:0 0 .45em}
+h3{font-size:1.15rem;margin:1.1em 0 .4em}
+.lead{color:var(--mut);margin-top:-.2em}
+.divider{display:block;width:120px;height:26px;margin:26px auto 0}
+.card{border:1px solid var(--rule);border-radius:var(--r);padding:16px;margin:14px 0;background:#fff}
+.card.tint{background:var(--tint);border-color:#f3e6a8}
+.card.soft{background:var(--soft)}
+.day{border:1px solid var(--rule);border-radius:20px;padding:16px 16px 12px;margin:20px 0;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+.dh{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.dh svg{width:46px;height:46px;flex:none}
+.dh small{display:block;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);font-weight:750}
+.dh h3{margin:0;font-size:1.2rem}
+.story{margin:.4em 0 .6em;padding-left:1.15em}
+.story li{margin:.25em 0}
+.glasses{display:flex;flex-wrap:wrap;gap:3px;margin:10px 0 4px}
+.glasses svg{width:20px;height:26px}
+.gleg{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.78rem;color:var(--mut);margin-bottom:10px}
+.gleg span{display:inline-flex;align-items:center;gap:4px}
+.gleg svg{width:13px;height:17px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mini{border-radius:14px;padding:10px 11px;font-size:.88rem;background:var(--soft)}
+.mini h4{margin:0 0 6px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.mini .r{display:flex;justify-content:space-between;gap:6px;padding:2px 0}.mini .r span:last-child{white-space:nowrap}
+.mini .r.t{border-top:1px solid #dcdcdc;margin-top:4px;padding-top:5px;font-weight:750}
+.mini.pl h4{color:var(--grn)}.mini.cj h4{color:var(--blu)}
+.pos{color:var(--grn)}.neg{color:var(--red)}
+.note{font-size:.92rem;background:var(--tint);border-radius:12px;padding:10px 12px;margin:10px 0 2px}
+.note b{color:var(--acc)}
+.tbl{width:100%;border-collapse:collapse;font-size:.95rem;margin:6px 0}
+.tbl td,.tbl th{padding:7px 4px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+.tbl td.n,.tbl th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl tr.sub td{color:var(--mut);font-size:.82rem;padding-top:12px;border-bottom:0;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.tbl tr.tot td{font-weight:800;border-bottom:2px solid var(--ink)}
+.tbl .gw{display:block;font-size:.76rem;color:var(--mut);font-weight:500}
+.rule3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.rule3 div{border-radius:14px;padding:12px 8px;text-align:center;font-size:.84rem;line-height:1.3;background:var(--soft)}
+.rule3 .e{font-size:1.6rem;display:block;margin-bottom:4px}
+.rule3 b{display:block;font-size:.95rem;margin-bottom:2px}
+.big{font-size:2rem;font-weight:800;font-variant-numeric:tabular-nums}
+/* dashboard */
+#dash{position:fixed;left:0;right:0;top:0;z-index:20;background:rgba(255,255,255,.96);border-bottom:1px solid var(--rule);padding:calc(6px + env(safe-area-inset-top)) 10px 6px;transform:translateY(-110%);transition:transform .35s ease;backdrop-filter:saturate(1.4) blur(6px);-webkit-backdrop-filter:saturate(1.4) blur(6px)}
+#dash.on{transform:none}
+#dash .in{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;text-align:center}
+#dash .c{font-size:.68rem;color:var(--mut);line-height:1.2;text-transform:uppercase;letter-spacing:.05em}
+#dash .v{display:block;font:800 1.05rem/1.25 system-ui,sans-serif;color:var(--ink);font-variant-numeric:tabular-nums;text-transform:none;letter-spacing:0}
+#dash .v.cash{color:var(--blu)}#dash .v.prof{color:var(--grn)}#dash .v.prof.l{color:var(--red)}
+#dash .lab{grid-column:1/-1;font-size:.7rem;color:var(--acc);font-weight:700;margin-top:1px}
+/* seesaw */
+.saw{display:block;width:100%;max-width:420px;height:auto;margin:6px auto}
+/* link diagram */
+#links{min-height:100svh;padding-top:58px;display:flex;flex-direction:column}
+#links h2{margin-bottom:.15em}
+#links .lead{font-size:.92rem;margin-bottom:4px}
+.dia{display:block;width:100%;height:auto;max-height:calc(100svh - 250px);margin:0 auto}
+.leg{display:grid;gap:3px;font-size:.82rem;line-height:1.3;margin:6px 0 0;padding:0;list-style:none}
+.leg li{display:flex;gap:7px;align-items:flex-start}
+.leg i{flex:none;width:18px;height:18px;border-radius:50%;color:#fff;font:800 .72rem/18px system-ui;text-align:center;font-style:normal}
+/* simulator */
+.sim .row{margin:12px 0}
+.sim label.h{display:block;font-size:.8rem;font-weight:750;color:var(--mut);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg button{flex:1;min-width:64px;min-height:42px;border-radius:12px;border:1px solid var(--rule);background:#fff;font:650 .95rem system-ui,sans-serif;color:var(--ink);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+input[type=range]{width:100%;accent-color:var(--acc);height:34px}
+.simout{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.simout div{background:var(--soft);border-radius:12px;padding:8px;text-align:center;font-size:.76rem;color:var(--mut)}
+.simout b{display:block;font-size:1.15rem;color:var(--ink);font-variant-numeric:tabular-nums}
+#simMsg{margin-top:10px}
+#simProfit{font-size:2.2rem;font-weight:800;text-align:center;margin:10px 0 0;font-variant-numeric:tabular-nums}
+/* puzzles */
+.pz{border:1px solid var(--rule);border-radius:16px;padding:14px;margin:14px 0}
+.pz .q{margin:0 0 10px}
+.pz .q b{color:var(--acc)}
+.pz .in{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.pz input{width:110px;min-height:44px;border:1.5px solid #cfcfcf;border-radius:12px;padding:0 12px;font:650 1.05rem system-ui,sans-serif}
+.pz input:focus{outline:2px solid var(--lemon2);border-color:var(--lemon2)}
+.pz .fl{font-size:.8rem;color:var(--mut);display:block;margin-bottom:3px}
+.pz .btn{min-height:44px;padding:0 16px;font-size:.95rem}
+.pz .fb{margin-top:10px;font-size:.93rem;border-radius:12px;padding:0;max-height:0;overflow:hidden;transition:max-height .3s}
+.pz .fb.ok,.pz .fb.no{padding:10px 12px;max-height:400px}
+.pz .fb.ok{background:#e9f7ef}.pz .fb.no{background:#fdf0ec}
+.pz .lnk{background:none;border:0;color:var(--blu);text-decoration:underline;font:inherit;font-size:.86rem;cursor:pointer;padding:6px 2px}
+#score{text-align:center;font-weight:750;margin:8px 0}
+/* glossary */
+.gl td:first-child{width:46%}
+.gl td:last-child{font-weight:650}
+details.panel{border:1px solid var(--rule);border-radius:14px;padding:4px 14px;margin:12px 0}
+details.panel summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}
+.disc p{font-size:.84rem;color:var(--mut)}
+.foot{font-size:.8rem;color:var(--mut);text-align:center;padding:20px 0 calc(30px + env(safe-area-inset-bottom))}
+.end{text-align:center}
+@media (prefers-reduced-motion:no-preference){.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}.reveal.seen{opacity:1;transform:none}}
+@media (max-width:380px){body{font-size:16px}.w{padding:0 14px}.two{gap:7px}.mini{padding:9px 8px;font-size:.84rem}}
+
+/* ---- chapter bar (economics parts) ---- */
+.chap{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:0 0 18px}
+.chap a,.chap span{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 14px;border-radius:999px;border:1px solid var(--rule);font:650 .86rem system-ui,sans-serif;color:var(--ink);text-decoration:none;background:#fff}
+.chap .on{background:var(--lemon);border-color:var(--lemon2)}
+.chap i{font-style:normal;display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--ink);color:#fff;font-size:.72rem}
+/* ---- world page ---- */
+.chip{display:inline-block;font-size:.72rem;font-weight:750;letter-spacing:.08em;text-transform:uppercase;color:var(--acc);margin-bottom:4px}
+.vis{border:1px solid var(--rule);border-radius:18px;padding:14px 12px 10px;margin:14px 0;background:#fff}
+.vis h3{margin:.1em 0 .2em}
+.vis .sub{font-size:.85rem;color:var(--mut);margin:0 0 10px}
+.src{font-size:.76rem;color:var(--mut);margin:8px 2px 0}
+.seg.sm button{min-height:38px;font-size:.86rem;min-width:0;padding:0 8px}
+/* bars */
+.bars{position:relative;margin:26px 0 4px}
+.br{position:absolute;left:0;right:0;height:30px;display:grid;grid-template-columns:20px 112px 1fr 66px;align-items:center;gap:6px;font-size:.84rem;transition:transform .7s cubic-bezier(.3,.7,.2,1)}
+.br .rk{color:var(--mut);font-variant-numeric:tabular-nums;text-align:right;font-size:.76rem}
+.br .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.br .tr{position:relative;height:18px;background:var(--soft);border-radius:6px;overflow:hidden}
+.br .tr i{position:absolute;left:0;top:0;bottom:0;width:0;background:#f2c94c;border-radius:6px;transition:width .7s cubic-bezier(.3,.7,.2,1)}
+.br.me .tr i{background:var(--acc)}.br.me .nm,.br.me .vl{font-weight:800}
+.br .vl{text-align:right;font-variant-numeric:tabular-nums;font-weight:650;white-space:nowrap}
+.avg{position:absolute;top:-6px;bottom:-4px;width:0;border-left:2px dashed var(--blu);transition:left .7s;pointer-events:none}
+.avg span{position:absolute;top:-16px;left:4px;white-space:nowrap;font-size:.7rem;color:var(--blu);font-weight:700}
+.callout{margin:10px 0 0;padding:10px 12px;border-radius:12px;background:var(--tint);font-size:.92rem}
+/* donut */
+.dn{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center}
+.dn svg{width:150px;height:150px}
+.dn ul{list-style:none;margin:0;padding:0;font-size:.84rem;line-height:1.5}
+.dn li{display:flex;gap:7px;align-items:center}.dn li b{margin-left:auto;font-variant-numeric:tabular-nums}
+.dn li i{width:12px;height:12px;border-radius:3px;flex:none}
+@media (max-width:370px){.dn{grid-template-columns:1fr}.dn svg{margin:0 auto}}
+/* race */
+.race svg{display:block;width:100%;height:auto}
+.rhead{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin:2px 0 4px}
+.ryear{font:800 2.2rem/1 system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink)}
+.rvals{display:grid;gap:2px;text-align:right;font-size:.84rem;font-variant-numeric:tabular-nums}
+.rvals b{font-size:.98rem}
+.rctl{display:flex;gap:8px;align-items:center;margin:6px 0}
+.rctl .btn{min-height:40px;padding:0 14px;font-size:.9rem}
+.rctl label{font-size:.84rem;color:var(--mut);display:inline-flex;gap:6px;align-items:center;margin-left:auto}
+.story2{min-height:4.6em;margin:8px 0 0;padding:10px 12px;border-radius:12px;background:var(--soft);font-size:.92rem;transition:background .3s}
+/* calculators */
+.calc .out{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.calc .out div{background:var(--soft);border-radius:12px;padding:8px;text-align:center;font-size:.76rem;color:var(--mut)}
+.calc .out b{display:block;font-size:1.15rem;color:var(--ink);font-variant-numeric:tabular-nums}
+.calc .big2{font:800 1.9rem/1.2 system-ui,sans-serif;text-align:center;margin:8px 0 2px;font-variant-numeric:tabular-nums}
+.quick{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.quick button{min-height:36px;border-radius:999px;border:1px solid var(--rule);background:#fff;padding:0 12px;font:650 .82rem system-ui,sans-serif;cursor:pointer}
+.twobar{display:flex;gap:18px;justify-content:center;align-items:flex-end;height:170px;margin:10px 0 0}
+.twobar div{width:84px;text-align:center;font-size:.8rem;color:var(--mut)}
+.twobar i{display:block;margin:0 auto 6px;width:56px;border-radius:10px 10px 4px 4px;background:#f2c94c;transition:height .4s}
+.twobar div:last-child i{background:var(--acc)}
+.twobar b{display:block;color:var(--ink);font-size:1.05rem}
+.calc input[type=number]{width:124px;min-height:42px;border:1.5px solid #cfcfcf;border-radius:12px;padding:0 10px;font:650 1rem system-ui,sans-serif}
+.irow{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0}
+.irow label{font-size:.88rem;flex:1;min-width:150px}
+/* value chain */
+.chain svg{display:block;width:100%;height:auto}
+/* quizzes */
+.quiz{border:2px solid var(--lemon);border-radius:18px;padding:14px;margin:18px 0;background:var(--tint)}
+.quiz h3{margin:0 0 4px;font-size:1.05rem}
+.qq{margin:12px 0 0}
+.qq p{margin:0 0 8px;font-weight:650}
+.qo{display:grid;gap:6px}
+.qo button{text-align:left;min-height:44px;border-radius:12px;border:1.5px solid #e6dca6;background:#fff;padding:8px 12px;font:600 .95rem system-ui,sans-serif;color:var(--ink);cursor:pointer}
+.qo button.ok{border-color:var(--grn);background:#e9f7ef}.qo button.no{border-color:var(--red);background:#fdf0ec}
+.qo button:disabled{cursor:default;opacity:1}
+.qw{font-size:.88rem;margin:6px 2px 0;color:var(--mut)}
+.qs{font-weight:750;margin-top:10px;text-align:right;font-size:.88rem}
+/* misc */
+.cards2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+.cards2 div{border-radius:14px;padding:12px;background:var(--soft);font-size:.88rem;line-height:1.4}
+.cards2 b{display:block;margin-bottom:3px}
+.cards2 .e{font-size:1.4rem;display:block}
+.tasks{list-style:none;padding:0;margin:8px 0}
+.tasks li{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--rule)}
+.tasks input{width:22px;height:22px;flex:none;margin-top:2px;accent-color:var(--grn)}
+.next{display:block;text-align:center;margin:18px 0}
+
+.lc svg{display:block;width:100%;height:auto;touch-action:pan-y}
+.lread{display:flex;justify-content:space-between;gap:8px;align-items:baseline;min-height:2.2em;margin:2px 0 6px;font-size:.86rem;font-variant-numeric:tabular-nums}
+.lread b{font-size:1.05rem}
+.lread .yy{font:800 1.5rem/1 system-ui,sans-serif}
+.lever{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:10px 0;text-align:center;font-size:.78rem;line-height:1.25}
+.lever div{background:var(--soft);border-radius:12px;padding:10px 4px;position:relative}
+.lever .e{display:block;font-size:1.4rem;margin-bottom:3px}
+.lever b{display:block;font-size:.84rem}
+.lever div:not(:last-child)::after{content:"→";position:absolute;right:-9px;top:40%;font-weight:800;color:var(--acc)}
+.gov{border:2px dashed var(--lemon2);border-radius:16px;padding:12px;margin:10px 0}
+.gov .sc{font-weight:650;margin:0 0 8px}
+.gov .ch{display:flex;gap:6px;flex-wrap:wrap}
+.gov .ch button{flex:1;min-width:84px;min-height:44px;border-radius:12px;border:1.5px solid #e6dca6;background:#fff;font:700 .92rem system-ui,sans-serif;cursor:pointer}
+.gov .ch button.ok{border-color:var(--grn);background:#e9f7ef}.gov .ch button.no{border-color:var(--red);background:#fdf0ec}
+.gov .fb{font-size:.9rem;margin:8px 0 0}
+select{min-height:42px;border:1.5px solid #cfcfcf;border-radius:12px;padding:0 10px;font:650 1rem system-ui,sans-serif;background:#fff}
+/*SECT*/.sect{--g:#2e6b4f;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));width:auto;max-width:none;margin:0 calc(50% - 50vw) 26px;padding:0;background:var(--card,#fff);border-bottom:1px solid var(--sect-edge,#e3e5e8);position:relative;z-index:2}
+body{overflow-x:clip}
+.sect>*{position:relative;display:flex;align-items:center;justify-content:center;min-height:46px;padding:0 2px;font:600 .9rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;color:var(--sect-ink,#6b6f76);background:none;border:0;white-space:nowrap}
+.sect a:hover{color:var(--g)}
+.sect .on{color:var(--g);box-shadow:inset 0 -3px 0 var(--g)}
+.sect .on::after{content:"";position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);border:7px solid transparent;border-top-color:var(--g);border-bottom:0}
+.sect a:active{opacity:.7}
+@media (max-width:440px){.sect>*{font-size:.82rem;min-height:44px}}
+@media (max-width:360px){.sect>*{font-size:.7rem}}
+@media (prefers-color-scheme:dark){.sect{--g:#7fcfa6;--sect-ink:#a3a8b0;--sect-edge:#2a2e35}}
+/*/SECT*/
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "Money and Prices", "headline": "Inflation, interest rates and exchange rates explained simply: India vs America", "description": "Inflation, interest rates, the rupee against the dollar and purchasing power parity, explained with a lemonade stand: 50 years of Indian and US inflation, a price machine, an EMI calculator and quizzes. Free.", "url": "https://alienspacex.com/economics/money/", "inLanguage": "en", "isAccessibleForFree": true, "learningResourceType": "Interactive resource", "educationalLevel": "Beginner", "audience": {"@type": "Audience", "audienceType": "Students, parents, teachers and curious beginners"}, "about": [{"@type": "Thing", "name": "Inflation"}, {"@type": "Thing", "name": "Interest rate"}, {"@type": "Thing", "name": "Exchange rate"}, {"@type": "Thing", "name": "Indian rupee"}, {"@type": "Thing", "name": "Purchasing power parity"}, {"@type": "Thing", "name": "Reserve Bank of India"}], "isPartOf": {"@type": "WebSite", "name": "The Alien's Guide to Earth", "url": "https://alienspacex.com/"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is inflation, in simple words?", "acceptedAnswer": {"@type": "Answer", "text": "The rise in the general level of prices. If inflation is 5%, the same basket of everyday things costs 5% more than a year earlier."}}, {"@type": "Question", "name": "What is India's inflation target?", "acceptedAnswer": {"@type": "Answer", "text": "4% consumer-price inflation, with a band of 2% to 6%, first notified on 5 August 2016 and renewed in 2026. The Reserve Bank of India sets interest rates to meet it."}}, {"@type": "Question", "name": "How much is 100 rupees from 1991 worth today?", "acceptedAnswer": {"@type": "Answer", "text": "About 871 rupees in 2024 prices, based on World Bank consumer-price inflation for India."}}, {"@type": "Question", "name": "Why do central banks raise interest rates?", "acceptedAnswer": {"@type": "Answer", "text": "To cool inflation. Higher rates make loans dearer, so people and companies borrow and spend less, which eases pressure on prices."}}, {"@type": "Question", "name": "Why has the rupee fallen against the dollar?", "acceptedAnswer": {"@type": "Answer", "text": "Mainly because prices have risen faster in India than in America for decades, and because before 1991 a fixed exchange rate kept the rupee overvalued. A dollar cost about 8.4 rupees in 1975 and about 87 in 2025."}}, {"@type": "Question", "name": "What is purchasing power parity?", "acceptedAnswer": {"@type": "Answer", "text": "A way of comparing currencies by what they actually buy. If lemonade costs 30 rupees in India and 3 dollars in America, the lemonade exchange rate is 10 rupees per dollar."}}]}</script><style>.faqs{margin:18px 0 6px;text-align:left}.faqs h3{margin:0 0 8px;font-size:1.1rem}.faqq summary{font-weight:650}.faqq p{margin:.2em 0 .8em}#storyText .stxt{font-size:.9rem;text-align:left}#storyText h4{margin:1em 0 .3em}#storyText ol{padding-left:1.2em}#storyText li{margin:.35em 0}</style></head>
+<body>
+<main>
+<header class="hero w" id="top">
+ <nav class="sect" aria-label="Library sections"><a class="s-inv" href="https://alienspacex.com/" target="_top" data-bg="#ffffff" aria-label="Investors: learn from the great investors">Investors</a><a class="s-trd" href="https://alienspacex.com/#traders" target="_top" data-bg="#ffffff" aria-label="Traders: great traders, with risk warnings">Traders</a><span class="s-eco on" aria-current="page">Economics</span><a class="s-spa" href="https://alienspacex.com/space/" target="_top" data-bg="#05060c" aria-label="Space: from the Big Bang to you">Space</a><a class="s-evo" href="https://alienspacex.com/evolution/" target="_top" data-bg="#05060c" aria-label="Evolution: from the first cell to you">Evolution</a></nav>
+ <nav class="chap" aria-label="Economics chapters"><a data-bg="#ffffff" href="https://alienspacex.com/economics/"><i>1</i>The Stand</a><a href="https://alienspacex.com/economics/world/"><i>2</i>The World Economy</a><span class="on" aria-current="page"><i>3</i>Money & Prices</span></nav>
+ <div class="kick">Economics · Part 3</div>
+ <h1><span>Money</span> &amp; Prices</h1>
+ <p>Why a glass of lemonade costs more every year, why banks pay you to save, why the rupee buys fewer dollars than it used to, and why the same thing costs less in India.</p>
+ <div id="heroArt" role="img" aria-label="A lemonade price tag rising over the years next to a rupee and a dollar coin"></div>
+ <div class="btns"><a class="btn pri" href="#infl">Start ↓</a><a class="btn" href="#fx">Jump to the rupee</a></div>
+</header>
+
+<div class="w">
+
+<section class="blk reveal" id="infl">
+ <span class="chip">Chapter 1</span>
+ <h2>Inflation: why prices creep up 🍋</h2>
+ <p class="lead">Inflation is the rise in the general level of prices. When it is 5%, the same basket of things costs 5% more than a year ago.</p>
+ <p>Sunny's lemonade cost 10 rupees last summer. This summer lemons, sugar and cups all cost a bit more, so Sunny charges 10.50. That is 5% inflation, for one glass.</p>
+ <p>Governments measure inflation with a <b>consumer price index</b> (CPI): a big imaginary shopping basket of food, rent, fuel, clothes, school fees and more, priced every month.</p>
+ <div class="vis lc">
+  <h3>Inflation every year: India and America, 1975 to 2024</h3>
+  <div class="seg sm" id="infSeg"><button aria-pressed="true" data-v="rate">Yearly inflation</button><button aria-pressed="false" data-v="lvl">Price level</button></div>
+  <div class="lread"><span class="yy" id="iY">2024</span><span>🇮🇳 India <b id="iI">–</b></span><span>🇺🇸 US <b id="iU">–</b></span></div>
+  <div id="infSvg"></div>
+  <p class="callout" id="infMsg"></p>
+  <p class="src">Source: World Bank consumer-price inflation, via FRED; the price level (1975 = 100) is our calculation from those yearly rates. Touch and drag across the chart to read any year.</p>
+ </div>
+ <div class="cards2">
+  <div><span class="e">📉</span><b>When prices fell</b>In 1976 Indian prices fell by 7.6% after a record 28.6% jump in 1974.</div>
+  <div><span class="e">🎯</span><b>A target</b>Since August 2016 the Reserve Bank of India must aim for 4% inflation, within a band of 2% to 6%. The target was renewed in 2026.</div>
+  <div><span class="e">📊</span><b>Did it work?</b>The RBI says average inflation fell from 7.4% (April 2012 to August 2016) to 4.7% (September 2016 to December 2025).</div>
+  <div><span class="e">🇺🇸</span><b>America too</b>US inflation hit 13.5% in 1980 and 8% in 2022, then fell back to about 3% in 2024.</div>
+ </div>
+ <div class="vis calc">
+  <h3>The price machine</h3>
+  <p class="sub">What money from an earlier year is worth in 2024 prices.</p>
+  <div class="irow"><label for="pmC">Country</label><select id="pmC"><option value="I">🇮🇳 India (₹)</option><option value="U">🇺🇸 America ($)</option></select></div>
+  <div class="irow"><label for="pmA">Amount</label><input type="number" id="pmA" value="100" min="1" step="1"></div>
+  <div class="irow"><label for="pmY">From the year <b id="pmYv">1991</b></label></div>
+  <input type="range" id="pmY" min="1975" max="2023" value="1991" aria-label="Starting year">
+  <div class="big2" id="pmOut"></div>
+  <p class="callout" id="pmMsg"></p>
+ </div>
+ <div class="vis calc">
+  <h3>Did your raise beat inflation?</h3>
+  <div class="irow"><label for="rnS">Your pay rise this year (%)</label><input type="number" id="rnS" value="8" step="0.5"></div>
+  <div class="irow"><label for="rnI">Inflation this year (%)</label><input type="number" id="rnI" value="5" step="0.5"></div>
+  <div class="big2" id="rnOut"></div>
+  <p class="callout" id="rnMsg"></p>
+ </div>
+ <div class="quiz" data-quiz="q1"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="rates">
+ <span class="chip">Chapter 2</span>
+ <h2>Interest rates: the price of money</h2>
+ <p class="lead">Interest is rent for money. Borrowers pay it; savers earn it.</p>
+ <p>Sunny wants a bigger stand that costs 10,000 rupees. A bank lends the money, and Sunny pays it back with interest. Meanwhile Sunny's friend Pip puts savings in the same bank and earns interest. The bank sits in the middle, charging borrowers more than it pays savers.</p>
+ <h3>The central bank's lever</h3>
+ <p>The Reserve Bank of India sets a key rate (the <b>repo rate</b>) at which banks borrow from it. Raise it, and loans across the country slowly get dearer:</p>
+ <div class="lever"><div><span class="e">🏦</span><b>Repo rate up</b>RBI raises its rate</div><div><span class="e">💳</span><b>Loans cost more</b>Home and business loans</div><div><span class="e">🛍️</span><b>Less spending</b>People and firms borrow less</div><div><span class="e">🌡️</span><b>Prices cool</b>Inflation eases</div></div>
+ <p>Cut the rate and the chain runs the other way: cheaper loans, more spending, a faster economy, and a risk of higher prices. Remember Stanley Druckenmiller's lesson in the investors library: for the whole stock market, central banks and money flows often matter more than company profits.</p>
+ <div class="vis">
+  <h3>🎮 You are the central bank</h3>
+  <p class="sub">Pick a move for each situation.</p>
+  <div id="govList"></div>
+ </div>
+ <div class="vis calc">
+  <h3>Loan calculator (EMI)</h3>
+  <p class="sub">The fixed monthly payment on a loan, and how much of it is interest.</p>
+  <div class="irow"><label for="emP">Loan (₹)</label><input type="number" id="emP" value="1000000" step="10000" min="0"></div>
+  <div class="irow"><label for="emR">Interest rate a year (%)</label><input type="number" id="emR" value="9" step="0.25" min="0"></div>
+  <div class="irow"><label for="emN">Years</label><input type="number" id="emN" value="20" step="1" min="1"></div>
+  <div class="out"><div>Monthly payment<b id="emE"></b></div><div>Total paid<b id="emT"></b></div><div>Of which interest<b id="emI"></b></div></div>
+  <p class="callout" id="emMsg"></p>
+ </div>
+ <div class="vis calc">
+  <h3>Is your savings account really growing?</h3>
+  <div class="irow"><label for="fdR">Interest your bank pays (%)</label><input type="number" id="fdR" value="7" step="0.25"></div>
+  <div class="irow"><label for="fdI">Inflation (%)</label><input type="number" id="fdI" value="5" step="0.25"></div>
+  <div class="big2" id="fdOut"></div>
+  <p class="callout" id="fdMsg"></p>
+  <p class="src">Before tax. Tax on interest lowers the real return further.</p>
+ </div>
+ <div class="quiz" data-quiz="q2"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="fx">
+ <span class="chip">Chapter 3</span>
+ <h2>The rupee and the dollar 💱</h2>
+ <p class="lead">An exchange rate is the price of one currency in another. "₹95 to the dollar" means one US dollar costs 95 rupees.</p>
+ <p>When Sunny imports fancy lemons from abroad, Sunny needs dollars. If the rupee weakens, those lemons get dearer in rupees even if their dollar price stays the same.</p>
+ <div class="vis lc">
+  <h3>How many rupees for one dollar, 1975 to 2026</h3>
+  <div class="lread"><span class="yy" id="fY">2025</span><span>Actual <b id="fA">–</b></span><span>Inflation gap only <b id="fR">–</b></span></div>
+  <div id="fxSvg"></div>
+  <p class="callout" id="fxMsg">India's prices rose about 28 times from 1975 to 2024, America's about 6 times. That inflation gap alone would have taken the dollar from ₹8.4 to about ₹41 by 2024. It actually reached about ₹84: the rupee also fell for other reasons, including the end in 1991 of a fixed rate that had kept it overvalued, and money flowing in and out of India.</p>
+  <p class="src">Yearly averages: US Federal Reserve (H.10), via FRED; September 2026 is a monthly average. The dashed "inflation gap only" line is our calculation from World Bank inflation figures.</p>
+ </div>
+ <div class="vis calc">
+  <h3>What a $1,000 trip cost in rupees</h3>
+  <input type="range" id="tpY" min="1975" max="2025" value="1991" aria-label="Year">
+  <div class="big2" id="tpOut"></div>
+  <p class="callout" id="tpMsg"></p>
+ </div>
+ <div class="quiz" data-quiz="q3"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="ppp">
+ <span class="chip">Chapter 4</span>
+ <h2>The lemonade price index</h2>
+ <p class="lead">Why your rupees go further in India than they would in America.</p>
+ <p>Suppose a glass of lemonade costs ₹30 in India and $3 in America. For the glass, ₹30 buys what $3 buys, so the "lemonade exchange rate" is ₹10 per dollar. The market rate is about ₹95. At market rates, Indian lemonade looks very cheap.</p>
+ <p>This is the idea behind <b>purchasing power parity</b> (PPP). The Economist magazine runs the same test with burgers, its Big Mac index. Things made and sold locally, like haircuts, rent and street food, are usually much cheaper in poorer countries, because local wages are lower.</p>
+ <div class="vis calc">
+  <h3>Make your own price index</h3>
+  <p class="sub">Pick anything sold in both countries. Type its price in each.</p>
+  <div class="irow"><label for="lpI">Price in India (₹)</label><input type="number" id="lpI" value="30" min="0" step="1"></div>
+  <div class="irow"><label for="lpU">Price in America ($)</label><input type="number" id="lpU" value="3" min="0" step="0.1"></div>
+  <div class="out"><div>Your rate<b id="lpR"></b></div><div>Market rate<b>₹95.5</b></div><div>India's price<b id="lpP"></b></div></div>
+  <p class="callout" id="lpMsg"></p>
+  <p class="src">Market rate: September 2026 average (US Federal Reserve).</p>
+ </div>
+ <p class="note"><b>The IMF's version.</b> In 2026 the IMF puts India's GDP per person at $2,750 at market rates but about $13,000 at PPP. That ratio (about 4.7 times) means that, across everything people buy, prices in India are on average roughly a fifth of American prices.</p>
+ <div class="quiz" data-quiz="q4"><h3>⚡ Pop quiz</h3></div>
+</section>
+
+<section class="blk reveal" id="puzzles">
+ <h2>🧩 Puzzles</h2>
+ <p class="lead">Type a number and press Check.</p>
+ <div id="pzList"></div>
+ <p id="score"></p>
+</section>
+
+<section class="blk reveal" id="hw">
+ <h2>📝 Take-home assignment</h2>
+ <p class="lead">Tick them off as you go (your ticks stay on this phone).</p>
+ <ul class="tasks" id="tasks"></ul>
+</section>
+
+<section class="blk reveal" id="test">
+ <h2>🏁 Final test</h2>
+ <p class="lead">Ten questions on the whole page. Aim for 8 or more.</p>
+ <div class="quiz" data-quiz="final"><h3>Test yourself</h3></div>
+</section>
+
+<section class="blk reveal" id="words">
+ <h2>📖 Grown-up words</h2>
+ <table class="tbl gl"><tbody>
+  <tr><td>Inflation</td><td>The rise in the general level of prices, usually per year</td></tr>
+  <tr><td>Consumer price index (CPI)</td><td>The price of a typical basket of things households buy</td></tr>
+  <tr><td>Deflation</td><td>Falling prices</td></tr>
+  <tr><td>Real (return, pay rise)</td><td>After taking inflation away</td></tr>
+  <tr><td>Interest rate</td><td>The yearly price of borrowing money, as a percentage</td></tr>
+  <tr><td>Repo rate</td><td>The rate at which banks borrow from the central bank</td></tr>
+  <tr><td>EMI</td><td>Equated monthly instalment: a fixed monthly loan payment</td></tr>
+  <tr><td>Exchange rate</td><td>The price of one currency in another</td></tr>
+  <tr><td>Depreciation</td><td>A currency losing value against another</td></tr>
+  <tr><td>Purchasing power parity (PPP)</td><td>Comparing money by what it buys at local prices</td></tr>
+ </tbody></table>
+</section>
+
+<section class="faqs" aria-labelledby="faqH-ecom"><h3 id="faqH-ecom">Questions people ask</h3><details class="panel faqq"><summary>What is inflation, in simple words?</summary><p>The rise in the general level of prices. If inflation is 5%, the same basket of everyday things costs 5% more than a year earlier.</p></details><details class="panel faqq"><summary>What is India&#x27;s inflation target?</summary><p>4% consumer-price inflation, with a band of 2% to 6%, first notified on 5 August 2016 and renewed in 2026. The Reserve Bank of India sets interest rates to meet it.</p></details><details class="panel faqq"><summary>How much is 100 rupees from 1991 worth today?</summary><p>About 871 rupees in 2024 prices, based on World Bank consumer-price inflation for India.</p></details><details class="panel faqq"><summary>Why do central banks raise interest rates?</summary><p>To cool inflation. Higher rates make loans dearer, so people and companies borrow and spend less, which eases pressure on prices.</p></details><details class="panel faqq"><summary>Why has the rupee fallen against the dollar?</summary><p>Mainly because prices have risen faster in India than in America for decades, and because before 1991 a fixed exchange rate kept the rupee overvalued. A dollar cost about 8.4 rupees in 1975 and about 87 in 2025.</p></details><details class="panel faqq"><summary>What is purchasing power parity?</summary><p>A way of comparing currencies by what they actually buy. If lemonade costs 30 rupees in India and 3 dollars in America, the lemonade exchange rate is 10 rupees per dollar.</p></details></section>
+
+<details class="panel"><summary>Sources and further reading</summary>
+ <ul class="story">
+  <li>World Bank consumer-price inflation for India and the United States, 1975 to 2024, via FRED (series FPCPITOTLZGIND and FPCPITOTLZGUSA); checked against Macrotrends, YCharts and IndexMundi.</li>
+  <li>US Federal Reserve H.10 exchange rates, rupees per dollar, yearly averages (FRED series AEXINUS) and the September 2026 monthly average (EXINUS).</li>
+  <li>Reserve Bank of India and Business Standard (August 2016): the 4% inflation target with a 2% to 6% band, notified on 5 August 2016; RBI speech via the Bank for International Settlements (2026): the target renewed in 2026, and average inflation of 7.4% before and 4.7% after.</li>
+  <li>Douglas Irwin, NBER working paper 33420: the chronic overvaluation of the rupee before 1991.</li>
+  <li>IMF World Economic Outlook, October 2026: India's GDP per person at market rates and at PPP.</li>
+  <li>The price level, "inflation gap only" line, calculators and examples are our own arithmetic; the lemonade prices are made up for teaching.</li>
+ </ul>
+</details>
+
+<div class="disc">
+ <p>For education only. Not investment, financial, legal or tax advice, and not a recommendation. The calculators are simple arithmetic for learning; real loans, deposits and taxes have more rules. Figures may be revised and may contain errors; no warranty is given and no liability is accepted for any loss from using this page.</p>
+ <p>An independent, non-commercial project. Not affiliated with or endorsed by the Reserve Bank of India, the US Federal Reserve, the World Bank, the IMF, The Economist or any organisation named. All trademarks belong to their owners.</p>
+</div>
+<div class="btns"><a class="btn" href="../world/">← Part 2: The World Economy</a></div>
+<p class="foot">alienspacex.com · The Alien's Guide to Earth</p>
+</div>
+</main>
+<script>
+const DATA={"race":{"years":[1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],"ind":[98.5,102.7,121.5,137.3,153.0,186.3,193.5,200.7,218.3,212.2,232.5,249.0,279.0,296.6,296.0,321.0,270.1,288.2,279.3,327.3,360.3,392.9,415.9,421.4,458.8,468.4,485.4,514.9,607.7,709.2,820.4,940.3,1216.7,1198.9,1341.9,1675.6,1823.1,1827.6,1856.7,2039.1,2103.6,2294.8,2651.5,2702.9,2835.6,2674.9,3167.3,3353.5,3549.9],"chn":[163.4,153.9,174.9,149.5,178.3,191.1,195.9,205.1,230.7,259.9,309.5,300.8,273.0,312.4,347.8,360.9,383.4,426.9,444.7,564.3,734.5,863.7,961.6,1029.1,1094.0,1211.3,1339.4,1470.6,1660.3,1955.3,2286.0,2752.1,3550.3,4594.3,5101.7,6087.2,7551.5,8532.2,9570.5,10475.6,11061.6,11233.3,12310.5,13894.9,14280.0,14687.7,17820.5,17881.8,17794.8],"indpc":[161,164,190,209,228,271,275,279,296,281,301,315,345,358,350,371,306,319,303,348,375,401,416,414,442,443,450,469,544,624,710,802,1022,993,1095,1348,1445,1429,1433,1554,1584,1708,1950,1966,2041,1907,2240,2353,2469],"chnpc":[178,165,185,156,184,195,197,203,225,251,294,282,252,284,311,318,333,366,377,473,610,709,782,829,873,959,1053,1149,1289,1509,1753,2099,2694,3468,3832,4550,5614,6301,7020,7636,8016,8094,8817,9905,10144,10409,12618,12663,12614],"indsh":[1.64,1.58,1.65,1.58,1.51,1.63,1.64,1.72,1.82,1.7,1.79,1.62,1.6,1.52,1.46,1.41,1.13,1.13,1.08,1.17,1.16,1.23,1.31,1.33,1.4,1.38,1.44,1.47,1.55,1.61,1.72,1.82,2.09,1.87,2.21,2.52,2.46,2.42,2.39,2.55,2.79,3.0,3.25,3.12,3.22,3.13,3.25,3.31,3.37],"chnsh":[2.73,2.37,2.38,1.72,1.76,1.67,1.66,1.76,1.93,2.09,2.38,1.96,1.56,1.6,1.71,1.58,1.61,1.68,1.71,2.02,2.36,2.71,3.03,3.25,3.34,3.58,3.98,4.21,4.24,4.43,4.79,5.32,6.09,7.17,8.4,9.15,10.21,11.29,12.31,13.11,14.68,14.67,15.1,16.03,16.24,17.16,18.27,17.67,16.88],"est2026":{"ind":4060.2,"chn":21546.4,"indpc":2750,"chnpc":15371,"indsh":3.17,"chnsh":16.83}},"top":[["United States","🇺🇸",32642.373,95212,32642.373,95212,2.33,342.8],["China","🇨🇳",21546.403,15371,44554.951,31786,4.47,1401.8],["Germany","🇩🇪",5471.299,65699,6550.995,78664,1.32,83.3],["Japan","🇯🇵",4341.986,35400,7324.055,59712,0.75,122.7],["United Kingdom","🇬🇧",4268.446,61108,4783.102,68476,1.27,69.9],["India","🇮🇳",4060.207,2750,19192.617,12998,7.01,1476.4],["France","🇫🇷",3554.155,51448,4756.403,68852,0.41,69.1],["Russia","🇷🇺",2861.156,19953,7542.897,52602,0.87,143.4],["Italy","🇮🇹",2701.737,45886,3898.99,66221,0.78,58.9],["Brazil","🇧🇷",2654.761,12397,5266.506,24594,2.18,214.1],["Canada","🇨🇦",2490.256,60105,null,70374,1.12,41.4],["South Korea","🇰🇷",2245.847,43512,3625.973,70251,3.33,51.6],["Mexico","🇲🇽",2176.236,16191,3594.397,26743,1.51,134.4],["Australia","🇦🇺",2110.657,75172,null,75039,1.93,28.1],["Spain","🇪🇸",2085.276,41756,3001.678,60106,2.51,49.9]],"world":{"gdp":128003.776,"pc":15594,"pcppp":27321},"notes":{"top":"IMF WEO Oct 2026, 2026 estimates; nominal GDP $bn, per capita $, PPP GDP Intl$bn, PPP per capita, real growth %, implied population m (GDP/per capita)","race":"World Bank WDI GDP current US$ (datasets/gdp, matches Macrotrends) and population (datasets/population); per capita = our calculation; 2026 = IMF estimate"},"money":{"years":[1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024],"infI":[5.75,-7.63,8.31,2.52,6.28,11.35,13.11,7.89,11.87,8.32,5.56,8.73,8.8,9.38,7.07,8.97,13.87,11.79,6.33,10.25,10.22,8.98,7.16,13.23,4.67,4.01,3.78,4.3,3.81,3.77,4.25,5.8,6.37,8.35,10.88,11.99,8.91,9.48,10.02,6.67,4.91,4.95,3.33,3.94,3.73,6.62,5.13,6.7,5.65,4.95],"infU":[9.14,5.74,6.5,7.63,11.25,13.55,10.33,6.13,3.21,4.3,3.55,1.9,3.66,4.08,4.83,5.4,4.23,3.03,2.95,2.61,2.81,2.93,2.34,1.55,2.19,3.38,2.83,1.59,2.27,2.68,3.39,3.23,2.85,3.84,-0.36,1.64,3.16,2.07,1.46,1.62,0.12,1.26,2.13,2.44,1.81,1.23,4.7,8.0,4.12,2.95],"cpiI":[100.0,92.37,100.05,102.57,109.01,121.38,137.29,148.13,165.71,179.5,189.48,206.02,224.15,245.17,262.51,286.05,325.73,364.13,387.18,426.87,470.49,512.74,549.45,622.15,651.2,677.31,702.92,733.14,761.07,789.77,823.33,871.09,926.57,1003.94,1113.17,1246.64,1357.72,1486.43,1635.37,1744.45,1830.1,1920.69,1984.65,2062.84,2139.79,2281.44,2398.48,2559.18,2703.77,2837.61],"cpiU":[100.0,105.74,112.61,121.21,134.84,153.11,168.93,179.28,185.04,193.0,199.85,203.64,211.1,219.71,230.32,242.76,253.03,260.69,268.39,275.39,283.13,291.42,298.24,302.87,309.5,319.96,329.02,334.25,341.83,351.0,362.89,374.62,385.29,400.09,398.65,405.18,417.99,426.64,432.87,439.88,440.41,445.96,455.46,466.57,475.02,480.86,503.46,543.74,566.14,582.84],"fxYears":[1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],"fx":[8.4086,8.9715,8.7683,8.1979,8.1564,7.8868,8.6807,9.4847,10.1041,11.3465,12.3318,12.5967,12.9469,13.8995,16.2131,17.4922,22.7116,28.1558,31.2911,31.3939,32.4181,35.506,36.3645,41.3561,43.1274,44.9975,47.22,48.6257,46.5908,45.261,44.0002,45.1861,41.1774,43.3859,48.3324,45.6507,46.5782,53.3743,58.5149,60.9953,64.1073,67.1572,65.0659,68.3734,70.3777,74.1429,73.9351,78.5792,82.5708,83.6566,87.1468],"fx2026":["Sep 2026",95.51],"rel":[8.41,7.35,7.47,7.12,6.8,6.67,6.83,6.95,7.53,7.82,7.97,8.51,8.93,9.38,9.58,9.91,10.82,11.74,12.13,13.03,13.97,14.79,15.49,17.27,17.69,17.8,17.96,18.44,18.72,18.92,19.08,19.55,20.22,21.1,23.48,25.87,27.31,29.3,31.77,33.35,34.94,36.21,36.64,37.18,37.88,39.89,40.06,39.58,40.16,40.94],"notes":"Inflation: World Bank via FRED (FPCPITOTLZGIND, FPCPITOTLZGUSA), cross-checked with Macrotrends/YCharts/IndexMundi; FX: Federal Reserve H.10 annual averages (FRED AEXINUS, datasets/exchange-rates); Sep 2026 monthly EXINUS; CPI index and rel line are our calculations"}}, M=DATA.money;
+const RM=!!(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches);
+const $=id=>document.getElementById(id);
+const inr=v=>"₹"+Math.round(v).toLocaleString("en-IN"), usd=v=>"$"+Math.round(v).toLocaleString("en-US");
+const store={get(k){try{return JSON.parse(localStorage.getItem("eco-"+k))}catch(e){return null}},set(k,v){try{localStorage.setItem("eco-"+k,JSON.stringify(v))}catch(e){}}};
+function onView(el,fn,th){ if(!el) return; if(!("IntersectionObserver" in window)){fn();return;} const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){fn();io.disconnect();}})},{threshold:th||0.35}); io.observe(el); }
+function seg(id,fn){ const bs=[...$(id).querySelectorAll("button")]; bs.forEach(b=>b.addEventListener("click",()=>{ bs.forEach(x=>x.setAttribute("aria-pressed",String(x===b))); fn(b.dataset.v); })); }
+const num=id=>{ const v=parseFloat($(id).value); return isNaN(v)?0:v; };
+
+$("heroArt").innerHTML=`<svg class="art" viewBox="0 0 360 150"><rect x="0" y="134" width="360" height="4" rx="2" fill="#ececec"/>
+${[["1975","₹0.35"],["1991","₹1.15"],["2005","₹2.90"],["2024","₹10"]].map((t,i)=>{ const h=24+i*30; return `<g><rect x="${30+i*62}" y="${134-h}" width="44" height="${h}" rx="6" fill="${i===3?"#9a6a00":"#f2c94c"}"><animate attributeName="height" from="0" to="${h}" dur=".9s" begin="${i*.15}s" fill="freeze"/><animate attributeName="y" from="134" to="${134-h}" dur=".9s" begin="${i*.15}s" fill="freeze"/></rect><text x="${52+i*62}" y="${126-h}" text-anchor="middle" font-size="12" font-weight="800" fill="#1f2328" font-family="system-ui">${t[1]}</text><text x="${52+i*62}" y="149" text-anchor="middle" font-size="10.5" fill="#5f6368" font-family="system-ui">${t[0]}</text></g>`; }).join("")}
+<g transform="translate(300 60)"><circle r="22" fill="#fff6cc" stroke="#d9a400" stroke-width="2.5"/><text y="7" text-anchor="middle" font-size="20" font-weight="800" fill="#9a6a00" font-family="system-ui">₹</text></g><g transform="translate(330 100)"><circle r="18" fill="#e8f2fb" stroke="#1d6fb8" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="800" fill="#1d6fb8" font-family="system-ui">$</text></g></svg>`;
+
+/* generic line chart with draw-on animation and touch readout */
+function lineChart(o){ const W=360,H=220,L=44,R=12,Tp=14,B=26, ys=o.years, n=ys.length, x0=ys[0], x1=o.xmax||ys[n-1];
+  const vals=o.series.flatMap(s=>s.vals.filter(v=>v!=null)).concat(o.extra||[]), lg=!!o.log;
+  const mn=o.ymin!=null?o.ymin:Math.min(0,...vals), mx=Math.max(...vals)*1.06, lo=lg?Math.log10(Math.min(...vals)*0.8):mn, hi=lg?Math.log10(mx):mx;
+  const X=y=>L+(W-L-R)*(y-x0)/(x1-x0), Y=v=>Tp+(H-Tp-B)*(1-((lg?Math.log10(v):v)-lo)/(hi-lo));
+  let b="";
+  if(o.band){ const [a,c,y0]=o.band; b+=`<rect x="${X(y0).toFixed(1)}" y="${Y(c).toFixed(1)}" width="${(X(x1)-X(y0)).toFixed(1)}" height="${(Y(a)-Y(c)).toFixed(1)}" fill="#22794a" opacity=".1"/><text x="${(X(y0)+2).toFixed(1)}" y="${(Y(a)+10).toFixed(1)}" font-size="8.5" fill="#22794a" font-weight="700" font-family="system-ui">RBI band</text>`; }
+  o.ticks.forEach(t=>{ const y=Y(t); b+=`<line x1="${L}" x2="${W-R}" y1="${y.toFixed(1)}" y2="${y.toFixed(1)}" stroke="${t===0?"#bbb":"#eee"}"/><text x="${L-5}" y="${(y+3.5).toFixed(1)}" text-anchor="end" font-size="9.5" fill="#888" font-family="system-ui">${o.yfmt(t)}</text>`; });
+  o.xt.forEach(y=>{ b+=`<text x="${X(y).toFixed(1)}" y="${H-8}" text-anchor="middle" font-size="9.5" fill="#888" font-family="system-ui">${y}</text>`; });
+  o.series.forEach((s,k)=>{ const pts=[]; s.vals.forEach((v,i)=>{ if(v!=null) pts.push(X(ys[i]).toFixed(1)+","+Y(v).toFixed(1)); });
+    b+=`<polyline class="ln${k}" points="${pts.join(" ")}" fill="none" stroke="${s.color}" stroke-width="${s.w||2.6}" ${s.dash?`stroke-dasharray="${s.dash}"`:""} stroke-linejoin="round" pathLength="1000" style="${s.dash?"":"stroke-dasharray:1000;stroke-dashoffset:"+(RM?0:1000)+";transition:stroke-dashoffset 2.6s ease"}"/>`; });
+  (o.notes||[]).forEach(([y,v,t,col,anc])=>{ b+=`<circle cx="${X(y).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="3.5" fill="${col}"/><text x="${(X(y)+(anc==="end"?-5:5)).toFixed(1)}" y="${(Y(v)-6).toFixed(1)}" text-anchor="${anc||"start"}" font-size="9" font-weight="700" fill="${col}" font-family="system-ui">${t}</text>`; });
+  if(o.post) b+=o.post(X,Y);
+  b+=`<line class="cur" x1="0" x2="0" y1="${Tp}" y2="${H-B}" stroke="#1f2328" stroke-width="1" opacity="0"/>`;
+  o.el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${o.label}">${b}</svg>`;
+  const svg=o.el.querySelector("svg"), cur=svg.querySelector(".cur");
+  const pick=e=>{ const r=svg.getBoundingClientRect(), px=(e.clientX-r.left)*W/r.width, yr=Math.max(x0,Math.min(ys[n-1],Math.round(x0+(px-L)*(x1-x0)/(W-L-R)))); cur.setAttribute("x1",X(yr)); cur.setAttribute("x2",X(yr)); cur.setAttribute("opacity",".35"); o.read(yr); };
+  svg.addEventListener("pointerdown",pick); svg.addEventListener("pointermove",e=>{ if(e.buttons||e.pointerType==="mouse") pick(e); });
+  const go=()=>svg.querySelectorAll("polyline").forEach(p=>{ if(!p.getAttribute("stroke-dasharray")) p.style.strokeDashoffset="0"; });
+  if(RM) go(); else onView(o.el,()=>requestAnimationFrame(go),0.4); }
+
+/* inflation */
+let infMode="rate";
+function infRead(y){ const i=M.years.indexOf(y); $("iY").textContent=y; if(infMode==="rate"){ $("iI").textContent=M.infI[i].toFixed(1)+"%"; $("iU").textContent=M.infU[i].toFixed(1)+"%"; } else { $("iI").textContent=Math.round(M.cpiI[i]); $("iU").textContent=Math.round(M.cpiU[i]); } }
+function inf(){ const rate=infMode==="rate";
+  lineChart({el:$("infSvg"),years:M.years,series:rate?[{vals:M.infU,color:"#1d6fb8",w:2.2},{vals:M.infI,color:"#e0a000"}]:[{vals:M.cpiU,color:"#1d6fb8"},{vals:M.cpiI,color:"#e0a000"}],
+    log:!rate, ymin:rate?-10:null, ticks:rate?[-5,0,5,10,15]:[100,300,1000,3000], yfmt:t=>rate?t+"%":String(t), xt:[1975,1985,1995,2005,2015,2024], band:rate?[2,6,2016]:null,
+    notes:rate?[[1976,-7.63,"India −7.6%","#b07d00"],[1980,13.55,"US 13.5%","#1d6fb8"],[1991,13.87,"13.9%","#b07d00"],[2010,11.99,"12.0%","#b07d00","end"],[2022,8.0,"US 8%","#1d6fb8","end"]]:[[2024,M.cpiI[49],"India ×28","#b07d00","end"],[2024,M.cpiU[49],"US ×5.8","#1d6fb8","end"]],
+    label:rate?"Yearly consumer-price inflation in India and the US, 1975 to 2024":"Price level in India and the US, 1975 = 100, on a ratio scale", read:infRead});
+  infRead(2024);
+  $("infMsg").textContent= rate ? "India's inflation averaged about 7% a year from 1975 to 2024, America's under 4%. The green band is the RBI's 2% to 6% target since 2016." : "Something that cost 100 in 1975 cost about 2,840 in India by 2024 (28 times), but only about 580 in America (5.8 times). Ratio scale: equal steps mean equal multiplication."; }
+seg("infSeg",v=>{ infMode=v; inf(); }); inf();
+
+/* price machine */
+function pm(){ const c=$("pmC").value, y=+$("pmY").value, a=num("pmA"), i=M.years.indexOf(y), cpi=c==="I"?M.cpiI:M.cpiU, v=a*cpi[49]/cpi[i], f=c==="I"?inr:usd, x=cpi[49]/cpi[i];
+  $("pmYv").textContent=y; $("pmOut").textContent=f(a)+" in "+y+" = "+f(v)+" in 2024";
+  $("pmMsg").textContent=`Prices rose about ${x>=10?x.toFixed(0):x.toFixed(1)} times. ${c==="I"?"A ₹10 glass of lemonade in 2024 would have cost about ₹"+(10/x).toFixed(2)+" in "+y+".":"A $3 glass in 2024 would have cost about $"+(3/x).toFixed(2)+" in "+y+"."}`; }
+["pmC","pmA","pmY"].forEach(id=>$(id).addEventListener("input",pm)); pm();
+function rn(){ const s=num("rnS"), i=num("rnI"), r=((1+s/100)/(1+i/100)-1)*100;
+  $("rnOut").textContent=(r>=0?"+":"")+r.toFixed(1)+"% real"; $("rnMsg").textContent= r>=0 ? `Your pay buys about ${r.toFixed(1)}% more than last year. That is your real raise.` : `Prices rose faster than your pay: you can buy about ${(-r).toFixed(1)}% less than last year.`; }
+["rnS","rnI"].forEach(id=>$(id).addEventListener("input",rn)); rn();
+
+/* central bank game */
+const GOV=[["Inflation is 8% and rising. Shops are busy and loans are booming.",0,"Raise rates. Dearer loans cool spending and bring prices back towards 4%."],
+ ["Inflation is 1.5%, factories are idle and people are losing jobs.",2,"Cut rates. Cheaper loans encourage spending and hiring."],
+ ["Inflation is 4%, right on target, and growth is steady.",1,"Hold. When things are on target, the best move is often to do nothing."]];
+$("govList").innerHTML=GOV.map((g,i)=>`<div class="gov" data-i="${i}"><p class="sc">${i+1}. ${g[0]}</p><div class="ch"><button data-j="0">⬆ Raise</button><button data-j="1">⏸ Hold</button><button data-j="2">⬇ Cut</button></div><p class="fb" hidden></p></div>`).join("");
+document.querySelectorAll(".gov").forEach(el=>{ const g=GOV[+el.dataset.i]; el.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{ const j=+b.dataset.j; el.querySelectorAll("button").forEach(x=>{ x.disabled=true; if(+x.dataset.j===g[1]) x.classList.add("ok"); }); if(j!==g[1]) b.classList.add("no"); const f=el.querySelector(".fb"); f.hidden=false; f.textContent=(j===g[1]?"✓ ":"✗ ")+g[2]; })); });
+
+/* EMI */
+function emi(){ const P=num("emP"), r=num("emR")/1200, n=Math.round(num("emN")*12); if(!P||!n){ return; } const E=r? P*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1) : P/n, T=E*n;
+  $("emE").textContent=inr(E); $("emT").textContent=inr(T); $("emI").textContent=inr(T-P);
+  const r2=r+0.01/12, E2=P*r2*Math.pow(1+r2,n)/(Math.pow(1+r2,n)-1); $("emMsg").textContent=`If the rate rose by just 1 point, the monthly payment would go up by about ${inr(E2-E)}, or ${inr((E2-E)*n)} over the whole loan. That is how a central bank's rate rise reaches families.`; }
+["emP","emR","emN"].forEach(id=>$(id).addEventListener("input",emi)); emi();
+function fd(){ const r=num("fdR"), i=num("fdI"), real=((1+r/100)/(1+i/100)-1)*100; $("fdOut").textContent=(real>=0?"+":"")+real.toFixed(1)+"% a year, real";
+  $("fdMsg").textContent= real>=0 ? `Your money grows about ${real.toFixed(1)}% a year in what it can buy. In 10 years that is about ${((Math.pow(1+real/100,10)-1)*100).toFixed(0)}% more buying power.` : `Your balance grows, but its buying power shrinks about ${(-real).toFixed(1)}% a year.`; }
+["fdR","fdI"].forEach(id=>$(id).addEventListener("input",fd)); fd();
+
+/* rupee chart */
+const FY=[...M.fxYears], FX=[...M.fx], REL=M.rel.concat([null]);
+function fxRead(y){ const i=FY.indexOf(y); $("fY").textContent=y; $("fA").textContent="₹"+FX[i].toFixed(2); $("fR").textContent=REL[i]!=null?"₹"+REL[i].toFixed(1):"–"; }
+lineChart({el:$("fxSvg"),years:FY,xmax:2026.7,series:[{vals:REL,color:"#9aa0a6",w:2,dash:"4 4"},{vals:FX,color:"#9a6a00",w:2.8}],extra:[M.fx2026[1],104],ticks:[0,20,40,60,80,100],yfmt:t=>"₹"+t,xt:[1975,1985,1995,2005,2015,2025],
+  notes:[[1975,8.41,"₹8.4","#9a6a00"],[1991,22.71,"1991: ₹22.7","#9a6a00"],[2013,58.51,"2013: ₹58.5","#9a6a00","end"]],
+  post:(X,Y)=>`<line x1="${X(2025).toFixed(1)}" y1="${Y(87.15).toFixed(1)}" x2="${X(2026.7).toFixed(1)}" y2="${Y(95.51).toFixed(1)}" stroke="#9a6a00" stroke-width="2.4" stroke-dasharray="4 3"/><circle cx="${X(2026.7).toFixed(1)}" cy="${Y(95.51).toFixed(1)}" r="4" fill="#9a6a00"/><text x="${(X(2026.7)-4).toFixed(1)}" y="${(Y(95.51)-8).toFixed(1)}" text-anchor="end" font-size="9" font-weight="800" fill="#9a6a00" font-family="system-ui">Sep 2026: ₹95.5</text>`,
+  label:"Rupees per US dollar, 1975 to September 2026, with a dashed line for what inflation differences alone would imply", read:fxRead});
+fxRead(2025);
+function trip(){ const y=+$("tpY").value, i=FY.indexOf(y), r=FX[i]; $("tpOut").textContent="$1,000 = "+inr(1000*r)+" in "+y;
+  $("tpMsg").textContent=`At ₹${r.toFixed(2)} to the dollar. In September 2026 the same $1,000 cost about ₹95,500, so a trip priced in dollars has become ${(95.51/r).toFixed(1)} times dearer in rupees since ${y}.`; }
+$("tpY").addEventListener("input",trip); trip();
+
+/* lemonade index */
+function lp(){ const a=num("lpI"), u=num("lpU"); if(!a||!u){ return; } const r=a/u, p=100*r/95.51;
+  $("lpR").textContent="₹"+r.toFixed(1); $("lpP").textContent=p.toFixed(0)+"% of US";
+  $("lpMsg").textContent= r<95.51 ? `At the market rate, this costs ${inr(a)} in India against about ${inr(u*95.51)} in America: India's price is ${p.toFixed(0)}% of America's. Your rupees go further on this item.` : `This item costs more in India than in America at the market rate, which is common for imported goods.`; }
+["lpI","lpU"].forEach(id=>$(id).addEventListener("input",lp)); lp();
+
+/* quizzes */
+const Q={q1:[["Inflation of 5% means…",["every price rises exactly 5%","on average, the basket of things people buy costs 5% more than a year ago","the economy grew 5%"],1,"It is an average across a basket; some prices rise more, some less."],
+  ["In 1976, Indian prices…",["rose 28.6%","fell about 7.6%","did not change"],1,"Prices fell after the 1974 spike of 28.6%."],
+  ["Your pay rises 6% and inflation is 6%. Your real raise is…",["6%","about 0%","12%"],1,"You can buy about the same as before."]],
+ q2:[["To fight high inflation, a central bank usually…",["cuts interest rates","raises interest rates","prints more money"],1,"Dearer loans slow spending, which cools prices."],
+  ["Your savings earn 6% and inflation is 7%. Your real return is…",["positive","about −1%","13%"],1,"Your money grows, but buys a little less each year."],
+  ["The RBI's inflation target is…",["2%","4%, with a band of 2% to 6%","10%"],1,"Set in 2016 and renewed in 2026."]],
+ q3:[["\"₹95 to the dollar\" means…",["one rupee costs $95","one dollar costs ₹95","India's inflation is 95%"],1,"An exchange rate is the price of one currency in another."],
+  ["If the rupee weakens, imported lemons priced in dollars become…",["cheaper in rupees","dearer in rupees","the same"],1,"You need more rupees to buy the same dollars."],
+  ["Roughly how many rupees did a dollar cost in 1975?",["About 8","About 45","About 85"],0,"About ₹8.4 (yearly average)."]],
+ q4:[["Lemonade costs ₹40 in India and $4 in America. The lemonade exchange rate is…",["₹10 per dollar","₹40 per dollar","₹160 per dollar"],0,"40 ÷ 4 = 10."],
+  ["Why are haircuts much cheaper in India than in America?",["Hair grows slower","Local services reflect local wages, which are lower","Haircuts are imported"],1,"Locally made services track local wages."],
+  ["India's GDP per person is about $2,750 at market rates. At PPP it is about…",["$1,000","$13,000","$95,000"],1,"About $13,000, because prices are lower."]],
+ final:[["What does a consumer price index measure?",["The price of shares","The price of a typical basket of things households buy","Company profits"],1,"Its yearly change is the inflation rate."],
+  ["₹100 in 1991 is worth roughly how much in 2024 prices?",["₹200","₹870","₹5,000"],1,"Prices rose about 8.7 times (World Bank data, our calculation)."],
+  ["Which happened to US inflation in 2022?",["It hit 8%","It was negative","It was 20%"],0,"8.0%, the highest in about 40 years."],
+  ["When the central bank raises rates, home-loan EMIs usually…",["fall","rise","stay fixed forever"],1,"Floating-rate loans move with the central bank's rate."],
+  ["A real interest rate is…",["the rate on a loan for property","the interest rate minus inflation, roughly","the rate set by the government"],1,"It tells you how much more you can buy."],
+  ["From 1975 to 2024, Indian prices rose about…",["3 times","28 times","1,000 times"],1,"About 28 times; American prices about 6 times."],
+  ["Why did India's rupee fall more than the inflation gap alone suggests?",["Only because of 2026","Partly because before 1991 a fixed rate kept it overvalued","Because America had higher inflation"],1,"When the fixed rate ended in 1991, the rupee dropped sharply."],
+  ["A $1,000 trip cost about how many rupees in 1991?",["₹2,270","₹22,700","₹95,500"],1,"About ₹22,700 at ₹22.71 to the dollar."],
+  ["PPP adjusts for…",["differences in prices between countries","population","interest rates"],0,"It compares what money buys locally."],
+  ["Inflation is 3% and your bank pays 2%. In real terms your savings…",["grow 5%","shrink about 1% a year","grow 2%"],1,"They buy a little less each year."]]};
+document.querySelectorAll("[data-quiz]").forEach(box=>{ const qs=Q[box.dataset.quiz]; let right=0, done=0;
+  box.insertAdjacentHTML("beforeend",qs.map((q,i)=>`<div class="qq"><p>${i+1}. ${q[0]}</p><div class="qo">${q[1].map((o,j)=>`<button type="button" data-j="${j}">${o}</button>`).join("")}</div><p class="qw" hidden></p></div>`).join("")+`<p class="qs" hidden></p>`);
+  box.querySelectorAll(".qq").forEach((qq,i)=>{ const q=qs[i]; qq.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{ const j=+b.dataset.j; qq.querySelectorAll("button").forEach(x=>{ x.disabled=true; if(+x.dataset.j===q[2]) x.classList.add("ok"); }); if(j!==q[2]) b.classList.add("no"); else right++; done++;
+      const w=qq.querySelector(".qw"); w.hidden=false; w.textContent=(j===q[2]?"✓ Right. ":"✗ Not quite. ")+q[3]; if(done===qs.length){ const s=box.querySelector(".qs"); s.hidden=false; s.textContent=`You got ${right} of ${qs.length}`+(right===qs.length?" 🍋🏆":right>=qs.length*0.7?" 👍":" · try again after rereading"); } })); }); });
+
+/* puzzles */
+const PZ=[["A glass of lemonade costs <b>₹20</b> and prices rise <b>10%</b> a year for <b>2</b> years. What does it cost then, in rupees? (one decimal)",24.2,0.05,"20 × 1.1 × 1.1 = 24.2.","Multiply by 1.1 twice."],
+ ["Prices rise <b>7%</b> a year. With the rule of 70, about how many years until prices double?",10,0,"70 ÷ 7 = 10 years.","Divide 70 by the inflation rate."],
+ ["Your bank pays <b>8%</b> and inflation is <b>5%</b>. Roughly what is your real return, in %?",3,0.2,"About 8 − 5 = 3% (exactly 2.86%).","Take inflation away from the interest rate."],
+ ["The dollar costs <b>₹95</b>. A phone costs <b>$400</b> abroad. How many rupees is that?",38000,0,"400 × 95 = 38,000.","Multiply dollars by the exchange rate."],
+ ["A notebook costs <b>₹60</b> in India and <b>$3</b> in America. What is the notebook exchange rate, in rupees per dollar?",20,0,"60 ÷ 3 = 20. Compare it with the market's ₹95 or so.","Divide the rupee price by the dollar price."]];
+const solved=store.get("m-pz")||{};
+$("pzList").innerHTML=PZ.map((p,i)=>`<div class="pz" data-i="${i}"><p class="q"><b>Puzzle ${i+1}.</b> ${p[0]}</p><div class="in"><input inputmode="decimal" aria-label="Your answer to puzzle ${i+1}"><button class="btn pri" type="button">Check</button><button class="lnk" type="button">Hint</button></div><div class="fb"></div></div>`).join("");
+const pscore=()=>{ const n=Object.keys(solved).length; $("score").textContent=n?("Solved "+n+" of "+PZ.length+(n===PZ.length?" · Brilliant! 🍋🏆":"")):""; };
+document.querySelectorAll("#pzList .pz").forEach(el=>{ const i=+el.dataset.i, p=PZ[i], fb=el.querySelector(".fb"), inp=el.querySelector("input");
+  const check=()=>{ const v=parseFloat(String(inp.value).replace(/[₹$,%\s]/g,"")); if(isNaN(v)){ fb.className="fb no"; fb.textContent="Type a number first."; return; }
+    if(Math.abs(v-p[1])<=p[2]+1e-9){ fb.className="fb ok"; fb.textContent="✓ Correct! "+p[3]; solved[i]=1; store.set("m-pz",solved); pscore(); } else { fb.className="fb no"; fb.textContent="Not quite. Try again, or tap Hint."; } };
+  el.querySelector(".btn").addEventListener("click",check); inp.addEventListener("keydown",e=>{ if(e.key==="Enter") check(); });
+  el.querySelector(".lnk").addEventListener("click",()=>{ fb.className="fb ok"; fb.textContent="Hint: "+p[4]; });
+  if(solved[i]){ fb.className="fb ok"; fb.textContent="✓ Solved earlier. "+p[3]; } });
+pscore();
+
+const TASKS=["Pick five things your family buys every month. Ask what each cost a year ago and work out your own family's inflation rate.",
+ "Use the price machine: what did ₹100 from the year you were born (or a parent was born) become in 2024 prices?",
+ "Ask an adult with a loan whether their interest rate is fixed or floating, and what happened to their EMI the last time rates changed.",
+ "Find today's rupee-dollar rate in a newspaper or app. Is it higher or lower than ₹95.5 (September 2026)?",
+ "Choose one item sold in India and abroad (a soft drink, a burger, a book) and make your own price index with the calculator."];
+const done=store.get("m-hw")||{};
+$("tasks").innerHTML=TASKS.map((t,i)=>`<li><input type="checkbox" id="hw${i}" ${done[i]?"checked":""}><label for="hw${i}">${t}</label></li>`).join("");
+$("tasks").addEventListener("change",e=>{ const m=e.target.id.match(/^hw(\d+)$/); if(m){ done[m[1]]=e.target.checked; store.set("m-hw",done); } });
+
+if("IntersectionObserver" in window){ const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("seen"); io.unobserve(e.target); } }),{rootMargin:"0px 0px -10% 0px"}); document.querySelectorAll(".reveal").forEach(el=>io.observe(el)); } else document.querySelectorAll(".reveal").forEach(el=>el.classList.add("seen"));
+</script>
+<script>/*SECTJS*/(function(){try{if(location.hostname!=="alienspacex.com")return;var c=navigator.connection;if(c&&(c.saveData||/2g/.test(c.effectiveType||"")))return;}catch(e){return}
+var B="https://alienspacex.com",P=location.pathname,U=["/","/economics/","/space/","/evolution/"].filter(function(p){return p!==P}).map(function(p){return B+p});
+function go(){try{if(HTMLScriptElement.supports&&HTMLScriptElement.supports("speculationrules")){var s=document.createElement("script");s.type="speculationrules";s.textContent=JSON.stringify({prefetch:[{source:"list",urls:U,eagerness:"eager"}],prerender:[{source:"list",urls:U,eagerness:"moderate"}]});document.head.appendChild(s);}else{U.forEach(function(u){var l=document.createElement("link");l.rel="prefetch";l.href=u;document.head.appendChild(l);});}}catch(e){}}
+function later(){(window.requestIdleCallback||function(f){setTimeout(f,1200)})(go,{timeout:3000});}
+if(document.readyState==="complete")later();else addEventListener("load",later);})();/*/SECTJS*/</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "efd3635c396040c9bc367306ad17d0de"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
