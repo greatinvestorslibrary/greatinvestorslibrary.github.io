@@ -12,7 +12,7 @@ Study the winners. Copy what the biggest winners looked like before they ran.
 
 ## Summary
 
-Mark Minervini left school early, played music, bought his first stock in 1983, and lost money for about six years until his capital was gone. Then he studied the biggest winning stocks in history, built a method he calls SEPA, and won the U.S. Investing Championship twice, in 1997 and 2021. His trademark is a strict checklist: buy only leading stocks in strong uptrends, at a precise point, and cut every loss small.
+Mark Minervini left school early, played music, bought his first stock in 1983 and made a quick profit on it. Then, for about six years, he kept losing money until his capital was gone. After that he studied the biggest winning stocks in history, built a method he calls SEPA, and won the U.S. Investing Championship twice, in 1997 and 2021. His trademark is a strict checklist: buy only leading stocks in strong uptrends, at a precise point, and cut every loss small.
 
 ## Record at a glance
 
@@ -27,7 +27,7 @@ There is no public, audited year-by-year record of his trading to chart. What ca
 
 - **+155%** won the 1997 U.S. Investing Championship
 - **+334.8%** won again in 2021, a contest record at the time
-- **220%** a year, mid-1994 to 1999, by his own published figures
+- **220%** a year over about five years to 1999, by his own published figures
 - **+128%** his worst year in that stretch, as reported
 
 | 2021 contest point | His account |
@@ -48,7 +48,7 @@ His running total in 2021 as the contest published it each quarter (November was
 
 Each bar is one calendar year. The contest years are his best-known, so this is the best side of his record, not a typical year. In 2024 another trader, J Law of Hong Kong, set a new record of 353.9%.
 
-This is only arithmetic: what 220% a year would do to $10,000 over five years. It is not his actual year-by-year record, which he has not published; the 220% average, the 33,500% total and the 128% worst year are his own figures as reported by Jack Schwager and in his books, not audited by us.
+This is only arithmetic: what 220% a year would do to $10,000 over five years. It is not his actual year-by-year record, which he has not published. His book describes five years at 220% (33,500% in total); Jack Schwager describes about five and a half years from mid-1994. The sources differ slightly, so treat these as his own approximate figures, not audited by us.
 
 - Contest results: U.S. Investing Championship press releases on Business Wire (April, July, October and December 2021, January 2022) and the winner's press release on PR Newswire (January 2022).
 - 1994 to 1999 figures: Jack Schwager, Stock Market Wizards (2001), as summarised by TradingMarkets and The 7 Circles; the 33,500% total is from his book's description.

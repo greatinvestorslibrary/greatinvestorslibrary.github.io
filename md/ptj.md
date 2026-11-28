@@ -1,6 +1,6 @@
 # Paul Tudor Jones
 
-> Lost most of his clients' money on one cotton trade in 1979, built his rules around defence, and is reported to have tripled his money in the 1987 crash.
+> Lost most of his clients' money on one cotton trade in 1979, built his rules around defence, and made a reported 125.9% after fees in 1987, the year of the crash.
 
 Source page: https://alienspacex.com/ptj.html · Section: the traders · Updated 2026-11-28
 
@@ -12,12 +12,12 @@ Defence first. Protect what you have; profits follow.
 
 ## Summary
 
-Paul Tudor Jones learned to trade in the cotton pits of the 1970s, nearly wiped himself out in 1979, and decided never again to risk everything on one trade. He founded Tudor Investment in 1980, expected the 1987 crash, and is reported to have tripled his money as the market fell 22.6% in a day. His rules are about defence first: cut losses, never add to losers, and look for trades that could pay five times what they risk.
+Paul Tudor Jones learned to trade in the cotton pits of the 1970s, nearly wiped himself out in 1979, and decided never again to risk everything on one trade. He founded Tudor Investment in 1980, expected the 1987 crash, and his main fund is reported to have made 125.9% after fees that year, the year the market fell 22.6% in a single day. His rules are about defence first: cut losses, never add to losers, and look for trades that could pay five times what they risk.
 
 ## Record at a glance
 
 - **125.9%**: his flagship fund's reported gain after fees in 1987, the crash year
-- **14 for 14**: calendar years up in the employee fund he managed alone, 1990 to 2003
+- **14 for 14**: years up in the employee fund he managed alone: part of 1990 (from July), then every year 1991 to 2003
 - **5:1**: the reward-to-risk ratio he looks for before taking a trade
 - **200 days**: the moving average he uses as his line between offence and defence
 
@@ -47,13 +47,13 @@ From 1991 to 2003 the fund compounded about 18.9% a year, against about 12.1% fo
 
 Each dot is a Dow closing level; the dashed line jumps almost two years, to August 1989. The Dow closed at a record 2,722 on 25 August 1987. On Monday 19 October it lost 22.6% in one day, from 2,246.73 to 1,738.74, then bounced back above 2,000 within two days. It did not pass the old high until 24 August 1989. Market Wizards reported that his Tudor Futures Fund gained 62% in October 1987 alone, and his main fund is reported to have made 125.9% after fees that year.
 
-Average yearly gains of the flagship Tudor BVI Global Fund as reported by Bloomberg from investor documents in 2016. These are press-reported figures for a different, much larger fund, not audited by us. From the mid-2000s he made fewer of the fund's trading decisions himself: by 2014, investors told CNBC he accounted for about 20% of its positions.
+Average yearly gains of the flagship Tudor BVI Global Fund as reported by Bloomberg from investor documents in August 2017. These are press-reported figures for a different, much larger fund, not audited by us. From the mid-2000s he made fewer of the fund's trading decisions himself: by 2014, investors told CNBC he accounted for about 20% of its positions.
 
 - Monthly returns and annual rates of return, July 1990 to April 2004: Tudor Fund For Employees L.P., prospectus filed with the SEC in 2004.
 - S&P 500 total returns: published yearly figures (Slickcharts and US500 agree); other datasets differ by a few tenths of a point.
 - Statistics such as compound growth and the deepest fall from a high are our own calculations from the monthly figures.
 - Dow closing levels: CNBC (August 1987 high), 24/7 Wall St (16 and 19 October), Benzinga (20 October), The Motley Fool (21 October), AP via Lincoln Daily News (24 August 1989).
-- Flagship fund figures: CNBC (2014), Bloomberg via Yahoo Finance (2016), GuruFocus (2017); the 62% October figure is from Market Wizards as quoted by GuruFocus.
+- Flagship fund figures: CNBC (2014), Bloomberg via Yahoo Finance (August 2017), GuruFocus (2017); the 62% October figure is from Market Wizards as quoted by GuruFocus.
 
 ## Big ideas
 
@@ -93,7 +93,7 @@ In 1987 his deputy Peter Borish mapped that year's market against the run-up to 
 - **On camera.** The 1987 PBS documentary Trader showed him, at 32, managing $125 million; he later persuaded PBS to stop showing it. (CNBC)
 - **The 1929 map.** Peter Borish laid the 1987 market over the market before the 1929 crash. (Wikipedia)
 - **Flat at the top.** He told Tony Robbins that prices had fallen below his long-term trend line, and he was out at the top. (Robbins, 2014)
-- **Black Monday.** On 19 October 1987 the Dow fell 22.6% to 1,738.74, its worst day ever. (CNN, 2017 · CNBC)
+- **Black Monday.** On 19 October 1987 the Dow fell 22.6% to 1,738.74, its worst day ever. (24/7 Wall St, 2020 · CNBC)
 - **The month and the year.** Market Wizards reported 62% for his Tudor Futures Fund in October alone; his main fund reportedly made 125.9% after fees in 1987. (GuruFocus · CNBC, 2014)
   Web page: https://alienspacex.com/ideas/ptj-04-1987-the-crash-he-expected.html
 
@@ -137,10 +137,10 @@ He is a global macro trader: he reads currencies, bonds, stocks and commodities 
 
 ### 9. Two eras
 
-His flagship fund averaged about 26% a year from 1987 to 2007, then about 4.7% a year from 2008 to 2015. Even legends have long flat stretches.
+His flagship fund averaged about 26% a year from 1987 to 2007, then about 4.7% a year from 2008 to 2016. Even legends have long flat stretches.
 
-- **The golden era.** Investor documents showed about 26% a year from 1987 through 2007. (Bloomberg, 2016)
-- **The slowdown.** From 2008 through 2015 the average fell to about 4.7% a year, and clients withdrew money. (Bloomberg, 2016)
+- **The golden era.** Investor documents showed about 26% a year from 1987 through 2007. (Bloomberg, 2017)
+- **The slowdown.** From 2008 through 2016 the average fell to about 4.7% a year, and clients withdrew money. (Bloomberg, 2017)
 - **2008.** In the financial crisis his fund lost nearly 5%, about 32 points better than the S&P 500. (GuruFocus, 2017)
   Web page: https://alienspacex.com/ideas/ptj-09-two-eras.html
 
@@ -201,9 +201,9 @@ Start with his chapter in Jack Schwager's Market Wizards (1989), then his interv
 - [A dozen things I've learned from Paul Tudor Jones](https://25iq.com/2015/07/25/a-dozen-things-ive-learned-from-paul-tudor-jones-about-investing-and-trading/): His 200-day rule, defence first, and what he tells students instead of business school.
 - [Paul Tudor Jones's trading rules](https://www.benzinga.com/markets/25/03/44210928/paul-tudor-jones-trading-rules-never-trade-in-situations-where-you-dont-have-control): His rules for trading, including never averaging losers and trading smaller when trading badly.
 - [The Paul Tudor Jones 'Trader' video is back](https://www.cnbc.com/amp/id/48801252): A 32-year-old managing $125 million, filmed before the crash, and why the film stopped being shown.
-- [Remembering the worst day in Wall Street history](https://money.cnn.com/2017/10/19/investing/romans-numeral-black-monday): Black Monday: the Dow's 22.6% fall to 1,738.74 in a single day.
+- [How the worst day since 1987 compares to the crash of 1987](https://247wallst.com/investing/2020/03/12/how-the-worst-day-since-1987-compares-to-the-real-stock-market-crash-of-1987/): Black Monday: the Dow fell from 2,246.73 to 1,738.74, a 22.6% drop in a single day.
 - [Remembering the crash of '87](https://www.cnbc.com/amp/id/100104087): The record high in August 1987, the fall, and the August 1989 recovery to a new high.
-- [Paul Tudor Jones clients said to pull 15% from main fund](https://sg.finance.yahoo.com/news/paul-tudor-jones-clients-said-154040760.html): Investor documents: about 26% a year from 1987 to 2007, about 4.7% a year from 2008 to 2015.
+- [Paul Tudor Jones clients said to pull 15% from main fund](https://sg.finance.yahoo.com/news/paul-tudor-jones-clients-said-154040760.html): Investor documents: about 26% a year from 1987 to 2007, about 4.7% a year from 2008 to 2016.
 - [After a dazzling early career, a star trader settles down](https://www.cnbc.com/2014/03/06/after-a-dazzling-early-career-a-star-trader-settles-down.html): 125.9% after fees in 1987, 87.4% in 1990, about 19.5% a year long-term, and his smaller share of trading later on.
 - [Paul Tudor Jones: the global macro trader](https://www.gurufocus.com/news/601011/paul-tudor-jones-the-global-macro-trader): His macro style, tripling his money in 1987, Japanese put options in 1990, and a near-5% loss in 2008 that was 32 points better than the S&P 500.
 - [The day after the crash: Paul Tudor Jones made a mint, and found a mission](https://www.bridgespan.org/insights/paul-tudor-jones/the-day-after-the-crash-paul-tudor-jones-made-a-m): How 1987 led him to found the Robin Hood Foundation.
